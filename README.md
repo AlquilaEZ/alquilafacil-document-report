@@ -143,7 +143,7 @@ del ABET – EAC - Student Outcome 5.
       
   </table>
 
-  # Capítulo I: Introducción
+# Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
@@ -180,7 +180,7 @@ En esta sección se detallan los aspectos claves de nuestra solución de softwar
 
 **Monetización:** AlquilaFácil generará ingresos a través de un modelo de suscripción para arrendadores que deseen destacar sus propiedades y acceder a herramientas avanzadas de gestión de reservas. Estos planes premium ofrecerán beneficios adicionales, como una mayor visibilidad en los resultados de búsqueda y acceso prioritario a herramientas analíticas avanzadas. Además, monetizaremos la plataforma mediante la implementación de sensores en los locales, permitiendo a los propietarios recibir reportes detallados sobre la actividad en sus espacios. En contraste, el acceso a la plataforma será completamente gratuito para los arrendatarios, incentivando su participación y aumentando la oferta de espacios disponibles.
 
-## 1.2.1. Antecedentes y Problematicas
+### 1.2.1. Antecedentes y Problematicas
 
 Actualmente, las personas tienen fácil acceso a herramientas tecnológicas para reservar y alquilar locales de eventos, en páginas web o mediante un aplicativo móvil. Esto genera una mayor demanda en nuestro país sobre el creciente mercado de las reservas online. Además, con el incremento de usuarios que tienen acceso a internet, uso de dispositivos para facilitar el proceso de reserva espacios para eventos. Según el INEI, en los primeros tres meses del año 2022, 73 de cada 100 personas de 6 y más años accedieron a Internet en el país, cifra que muestra un crecimiento de 5,1 y 17,7 puntos porcentuales comparado con igual trimestre de 2021 (67,4%) y 2019 (54,8%), respectivamente (Jasin, 2023). 
 
@@ -263,6 +263,145 @@ Hemos identificado que, en el mercado de alquiler de espacios, los usuarios enfr
 
 ¿Cómo podemos mejorar la conexión entre arrendadores y arrendatarios, optimizando el proceso de alquiler de espacios para eventos y ofreciendo una experiencia más fluida y eficiente?
 
+#### 1.2.2.2. Lean UX Assumptions
 
+
+
+**Business Outcomes:** 
+
+- Asegurar que la plataforma procese al menos 1,000 reservas de eventos en el primer año, optimizando la gestión y la comunicación entre arrendadores y arrendatarios. 
+
+- Lograr una tasa de satisfacción del usuario del 90% o más mediante la implementación de herramientas que permitan verificar clasificaciones e historial de espacios, ayudando a los arrendatarios a tomar decisiones informadas.  
+
+- Renovación de suscripciones del 80% al final del primer año, indicando la satisfacción y la retención de clientes. 
+
+ 
+
+**User Assumptions:**
+
+- ¿Quién es el usuario?
+
+  - Arrendatarios 
+
+  - Arrendadores 
+
+- ¿Dónde entra nuestro producto en su trabajo o su vida? 
+
+  - **Arrendatarios:** AlquilaFácil simplifica la búsqueda y reserva de espacios, optimizando la planificación de eventos y ahorrando tiempo y esfuerzo. 
+
+  - **Arrendadores:** AlquilaFácil facilita la promoción y gestión eficiente de sus espacios, aumentando su visibilidad y el número de reservas. 
+
+<br>
+
+- ¿Cuál es el problema que nuestro producto soluciona? 
+
+  - Comunicación ineficiente entre arrendatarios y arrendadores. 
+
+  - Dificultad para encontrar y reservar espacios adecuados. 
+
+  - Falta de transparencia y confianza en la calidad y disponibilidad de los espacios. 
+
+  - Necesidad de una herramienta centralizada para gestionar reservas y promover espacios. 
+
+<br>
+
+- ¿Cómo y cuándo nuestro producto es usado? 
+
+  - **Arrendatarios:** Usan la plataforma para buscar, filtrar y reservar espacios para sus eventos, tanto durante la planificación como en la fase de ejecución. 
+
+  - **Arrendadores:** Usan la plataforma para promocionar sus espacios y gestionar reservas. 
+
+ <br>
+
+- ¿Qué características son importantes? 
+
+  - Interfaz intuitiva y fácil de usar para búsqueda y reserva de espacios. 
+
+  - Sistema de promoción y visibilidad para los espacios. 
+
+  - Herramientas para gestionar reservas y comunicarse eficientemente. 
+
+  - Acceso a clasificaciones y reseñas para tomar decisiones informadas. 
+
+ <br>
+
+- **User Outcomes:** 
+
+  - Los arrendatarios de eventos lograrán una reducción del 20% en el tiempo promedio dedicado a la búsqueda y reserva de espacios para eventos dentro de los primeros seis meses de uso de la plataforma. 
+
+ 
+
+  - Los arrendadores de espacios aumentarán en un 25% el número de reservas y consultas recibidas en sus espacios durante el primer año de implementación de la plataforma. 
+
+ 
+
+  - Los arrendatarios de eventos experimentarán una mejora del 30% en la satisfacción con la calidad y adecuación de los espacios reservados, medida a través de reseñas y calificaciones en la plataforma durante el primer año. 
+
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX: [We believe that], [This will achieve] y [We will have demostrated this when] 
+
+**Hipótesis 1**
+
+Creemos que, al simplificar el proceso de búsqueda y comparación de espacios para eventos en nuestra plataforma, aumentaremos la cantidad de clientes recurrentes. 
+
+Sabremos que estamos en lo correcto cuando observemos un incremento en la cantidad de reservas realizadas por clientes recurrentes, proyectando un aumento del 25% dentro de los primeros seis meses de la implementación de esta mejora. 
+
+<br>
+ 
+**Hipótesis 2** 
+
+Creemos que, al mejorar la función de búsqueda avanzada en nuestra plataforma, permitiendo a los usuarios filtrar por características específicas de los espacios (como capacidad, ubicación y servicios incluidos), aumentaremos la satisfacción del usuario y mejoraremos la precisión en la selección de espacios. 
+
+Sabremos que estamos en lo correcto cuando observemos una disminución del 25% en las consultas de soporte relacionadas con la búsqueda de espacios y un aumento en el tiempo promedio que los usuarios pasan en la plataforma explorando opciones. 
+
+<br>
+
+**Hipótesis 3**
+
+Creemos que, al ofrecer descuentos exclusivos en tarifas de alquiler de espacios seleccionados para los usuarios con suscripción premium, lograremos aumentar la conversión de usuarios de planes básicos a planes premium. 
+
+Sabremos que estamos en lo correcto cuando observemos un aumento del 30% en la cantidad de usuarios que actualizan su suscripción a premium y un incremento en el volumen de reservas realizadas por estos usuarios, dentro de los primeros seis meses de la implementación de esta estrategia. 
+
+<br>
+
+**Hipótesis 4**
+
+Creemos que, al implementar un sistema de calificación y comentarios para los espacios disponibles en nuestra plataforma, aumentaremos la confianza de los usuarios y mejoraremos la percepción de calidad de los espacios, lo que impulsará un mayor número de reservas. 
+
+Sabremos que estamos en lo correcto cuando observemos un aumento del 20% en la cantidad de reservas completadas, junto con una mejora en las calificaciones y comentarios proporcionados por los usuarios, dentro de los primeros tres meses de la implementación.
+
+<br>
+
+**Hipótesis 5**
+
+Creemos que, al implementar un programa de referidos que recompense a los usuarios por traer nuevos arrendadores o arrendatarios a nuestra plataforma, aumentaremos la adquisición de usuarios y fomentaremos el crecimiento orgánico de nuestra base de clientes. 
+
+Sabremos que estamos en lo correcto cuando observemos un aumento del 35% en la cantidad de nuevos registros y un incremento en el número de referidos realizados por los usuarios existentes, dentro de los primeros tres meses de implementación del programa. 
+
+#### 1.2.2.4. Lean UX Canvas
+
+
+
+## 1.3. Segmentos objetivo
+
+En esta sección, identificamos los segmentos de clientes específicos a los que se dirige AlquilaFácil, basándonos en características demográficas, comportamientos y necesidades compartidas. 
+
+**Arrendatarios:** 
+
+- Descripción: Individuos que planifican eventos sociales como bodas, fiestas de cumpleaños, reuniones familiares, entre otros, y aquellos que organizan eventos regularmente, ya sea social o corporativo. 
+
+- Características: Buscan espacios que se adapten a sus necesidades específicas, como capacidad, ubicación y servicios disponibles. Realizan múltiples reservas de espacios a lo largo del año. 
+
+- Necesidades: Facilidad de búsqueda y reserva de espacios, acceso a información detallada sobre las instalaciones y servicios ofrecidos, programas de fidelización y alertas de acontecimientos que puedan afectar el desarrollo de su evento. 
+
+**Arrendadores:**
+
+- Descripción: Individuos o empresas que poseen espacios aptos para eventos, como salones de banquetes, jardines, locales comerciales, etc. 
+
+- Características: Ofrecen una variedad de espacios con diferentes capacidades y servicios. 
+
+- Necesidades: Promoción efectiva de sus espacios, gestión eficiente de reservas, acceso a herramientas para administrar sus listados y proyectos de eventos. 
 
 
