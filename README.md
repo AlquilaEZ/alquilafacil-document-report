@@ -10,12 +10,13 @@
 # FINAL REPORT
 
 ## Startup: AlquilaEZ
-## Propuesta: AlquilaFacil
+## Propuesta: ArrendaFacil
 
 **Team Members**
 
 - Ames Oviedo Mariano Jose
 - Avalos Santos Anthony Piero
+- Casimiro Fernandez, Carlos Oswaldo
 - Lecca Choccare Christopher Bryan
 - Sosa Colca Angello Rodolfo
 
@@ -41,6 +42,7 @@
       <td>
         - Ames Oviedo Mariano Jose <br>
         - Avalos Santos Anthony Piero <br>
+        - Casimiro Fernandez, Carlos Oswaldo <br>
         - Lecca Choccare Christopher Bryan <br>
         - Sosa Colca Angello Rodolfo <br
       </td>
@@ -382,7 +384,7 @@ Sabremos que estamos en lo correcto cuando observemos un aumento del 35% en la c
 
 #### 1.2.2.4. Lean UX Canvas
 
-
+![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/develop/images/lean-ux-canvas.jpeg?raw=true)
 
 ## 1.3. Segmentos objetivo
 
