@@ -38,7 +38,7 @@
   <tbody>
     <tr>
       <td>1era</td>
-      <td>10/04/2025</td>
+      <td>13/04/2025</td>
       <td>
         - Ames Oviedo Mariano Jose <br>
         - Avalos Santos Anthony Piero <br>
@@ -151,7 +151,7 @@ del ABET – EAC - Student Outcome 5.
 
 ### 1.1.1 Descripción de la Startup
 
-AlquilaFácil es un startup fundado en el 2025, por un grupo de estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Nuestra empresa emergente se enfoca en la simplificación del proceso de búsqueda de alquiler de espacios para eventos, así como la administración de los mismos.
+ArrendaFacil es un startup fundado en el 2025, por un grupo de estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Nuestra empresa emergente se enfoca en la simplificación del proceso de búsqueda de alquiler de espacios para eventos, así como la administración de los mismos.
 
 **Misión:** Revolucionar el alquiler de espacios para eventos con una plataforma intuitiva que une a arrendadores y arrendatarios de manera rápida y sencilla. 
 
@@ -165,22 +165,23 @@ AlquilaFácil es un startup fundado en el 2025, por un grupo de estudiantes de l
 |Soy Mariano, tengo 19 años actualmente curso mi 6to ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y dispuesta a afrontar desafíos. Considero que estas cualidades beneficiaran a mi equipo para poder completar un trabajo de calidad.|![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/mariano-ames.jpeg?raw=true)|
 |Nombre|Avalos Santos, Anthony Piero (U20211C596)|
 | LLENAR | ![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/anthony-avalos.jpeg?raw=true)
+|Nombre|Casimiro Fernandez, Carlos Oswaldo (U202115412)|
+| LLENAR | ![](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/carlos-casimiro.jpeg?raw=true)
 |Nombre|Lecca Choccare, Christopher Bryan (U202211399)|
 |Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.| ![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/christopher-lecca.jpg?raw=true)
 |Nombre|Sosa Colca, Angello Rodolfo (U202212077)|
 |Tengo 19 años y curso el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona enfocada, perseverante y colaborativo. Estas cualidades me permiten ser una persona que ayudará de manera óptima el requisito que se me imponga. Además, soy una persona que apoya cuando los demás se encuentran en problemas.| ![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/angello-sosa.png?raw=true)
-|Nombre|Casimiro Fernandez, Carlos Oswaldo (XXXXXXXXXX)|
-| LLENAR | ![](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/carlos-casimiro.jpeg?raw=true)
+
 
 ## 1.2. Solution Profile
 
 En esta sección se detallan los aspectos claves de nuestra solución de software, incluyendo sus características distintivas y propuestas de valor. 
 
-**Product Name:** AlquilaFácil
+**Product Name:** ArrendaFacil
 
-**Producto Descriptivo:** AlquilaFácil es una plataforma diseñada para simplificar el proceso de búsqueda y reserva de espacios para eventos, conectando de manera eficiente a arrendadores y arrendatarios. Ofrece una experiencia fluida, permitiendo a los usuarios buscar, reservar y gestionar espacios para una amplia variedad de eventos. Además, la plataforma incluye herramientas de gestión y seguimiento en tiempo real, asegurando una experiencia optimizada tanto para arrendadores como para arrendatarios. 
+**Producto Descriptivo:** ArrendaFacil es una plataforma diseñada para simplificar el proceso de búsqueda y reserva de espacios para eventos, conectando de manera eficiente a arrendadores y arrendatarios. Ofrece una experiencia fluida, permitiendo a los usuarios buscar, reservar y gestionar espacios para una amplia variedad de eventos. Además, la plataforma incluye herramientas de gestión y seguimiento en tiempo real, asegurando una experiencia optimizada tanto para arrendadores como para arrendatarios. 
 
-**Monetización:** AlquilaFácil generará ingresos a través de un modelo de suscripción para arrendadores que deseen destacar sus propiedades y acceder a herramientas avanzadas de gestión de reservas. Estos planes premium ofrecerán beneficios adicionales, como una mayor visibilidad en los resultados de búsqueda y acceso prioritario a herramientas analíticas avanzadas. Además, monetizaremos la plataforma mediante la implementación de sensores en los locales, permitiendo a los propietarios recibir reportes detallados sobre la actividad en sus espacios. En contraste, el acceso a la plataforma será completamente gratuito para los arrendatarios, incentivando su participación y aumentando la oferta de espacios disponibles.
+**Monetización:** ArrendaFacil generará ingresos a través de un modelo de suscripción para arrendadores que deseen destacar sus propiedades y acceder a herramientas avanzadas de gestión de reservas. Estos planes premium ofrecerán beneficios adicionales, como una mayor visibilidad en los resultados de búsqueda y acceso prioritario a herramientas analíticas avanzadas. Además, monetizaremos la plataforma mediante la implementación de sensores en los locales, permitiendo a los propietarios recibir reportes detallados sobre la actividad en sus espacios. En contraste, el acceso a la plataforma será completamente gratuito para los arrendatarios, incentivando su participación y aumentando la oferta de espacios disponibles.
 
 ### 1.2.1. Antecedentes y Problematicas
 
@@ -202,13 +203,13 @@ El problema es la falta de una plataforma centralizada y enfocada en el alquiler
 
 **¿Cuál es la relación con la persona en cuestión?**
 
-La persona en cuestión es que, si es arrendador de un espacio para eventos, puede enfrentar dificultades al encontrar y atraer a potenciales clientes para alquilar su espacio. Del mismo modo, si es arrendatario, puede enfrentar desafíos al buscar y reservar un espacio adecuado para sus eventos.	 
+La persona en cuestión es que, si es arrendador de un espacio para eventos, puede enfrentar dificultades al encontrar y atraer a potenciales clientes para alquilar su espacio, asi como el poder monitorear del mismo. Del mismo modo, si es arrendatario, puede enfrentar desafíos al buscar y reservar un espacio adecuado para sus eventos.	 
 
 **When?**
 
 **¿Cuánto sucede el problema?** 
 
-El problema ocurre cada vez que arrendadores desean alquilar sus instalaciones para eventos o arrendatarios buscan espacios para celebrar sus actividades. Esta necesidad surge de manera recurrente y en diferentes momentos, ya sea para eventos planificados con anticipación o para aquellos que requieran una búsqueda rápida de un espacio disponible. 
+El problema ocurre cada vez que arrendadores desean alquilar y/o gestionar sus instalaciones para eventos o arrendatarios buscan espacios para celebrar sus actividades. Esta necesidad surge de manera recurrente y en diferentes momentos, ya sea para eventos planificados con anticipación o para aquellos que requieran una búsqueda rápida de un espacio disponible. 
 
 **¿Cuándo utiliza el cliente el producto?** 
 
@@ -217,7 +218,7 @@ Cuando organizaciones o personas necesitan encontrar y reservar un espacio para 
 **Where?** 
 **¿Dónde está el cliente cuando usa el producto?**
 
-El cliente utiliza AlquilaFácil a través de su aplicación móvil. 
+El cliente utiliza ArrendaFacil a través de su aplicación móvil. 
 
  
 **¿A dónde se dirige?** 
@@ -238,7 +239,7 @@ La falta de una plataforma centralizada y eficiente que conecte a arrendadores c
 
 **¿En qué condiciones los clientes usan nuestro producto?** 
 
-Los clientes utilizan AlquilaFácil para buscar y reservar espacios para una variedad de eventos, ya sea para eventos sociales o corporativos. 
+Los clientes utilizan ArrendaFacil para buscar y reservar espacios para una variedad de eventos, ya sea para eventos sociales o corporativos. 
 
 **¿Cómo prefieren los clientes acceder a nuestro producto?**
 
@@ -246,12 +247,12 @@ Los clientes prefieren acceder a nuestro producto, a través de una plataforma w
 
 **¿Que llevó al cliente a llegar a esta situación?**
 
-La falta de una plataforma para el alquiler de espacios para eventos llevó tanto a los clientes que buscan espacios como a los arrendadores a esta situación. 
+La falta de una plataforma para el alquiler y gestión de espacios para eventos llevó tanto a los clientes que buscan espacios como a los arrendadores a esta situación. 
 
  
 **How much?** 
 
-Los costos de AlquilaFácil varían según el plan de suscripción seleccionada. Ofrecemos opciones gratuitas para los usuarios básicos, así como planes de suscripción mensual o anual con tarifas moderadas para aquellos que deseen optar por un plan premium y beneficios adicionales. 
+Los costos de ArrendaFacil varían según el plan de suscripción seleccionada. Ofrecemos opciones gratuitas para los usuarios básicos, así como planes de suscripción mensual o anual con tarifas moderadas para aquellos que deseen optar por un plan premium y beneficios adicionales, tanto para arrendadores y arrendatarios. 
 
 ### 1.2.2. Lean UX Process
 
@@ -289,9 +290,9 @@ Hemos identificado que, en el mercado de alquiler de espacios, los usuarios enfr
 
 - ¿Dónde entra nuestro producto en su trabajo o su vida? 
 
-  - **Arrendatarios:** AlquilaFácil simplifica la búsqueda y reserva de espacios, optimizando la planificación de eventos y ahorrando tiempo y esfuerzo. 
+  - **Arrendatarios:** ArrendaFacil simplifica la búsqueda y reserva de espacios, optimizando la planificación de eventos y ahorrando tiempo y esfuerzo. 
 
-  - **Arrendadores:** AlquilaFácil facilita la promoción y gestión eficiente de sus espacios, aumentando su visibilidad y el número de reservas. 
+  - **Arrendadores:** ArrendaFacil facilita la promoción y gestión eficiente de sus espacios, aumentando su visibilidad y el número de reservas. 
 
 <br>
 
@@ -303,7 +304,7 @@ Hemos identificado que, en el mercado de alquiler de espacios, los usuarios enfr
 
   - Falta de transparencia y confianza en la calidad y disponibilidad de los espacios. 
 
-  - Necesidad de una herramienta centralizada para gestionar reservas y promover espacios. 
+  - Necesidad de una herramienta centralizada para gestionar reservas, promover y monitorear espacios. 
 
 <br>
 
@@ -311,7 +312,7 @@ Hemos identificado que, en el mercado de alquiler de espacios, los usuarios enfr
 
   - **Arrendatarios:** Usan la plataforma para buscar, filtrar y reservar espacios para sus eventos, tanto durante la planificación como en la fase de ejecución. 
 
-  - **Arrendadores:** Usan la plataforma para promocionar sus espacios y gestionar reservas. 
+  - **Arrendadores:** Usan la plataforma para promocionar sus espacios, gestionar reservas y recibir reportes de sus locales. 
 
  <br>
 
@@ -323,7 +324,10 @@ Hemos identificado que, en el mercado de alquiler de espacios, los usuarios enfr
 
   - Herramientas para gestionar reservas y comunicarse eficientemente. 
 
-  - Acceso a clasificaciones y reseñas para tomar decisiones informadas. 
+  - Acceso a clasificaciones y reseñas para tomar decisiones informadas.
+
+  - Sección de reportes intuitiva y sencilla para los arrendadores
+
 
  <br>
 
@@ -388,7 +392,7 @@ Sabremos que estamos en lo correcto cuando observemos un aumento del 35% en la c
 
 ## 1.3. Segmentos objetivo
 
-En esta sección, identificamos los segmentos de clientes específicos a los que se dirige AlquilaFácil, basándonos en características demográficas, comportamientos y necesidades compartidas. 
+En esta sección, identificamos los segmentos de clientes específicos a los que se dirige ArrendaFacil, basándonos en características demográficas, comportamientos y necesidades compartidas. 
 
 **Arrendatarios:** 
 
@@ -404,6 +408,6 @@ En esta sección, identificamos los segmentos de clientes específicos a los que
 
 - Características: Ofrecen una variedad de espacios con diferentes capacidades y servicios. 
 
-- Necesidades: Promoción efectiva de sus espacios, gestión eficiente de reservas, acceso a herramientas para administrar sus listados y proyectos de eventos. 
+- Necesidades: Promoción efectiva de sus espacios, gestión eficiente de reservas, acceso a herramientas para administrar sus listados, capacidad de poder gestionar y recibir reportes de sus inmuebles y proyectos de eventos. 
 
 
