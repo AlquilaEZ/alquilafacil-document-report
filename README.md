@@ -162,15 +162,15 @@ AlquilaFácil es un startup fundado en el 2025, por un grupo de estudiantes de l
 |<!-- -->|<!-- -->|
 |--------|--------|
 |Nombre|Ames Oviedo, Mariano José (U202211371)|
-|Soy Mariano, tengo 19 años actualmente curso mi 6to ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y dispuesta a afrontar desafíos. Considero que estas cualidades beneficiaran a mi equipo para poder completar un trabajo de calidad.||
+|Soy Mariano, tengo 19 años actualmente curso mi 6to ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y dispuesta a afrontar desafíos. Considero que estas cualidades beneficiaran a mi equipo para poder completar un trabajo de calidad.|![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/mariano-ames.jpeg?raw=true)|
 |Nombre|Avalos Santos, Anthony Piero (U20211C596)|
-| LLENAR |
+| LLENAR | ![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/anthony-avalos.jpeg?raw=true)
 |Nombre|Lecca Choccare, Christopher Bryan (U202211399)|
-|Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.|
+|Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.| ![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/christopher-lecca.jpg?raw=true)
 |Nombre|Sosa Colca, Angello Rodolfo (U202212077)|
-|Tengo 19 años y curso el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona enfocada, perseverante y colaborativo. Estas cualidades me permiten ser una persona que ayudará de manera óptima el requisito que se me imponga. Además, soy una persona que apoya cuando los demás se encuentran en problemas.|
-|Nombre|LLENAR (XXXXXXXXXX)|
-| LLENAR |
+|Tengo 19 años y curso el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona enfocada, perseverante y colaborativo. Estas cualidades me permiten ser una persona que ayudará de manera óptima el requisito que se me imponga. Además, soy una persona que apoya cuando los demás se encuentran en problemas.| ![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/angello-sosa.png?raw=true)
+|Nombre|Casimiro Fernandez, Carlos Oswaldo (XXXXXXXXXX)|
+| LLENAR | ![](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/carlos-casimiro.jpeg?raw=true)
 
 ## 1.2. Solution Profile
 
