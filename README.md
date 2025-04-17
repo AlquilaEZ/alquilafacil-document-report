@@ -4,7 +4,6 @@
 
 ### 2.1.1. Análisis competitivo
 
-¨ÑÑ
 <table>
     <thead>
         <tr>
