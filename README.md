@@ -162,7 +162,7 @@ ArrendaFacil es un startup fundado en el 2025, por un grupo de estudiantes de la
 |<!-- -->|<!-- -->|
 |--------|--------|
 |Nombre|Ames Oviedo, Mariano José (U202211371)|
-|Soy Mariano, tengo 19 años actualmente curso mi 6to ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y dispuesta a afrontar desafíos. Considero que estas cualidades beneficiaran a mi equipo para poder completar un trabajo de calidad.|![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/mariano-ames.jpeg?raw=true)|
+|Soy Mariano, tengo 19 años actualmente curso mi 7mo ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y dispuesta a afrontar desafíos. Considero que estas cualidades beneficiaran a mi equipo para poder completar un trabajo de calidad.|![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/mariano-ames.jpeg?raw=true)|
 |Nombre|Avalos Santos, Anthony Piero (U20211C596)|
 | LLENAR | ![.](https://github.com/AlquilaEZ/alquilafacil-document-report/blob/chapter-1/images/members/anthony-avalos.jpeg?raw=true)
 |Nombre|Casimiro Fernandez, Carlos Oswaldo (U202115412)|
@@ -384,7 +384,7 @@ Sabremos que estamos en lo correcto cuando observemos un aumento del 20% en la c
 
 Creemos que, al implementar un programa de referidos que recompense a los usuarios por traer nuevos arrendadores o arrendatarios a nuestra plataforma, aumentaremos la adquisición de usuarios y fomentaremos el crecimiento orgánico de nuestra base de clientes. 
 
-Sabremos que estamos en lo correcto cuando observemos un aumento del 35% en la cantidad de nuevos registros y un incremento en el número de referidos realizados por los usuarios existentes, dentro de los primeros tres meses de implementación del programa. 
+Sabremos que estamos en lo correcto cuando observemos un aumento del 35% en la cantidad de nuevos registros y un incremento en el número de referidos realizados por los usuarios existentes, dentro de los primeros tres meses de implementación del programa.
 
 #### 1.2.2.4. Lean UX Canvas
 
