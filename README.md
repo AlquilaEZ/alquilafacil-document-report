@@ -111,27 +111,27 @@
 1. **SensorRepository:**
    - **Descripción:** Interfaz para interactuar con la base de datos de sensores.
    - **Métodos:**
-     - `findAllByLocalId(int id)`: Busca todos los sensores por ID de local.
-     - `findById(int id)`: Busca un sensor por su ID.
-     - `save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
+     - `FindAllByLocalId(int id)`: Busca todos los sensores por ID de local.
+     - `FindById(int id)`: Busca un sensor por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
 
 2. **ReadingRepository:**
    - **Descripción:** Interfaz para interactuar con la base de datos de lecturas de sensores.
    - **Métodos:**
-     - `findAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
-     - `save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
+     - `FindAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
+     - `Save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
 
 3. **NFCTagRepository:**
    - **Descripción:** Interfaz para interactuar con la base de datos de tags NFC.
    - **Métodos:**
-     - `findById(int id)`: Busca un tag NFC por su ID.
-     - `save(Sensor sensor)`: Guarda o actualiza un tag NFC en la base de datos.
+     - `FindById(int id)`: Busca un tag NFC por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un tag NFC en la base de datos.
 
 4. **NFCDetectionEventRepository:**
    - **Descripción:** Interfaz para interactuar con la base de datos de detecciones NFC.
    - **Métodos:**
-     - `findAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
-     - `save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
+     - `FindAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
+     - `Save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
 
 ### 4.2.X.2. Interface Layer
 
@@ -140,21 +140,21 @@
 1. **SensorsController:**
    - **Descripción:** Expone endpoints para la gestión de sensores, incluyendo la creación, actualización y recuperación de lecturas.
    - **Métodos:**
-     - `registerSensor(Sensor sensor)`: Endpoint para registrar un nuevo sensor.
-     - `registerReading(Reading reading)`: Endpoint para registrar una lectura de sensor.
-     - `updateSensorStatus(int id, String status)`: Endpoint para actualizar el estado de un dispositivo.
-     - `getAllSensorsByLocalId(int id)`: Endpoint para obtener todos los sensores dado un ID de local.
-     - `getSensorById(int id)`: Endpoint para obtener los detalles de un sensor por su ID.
-      - `getAllReadingsBySensorId(int id)`: Endpoint para obtener todos las lecturas dado un ID de sensor.
+     - `RegisterSensor(Sensor sensor)`: Endpoint para registrar un nuevo sensor.
+     - `RegisterReading(Reading reading)`: Endpoint para registrar una lectura de sensor.
+     - `UpdateSensorStatus(int id, String status)`: Endpoint para actualizar el estado de un dispositivo.
+     - `GetAllSensorsByLocalId(int id)`: Endpoint para obtener todos los sensores dado un ID de local.
+     - `GetSensorById(int id)`: Endpoint para obtener los detalles de un sensor por su ID.
+     - `GetAllReadingsBySensorId(int id)`: Endpoint para obtener todos las lecturas dado un ID de sensor.
 
 2. **NFCTagsController:**
    - **Descripción:** Expone endpoints para la gestión de sensores, incluyendo la creación, actualización y recuperación de dispositivos.
    - **Métodos:**
-     - `registerNFCTag(NFCTag nfcTag)`: Endpoint para registrar un nuevo tag NFC.
-     - `registerNFCDetectionEvent(NFCDetectionEvent nfcDetectionEvent)`: Endpoint para registrar una detección de evento NFC.
-     - `updateNFCTagStatus(int id, String status)`: Endpoint para actualizar el estado de un tag NFC.
-     - `getNFCTagById(int id)`: Endpoint para obtener los detalles de un tag NFC por su ID.
-      - `getAllNFCDetectionEventsBySensorId(int id)`: Endpoint para obtener todas las detecciones de eventos NFC dado un ID de sensor.
+     - `RegisterNFCTag(NFCTag nfcTag)`: Endpoint para registrar un nuevo tag NFC.
+     - `RegisterNFCDetectionEvent(NFCDetectionEvent nfcDetectionEvent)`: Endpoint para registrar una detección de evento NFC.
+     - `UpdateNFCTagStatus(int id, String status)`: Endpoint para actualizar el estado de un tag NFC.
+     - `GetNFCTagById(int id)`: Endpoint para obtener los detalles de un tag NFC por su ID.
+     - `GetAllNFCDetectionEventsBySensorId(int id)`: Endpoint para obtener todas las detecciones de eventos NFC dado un ID de sensor.
 
 ### 4.2.X.3. Application Layer
 
