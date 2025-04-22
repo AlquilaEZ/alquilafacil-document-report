@@ -125,7 +125,7 @@
    - **Descripción:** Interfaz para interactuar con la base de datos de tags NFC.
    - **Métodos:**
      - `FindById(int id)`: Busca un tag NFC por su ID.
-     - `Save(Sensor sensor)`: Guarda o actualiza un tag NFC en la base de datos.
+     - `Save(NFCTag nfcTag)`: Guarda o actualiza un tag NFC en la base de datos.
 
 4. **NFCDetectionEventRepository:**
    - **Descripción:** Interfaz para interactuar con la base de datos de detecciones NFC.
@@ -197,24 +197,24 @@
 1. **SensorRepository:**
    - **Descripción:** Implementación para interactuar con la base de datos de sensores.
    - **Métodos:**
-     - `findAllByLocalId(int id)`: Busca todos los sensores por ID de local.
-     - `findById(int id)`: Busca un sensor por su ID.
-     - `save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
+     - `FindAllByLocalId(int id)`: Busca todos los sensores por ID de local.
+     - `FindById(int id)`: Busca un sensor por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
 
 2. **ReadingRepository:**
    - **Descripción:** Implementación para interactuar con la base de datos de lecturas de sensores.
    - **Métodos:**
-     - `findAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
-     - `save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
+     - `FindAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
+     - `Save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
 
 3. **NFCTagRepository:**
    - **Descripción:** Implementación para interactuar con la base de datos de tags NFC.
    - **Métodos:**
-     - `findById(int id)`: Busca un tag NFC por su ID.
-     - `save(Sensor sensor)`: Guarda o actualiza un tag NFC en la base de datos.
+     - `FindById(int id)`: Busca un tag NFC por su ID.
+     - `Save(Sensor sensor)`: Guarda o actualiza un tag NFC en la base de datos.
 
 4. **NFCDetectionEventRepository:**
    - **Descripción:** Implementación para interactuar con la base de datos de detecciones NFC.
    - **Métodos:**
-     - `findAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
-     - `save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
+     - `FindAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
+     - `Save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
