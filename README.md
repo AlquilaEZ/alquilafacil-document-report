@@ -144,35 +144,38 @@
 
 #### Command Services
 
-1. **SensorCommandService:**
-   - **Descripción:** Maneja comandos para crear y actualizar sensores con sus lecturas.
+1. **LocalCommandService:**
+   - **Descripción:** Maneja comandos relacionados con la creación, modificación, publicación y eliminación de locales.
    - **Métodos:**
-     - `Handle(CreateSensorCommand command)`: Valida y aplica el comando para crear un sensor.
-     - `Handle(CreateReadingCommand command)`: Valida y aplica el comando para crear una lectura.
-     - `Handle(UpdateSensorCommand command)`: Valida y aplica el comando para actualizar el estado de un sensor.
+     - `Handle(RegistrarLocalCommand command)`: Valida y aplica el comando para registrar un nuevo local.
+     - `Handle(ActualizarLocalCommand command)`: Valida y aplica el comando para actualizar un local existente.
+     - `Handle(PublicarLocalCommand command)`: Valida y aplica el comando para marcar el local como publicado.
+     - `Handle(EliminarLocalCommand command)`: Valida y aplica el comando para eliminar un local, si no tiene reservas activas.
 
-2. **NFCTagCommandService:**
-   - **Descripción:** Maneja comandos para crear y actualizar tags NFC con sus detecciones de eventos.
+2. **ReporteLocalCommandService:**
+   - **Descripción:** Maneja comandos relacionados con la generación de reportes operativos de locales.
    - **Métodos:**
-     - `Handle(CreateNFCTagCommand command)`: Valida y aplica el comando para crear un tag NFC.
-     - `Handle(CreateNFCDetectionEventCommand command)`: Valida y aplica el comando para crear una deteccion de evento NFC.
-     - `Handle(UpdateNFCTagCommand command)`: Valida y aplica el comando para actualizar el estado de un tag NFC.
-
+     - `Handle(CrearReporteLocalCommand command)`: Valida y aplica el comando para crear un nuevo reporte de estado del local.
 
 #### Query Services
 
-1. **SensorQueryService:**
-   - **Descripción:** Ofrece consultas para obtener información sobre los sensores y sus lecturas.
+1. **LocalQueryService:**
+   - **Descripción:** Ofrece consultas para obtener información sobre locales registrados, publicados y por ubicación.
    - **Métodos:**
-     - `Handle(GetAllSensorsByLocalIdQuery query)`: Valida y aplica el query para obtener todos los sensores dado un ID de local.
-     - `Handle(GetSensorByIdQuery query)`: Valida y aplica el query para obtener la información de un sensor dado su ID.
-     - `Handle(GetReadingsBySensorIdQuery query)`: Valida y aplica el query para obtener las lecturas dado un ID de sensor.
+     - `Handle(ObtenerLocalesDelArrendadorQuery query)`: Devuelve todos los locales del arrendador autenticado.
+     - `Handle(ListarLocalesPorDistritoQuery query)`: Devuelve los locales disponibles en un distrito determinado.
+     - `Handle(BuscarLocalesPorCapacidadQuery query)`: Devuelve los locales filtrados por capacidad mínima y máxima.
+     - `Handle(ConsultarDetallesDelLocalQuery query)`: Devuelve los datos detallados de un local específico.
+     - `Handle(ConsultarLocalesPublicadosQuery query)`: Devuelve todos los locales publicados en la plataforma.
+     - `Handle(CheckAvailabilityQuery query)`: Verifica si un local está disponible para un rango de fechas.
 
-2. **NFCTagQueryService:**
-   - **Descripción:** Ofrece consultas para obtener información sobre los tag NFC y sus detecciones de eventos.
+2. **ReporteLocalQueryService:**
+   - **Descripción:** Ofrece consultas para obtener reportes asociados a un local.
    - **Métodos:**
-     - `Handle(GetNFCTagByIdQuery query)`: Valida y aplica el query para obtener la información de un tag NFC.
-     - `Handle(GetAllTagDetectionEventsBySensorIdQuery query)`: Valida y aplica el query para obtener todas las detecciones de eventos dado un ID de sensor.
+     - `Handle(GetAllReportesByLocalIdQuery query)`: Devuelve todos los reportes emitidos para un local.
+     - `Handle(GetLatestReporteByLocalIdQuery query)`: Devuelve el reporte más reciente de un local.
+
+
 
 ### 4.2.X.4. Infrastructure Layer
 
