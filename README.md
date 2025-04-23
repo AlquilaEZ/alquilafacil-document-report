@@ -218,3 +218,18 @@
    - **Métodos:**
      - `FindAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
      - `Save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
+
+
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Diagrama Stucturizr([URL]())](images/c4-component-level-diagrams/management-context.jpg)
+
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Diagrama LucidChart([URL]())](images/class-diagrams/management-context.png)
+
+#### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+![Diagrama Vertabelo([URL]())](images/database-diagrams/management-context.png)
