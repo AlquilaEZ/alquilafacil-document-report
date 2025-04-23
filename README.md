@@ -181,27 +181,25 @@
 
 #### Repositories (Implementaciones)
 
-1. **SensorRepository:**
-   - **Descripción:** Implementación para interactuar con la base de datos de sensores.
+1. **LocalRepository:**
+   - **Descripción:** Implementación para interactuar con la base de datos de locales.
    - **Métodos:**
-     - `FindAllByLocalId(int id)`: Busca todos los sensores por ID de local.
-     - `FindById(int id)`: Busca un sensor por su ID.
-     - `Save(Sensor sensor)`: Guarda o actualiza un sensor en la base de datos.
+     - `FindById(int id)`: Busca un local por su ID.
+     - `FindByArrendadorId(int arrendadorId)`: Obtiene los locales registrados por un arrendador.
+     - `FindByDistrito(String distrito)`: Filtra los locales por ubicación geográfica.
+     - `FindPublished()`: Devuelve los locales marcados como publicados.
+     - `Save(Local local)`: Guarda o actualiza un local en la base de datos.
+     - `Delete(int id)`: Elimina un local de la base de datos.
 
-2. **ReadingRepository:**
-   - **Descripción:** Implementación para interactuar con la base de datos de lecturas de sensores.
+2. **ReporteLocalRepository:**
+   - **Descripción:** Implementación para gestionar los reportes operativos generados por los arrendadores.
    - **Métodos:**
-     - `FindAllBySensorId(int id)`: Busca todas las lecturas por ID de sensor.
-     - `Save(Reading reading)`: Guarda o actualiza una lectura en la base de datos.
+     - `FindByLocalId(int localId)`: Obtiene todos los reportes de un local.
+     - `FindLatestByLocalId(int localId)`: Devuelve el reporte más reciente de un local.
+     - `Save(ReporteLocal reporte)`: Guarda o actualiza un reporte de estado.
 
-3. **NFCTagRepository:**
-   - **Descripción:** Implementación para interactuar con la base de datos de tags NFC.
+3. **HistorialVisitasRepository:**
+   - **Descripción:** Implementación para almacenar y consultar registros de visitas o consultas de locales.
    - **Métodos:**
-     - `FindById(int id)`: Busca un tag NFC por su ID.
-     - `Save(Sensor sensor)`: Guarda o actualiza un tag NFC en la base de datos.
-
-4. **NFCDetectionEventRepository:**
-   - **Descripción:** Implementación para interactuar con la base de datos de detecciones NFC.
-   - **Métodos:**
-     - `FindAllBySensorId(int id)`: Busca todas las detecciones por ID de sensor.
-     - `Save(NFCDetectionEvent nfcDetectionEvent)`: Guarda o actualiza una deteccion en la base de datos.
+     - `FindByLocalId(int localId)`: Devuelve todos los registros de visitas para un local.
+     - `Save(HistorialVisitas visita)`: Guarda una nueva visita realizada por un usuario.
