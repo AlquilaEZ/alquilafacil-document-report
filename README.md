@@ -137,6 +137,7 @@
      - `CreateReporte(int localId, CreateReporteRequestDTO dto)`: Endpoint para generar un nuevo reporte de un local.
      - `GetAllReportesByLocalId(int localId)`: Endpoint para obtener todos los reportes de un local.
      - `GetLatestReporteByLocalId(int localId)`: Endpoint para obtener el último reporte registrado de un local.
+  
 
 
 ### 4.2.X.3. Application Layer
