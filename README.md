@@ -604,6 +604,7 @@ Para el registro de entrevistas se realizará 3 entrevista por segmento, dando u
   <tr>
     <td>Resumen</td>
     <td style="text-align: justify;">
+    Fabio Orna Silva, consultor de ingeniería, respondió sobre su experiencia como usuario y proveedor de espacios para eventos, resaltando los desafíos que enfrenta al alquilar y ofrecer inmuebles. Considera muy útil una app como Alquilar Fácil, ya que facilitaría la búsqueda, comparación de precios y reservas en un solo lugar. Destacó la importancia de contar con calificaciones y opiniones de otros usuarios, procesos rápidos y seguros, así como la posibilidad de hacer reclamos directamente desde la plataforma. Además, valoró la existencia de un sistema de reputación para arrendadores y arrendatarios, y sugirió integrar herramientas tecnológicas como cerraduras electrónicas y sistemas de gestión de reservas para mejorar la experiencia y confianza en el servicio.
     </td>
   </tr>
 </tbody>
