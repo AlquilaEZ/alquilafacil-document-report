@@ -2,6 +2,8 @@
 
 ## 3.1 To-Be Scenario Mapping
 
+![To-be Mapping](Resources/To-be-iot.jpeg)
+
 ## 3.2 User Stories
 
 **Epics**
@@ -51,148 +53,148 @@
             <tr>
                 <th>User Stories ID</th>
                 <th>Título</th>
+                <th>Descripción</th>
                 <th>Story Points (1/2/3/5/8)</th>
-                <th>Sprint</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>US03</td>
-                <td align="justify">Registrar espacios</td>
+                <td>Registrar espacios</td>
+                <td>Como arrendador de un espacio para eventos en AlquilaFácil, quiero poder registrar mi espacio para comenzar a recibir solicitudes de reserva lo antes posible.</td>
                 <td>8</td>
-                <td>1</td>
             </tr>
             <tr>
                 <td>US04</td>
-                <td align="justify">Buscar espacios disponibles</td>
+                <td>Buscar espacios disponibles</td>
+                <td>Como arrendatario, quiero poder buscar fácilmente espacios disponibles en AlquilaFácil para encontrar el lugar perfecto para mi evento.</td>
                 <td>5</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>US01</td>
-                <td align="justify">Registrar usuario</td>
-                <td>3</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>US02</td>
-                <td align="justify">Iniciar sesión</td>
-                <td>3</td>
-                <td>1</td>
             </tr>
             <tr>
                 <td>US05</td>
-                <td align="justify">Filtrar espacios disponibles</td>
+                <td>Filtrar espacios disponibles</td>
+                <td>Como arrendatario, quiero poder filtrar los espacios disponibles por capacidad y categoría, para encontrar uno que cumpla con mis criterios específicos.</td>
                 <td>5</td>
-                <td>2</td>
             </tr>
             <tr>
                 <td>US06</td>
-                <td align="justify">Visualizar información del espacio</td>
+                <td>Visualizar información del espacio</td>
+                <td>Como arrendatario, quiero poder visualizar información detallada del espacio, para evaluar si cumple con los requisitos de mi evento antes de hacer una reserva.</td>
                 <td>5</td>
-                <td>2</td>
             </tr>
             <tr>
                 <td>US07</td>
-                <td align="justify">Reservar espacios</td>
+                <td>Reservar espacios</td>
+                <td>Como arrendatario, quiero poder reservar un espacio para mi evento en AlquilaFácil para garantizar su disponibilidad en la fecha deseada.</td>
                 <td>8</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>US08</td>
-                <td align="justify">Gestionar calendario de reservas</td>
-                <td>5</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>US09</td>
-                <td align="justify">Calificar y comentar sobre espacios</td>
-                <td>3</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>US10</td>
-                <td align="justify">Notificar sobre actividades de arrendatarios</td>
-                <td>3</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>US11</td>
-                <td align="justify">Controlar espacios favoritos</td>
-                <td>3</td>
-                <td>3</td>
             </tr>
             <tr>
                 <td>US12</td>
-                <td align="justify">Visualizar espacios propios publicados</td>
-                <td>3</td>
+                <td>Visualizar espacios propios publicados</td>
+                <td>Como arrendador en AlquilaFácil, quiero poder visualizar todos los espacios que he publicado en la plataforma, para gestionar fácilmente la información de mis propiedades.</td>
                 <td>3</td>
             </tr>
             <tr>
                 <td>US13</td>
-                <td align="justify">Modificar espacios publicados</td>
-                <td>3</td>
+                <td>Modificar espacios publicados</td>
+                <td>Como arrendador de un espacio en AlquilaFácil, quiero poder modificar la información de los espacios que he publicado, incluyendo detalles como la descripción, aforo, servicios disponibles, tarifas y visibilidad temporal, para asegurar que los datos sean precisos y estén actualizados.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>US14</td>
-                <td align="justify">Actualizar perfil y sesión de usuario</td>
-                <td>2</td>
+                <td>US08</td>
+                <td>Gestionar calendario de reservas</td>
+                <td>Como usuario de AlquilaFácil, quiero poder controlar una agenda de reservas para tener un horario organizado y evitar conflictos futuros.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>US19</td>
+                <td>Control de aforo</td>
+                <td>Como arrendador, quiero recibir información en tiempo real sobre el número de personas presentes en mi local durante un evento, para asegurarme de que no se exceda el aforo permitido.</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US20</td>
+                <td>Monitoreo de niveles de ruido</td>
+                <td>Como arrendador, quiero que el sistema me notifique si el nivel de ruido supera un umbral establecido, para poder tomar acciones preventivas.</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US21</td>
+                <td>Detección de humo</td>
+                <td>Como arrendador, quiero que se active una alerta automática si se detecta humo en el local durante un evento, para verificar si hay una situación de riesgo.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>US22</td>
+                <td>Movimiento en áreas No autorizadas</td>
+                <td>Como arrendador, quiero recibir notificaciones si se detecta movimiento en zonas restringidas, para asegurar que los arrendatarios respeten los espacios delimitados.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>US23</td>
+                <td>Registro de incidentes</td>
+                <td>Como arrendador, quiero acceder a un historial con todos los eventos registrados por sensores, para tener evidencia y mejorar la gestión.</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>US09</td>
+                <td>Calificar y comentar sobre espacios</td>
+                <td>Como arrendatario, quiero poder publicar mi reseña sobre un espacio que he reservado para que otros usuarios puedan conocer mi experiencia sobre este.</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US11</td>
+                <td>Controlar espacios favoritos</td>
+                <td>Como arrendatario en AlquilaFácil, quiero poder agregar un espacio a mis favoritos para guardar y acceder rápidamente a los lugares de interés para futuras reservas.</td>
                 <td>3</td>
             </tr>
             <tr>
                 <td>US15</td>
-                <td align="justify">Reportar espacios inseguros</td>
+                <td>Reportar espacios inseguros</td>
+                <td>Como usuario de AlquilaFácil, quiero poder reportar espacios inseguros, para contribuir a la seguridad de la comunidad y alertar sobre situaciones que puedan poner en riesgo a otros usuarios.</td>
                 <td>3</td>
-                <td>4</td>
             </tr>
             <tr>
                 <td>US16</td>
-                <td align="justify">Visualizar espacios reportados</td>
+                <td>Visualizar espacios reportados</td>
+                <td>Como usuario de AlquilaFácil, quiero poder visualizar los espacios que he reportado, para realizar un seguimiento de mis reportes y gestionarlos.</td>
                 <td>3</td>
-                <td>4</td>
+            </tr>
+            <tr>
+                <td>US01</td>
+                <td>Registrar usuario</td>
+                <td>Como usuario de la aplicación móvil de AlquilaFácil de un espacio para eventos, quiero poder registrarme fácilmente en AlquilaFácil para ofrecer mi espacio en alquiler y llegar a más clientes potenciales.</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US02</td>
+                <td>Iniciar sesión</td>
+                <td>Como usuario registrado de la aplicación móvil de AlquilaFácil, quiero poder iniciar sesión fácilmente en mi cuenta, para gestionar mi espacio en alquiler y acceder a mis mensajes y notificaciones.</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US10</td>
+                <td>Notificar sobre actividades de arrendatarios</td>
+                <td>Como arrendador de un espacio para eventos en AlquilaFácil, quiero recibir notificaciones Cuando un arrendatario ha realizado cierta acción sobre mi espacio para estar al tanto de su estado y tomar las acciones pertinentes.</td>
+                <td>3</td>
             </tr>
             <tr>
                 <td>US17</td>
-                <td align="justify">Permitir iniciar sesión con servicios externos</td>
+                <td>Permitir iniciar sesión con servicios externos</td>
+                <td>Como usuario de AlquilaFácil, quiero poder iniciar sesión utilizando servicios externos como Google o Outlook, para ahorrar tiempo y evitar tener que crear una cuenta desde cero.</td>
                 <td>2</td>
-                <td>4</td>
+            </tr>
+            <tr>
+                <td>US14</td>
+                <td>Actualizar perfil y sesión de usuario</td>
+                <td>Como usuario de AlquilaFácil, quiero poder modificar mi perfil, incluyendo la opción de cambiar mi nombre de usuario y cerrar sesión, para mantener actualizada mi información personal y gestionar mi acceso a la aplicación de manera conveniente.</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>US18</td>
-                <td align="justify">Acceder a información de ayuda</td>
+                <td>Acceder a información de ayuda</td>
+                <td>Como usuario de AlquilaFácil, quiero poder acceder fácilmente a una sección de preguntas frecuentes e información de contacto para resolver mis dudas o comunicarme con el soporte Cuando lo necesite.</td>
                 <td>5</td>
-                <td>4</td>
-            </tr>
-                        <tr>
-                <td>US20</td>
-                <td align="justify">Control de Aforo</td>
-                <td>3</td>
-                <td>4</td>
-            </tr>
-                        <tr>
-                <td>US21</td>
-                <td align="justify">Monitoreo de Niveles de Ruido</td>
-                <td>3</td>
-                <td>4</td>
-            </tr>
-                        <tr>
-                <td>US22</td>
-                <td align="justify">Detección de Humo</td>
-                <td>5</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>US23</td>
-                <td align="justify">Movimiento en Áreas No Autorizadas</td>
-                <td>5</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>US24</td>
-                <td align="justify">Registro de Incidentes</td>
-                <td>5</td>
-                <td>4</td>
             </tr>
         </tbody>
     </table>
