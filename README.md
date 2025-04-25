@@ -45,6 +45,15 @@
 
 ## 3.3 Impact Mapping
 
+**Arrendatarios:** 
+
+![Impact Mapping](Resources/impact-map-arrendatario.png)
+
+**Arrendadores:**
+
+![Impact Mapping](Resources/impact-map-arrendador.png)
+
+
 ## 3.4 Product Backlog
 
 <div align="center">
@@ -199,3 +208,5 @@
         </tbody>
     </table>
 </div>
+
+Link de trello: https://trello.com/b/63Zub4fa/product-backlog-iot
