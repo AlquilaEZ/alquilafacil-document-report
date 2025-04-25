@@ -18,6 +18,7 @@
 - Avalos Santos Anthony Piero
 - Lecca Choccare Christopher Bryan
 - Sosa Colca Angello Rodolfo
+- Carlos Oswaldo Casimiro Fernandez
 
 **Abril 2025**
 
@@ -37,13 +38,16 @@
   <tbody>
     <tr>
       <td>1era</td>
-      <td>10/04/2025</td>
+      <td>22/04/2025</td>
       <td>
         - Ames Oviedo Mariano Jose <br>
         - Avalos Santos Anthony Piero <br>
         - Lecca Choccare Christopher Bryan <br>
-        - Sosa Colca Angello Rodolfo <br
+        - Sosa Colca Angello Rodolfo <br>
+        - Carlos Oswaldo Casimiro Fernandez <br>
       </td>
+      <td>Se creo la ramificacion del repositorio. Se concluyo con los capitulos 1, 2, 3 y 4, realizando la presentacion respectiva de la documentacion. Tambien se realizo el video donde cada miembro del equipo expone ciertas partes del trabajo</td>
+   </tr>
 </table>
 
 ## Contenido
@@ -121,27 +125,44 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 5.
 
-<table>
+<table border="1" cellspacing="0" cellpadding="8">
   <thead>
     <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
+      <th><strong>Criterio específico</strong></th>
+      <th><strong>Acciones realizadas</strong></th>
+      <th><strong>Conclusiones</strong></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
-      <td>TB1: <br>
-      <td></td>
-      </tr>
-      <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.
-      <td>TB1: <br>
-      <td></td>
+      <td>
+        <strong>Christopher Bryan Lecca Choccare (TB1):</strong> Me encargué de liderar el diseño estratégico, guiando al equipo en la identificación de bounded contexts y en la elaboración del Event Storming y Context Mapping. Coordiné la conexión lógica entre eventos y políticas, y aseguré la consistencia general en los flujos del sistema.<br><br>
+        <strong>Angello Rodolfo Sosa Colca (TB1):</strong> Lideré el diseño táctico del contexto "Locals", definiendo sus capas y componentes. Me aseguré de que la estructura entre entidades, comandos, servicios y repositorios fuera coherente y alineada con los principios de DDD.<br><br>
+        <strong>Anthony Piero Avalos Santos (TB1):</strong> Participé activamente en la fase de descubrimiento del usuario. Me enfoqué en aplicar técnicas como Empathy Mapping, User Personas y User Journey para captar de manera precisa las necesidades reales y plasmarlas en el sistema.<br><br>
+        <strong>Mariano José Ames Oviedo (TB1):</strong> Me encargué de elaborar la introducción de la solución, definiendo el perfil de la startup, los desafíos que busca resolver y su aporte a la sostenibilidad urbana. También consolidé los antecedentes para contextualizar el problema.<br><br>
+        <strong>Carlos Oswaldo Casimiro Fernández (TB1):</strong> Me responsabilicé por la implementación de la capa de infraestructura del contexto, construyendo los repositorios, asegurando persistencia adecuada y validando integraciones con bases de datos.
       </td>
+      <td>
+        El equipo demostró una colaboración efectiva al asumir roles estratégicos que permitieron el avance fluido del proyecto. Cada miembro aportó liderazgo desde sus fortalezas, logrando construir una solución bien estructurada a través de trabajo conjunto y comunicación constante.
+      </td>
+    </tr>
+    <tr>
+      <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos.</td>
+      <td>
+        <strong>Mariano José Ames Oviedo (TB1):</strong> Me encargué de redactar las secciones introductorias del entregable, comunicando los objetivos y fundamentos del sistema de forma clara para cualquier lector.<br><br>
+        <strong>Anthony Piero Avalos Santos (TB1):</strong> Redacté resultados del análisis de usuarios, presentando mapas y perfiles de forma comprensible para distintos perfiles técnicos y no técnicos.<br><br>
+        <strong>Christopher Bryan Lecca Choccare (TB1):</strong> Elaboré la descripción del diseño estratégico, cuidando que el lenguaje técnico pudiera ser entendido también por miembros no especializados del equipo.<br><br>
+        <strong>Angello Rodolfo Sosa Colca (TB1):</strong> Documenté los diagramas tácticos y estructuras de clases, asegurando una redacción técnica precisa pero accesible para otros desarrolladores o evaluadores.<br><br>
+        <strong>Carlos Oswaldo Casimiro Fernández (TB1):</strong> Expliqué el funcionamiento de los repositorios en lenguaje claro y estructurado, facilitando la revisión y el entendimiento por parte de terceros.
+      </td>
+      <td>
+        Se logró una comunicación escrita efectiva a lo largo del entregable, permitiendo que las ideas fueran comprendidas por distintas audiencias. El uso claro del lenguaje, apoyado por gráficos y ejemplos, facilitó la transmisión de resultados y decisiones de diseño.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-      
-  </table>
 
 # Capítulo I: Introducción
 
@@ -162,7 +183,7 @@ AlquilaFácil es un startup fundado en el 2025, por un grupo de estudiantes de l
 |Nombre|Ames Oviedo, Mariano José (U202211371)|
 |Soy Mariano, tengo 19 años actualmente curso mi 6to ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y dispuesta a afrontar desafíos. Considero que estas cualidades beneficiaran a mi equipo para poder completar un trabajo de calidad.||
 |Nombre|Avalos Santos, Anthony Piero (U20211C596)|
-| LLENAR |
+| Soy Anthony Avalos, tengo 21 años, actualmente me encuentro en el 9no ciclo de mi carrera de Ingeniería de Software. Soy un apasionado por el desarrollo Fullstack, me considero una persona super proactiva y con ganas de seguir aprendiendo una nueva tecnología emergente. Me gusta el trabajo en equipo y colaborar con grande profesionales |
 |Nombre|Lecca Choccare, Christopher Bryan (U202211399)|
 |Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.|
 |Nombre|Sosa Colca, Angello Rodolfo (U202212077)|
