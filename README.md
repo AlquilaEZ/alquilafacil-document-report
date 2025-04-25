@@ -138,3 +138,20 @@
     - **Métodos:**
         - `GenerateToken(User user)`: Permite generar un token unico asociado a un usuario.
         - `ValidateToken(string token)`: Permite validar el token de un usuario.
+
+### 4.2.X.4. Infrastructure Layer
+
+#### Repositories (Implementacion)
+
+1. **UserRepositroy:**
+    - **Descripción:** Implementación que permite interactuar con la base de datos de usuarios.
+    - **Métodos:**
+        - `FindByEmailAsync(string email)`: Devuelve un usuario en base al email proporcionado
+        - `ExistByUsername(string username)`: Devuelve un valor positivo si el nombre de usuario se encuentra en otro usuario
+        - `GetUsernameByIdAsync(int userId)`: Devuelve el nombre de usuario con en base a un id proporcionado
+        - `ExistsById(int userId)`: Devuelve un valor positivo si hay un usuario con el id proporcionado
+
+2. **UserRoleRepository:** 
+    - **Descripción:** Implementación que permite interactuar con la base de datos de roles de usuario
+    - **Métodos:**
+        - `ExistsUserRole(EUserRoles role)`: Devuelve positivo si el rol de usuario ya existe.
