@@ -69,3 +69,17 @@
   - `findUnreadByUserId(userId)`: Lista de notificaciones no leídas.
   - `markAsRead(notificationId)`: Marca una notificación como leída.
   - `save(notification)`: Guarda una nueva notificación.
+
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Diagrama Stucturizr([URL]())](images/c4-component-diagrams/notification-context.png)
+
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Diagrama Lucidchart([URL]())](images/class-diagrams/booking-context.png)
+
+#### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+![Diagrama Vertanelo([URL]())](images/database-diagrams/booking-context.png)
