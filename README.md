@@ -386,4 +386,4 @@
 
 
 ### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-![Diagrama Stucturizr([URL]())](images/c4-component-level-diagrams/locals-context.png)
+![Diagrama Stucturizr([URL]())](images/c4-component-level-diagrams/locals_bounded_context.png)
