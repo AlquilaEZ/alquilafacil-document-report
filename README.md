@@ -250,61 +250,101 @@
 
 #### Controllers
 
-1. **LocalController:**
-   - **Descripción:** Expone endpoints para la gestión de locales, incluyendo creación, actualización, publicación, eliminación, consulta y verificación de disponibilidad.
+1. **CommentController**
+   - **Descripción:** Maneja operaciones relacionadas con los comentarios de locales.
    - **Métodos:**
-     - `RegisterLocal(CreateLocalRequestDTO dto)`: Endpoint para registrar un nuevo local.
-     - `UpdateLocal(int id, UpdateLocalRequestDTO dto)`: Endpoint para actualizar los datos de un local existente.
-     - `PublishLocal(int id)`: Endpoint para cambiar el estado del local a "publicado".
-     - `DeleteLocal(int id)`: Endpoint para eliminar un local (solo si no tiene reservas activas).
-     - `GetAllLocalsByArrendador()`: Endpoint para obtener todos los locales del arrendador autenticado.
-     - `GetPublishedLocals()`: Endpoint para obtener todos los locales publicados.
-     - `GetLocalById(int id)`: Endpoint para consultar los detalles de un local por su ID.
-     - `CheckAvailability(int id, DateTime fechaInicio, DateTime fechaFin)`: Endpoint para verificar si el local está disponible entre dos fechas.
+     - `GetAllCommentsByLocalId(int localId)`: Obtiene todos los comentarios realizados sobre un local específico.
+     - `CreateComment(CreateCommentResource resource)`: Registra un nuevo comentario para un local.
 
-2. **ReporteLocalController:**
-   - **Descripción:** Expone endpoints para la gestión de reportes de estado sobre los locales.
+2. **LocalCategoriesController**
+   - **Descripción:** Expone operaciones para consultar las categorías de locales disponibles.
    - **Métodos:**
-     - `CreateReporte(int localId, CreateReporteRequestDTO dto)`: Endpoint para generar un nuevo reporte de un local.
-     - `GetAllReportesByLocalId(int localId)`: Endpoint para obtener todos los reportes de un local.
-     - `GetLatestReporteByLocalId(int localId)`: Endpoint para obtener el último reporte registrado de un local.
+     - `GetAllLocalCategories()`: Obtiene todas las categorías de locales.
+
+3. **LocalsController**
+   - **Descripción:** Maneja las operaciones CRUD principales sobre locales.
+   - **Métodos:**
+     - `CreateLocal(CreateLocalResource resource)`: Registra un nuevo local.
+     - `GetAllLocals()`: Obtiene todos los locales registrados en el sistema.
+     - `GetLocalById(int localId)`: Consulta los detalles de un local específico.
+     - `UpdateLocal(int localId, UpdateLocalResource resource)`: Actualiza la información de un local existente.
+     - `SearchByCategoryIdAndCapacityRange(int categoryId, int minCapacity, int maxCapacity)`: Filtra locales por categoría y rango de capacidad.
+     - `GetAllDistricts()`: Obtiene todos los distritos donde hay locales registrados.
+     - `GetUserLocals(int userId)`: Obtiene todos los locales registrados por un arrendador específico.
+
+4. **ReportController**
+   - **Descripción:** Maneja operaciones relacionadas con la creación, consulta y eliminación de reportes de locales.
+   - **Métodos:**
+     - `CreateReport(CreateReportResource createReportResource)`: Registra un nuevo reporte de estado o queja sobre un local.
+     - `GetReportsByUserId(int userId)`: Obtiene todos los reportes generados por un usuario.
+     - `GetReportsByLocalId(int localId)`: Obtiene todos los reportes asociados a un local específico.
+     - `DeleteReport(int reportId)`: Elimina un reporte existente por su ID.
   
 
 
-### 4.2.X.3. Application Layer
 
+
+### 4.2.X.3. Application Layer
 #### Command Services
 
-1. **LocalCommandService:**
-   - **Descripción:** Maneja comandos relacionados con la creación, modificación, publicación y eliminación de locales.
+1. **CommentCommandService**
+   - **Descripción:** Maneja la lógica de negocio para registrar comentarios en locales.
+   - **Dependencias:** `ICommentRepository`, `ILocalRepository`, `IUserCommentExternalService`, `IUnitOfWork`.
    - **Métodos:**
-     - `Handle(RegistrarLocalCommand command)`: Valida y aplica el comando para registrar un nuevo local.
-     - `Handle(ActualizarLocalCommand command)`: Valida y aplica el comando para actualizar un local existente.
-     - `Handle(PublicarLocalCommand command)`: Valida y aplica el comando para marcar el local como publicado.
-     - `Handle(EliminarLocalCommand command)`: Valida y aplica el comando para eliminar un local, si no tiene reservas activas.
+     - `Handle(CreateCommentCommand command)`: Valida existencia del local y usuario, crea el comentario y lo persiste.
 
-2. **ReporteLocalCommandService:**
-   - **Descripción:** Maneja comandos relacionados con la generación de reportes operativos de locales.
+2. **LocalCommandService**
+   - **Descripción:** Maneja la creación y actualización de locales por parte de los arrendadores.
+   - **Dependencias:** `ILocalRepository`, `ILocalCategoryRepository`, `IUnitOfWork`.
    - **Métodos:**
-     - `Handle(CrearReporteLocalCommand command)`: Valida y aplica el comando para crear un nuevo reporte de estado del local.
+     - `Handle(CreateLocalCommand command)`: Crea un nuevo local validando categoría y precio.
+     - `Handle(UpdateLocalCommand command)`: Actualiza un local existente validando entidad y datos.
+
+3. **LocalCategoryCommandService**
+   - **Descripción:** Inicializa las categorías de locales disponibles en el sistema.
+   - **Dependencias:** `ILocalCategoryRepository`, `IUnitOfWork`.
+   - **Métodos:**
+     - `Handle(SeedLocalCategoriesCommand command)`: Registra categorías predefinidas si no existen.
+
+4. **ReportCommandService**
+   - **Descripción:** Maneja la creación y eliminación de reportes asociados a locales.
+   - **Dependencias:** `IReportRepository`, `IUnitOfWork`.
+   - **Métodos:**
+     - `Handle(CreateReportCommand command)`: Crea y guarda un nuevo reporte.
+     - `Handle(DeleteReportCommand command)`: Elimina un reporte existente validando su existencia.
+
 
 #### Query Services
 
-1. **LocalQueryService:**
-   - **Descripción:** Ofrece consultas para obtener información sobre locales registrados, publicados y por ubicación.
+1. **CommentQueryService**
+   - **Descripción:** Permite consultar los comentarios hechos sobre un local.
+   - **Dependencias:** `ICommentRepository`.
    - **Métodos:**
-     - `Handle(ObtenerLocalesDelArrendadorQuery query)`: Devuelve todos los locales del arrendador autenticado.
-     - `Handle(ListarLocalesPorDistritoQuery query)`: Devuelve los locales disponibles en un distrito determinado.
-     - `Handle(BuscarLocalesPorCapacidadQuery query)`: Devuelve los locales filtrados por capacidad mínima y máxima.
-     - `Handle(ConsultarDetallesDelLocalQuery query)`: Devuelve los datos detallados de un local específico.
-     - `Handle(ConsultarLocalesPublicadosQuery query)`: Devuelve todos los locales publicados en la plataforma.
-     - `Handle(CheckAvailabilityQuery query)`: Verifica si un local está disponible para un rango de fechas.
+     - `Handle(GetAllCommentsByLocalIdQuery query)`: Devuelve todos los comentarios asociados a un local.
 
-2. **ReporteLocalQueryService:**
-   - **Descripción:** Ofrece consultas para obtener reportes asociados a un local.
+2. **LocalQueryService**
+   - **Descripción:** Permite consultar información de locales y sus filtros asociados.
+   - **Dependencias:** `ILocalRepository`.
    - **Métodos:**
-     - `Handle(GetAllReportesByLocalIdQuery query)`: Devuelve todos los reportes emitidos para un local.
-     - `Handle(GetLatestReporteByLocalIdQuery query)`: Devuelve el reporte más reciente de un local.
+     - `Handle(GetAllLocalsQuery query)`: Lista todos los locales del sistema.
+     - `Handle(GetLocalByIdQuery query)`: Devuelve los detalles de un local específico.
+     - `Handle(GetAllLocalDistrictsQuery query)`: Devuelve todos los distritos donde hay locales registrados.
+     - `Handle(GetLocalsByUserIdQuery query)`: Lista los locales registrados por un arrendador.
+     - `Handle(GetLocalsByCategoryIdAndCapacityRangeQuery query)`: Devuelve locales filtrados por categoría y rango de capacidad.
+     - `Handle(IsLocalOwnerQuery query)`: Verifica si un usuario es dueño del local.
+
+3. **LocalCategoryQueryService**
+   - **Descripción:** Permite consultar la lista de categorías de locales.
+   - **Dependencias:** `ILocalCategoryRepository`.
+   - **Métodos:**
+     - `Handle(GetAllLocalCategoriesQuery query)`: Retorna todas las categorías existentes.
+
+4. **ReportQueryService**
+   - **Descripción:** Permite obtener reportes asociados a locales o usuarios.
+   - **Dependencias:** `IReportRepository`.
+   - **Métodos:**
+     - `Handle(GetReportsByLocalIdQuery query)`: Lista los reportes generados para un local.
+     - `Handle(GetReportsByUserIdQuery query)`: Lista los reportes generados por un usuario.
 
 
 
