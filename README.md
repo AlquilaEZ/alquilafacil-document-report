@@ -90,6 +90,30 @@
      - `GetReservationByEndDateAsync(GetReservationByEndDate query)`: Obtiene todas las reservas que finalizan en una fecha específica.
      - `GetReservationsByOwnerIdAsync(GetReservationsByOwnerIdQuery query)`: Obtiene todas las reservas de los locales propiedad de un usuario específico.
 
+### 4.2.X.4. Application Layer
+
+#### Repositories (implementaciones)
+
+### ReservationRepository
+
+**Descripción:**  
+Implementación del repositorio para interactuar con la base de datos de reservas, utilizando Entity Framework Core.
+
+**Métodos:**
+
+- `GetReservationsByUserIdAsync(int userId)`  
+  Obtiene todas las reservas realizadas por un usuario específico.
+
+- `GetReservationByStartDateAsync(DateTime startDate)`  
+  Obtiene todas las reservas que comienzan en una fecha específica.
+
+- `GetReservationByEndDateAsync(DateTime endDate)`  
+  Obtiene todas las reservas que terminan en una fecha específica.
+
+- `GetReservationsByLocalIdAsync(List<int> localId)`  
+  Obtiene todas las reservas asociadas a una lista de IDs de locales.
+
+
 ### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![Diagrama Stucturizr([URL]())](images/c4-component-diagrams/booking-context.png)
