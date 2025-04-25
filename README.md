@@ -390,3 +390,6 @@
 ### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ![Diagrama Stucturizr([URL]())](images/class-diagrams/class_diagrams_1.png)
+
+#### 4.2.X.6.2. Bounded Context Database Design Diagram
+![Diagrama Stucturizr([URL]())](images/database-diagrams/database_diagram.png)
