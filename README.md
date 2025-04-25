@@ -2,7 +2,7 @@
 
 ## 3.1 To-Be Scenario Mapping
 
-![To-be Mapping](Resources/To-be-iot.jpeg)
+![To-be Mapping](resources/To-be-iot.jpeg)
 
 ## 3.2 User Stories
 
@@ -47,11 +47,11 @@
 
 **Arrendatarios:** 
 
-![Impact Mapping](Resources/impact-map-arrendatario.png)
+![Impact Mapping](resources/impact-map-arrendatario.png)
 
 **Arrendadores:**
 
-![Impact Mapping](Resources/impact-map-arrendador.png)
+![Impact Mapping](resources/impact-map-arrendador.png)
 
 
 ## 3.4 Product Backlog
