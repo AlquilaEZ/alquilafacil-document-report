@@ -18,8 +18,7 @@
      - `DescriptionMessage`: Descripción del local (objeto de valor `DescriptionMessage`).
      - `LocalCategoryId`: Identificador de categoría del local.
      - `UserId`: Identificador del propietario del local.
-     - `CreatedDate`: Fecha de creación del registro.
-     - `UpdatedDate`: Fecha de última actualización del registro.
+
 
 2. **Comment**
    - **Descripción:** Representa un comentario realizado por un usuario sobre un local, incluyendo la valoración y el texto del comentario.
@@ -387,3 +386,7 @@
 
 ### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
 ![Diagrama Stucturizr([URL]())](images/c4-component-level-diagrams/locals_bounded_context.png)
+
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+![Diagrama Stucturizr([URL]())](images/class-diagrams/class_diagrams_1.png)
