@@ -82,4 +82,4 @@
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 
-![Diagrama Vertanelo([URL]())](images/database-diagrams/booking-context.png)
+![Diagrama Vertanelo([URL]())](images/database-diagrams/notification-context.png)
