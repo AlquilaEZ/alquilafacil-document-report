@@ -44,3 +44,156 @@
 ## 3.3 Impact Mapping
 
 ## 3.4 Product Backlog
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>User Stories ID</th>
+                <th>Título</th>
+                <th>Story Points (1/2/3/5/8)</th>
+                <th>Sprint</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>US03</td>
+                <td align="justify">Registrar espacios</td>
+                <td>8</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>US04</td>
+                <td align="justify">Buscar espacios disponibles</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>US01</td>
+                <td align="justify">Registrar usuario</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>US02</td>
+                <td align="justify">Iniciar sesión</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>US05</td>
+                <td align="justify">Filtrar espacios disponibles</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>US06</td>
+                <td align="justify">Visualizar información del espacio</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>US07</td>
+                <td align="justify">Reservar espacios</td>
+                <td>8</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>US08</td>
+                <td align="justify">Gestionar calendario de reservas</td>
+                <td>5</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US09</td>
+                <td align="justify">Calificar y comentar sobre espacios</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US10</td>
+                <td align="justify">Notificar sobre actividades de arrendatarios</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US11</td>
+                <td align="justify">Controlar espacios favoritos</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US12</td>
+                <td align="justify">Visualizar espacios propios publicados</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US13</td>
+                <td align="justify">Modificar espacios publicados</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US14</td>
+                <td align="justify">Actualizar perfil y sesión de usuario</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>US15</td>
+                <td align="justify">Reportar espacios inseguros</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>US16</td>
+                <td align="justify">Visualizar espacios reportados</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>US17</td>
+                <td align="justify">Permitir iniciar sesión con servicios externos</td>
+                <td>2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>US18</td>
+                <td align="justify">Acceder a información de ayuda</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+                        <tr>
+                <td>US20</td>
+                <td align="justify">Control de Aforo</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+                        <tr>
+                <td>US21</td>
+                <td align="justify">Monitoreo de Niveles de Ruido</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+                        <tr>
+                <td>US22</td>
+                <td align="justify">Detección de Humo</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>US23</td>
+                <td align="justify">Movimiento en Áreas No Autorizadas</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>US24</td>
+                <td align="justify">Registro de Incidentes</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
