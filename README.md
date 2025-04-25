@@ -5,114 +5,245 @@
 #### Aggregates
 
 1. **Local**
-   - **Descripción:** Representa un espacio físico disponible para ser arrendado, con sus características, estado y capacidad.
+   - **Descripción:** Representa un espacio físico disponible para ser arrendado, incluyendo características como ubicación, precio, tipo y capacidad.
    - **Atributos:**
      - `Id`: Identificador único del local.
-     - `Nombre`: Nombre referencial del local.
-     - `Descripcion`: Descripción del espacio.
-     - `Ubicacion`: Objeto de valor con dirección geográfica.
-     - `CapacidadMaxima`: Número máximo de personas permitidas.
-     - `Tipo`: Tipo del local (auditorio, salón, oficina).
-     - `Estado`: Estado del local (publicado, no publicado, inactivo).
-     - `Imagenes`: Lista de URLs de imágenes.
-     - `ServiciosIncluidos`: Lista de comodidades del local.
-     - `ArrendadorId`: Identificador del propietario del local.
+     - `Features`: Características especiales del local.
+     - `Capacity`: Capacidad máxima de personas.
+     - `LocalName`: Tipo o nombre del local (objeto de valor `LocalName`).
+     - `NightPrice`: Precio por noche (objeto de valor `NightPrice`).
+     - `PhotoUrl`: URL de la foto principal del local (objeto de valor `PhotoUrl`).
+     - `StreetAddress`: Dirección completa (objeto de valor `StreetAddress`).
+     - `CityPlace`: Ciudad y país (objeto de valor `CityPlace`).
+     - `DescriptionMessage`: Descripción del local (objeto de valor `DescriptionMessage`).
+     - `LocalCategoryId`: Identificador de categoría del local.
+     - `UserId`: Identificador del propietario del local.
+     - `CreatedDate`: Fecha de creación del registro.
+     - `UpdatedDate`: Fecha de última actualización del registro.
 
-2. **ReporteLocal**
-   - **Descripción:** Informe generado por el arrendador sobre el estado operativo del local.
+2. **Comment**
+   - **Descripción:** Representa un comentario realizado por un usuario sobre un local, incluyendo la valoración y el texto del comentario.
+   - **Atributos:**
+     - `Id`: Identificador único del comentario.
+     - `UserId`: ID del usuario que realiza el comentario.
+     - `LocalId`: ID del local sobre el que se comenta.
+     - `Text`: Texto del comentario (objeto de valor `TextComment`).
+     - `Rating`: Valoración del local (objeto de valor `RatingComment`).
+     - `CommentText`: Texto plano del comentario.
+     - `CommentRating`: Valor numérico de la calificación.
+
+3. **Report**
+   - **Descripción:** Representa un reporte o queja generado sobre un local, realizado por un usuario.
    - **Atributos:**
      - `Id`: Identificador único del reporte.
-     - `LocalId`: Identificador del local.
-     - `Fecha`: Fecha de emisión del reporte.
-     - `EstadoOperativo`: Estado general (óptimo, requiere mantenimiento).
-     - `Observaciones`: Comentarios relevantes.
+     - `LocalId`: ID del local reportado.
+     - `Title`: Título del reporte.
+     - `UserId`: ID del usuario que genera el reporte.
+     - `Description`: Descripción del problema o situación reportada.
+     - `CreatedAt`: Fecha de creación del reporte.
 
 #### Entities
 
-1. **HistorialVisitas**
-   - **Descripción:** Registro histórico de visitas o consultas realizadas sobre un local.
+1. **LocalCategory**
+   - **Descripción:** Representa una categoría de locales, como auditorio, salón de eventos, oficina, etc.
    - **Atributos:**
-     - `Id`: Identificador único del registro.
-     - `LocalId`: Identificador del local.
-     - `UsuarioId`: ID del usuario que consultó.
-     - `FechaConsulta`: Fecha y hora de la interacción.
+     - `Id`: Identificador único de la categoría.
+     - `Name`: Nombre de la categoría (por ejemplo, \"Auditorio\", \"Coworking\", \"Salón de Eventos\").
+     - `PhotoUrl`: URL de una imagen representativa de la categoría.
+
 
 #### Value Objects
 
-1. **Ubicacion**
-   - **Descripción:** Objeto de valor que representa los datos geográficos del local.
+1. **CityPlace**
+   - **Descripción:** Representa el país y la ciudad donde se ubica un local.
    - **Atributos:**
-     - `Distrito`: Distrito donde se ubica.
-     - `Direccion`: Dirección detallada.
-     - `Referencia`: Punto de referencia.
+     - `Country`: País del local.
+     - `City`: Ciudad del local.
+     - `FullCityPlace`: Representación completa como texto (`"País, Ciudad"`).
 
-2. **CaracteristicasTecnicas**
-   - **Descripción:** Objeto de valor que encapsula detalles técnicos del local.
+2. **DescriptionMessage**
+   - **Descripción:** Representa el mensaje descriptivo o detalle del local.
    - **Atributos:**
-     - `Conectividad`: Detalles de red e internet.
-     - `Equipamiento`: Lista de equipos disponibles.
-     - `Iluminacion`: Tipo de iluminación.
-     - `Ventilacion`: Sistema de aireación.
-     - `Seguridad`: Medidas de seguridad disponibles.
+     - `MessageDescription`: Texto descriptivo del local.
+
+3. **LocalName**
+   - **Descripción:** Representa el tipo o nombre asignado a un local.
+   - **Atributos:**
+     - `TypeLocal`: Nombre o tipo del local (ej: \"Auditorio\", \"Sala de Reuniones\").
+
+4. **NightPrice**
+   - **Descripción:** Representa el precio por noche de alquiler del local.
+   - **Atributos:**
+     - `PriceNight`: Valor numérico del precio.
+
+5. **PhotoUrl**
+   - **Descripción:** Representa la URL de la foto principal del local.
+   - **Atributos:**
+     - `PhotoUrlLink`: Enlace de la imagen.
+
+6. **RatingComment**
+   - **Descripción:** Representa la calificación numérica otorgada a un local en un comentario.
+   - **Atributos:**
+     - `Rating`: Puntuación del comentario (ej: de 1 a 5 estrellas).
+
+7. **StreetAddress**
+   - **Descripción:** Representa la dirección geográfica del local.
+   - **Atributos:**
+     - `District`: Distrito donde se ubica el local.
+     - `Street`: Calle específica del local.
+     - `FullAddress`: Representación completa como texto (`"Distrito, Calle"`).
+
+8. **TextComment**
+   - **Descripción:** Representa el texto escrito de un comentario sobre un local.
+   - **Atributos:**
+     - `Text`: Contenido textual del comentario.
+
 
 #### Commands
 
-1. **RegistrarLocalCommand**
-   - **Descripción:** Permite registrar un nuevo local con sus datos completos.
+1. **CreateLocalCommand**
+   - **Descripción:** Permite registrar un nuevo local con todos sus datos estructurados.
+   - **Parámetros:**
+     - `District`: Distrito donde se ubica el local.
+     - `Street`: Calle del local.
+     - `LocalType`: Tipo o categoría del local.
+     - `Country`: País.
+     - `City`: Ciudad.
+     - `Price`: Precio por noche.
+     - `PhotoUrl`: Enlace de la imagen principal.
+     - `DescriptionMessage`: Descripción del local.
+     - `LocalCategoryId`: ID de la categoría.
+     - `UserId`: ID del arrendador que registra el local.
+     - `Features`: Características adicionales del local.
+     - `Capacity`: Capacidad máxima de personas.
 
-2. **ActualizarLocalCommand**
-   - **Descripción:** Actualiza las características del local existente.
+2. **UpdateLocalCommand**
+   - **Descripción:** Actualiza los atributos de un local existente.
+   - **Parámetros:**
+     - `Id`: ID del local a actualizar.
+     - (Resto de parámetros iguales a `CreateLocalCommand`)
 
-3. **PublicarLocalCommand**
-   - **Descripción:** Cambia el estado de un local para ser visible al público.
+3. **CreateCommentCommand**
+   - **Descripción:** Registra un nuevo comentario para un local.
+   - **Parámetros:**
+     - `UserId`: ID del usuario que comenta.
+     - `LocalId`: ID del local.
+     - `Text`: Texto del comentario.
+     - `Rating`: Puntuación asignada al local.
 
-4. **EliminarLocalCommand**
-   - **Descripción:** Elimina un local si no tiene reservas activas.
+4. **CreateReportCommand**
+   - **Descripción:** Permite crear un reporte operativo o queja sobre un local.
+   - **Parámetros:**
+     - `LocalId`: ID del local reportado.
+     - `Title`: Título del reporte.
+     - `UserId`: ID del usuario que genera el reporte.
+     - `Description`: Contenido del reporte.
 
-5. **CrearReporteLocalCommand**
-   - **Descripción:** Genera un reporte sobre el estado actual del local.
+5. **DeleteReportCommand**
+   - **Descripción:** Elimina un reporte existente en base a su ID.
+   - **Parámetros:**
+     - `Id`: ID del reporte a eliminar.
+
+6. **SeedLocalCategoriesCommand**
+   - **Descripción:** Permite poblar la base de datos con un conjunto inicial de categorías de locales.
+   - **Parámetros:** *(Ninguno)*
+
+
 
 #### Queries
 
-1. **ObtenerLocalesDelArrendadorQuery**
-   - **Descripción:** Devuelve todos los locales registrados por un arrendador.
+1. **GetAllCommentsByLocalIdQuery**
+   - **Descripción:** Obtiene todos los comentarios asociados a un local específico.
+   - **Parámetros:**
+     - `LocalId`: ID del local.
 
-2. **ListarLocalesPorDistritoQuery**
-   - **Descripción:** Lista los locales disponibles en un distrito específico.
+2. **GetAllLocalCategoriesQuery**
+   - **Descripción:** Obtiene todas las categorías de locales disponibles.
+   - **Parámetros:** *(Ninguno)*
 
-3. **BuscarLocalesPorCapacidadQuery**
-   - **Descripción:** Filtra locales según capacidad mínima y máxima.
+3. **GetAllLocalDistrictsQuery**
+   - **Descripción:** Obtiene todos los distritos donde existen locales registrados.
+   - **Parámetros:** *(Ninguno)*
 
-4. **ConsultarDetallesDelLocalQuery**
-   - **Descripción:** Consulta todos los detalles de un local específico.
+4. **GetAllLocalsByLocalCategoryIdQuery**
+   - **Descripción:** Obtiene todos los locales filtrados por una categoría específica.
+   - **Parámetros:**
+     - `LocalCategoryId`: ID de la categoría.
 
-5. **ConsultarLocalesPublicadosQuery**
-   - **Descripción:** Devuelve todos los locales marcados como "publicados".
+5. **GetAllLocalsQuery**
+   - **Descripción:** Obtiene todos los locales registrados en el sistema.
+   - **Parámetros:** *(Ninguno)*
+
+6. **GetLocalByIdQuery**
+   - **Descripción:** Consulta los detalles de un local específico por su ID.
+   - **Parámetros:**
+     - `LocalId`: ID del local.
+
+7. **GetLocalCategoryByIdQuery**
+   - **Descripción:** Consulta los detalles de una categoría específica de locales.
+   - **Parámetros:**
+     - `Id`: ID de la categoría.
+
+8. **GetLocalsByCategoryIdAndCapacityRangeQuery**
+   - **Descripción:** Obtiene locales que pertenecen a una categoría específica y cuyo rango de capacidad está dentro de los límites indicados.
+   - **Parámetros:**
+     - `LocalCategoryId`: ID de la categoría.
+     - `MinCapacity`: Capacidad mínima.
+     - `MaxCapacity`: Capacidad máxima.
+
+9. **GetLocalsByUserIdQuery**
+   - **Descripción:** Obtiene todos los locales registrados por un usuario específico (arrendador).
+   - **Parámetros:**
+     - `UserId`: ID del usuario.
+
+10. **GetReportsByLocalIdQuery**
+    - **Descripción:** Obtiene todos los reportes asociados a un local específico.
+    - **Parámetros:**
+      - `LocalId`: ID del local.
+
+11. **GetReportsByUserIdQuery**
+    - **Descripción:** Obtiene todos los reportes generados por un usuario específico.
+    - **Parámetros:**
+      - `UserId`: ID del usuario.
+
+12. **IsLocalOwnerQuery**
+    - **Descripción:** Verifica si un usuario específico es propietario de un local.
+    - **Parámetros:**
+      - `UserId`: ID del usuario.
+      - `LocalId`: ID del local.
+
+
+
+
 
 #### Repositories (Interfaces)
 
-1. **LocalRepository**
-   - **Descripción:** Interfaz para interactuar con la base de datos de locales.
+1. **ICommentRepository**
+   - **Descripción:** Interfaz para gestionar los comentarios asociados a locales.
    - **Métodos:**
-     - `findById(id)`: Buscar un local por su ID.
-     - `findByArrendadorId(arrendadorId)`: Obtener los locales de un arrendador.
-     - `findByDistrito(distrito)`: Listar locales por ubicación.
-     - `findPublished()`: Listar todos los locales publicados.
-     - `save(local)`: Guardar o actualizar un local.
-     - `delete(id)`: Eliminar un local.
+     - `GetAllCommentsByLocalId(int localId)`: Obtiene todos los comentarios de un local específico.
 
-2. **ReporteLocalRepository**
-   - **Descripción:** Interfaz para gestionar reportes de locales.
+2. **ILocalCategoryRepository**
+   - **Descripción:** Interfaz para gestionar las categorías de locales.
    - **Métodos:**
-     - `findByLocalId(localId)`: Obtener reportes por local.
-     - `findLatestByLocalId(localId)`: Obtener el último reporte de un local.
-     - `save(reporte)`: Guardar o actualizar un reporte.
+     - `ExistsLocalCategory(EALocalCategoryTypes type)`: Verifica si existe una categoría específica.
+     - `GetAllLocalCategories()`: Obtiene todas las categorías de locales.
 
-3. **HistorialVisitasRepository**
-   - **Descripción:** Interfaz para guardar registros de visitas a locales.
+3. **ILocalRepository**
+   - **Descripción:** Interfaz para la gestión de locales registrados en el sistema.
    - **Métodos:**
-     - `findByLocalId(localId)`: Consultar visitas por local.
-     - `save(historial)`: Guardar una nueva visita.
+     - `GetAllDistrictsAsync()`: Obtiene un listado de todos los distritos donde hay locales.
+     - `GetLocalsByCategoryIdAndCapacityrange(int categoryId, int minCapacity, int maxCapacity)`: Filtra locales por categoría y rango de capacidad.
+     - `GetLocalsByUserIdAsync(int userId)`: Obtiene los locales de un usuario específico (arrendador).
+     - `IsOwnerAsync(int userId, int localId)`: Verifica si un usuario es dueño de un local.
+
+4. **IReportRepository**
+   - **Descripción:** Interfaz para la gestión de reportes generados sobre locales.
+   - **Métodos:**
+     - `GetReportsByLocalId(int localId)`: Obtiene los reportes asociados a un local.
+     - `GetReportsByUserId(int userId)`: Obtiene los reportes generados por un usuario específico.
+
+
 
 
 ### 4.2.X.2. Interface Layer
