@@ -92,13 +92,14 @@
 
 ### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
 
-
+![Diagrama Stucturizr([URL]())](images/c4-component-level-diagrams/booking-context.png)
 
 ### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 
-
+![Diagrama Lucidchart([URL]())](images/c4-component-level-diagrams/booking-context.png)
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 
+![Diagrama Vertanelo([URL]())](images/c4-component-level-diagrams/booking-context.png)
