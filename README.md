@@ -78,7 +78,7 @@
 
 #### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 
-![Diagrama Lucidchart([URL]())](images/class-diagrams/booking-context.png)
+![Diagrama Lucidchart([URL]())](images/class-diagrams/notification-context.png)
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 
