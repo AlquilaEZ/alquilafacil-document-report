@@ -203,3 +203,7 @@
    - **Métodos:**
      - `FindByLocalId(int localId)`: Devuelve todos los registros de visitas para un local.
      - `Save(HistorialVisitas visita)`: Guarda una nueva visita realizada por un usuario.
+
+
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+![Diagrama Stucturizr([URL]())](images/c4-component-level-diagrams/locals-context.png)
