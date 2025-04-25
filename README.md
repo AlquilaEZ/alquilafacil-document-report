@@ -352,28 +352,37 @@
 
 #### Repositories (Implementaciones)
 
-1. **LocalRepository:**
-   - **Descripción:** Implementación para interactuar con la base de datos de locales.
-   - **Métodos:**
-     - `FindById(int id)`: Busca un local por su ID.
-     - `FindByArrendadorId(int arrendadorId)`: Obtiene los locales registrados por un arrendador.
-     - `FindByDistrito(String distrito)`: Filtra los locales por ubicación geográfica.
-     - `FindPublished()`: Devuelve los locales marcados como publicados.
-     - `Save(Local local)`: Guarda o actualiza un local en la base de datos.
-     - `Delete(int id)`: Elimina un local de la base de datos.
+1. **CommentRepository**
+   - **Descripción:** Implementación del repositorio para gestionar comentarios sobre locales.
+   - **Hereda de:** `BaseRepository<Comment>`
+   - **Métodos implementados:**
+     - `GetAllCommentsByLocalId(int localId)`: Devuelve todos los comentarios asociados a un local específico.
 
-2. **ReporteLocalRepository:**
-   - **Descripción:** Implementación para gestionar los reportes operativos generados por los arrendadores.
-   - **Métodos:**
-     - `FindByLocalId(int localId)`: Obtiene todos los reportes de un local.
-     - `FindLatestByLocalId(int localId)`: Devuelve el reporte más reciente de un local.
-     - `Save(ReporteLocal reporte)`: Guarda o actualiza un reporte de estado.
+2. **LocalCategoryRepository**
+   - **Descripción:** Implementación del repositorio para gestionar categorías de locales.
+   - **Hereda de:** `BaseRepository<LocalCategory>`
+   - **Métodos implementados:**
+     - `ExistsLocalCategory(EALocalCategoryTypes type)`: Verifica si existe una categoría específica.
+     - `GetAllLocalCategories()`: Devuelve todas las categorías de locales disponibles.
 
-3. **HistorialVisitasRepository:**
-   - **Descripción:** Implementación para almacenar y consultar registros de visitas o consultas de locales.
-   - **Métodos:**
-     - `FindByLocalId(int localId)`: Devuelve todos los registros de visitas para un local.
-     - `Save(HistorialVisitas visita)`: Guarda una nueva visita realizada por un usuario.
+3. **LocalRepository**
+   - **Descripción:** Implementación del repositorio para gestionar entidades `Local`.
+   - **Hereda de:** `BaseRepository<Local>`
+   - **Métodos implementados:**
+     - `GetAllDistrictsAsync()`: Obtiene todos los distritos registrados donde hay locales, combinando ubicación con dirección.
+     - `GetLocalsByCategoryIdAndCapacityrange(int categoryId, int minCapacity, int maxCapacity)`: Devuelve locales filtrados por categoría y rango de capacidad.
+     - `GetLocalsByUserIdAsync(int userId)`: Obtiene todos los locales de un usuario específico.
+     - `IsOwnerAsync(int userId, int localId)`: Verifica si un usuario es dueño de un local determinado.
+     - `GetLocalByUserId(int userId, int localId)`: Obtiene un local específico por ID si pertenece al usuario.
+
+4. **ReportRepository**
+   - **Descripción:** Implementación del repositorio para gestionar reportes relacionados a locales.
+   - **Hereda de:** `BaseRepository<Report>`
+   - **Métodos implementados:**
+     - `GetReportsByLocalId(int localId)`: Devuelve todos los reportes asociados a un local.
+     - `GetReportsByUserId(int userId)`: Devuelve todos los reportes realizados por un usuario específico.
+
+
 
 
 ### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
