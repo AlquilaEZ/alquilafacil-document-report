@@ -70,3 +70,57 @@
     - **Descripción:** Interfaz que permite interactuar con la base de datos de roles de usuario
     - **Métodos:**
         - `ExistsUserRole(EUserRoles role)`: Devuelve positivo si el rol de usuario ya existe.
+
+### 4.2.X.2. Interface Layer
+
+#### Facades
+
+1. **IamContextFacade:**
+    - **Descripción:** Permite que otros bounded context accedan a este contexto a traves del patrón facade
+    - **Métodos:**
+        - `CreateUser(string username, string password, string email)`: Permite crear un usuario desde fuera del bounded context.
+        - `FetchUserIdByUsername(string username)`: Permite extrar el id de un usuario a traves de su nombre de usuario.
+        - `FetchUsernameById(int userId)`: Devuelve un nombre de usuario en base a un id proporcionado
+
+#### Controllers
+
+1. **AuthenticationController:**
+    - **Descripción:** Expone endpoints para autenticación de usuarios.
+    - **Métodos:**
+        - `SignIn(SignInResource signInResource)`: Endpoint para el inicio de sesión.
+        - `SignUp(SignUpResource signUpResource)`: Endpoint para el registro de un nuevo usuario.
+
+2. **UsersController:** 
+    - **Descripción:** Expone endpoints para la gestión de usuarios
+    - **Métodos:**
+        - `GetUserById(int userId)`: Enpoint que permite obtener un usuario a traves de su id
+        - `GetAllUsers()`: Endpoint que permite obtener a todos los usuarios.
+        - `GetUserNameById`: Endpoint que permite obtener un nombre de usuario a traves del id del usuario.
+        - `UpdateUser(int userId, UpdateUsernameResource updateUsernameResource)`: Endpoint que permite actualizar el nombre de usuario de un usuario
+
+### 4.2.X.3. Application Layer
+
+#### Command Services
+
+1. **SeedUserRoleCommandService:**
+    - **Descripción:** Inicializa la tabla de roles de usuarios con los valores preestablecidos
+    - **Métodos:**
+        - `Handle(SeedUserRolesCommand command)`: Valida y aplica el comando para generar los roles de usuario
+
+2. **UserCommandService:**
+    - **Descripción:** Maneja comandos para crear, actualizar o validar usuarios.
+    - **Métodos:**
+        - `Handle(SignInCommand command)`: Valida y aplica el comando para iniciar la sesión del usuario.
+        - `Handle(SignUpCommand command)`: Valida y aplica el comando para registrar un nuevo usuario.
+        - `Handle(UpdateUsernameCommand command)`: Valida y aplica el comando para cambiar el nombre a un usuario existente.
+
+#### Query Services
+
+1. **UserQueryService:**
+    - **Descripción:** Ofrece consultas para obtener información de los usuarios.
+    - **Métodos:**
+        - `Handle(GetUserByIdQuery query)`: Valida y aplica la consulta para obtener un usuario dado su id.
+        - `Handle(GetAllUsersQuery query)`: Valida y aplica la consulta para obtener todos los usuarios.
+        - `Handle(GetUserByEmailQuery)`: Valida y aplica la consulta para obtener un usuario dado su email.
+        - `Handle(GetUsernameByIdQuery)`: Valida y aplica la consulta para obtener el nombre de usuario dado el id de un usuario.
+        - `Handle(UserExistsQuery)`: Valida y aplica la consulta para verificar que un usuario exista.
