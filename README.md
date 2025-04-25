@@ -124,3 +124,17 @@
         - `Handle(GetUserByEmailQuery)`: Valida y aplica la consulta para obtener un usuario dado su email.
         - `Handle(GetUsernameByIdQuery)`: Valida y aplica la consulta para obtener el nombre de usuario dado el id de un usuario.
         - `Handle(UserExistsQuery)`: Valida y aplica la consulta para verificar que un usuario exista.
+
+#### Outbound Services
+
+1. **Hashing Service:** 
+    - **Descripción:** Maneja metodos para encriptar contraseñas y verificarlas.
+    - **Métodos:**
+        - `HashPassword(string password)`: Permite hashear o encriptar una contraseña
+        - `VerifyPassword(string password, string passwordHash)`: Permite validar una contraseña hasheada o encriptada con una original
+
+2. **Token Service:**
+    - **Descripción:** Maneja los tokens para poder manejar la sesión de los usuarios.
+    - **Métodos:**
+        - `GenerateToken(User user)`: Permite generar un token unico asociado a un usuario.
+        - `ValidateToken(string token)`: Permite validar el token de un usuario.
