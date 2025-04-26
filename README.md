@@ -47,11 +47,11 @@
 
 **Arrendatarios:** 
 
-![Impact Mapping](resources/impact-map-arrendatario.png)
+![Impact Mapping](resources/Impact-map-arrendatario.png)
 
 **Arrendadores:**
 
-![Impact Mapping](resources/impact-map-arrendador.png)
+![Impact Mapping](resources/Impact-map-arrendador.png)
 
 
 ## 3.4 Product Backlog
