@@ -1,8 +1,8 @@
-#Capítulo IV: Solution Software Design
+# Capítulo IV: Solution Software Design
 
-##4.1. Strategic-Level Domain-Driven Design
+## 4.1. Strategic-Level Domain-Driven Design
 
-###4.1.1. Event Storming
+### 4.1.1. Event Storming
 <p>
 EventStorming es una técnica de modelado colaborativo e iterativo que permite analizar a fondo problemas complejos y de gran escala, ayudando a descubrir una amplia variedad de detalles y desafíos involucrados.</p>
 
@@ -10,7 +10,7 @@ EventStorming es una técnica de modelado colaborativo e iterativo que permite a
 
 Enlace del Miroo para verlo completo:[ https://miro.com/app/board/uXjVKldWbQI=/?share_link_id=811519345320](https://miro.com/app/board/uXjVIBJ9674=/)
 
-####4.1.1.1 Candidate Context Discovery
+#### 4.1.1.1 Candidate Context Discovery
 
 <strong>Step 1: Unstructured Exploration</strong>:<br>
 <p>En la etapa inicial del EventStorming, se lleva a cabo una sesión de lluvia de ideas destinada a descubrir los eventos clave del dominio vinculados al negocio analizado. Es importante redactar estos eventos utilizando verbos en pasado, ya que deben reflejar acciones que ya han sucedido dentro del sistema o proceso.</p>
@@ -140,7 +140,7 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 
 
 
-####4.1.1.2 Domain Message Flows Modeling
+#### 4.1.1.2 Domain Message Flows Modeling
 
 
 
@@ -166,23 +166,23 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 
 
 
-####4.1.1.3 Bounded Context Canvases
+#### 4.1.1.3 Bounded Context Canvases
 ![Event Storming](/images/imagen_16.jpeg)
 ![Event Storming](/images/imagen_17.jpeg)
 ![Event Storming](/images/imagen_18.jpeg)
 
 
 
-###4.1.2. Context Mapping
+### 4.1.2. Context Mapping
 
-#####1. Pasos para Crear el Context Mapping
-######1.1. Identificación de los Bounded Contexts
+##### 1. Pasos para Crear el Context Mapping
+###### 1.1. Identificación de los Bounded Contexts
 - IAM (Identity and Access Management)
 - Locals
 - Booking
 - Monitoring
 - Notifications
-######1.2. Identificación de Relaciones Iniciales
+###### 1.2. Identificación de Relaciones Iniciales
 - IAM ⭤ Booking: Relación de Customer/Supplier.
 - IAM proporciona la autenticación y control de acceso, mientras Booking consume la identidad para permitir la creación de reservas.
 - Locals ⭤ Booking: Relación de Customer/Supplier.
@@ -195,22 +195,22 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 - Booking puede generar eventos que Notifications transforma en mensajes para usuarios.
 
 
-#####2. Análisis de Alternativas y Preguntas Clave
-######2.1. ¿Qué pasaria si movemos la gestión de reportes de locales desde Locals a Monitoring?
-######Impacto:
+##### 2. Análisis de Alternativas y Preguntas Clave
+###### 2.1. ¿Qué pasaria si movemos la gestión de reportes de locales desde Locals a Monitoring?
+###### Impacto:
 Monitoring tendría control total del estado operacional del local.
 Se perdería la separación entre información estática del local (Locals) y condiciones temporales (Monitoring).
 Discusión:
 No se recomienda el cambio. Mantener reportes en Locals permite independencia de la información operativa.
 
-######2.2. ¿Y si separáramos Monitoring en dos contexts: SensorEvents y RuleValidation?
+###### 2.2. ¿Y si separáramos Monitoring en dos contexts: SensorEvents y RuleValidation?
 Impacto:
 Permitiría escalar el procesamiento de eventos por separado del motor de reglas.
 Mayor complejidad y necesidad de sincronización.
 Discusión:
 Podría evaluarse si los volúmenes de datos lo justifican, pero por ahora es preferible mantenerlo unificado.
 
-######2.3. ¿Podría Notifications compartir un kernel con Booking?
+###### 2.3. ¿Podría Notifications compartir un kernel con Booking?
 Impacto:
 Se podría optimizar el modelo de eventos compartidos.
 Riesgo de acoplamiento excesivo.
@@ -218,19 +218,19 @@ Discusión:
 Mejor mantener el contrato como evento público. No se recomienda un shared kernel.
 
 
-######2.4. ¿Sería viable mover la asignación de pulseras NFC de Booking a IAM?
+###### 2.4. ¿Sería viable mover la asignación de pulseras NFC de Booking a IAM?
 Impacto:
 IAM controlaría identidad + dispositivo asignado.
 Aumenta la carga de IAM, mezcla responsabilidades de autenticación con gestión de dispositivos.
 Discusión:
 Se recomienda mantener la asignación en Booking para no contaminar IAM con lógica operacional.
 
-#####3. Alternativas Recomendadas de Context Mapping
+##### 3. Alternativas Recomendadas de Context Mapping
 Mantener la separación entre datos estáticos (Locals) y monitoreo operacional (Monitoring).
 No dividir Monitoring aún, salvo que se presenten cuellos de botella o necesidades de escalabilidad por volumen de eventos.
 Evitar compartir kernels entre contexts; priorizar integración por eventos públicos.
 Mantener la asignación de dispositivos dentro de Booking.
-#####4. Patrones de Relaciones Sugeridos
+##### 4. Patrones de Relaciones Sugeridos
 - Customer/Supplier: IAM ⭤ Booking, Locals ⭤ Booking, Booking ⭤ Monitoring
 - Conformist: Monitoring ⭤ Notifications, Booking ⭤ Notifications
 - Published Language: Monitoring publica eventos con estructura conocida para consumo externo (ej. por Notifications)
@@ -238,21 +238,21 @@ Mantener la asignación de dispositivos dentro de Booking.
 
 ![Event Storming](/images/imagen_19.png)
 
-###4.1.3. Software Architecture
-####4.1.3.1. Software Architecture System Landscape Diagram
+### 4.1.3. Software Architecture
+#### 4.1.3.1. Software Architecture System Landscape Diagram
 
 ![Event Storming](/images/imagen_22.png)
 
 
-####4.1.3.2. Software Architecture Context Level Diagrams
+#### 4.1.3.2. Software Architecture Context Level Diagrams
 
 ![Event Storming](/images/imagen_20.png)
 
-####4.1.3.3. Software Architecture Container Level Diagrams
+#### 4.1.3.3. Software Architecture Container Level Diagrams
 
 ![Event Storming](/images/imagen_21.jpeg)
 
-####4.1.3.4. Software Architecture Deployment Diagrams
+#### 4.1.3.4. Software Architecture Deployment Diagrams
 
 ![Event Storming](/images/imagen_23.png)
 
