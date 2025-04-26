@@ -188,8 +188,8 @@ AlquilaFácil es un startup fundado en el 2025, por un grupo de estudiantes de l
 |Mi nombre es Christopher, tengo 20 años y actualmente me encuentro cursando el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que mi compromiso con el equipo de trabajo designado y mi capacidad de aprendizaje rápida aportarán de buena manera al desarrollo del producto final.|
 |Nombre|Sosa Colca, Angello Rodolfo (U202212077)|
 |Tengo 19 años y curso el 7mo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona enfocada, perseverante y colaborativo. Estas cualidades me permiten ser una persona que ayudará de manera óptima el requisito que se me imponga. Además, soy una persona que apoya cuando los demás se encuentran en problemas.|
-|Nombre|LLENAR (XXXXXXXXXX)|
-| LLENAR |
+|Nombre|Carlos Oswaldo Casimiro Fernandez (U202115412)|
+| Tengo 21 años y soy estudiante de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Me considero una persona proactiva, educada y sociable con los que me rodean. Además, cuento con habilidades peculiares como la animación en 3D, edición de videos cinematográficos y conocimiento en lenguajes como C++, Python. |
 
 ## 1.2. Solution Profile
 
