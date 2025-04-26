@@ -155,3 +155,17 @@
     - **Descripción:** Implementación que permite interactuar con la base de datos de roles de usuario
     - **Métodos:**
         - `ExistsUserRole(EUserRoles role)`: Devuelve positivo si el rol de usuario ya existe.
+
+### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Diagrama Stucturizr([URL]())](images/c4-component-level-diagrams/iam-context.png)
+
+### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Diagrama LucidChart([URL]())](images/class-diagrams/iam-class-diagram.png)
+
+#### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+![Diagrama Vertabello([URL]())](images/class-diagrams/iam-database-diagram.png)
