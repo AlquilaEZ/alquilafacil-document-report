@@ -50,6 +50,20 @@
    </tr>
 </table>
 
+## Project Report Collaboration Insights
+
+<p>URL del repositorio: https://github.com/AlquilaEZ/alquilafacil-document-report</p>
+
+<strong>TB1</strong> 
+
+<p> El equipo participó de forma activa en el repositorio de GitHub, registrando un total de 74 commits durante el desarrollo del primer entregable del informe.</p>
+
+![image]( /images/collaborator_TB1.png)
+
+
+<p> El trabajo con ramas paralelas permitió que los integrantes del equipo avanzaran en distintas secciones del informe de forma simultánea, integrando sus cambios de manera ágil y minimizando conflictos. Esta estrategia colaborativa aseguró una participación equilibrada de todos los miembros en la construcción del entregable.</p>
+
+![image]( /images/network_TB1.png)
 ## Contenido
 
 **Tabla de contenidos**
