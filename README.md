@@ -168,4 +168,4 @@
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 
-![Diagrama Vertabello([URL]())](images/class-diagrams/iam-database-diagram.png)
+![Diagrama Vertabello([URL]())](images/database-diagrams/iam-database-diagram.png)
