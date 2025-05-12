@@ -1,30 +1,35 @@
-<div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo"  width="20%"/>
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo" width="20%">
+</p>
 
-**Universidad Peruana de Ciencias Aplicadas**
-**Ingeniería de Software**
-**Ciclo 2025-10**
+<p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+<strong>Ingeniería de Software</strong><br>
+<strong>Ciclo 2025-10</strong></p>
 
-# Course Project
+<h3 align="center">Course Project</h3>
 
-### Profesor: Marco Antonio Leon Baca
-### Curso: Desarrollo de Soluciones IoT
+<p align="center">
+  <strong>Profesor:</strong> Marco Antonio Leon Baca<br>
+  <strong>Curso:</strong> Desarrollo de Soluciones IoT
+</p>
 
-# FINAL REPORT
+<h3 align="center">FINAL REPORT</h3>
 
-## Startup: AlquilaEZ
-## Propuesta: AlquilaFacil
+<p align="center">
+  <strong>Startup:</strong> AlquilaEZ<br>
+  <strong>Propuesta:</strong> AlquilaFacil
+</p>
 
-**Team Members**
-
-Ames Oviedo Mariano Jose
-Avalos Santos Anthony Piero
-Lecca Choccare Christopher Bryan
-Sosa Colca Angello Rodolfo
+<p align="center"><strong>Team Members</strong><br>
+Ames Oviedo Mariano Jose<br>
+Avalos Santos Anthony Piero<br>
+Lecca Choccare Christopher Bryan<br>
+Sosa Colca Angello Rodolfo<br>
 Carlos Oswaldo Casimiro Fernandez
+</p>
 
-**Mayo 2025**
-</div>
+<p align="center"><strong>Mayo 2025</strong></p>
+
 
 
 ---
@@ -77,12 +82,12 @@ Carlos Oswaldo Casimiro Fernandez
 
 <p> El equipo participó de forma activa en el repositorio de GitHub, registrando un total de 74 commits durante el desarrollo del primer entregable del informe.</p>
 
-![image]( /images/collaborator_TB1.png)
+![image]( images/collaborator_TB1.png)
 
 
 <p> El trabajo con ramas paralelas permitió que los integrantes del equipo avanzaran en distintas secciones del informe de forma simultánea, integrando sus cambios de manera ágil y minimizando conflictos. Esta estrategia colaborativa aseguró una participación equilibrada de todos los miembros en la construcción del entregable.</p>
 
-![image]( /images/network_TB1.png)
+![image]( images/network_TB1.png)
 
 
 
@@ -94,8 +99,8 @@ Carlos Oswaldo Casimiro Fernandez
 
 - **Landing Page**
 
-![image]( /images/collaborator_TB1.png)
-![image]( /images/network_TB1.png)
+![image]( images/collaborator_TB1.png)
+![image]( images/network_TB1.png)
 
 - ** Frontend Web Applications**
 
@@ -134,12 +139,12 @@ ACA EE PONE LO  DE LA REPO DEL FRONTEND
 | [2.3.3. User Journey Mapping](#233-user-journey-mapping)                                                            |
 | [2.3.4. Empathy Mapping](#234-empathy-mapping)                                                                      |
 | [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)                                                        |
-| [2.4. Ubiquitous Language](#24-ubiquitous-language)  
+| [2.4. Ubiquitous Language](#24-ubiquitous-language)  |
 | [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)                                |
 | [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)                                                           |
 | [3.2. User Stories](#32-user-stories)                                                                               |
 | [3.3. Impact Mapping](#33-impact-mapping)                                                                           |
-| [3.4. Product Backlog](#34-product-backlog)     
+| [3.4. Product Backlog](#34-product-backlog)     |
 | [Capítulo IV: Solution Software Design](#capítulo-iv-product-design)                                                          |
 | [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)                               |
 | [4.1.1. Event Storming](#411-event-storming) |
@@ -162,7 +167,7 @@ ACA EE PONE LO  DE LA REPO DEL FRONTEND
 | [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams) |
 | [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams) |
 | [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram) |
-| [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui-ux-design)   
+| [Capítulo V: Solution UI/UX Design](#capitulo-v-solution-uiux-design)   |
 | [5.1. Style Guidelines](#51-style-guidelines) |
 | [5.1.1. General Style Guidelines](#511-general-style-guidelines) |
 | [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines) |
@@ -180,7 +185,7 @@ ACA EE PONE LO  DE LA REPO DEL FRONTEND
 | [5.4.2. Applications Mock-ups](#542-applications-mock-ups) |
 | [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams) |
 | [5.5. Applications Prototyping](#55-applications-prototyping) |
-| [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-iv-product-design)  
+| [Capítulo VI: Product Implementation, Validation & Deployment](#capitulo-vi-product-implementation-validation--deployment)  |
  | [6.1. Software Configuration Management](#61-software-configuration-management) |
 | [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration) |
 | [6.1.2. Source Code Management](#612-source-code-management) |
@@ -1707,16 +1712,16 @@ Link de trello: https://trello.com/b/63Zub4fa/product-backlog-iot
 <p>
 EventStorming es una técnica de modelado colaborativo e iterativo que permite analizar a fondo problemas complejos y de gran escala, ayudando a descubrir una amplia variedad de detalles y desafíos involucrados.</p>
 
-![Event Storming](/images/imagen_1.png)
+![Event Storming](images/imagen_1.png)
 
-Enlace del Miroo para verlo completo:[ https://miro.com/app/board/uXjVKldWbQI=/?share_link_id=811519345320](https://miro.com/app/board/uXjVIBJ9674=/)
+Enlace del Miroo para verlo completo: https://miro.com/app/board/uXjVIBJ9674=/?share_link_id=539583810560
 
 #### 4.1.1.1 Candidate Context Discovery
 
 <strong>Step 1: Unstructured Exploration</strong>:<br>
 <p>En la etapa inicial del EventStorming, se lleva a cabo una sesión de lluvia de ideas destinada a descubrir los eventos clave del dominio vinculados al negocio analizado. Es importante redactar estos eventos utilizando verbos en pasado, ya que deben reflejar acciones que ya han sucedido dentro del sistema o proceso.</p>
 
-![Event Storming](/images/imagen_2.png)
+![Event Storming](images/imagen_2.png)
 
 
 <p>Realizamos una sesión de lluvia de ideas para identificar todos los eventos relevantes que el sistema de reservas de locales con tecnología IoT debe manejar. En esta etapa inicial del Event Storming se mapearon eventos clave como la creación de cuentas, registro y actualización de locales, postulaciones y confirmación de reservas, así como la entrada y salida del arrendatario mediante pulsera NFC. También se incluyeron eventos generados por sensores, como detección de humo, sobreaforo y accesos no autorizados, fundamentales para garantizar el cumplimiento de las normas del local. Se consideraron alertas automáticas enviadas tanto al arrendador como al arrendatario en caso de infracciones, así como acciones relacionadas con la gestión de reportes, historial de asistencia e interacciones con la app móvil. Este mapeo inicial permite tener una visión integral de todos los comportamientos que el sistema debe registrar y reaccionar para brindar una solución de monitoreo y control eficaz para ambas partes involucradas</p>
@@ -1726,7 +1731,7 @@ Enlace del Miroo para verlo completo:[ https://miro.com/app/board/uXjVKldWbQI=/?
 <p>En esta segunda etapa, se toman los eventos de dominio identificados y se ordenan cronológicamente según su secuencia natural dentro del proceso. El primer enfoque consiste en construir un "camino feliz" (happy path), es decir, una secuencia ideal en la que todas las acciones se ejecutan correctamente y el flujo del sistema se desarrolla sin inconvenientes. Una vez definido este escenario óptimo, se incorporan variaciones o situaciones alternativas que representen posibles errores, fallos o condiciones excepcionales dentro del flujo operativo.</p>
 
 
-![Event Storming](/images/imagen_3.png)
+![Event Storming](images/imagen_3.png)
 
 
 <p>En esta segunda fase del Event Storming, organizamos los eventos de dominio identificados previamente en flujos secuenciales que reflejan cómo se comporta el sistema ante diferentes escenarios relacionados con el proceso de reserva, ingreso y monitoreo del uso del local. El flujo principal sigue un "camino feliz" donde el usuario inicia sesión, selecciona un local, crea una reserva, asiste con su pulsera NFC, y completa la experiencia sin incidentes, incluyendo la generación de reportes y la calificación del local.
@@ -1737,7 +1742,7 @@ Además, se contemplan trayectorias alternativas que incluyen detecciones de hum
 <p>Una vez que los eventos fueron organizados en una secuencia temporal, utilizamos esta visión global del proceso para detectar áreas clave que requieren atención. Estos puntos críticos pueden manifestarse como cuellos de botella operativos, tareas manuales susceptibles de automatización, ausencia de documentación relevante o vacíos en el entendimiento del dominio. Esta revisión permite anticipar mejoras y definir prioridades para el diseño del sistema.</p>
 
 
-![Event Storming](/images/imagen_4.png)
+![Event Storming](images/imagen_4.png)
 
 
 <p>En esta fase del Event Storming, se identificaron los puntos críticos del sistema y se documentaron preguntas clave que deben ser respondidas para garantizar el correcto funcionamiento del proceso de reservas, ingreso y monitoreo de locales. Estas preguntas se integran directamente en los flujos de eventos y permiten explorar escenarios como la verificación de acceso mediante pulseras NFC, la validación del cronograma de reservas o la forma en que se detectan eventos de sobreaforo, humo o ruido durante el uso del local.
@@ -1752,7 +1757,7 @@ Además, se contemplan trayectorias alternativas que incluyen detecciones de hum
 <p>Una vez que se ha construido la línea de eventos completa, incluyendo los puntos de dolor, se procede a identificar aquellos eventos relevantes que representan un cambio significativo en el contexto o en la etapa del proceso. Estos se conocen como eventos principales, y se utilizan como puntos de corte dentro del flujo, marcando una transición clara entre lo que ocurre antes y lo que sucede después. Para visualizarlos, se incorpora una barra vertical que divide los eventos previos de los posteriores a dicho hito</p>
 
 
-![Event Storming](/images/imagen_5.png)
+![Event Storming](images/imagen_5.png)
 
 
 <p>Hemos identificado los eventos principales (pivotal points) que marcan transiciones clave dentro del sistema de reservas y monitoreo de locales con tecnología IoT. Estos eventos delimitan fases importantes del proceso y permiten establecer momentos en los que es necesario validar decisiones fundamentales para garantizar el correcto funcionamiento del sistema.
@@ -1765,7 +1770,7 @@ Además, se contemplan trayectorias alternativas que incluyen detecciones de hum
 <p>En esta etapa también incorporamos los comandos, los cuales representan las acciones que desencadenan uno o varios eventos dentro del sistema. A diferencia de los eventos de dominio, que describen hechos ya ocurridos, los comandos se expresan en forma imperativa, indicando las operaciones que deben llevarse a cabo en el sistema para provocar un cambio en su estado o avanzar en el flujo del proceso</p>
 
 
-![Event Storming](/images/imagen_6.png)
+![Event Storming](images/imagen_6.png)
 
 
 
@@ -1776,7 +1781,7 @@ Además, se contemplan trayectorias alternativas que incluyen detecciones de hum
 <p>En esta etapa se identifican las políticas de automatización, es decir, reglas que permiten que ciertos comandos se ejecuten automáticamente en respuesta a eventos del dominio. Esto implica que, al producirse un evento específico dentro del sistema, se dispare de forma inmediata la acción correspondiente, sin intervención manual. En otras palabras, se establece una relación directa entre eventos y comandos, permitiendo que el sistema reaccione de forma autónoma ante situaciones previamente definidas.</p>
 
 
-![Event Storming](/images/imagen_7.png)
+![Event Storming](images/imagen_7.png)
 
 
 <p>Definimos y organizamos las políticas de automatización que permiten ejecutar comandos de forma automática ante la ocurrencia de eventos clave dentro del sistema. Estas políticas cubren la recolección y envío de datos, la asignación de pulseras NFC, la validación de accesos, la generación de reportes del local, y el monitoreo de condiciones críticas como sobreaforo, humo o ruido en el recinto.
@@ -1788,7 +1793,7 @@ También se estructuraron reglas para el disparo automático de alertas al detec
 <p>En esta etapa, incorporamos los modelos de lectura, que representan las vistas de datos del sistema que los agentes (ya sean usuarios o componentes del sistema) utilizan para decidir si deben ejecutar un comando. Esto implica definir visualizaciones específicas como reportes de locales, paneles de monitoreo de aforo, alertas en tiempo real por infracciones, estado de las reservas, historial de asistencia y validación de acceso mediante NFC.</p>
 
 
-![Event Storming](/images/imagen_7.png)
+![Event Storming](images/imagen_7.png)
 
 
 
@@ -1800,7 +1805,7 @@ También se estructuraron reglas para el disparo automático de alertas al detec
 <p>En este paso, integramos al modelo los sistemas externos, es decir, aquellos que están fuera del dominio principal del sistema que estamos diseñando. Estos sistemas pueden intervenir ejecutando comandos hacia nuestro sistema (como entradas) o bien recibir información generada por eventos del dominio (como salidas).</p>
 
 
-![Event Storming](/images/imagen_8.png)
+![Event Storming](images/imagen_8.png)
 
 
 <p>Incorporamos los sistemas externos que interactúan con el dominio principal, representados con etiquetas rojas. Se identificaron elementos clave como el lector NFC y los sensores IoT (aforo, humo, ruido), los cuales permiten recolectar datos del entorno físico y activan eventos automatizados dentro del sistema. Además, se detallaron las políticas de envío de datos, representadas en color morado, las cuales se encargan de transmitir información relevante a la nube o al backend en tiempo real.
@@ -1812,7 +1817,7 @@ También se estructuraron reglas para el disparo automático de alertas al detec
 <p>Después de haber definido todos los eventos y comandos del sistema, procedemos a agrupar aquellos conceptos que guardan una relación directa dentro de unidades llamadas agregados. Estos agregados representan componentes clave del dominio, ya que son los encargados de recibir comandos y, a partir de ellos, generar los eventos correspondientes que reflejan los cambios en el estado del sistema</p>
 
 
-![Event Storming](/images/imagen_9.png)
+![Event Storming](images/imagen_9.png)
 
 
 <p>Identificamos los agregados del dominio que encapsulan la lógica de negocio principal del sistema de reservas con IoT. Cada aggregate agrupa los comandos y eventos que afectan una misma unidad lógica, asegurando la coherencia de los datos y el cumplimiento de las reglas definidas. Se establecieron agregados como User, para el control de identidad y autenticación; Locale, encargado del ciclo de vida de los locales; Reservation, que gestiona las reservas y su estado; AccessControl, que regula el ingreso mediante pulseras NFC; y Monitoring, responsable de registrar condiciones detectadas por sensores IoT. Esta estructura permite organizar el dominio de forma modular y consistente, facilitando el mantenimiento y escalabilidad del sistema
@@ -1823,7 +1828,7 @@ También se estructuraron reglas para el disparo automático de alertas al detec
 <p>Finalmente, agrupamos los agregados que mantienen una relación directa entre sí, ya sea porque comparten funciones estrechamente relacionadas o porque están conectados a través de ciertas políticas de negocio. Estos conjuntos de agregados constituyen candidatos naturales para establecer los contextos delimitados (Bounded Contexts) del sistema, permitiendo organizar el dominio en módulos coherentes y bien definidos según sus responsabilidades y reglas específicas.</p>
 
 
-![Event Storming](/images/imagen_10.png)
+![Event Storming](images/imagen_10.png)
 
 
 
@@ -1846,20 +1851,20 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 
 
 <strong>Scenario 1: Local reservation</strong>:<br>
-![Event Storming](/images/imagen_11.jpeg)
+![Event Storming](images/imagen_11.jpeg)
 
 <strong>Scenario 2: Local comment creation</strong>:<br>
-![Event Storming](/images/imagen_12.jpeg)
+![Event Storming](images/imagen_12.jpeg)
 
 <strong>Scenario 3: Tenant exceeds local capacity</strong>:<br>
-![Event Storming](/images/imagen_13.jpeg)
+![Event Storming](images/imagen_13.jpeg)
 
 <strong>Scenario 4: Tenant exceeds noise level</strong>:<br>
-![Event Storming](/images/imagen_14.jpeg)
+![Event Storming](images/imagen_14.jpeg)
 
 <strong>Scenario 5: Tenant tries to enter the premises outside of reservation hours
 </strong>:<br>
-![Event Storming](/images/imagen_15.jpeg)
+![Event Storming](images/imagen_15.jpeg)
 
 
 
@@ -1868,9 +1873,9 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 
 
 #### 4.1.1.3 Bounded Context Canvases
-![Event Storming](/images/imagen_16.jpeg)
-![Event Storming](/images/imagen_17.jpeg)
-![Event Storming](/images/imagen_18.jpeg)
+![Event Storming](images/imagen_16.jpeg)
+![Event Storming](images/imagen_17.jpeg)
+![Event Storming](images/imagen_18.jpeg)
 
 
 
@@ -1898,8 +1903,7 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 
 ##### 2. Análisis de Alternativas y Preguntas Clave
 ###### 2.1. ¿Qué pasaria si movemos la gestión de reportes de locales desde Locals a Monitoring?
-###### Impacto:
-Monitoring tendría control total del estado operacional del local.
+Impacto: Monitoring tendría control total del estado operacional del local.
 Se perdería la separación entre información estática del local (Locals) y condiciones temporales (Monitoring).
 Discusión:
 No se recomienda el cambio. Mantener reportes en Locals permite independencia de la información operativa.
@@ -1937,25 +1941,25 @@ Mantener la asignación de dispositivos dentro de Booking.
 - Published Language: Monitoring publica eventos con estructura conocida para consumo externo (ej. por Notifications)
 - Anti-Corruption Layer (ACL): Podría evaluarse entre Monitoring y cualquier motor externo de validación de reglas en el futuro
 
-![Event Storming](/images/imagen_19.png)
+![Event Storming](images/imagen_19.png)
 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-![Event Storming](/images/imagen_22.png)
+![Event Storming](images/imagen_22.png)
 
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
-![Event Storming](/images/imagen_20.png)
+![Event Storming](images/imagen_20.png)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
-![Event Storming](/images/imagen_21.jpeg)
+![Event Storming](images/imagen_21.jpeg)
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
-![Event Storming](/images/imagen_23.png)
+![Event Storming](images/imagen_23.png)
   
   
  
@@ -2982,7 +2986,7 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 </br></br></br>
 
 ---
-# Capítulo V: Solution UI/UX Design
+# Capitulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines.
 ### 5.1.1. General Style Guidelines.
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
@@ -3004,7 +3008,7 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 
 ---
 
-# Capítulo VI: Product Implementation, Validation & Deployment.
+# Capitulo VI: Product Implementation, Validation & Deployment.
 
 ## 6.1. Software Configuration Management.
 ### 6.1.1. Software Development Environment Configuration.
@@ -3094,10 +3098,10 @@ Se empleó la metodología Git Flow con el objetivo de mantener un mayor control
 Esta estrategia facilitó la organización del trabajo mediante distintas ramas: una rama principal (main), que contiene la versión estable y lista para presentación, libre de errores; una rama de desarrollo (develop), que actúa como punto de integración de los avances realizados en otras ramas; además de ramas específicas creadas para implementar funcionalidades importantes del sistema y para el desarrollo de cada capítulo del reporte final.
 
 - <strong>Web Application</strong>
-![Diagrama Vertanelo([URL]())](/images/cap6_image1.jpeg)
+![Diagrama Vertanelo([URL]())](images/cap6_image1.jpeg)
 
 - <strong>Landing page</strong>
-![Diagrama Vertanelo([URL]())](/images/cap6_image2.jpeg)
+![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
 
 URL del repositorio del Report en GitHub: https://github.com/AlquilaEZ/alquilafacil-document-report
 
@@ -3214,7 +3218,7 @@ La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto
 #### 6.2.1.3. Sprint Backlog 1.
 
 En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lista de tareas designadas para esta primera fase del proyecto:
-![alt text](/images/cap6_image4.jpeg)
+![alt text](images/cap6_image4.jpeg)
 
 **Enlace del tablero:** https://trello.com/b/63Zub4fa/product-backlog-iot
 
@@ -3326,7 +3330,7 @@ AQUI SE PONE EL DE LA WEB
 Como resulado del primer Sprimt, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
     
 <strong>Landing Page:</strong> https://guileless-gaufre-89df8f.netlify.app/src/#hero
-![Diagrama Vertanelo([URL]())](/images/cap6_image3.jpeg)
+![Diagrama Vertanelo([URL]())](images/cap6_image3.jpeg)
 </br>
 <strong>Web Application:</strong>
 ACA VA LA IMAGEN DE LA WEB APP DESPLEGLEADA
@@ -3392,9 +3396,9 @@ La coordinación del equipo se realizó principalmente a través de **Discord**,
   Se logró mantener un flujo constante de integración y revisión de código sin conflictos mayoresTodos los miembros del equipo realizaron commits y participaron activamente en el proceso de desarrollo. La colaboración fue efectiva, permitiendo cumplir con los objetivos del sprint, completar la primera versión de la Landing Page y avanzar significativamente en la interfaz del sistema.
   </br>
 <strong>Web Application</strong>
-![Diagrama Vertanelo([URL]())](/images/cap6_image1.jpeg)
+![Diagrama Vertanelo([URL]())](images/cap6_image1.jpeg)
 <strong>Landing page</strong>
-![Diagrama Vertanelo([URL]())](/images/cap6_image2.jpeg)
+![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
 
 
    
