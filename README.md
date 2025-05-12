@@ -1,3 +1,6 @@
+<div align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo"  width="20%"/>
+
 **Universidad Peruana de Ciencias Aplicadas**
 **Ingeniería de Software**
 **Ciclo 2025-10**
@@ -14,13 +17,15 @@
 
 **Team Members**
 
-- Ames Oviedo Mariano Jose
-- Avalos Santos Anthony Piero
-- Lecca Choccare Christopher Bryan
-- Sosa Colca Angello Rodolfo
-- Carlos Oswaldo Casimiro Fernandez
+Ames Oviedo Mariano Jose
+Avalos Santos Anthony Piero
+Lecca Choccare Christopher Bryan
+Sosa Colca Angello Rodolfo
+Carlos Oswaldo Casimiro Fernandez
 
-**Abril 2025**
+**Mayo 2025**
+</div>
+
 
 ---
 
@@ -48,7 +53,21 @@
       </td>
       <td>Se creo la ramificacion del repositorio. Se concluyo con los capitulos 1, 2, 3 y 4, realizando la presentacion respectiva de la documentacion. Tambien se realizo el video donde cada miembro del equipo expone ciertas partes del trabajo</td>
    </tr>
+       <tr>
+      <td>2da</td>
+      <td>10/05/2025</td>
+      <td>
+        - Ames Oviedo Mariano Jose <br>
+        - Avalos Santos Anthony Piero <br>
+        - Lecca Choccare Christopher Bryan <br>
+        - Sosa Colca Angello Rodolfo <br>
+        - Carlos Oswaldo Casimiro Fernandez <br>
+      </td>
+      <td>Se creo los repositorios para la Web Application frontend y Lading Page, asi como tambien el desarrollo de los capitulos 5 y 6 (Sprint Backlog 1). Tambien se continuo con el desarrollo de los productos de software mencionados y la presentacion de los mismos.</td>
+   </tr>
 </table>
+
+---
 
 ## Project Report Collaboration Insights
 
@@ -64,6 +83,25 @@
 <p> El trabajo con ramas paralelas permitió que los integrantes del equipo avanzaran en distintas secciones del informe de forma simultánea, integrando sus cambios de manera ágil y minimizando conflictos. Esta estrategia colaborativa aseguró una participación equilibrada de todos los miembros en la construcción del entregable.</p>
 
 ![image]( /images/network_TB1.png)
+
+
+
+
+
+<strong>TP</strong> 
+
+<p> El uso de ramas paralelas permitió que los integrantes del equipo desarrollaran diferentes secciones de la Landing Page de forma simultánea, lo que facilitó la integración continua de avances sin generar conflictos significativos. Esta estrategia colaborativa promovió una distribución equitativa del trabajo y garantizó una participación activa de todos los miembros en la construcción del producto entregable del sprint.</p>
+
+- **Landing Page**
+
+![image]( /images/collaborator_TB1.png)
+![image]( /images/network_TB1.png)
+
+- ** Frontend Web Applications**
+
+ACA EE PONE LO  DE LA REPO DEL FRONTEND
+
+
 ## Contenido
 
 **Tabla de contenidos**
@@ -124,8 +162,42 @@
 | [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams) |
 | [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams) |
 | [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram) |
+| [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui-ux-design)   
+| [5.1. Style Guidelines](#51-style-guidelines) |
+| [5.1.1. General Style Guidelines](#511-general-style-guidelines) |
+| [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines) |
+| [5.2. Information Architecture](#52-information-architecture) |
+| [5.2.1. Organization Systems](#521-organization-systems) |
+| [5.2.2. Labeling Systems](#522-labeling-systems) |
+| [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags) |
+| [5.2.4. Searching Systems](#524-searching-systems) |
+| [5.2.5. Navigation Systems](#525-navigation-systems) |
+| [5.3. Landing Page UI Design](#53-landing-page-ui-design) |
+| [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe) |
+| [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up) |
+| [5.4. Applications UX/UI Design](#54-applications-uxui-design) |
+| [5.4.1. Applications Wireframes](#541-applications-wireframes) |
+| [5.4.2. Applications Mock-ups](#542-applications-mock-ups) |
+| [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams) |
+| [5.5. Applications Prototyping](#55-applications-prototyping) |
+| [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-iv-product-design)  
+ | [6.1. Software Configuration Management](#61-software-configuration-management) |
+| [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration) |
+| [6.1.2. Source Code Management](#612-source-code-management) |
+| [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions) |
+| [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration) |
+| [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation) |
+| [6.2.1. Sprint 1](#621-sprint-1) |
+| [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1) |
+| [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators) |
+| [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1) |
+| [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review) |
+| [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review) |
+| [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review) |
+| [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review) |
+| [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review) |
+| [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint) |
 
- 
 
 
 # Student Outcome
@@ -151,32 +223,52 @@ del ABET – EAC - Student Outcome 5.
     <tr>
       <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
       <td>
-        <strong>Christopher Bryan Lecca Choccare (TB1):</strong> Me encargué de liderar el diseño estratégico, guiando al equipo en la identificación de bounded contexts y en la elaboración del Event Storming y Context Mapping. Coordiné la conexión lógica entre eventos y políticas, y aseguré la consistencia general en los flujos del sistema.<br><br>
-        <strong>Angello Rodolfo Sosa Colca (TB1):</strong> Lideré el diseño táctico del contexto "Locals", definiendo sus capas y componentes. Me aseguré de que la estructura entre entidades, comandos, servicios y repositorios fuera coherente y alineada con los principios de DDD.<br><br>
-        <strong>Anthony Piero Avalos Santos (TB1):</strong> Participé activamente en la fase de descubrimiento del usuario. Me enfoqué en aplicar técnicas como Empathy Mapping, User Personas y User Journey para captar de manera precisa las necesidades reales y plasmarlas en el sistema.<br><br>
-        <strong>Mariano José Ames Oviedo (TB1):</strong> Me encargué de elaborar la introducción de la solución, definiendo el perfil de la startup, los desafíos que busca resolver y su aporte a la sostenibilidad urbana. También consolidé los antecedentes para contextualizar el problema.<br><br>
-        <strong>Carlos Oswaldo Casimiro Fernández (TB1):</strong> Me responsabilicé por la implementación de la capa de infraestructura del contexto, construyendo los repositorios, asegurando persistencia adecuada y validando integraciones con bases de datos.
+        <strong>Christopher Bryan Lecca Choccare <br> (TB1):</strong> Me encargué de liderar el diseño estratégico, guiando al equipo en la identificación de bounded contexts y en la elaboración del Event Storming y Context Mapping. Coordiné la conexión lógica entre eventos y políticas, y aseguré la consistencia general en los flujos del sistema.<br>
+        <strong>(TP1):</strong> Desarrollé la estructura completa de la Landing Page utilizando HTML y Tailwind CSS, asegurando un diseño limpio y adaptable. Participé en el desarrollo del Capítulo V, definiendo los lineamientos de estilo y wireframes. Además, fui responsable de redactar gran parte del Capítulo VI, incluyendo las evidencias de implementación y despliegue del producto.<br><br>
+        <strong>Angello Rodolfo Sosa Colca <br>(TB1):</strong> Lideré el diseño táctico del contexto "Locals", definiendo sus capas y componentes. Me aseguré de que la estructura entre entidades, comandos, servicios y repositorios fuera coherente y alineada con los principios de DDD.<br>
+        <strong>(TP1):</strong> Contribuí activamente en la codificación del frontend web desarrollado con Vue.js, implementando los componentes de interfaz para la gestión de espacios. También colaboré en la sección de prototipos del Capítulo V y en los aspectos técnicos del Capítulo VI relacionados a la arquitectura de software.<br><br>
+        <strong>Anthony Piero Avalos Santos <br>  (TB1):</strong> Participé activamente en la fase de descubrimiento del usuario. Me enfoqué en aplicar técnicas como Empathy Mapping, User Personas y User Journey para captar de manera precisa las necesidades reales y plasmarlas en el sistema.<br>
+        <strong>(TP1):</strong> Diseñé la estructura de navegación de la Landing Page y desarrollé varias secciones como "Beneficios" y "Monitoreo", asegurando su conexión visual y lógica. También redacté partes del Capítulo V enfocadas en diseño centrado en el usuario y usabilidad de la aplicación web.<br><br>
+        <strong>Mariano José Ames Oviedo <br>(TB1):</strong>encargué de elaborar la introducción de la solución, definiendo el perfil de la startup, los desafíos que busca resolver y su aporte a la sostenibilidad urbana. También consolidé los antecedentes para contextualizar el problema.<br>
+        <strong>(TP1):</strong> Colaboré en la validación del contenido del Capítulo VI, asegurándome de que se describieran de forma clara los resultados del sprint. Además, participé en la organización y revisión del índice general y los entregables de UI/UX documentados en el Capítulo V.<br><br>
+        <strong>Carlos Oswaldo Casimiro Fernández <br> (TB1):</strong>Me responsabilicé por la implementación de la capa de infraestructura del contexto, construyendo los repositorios, asegurando persistencia adecuada y validando integraciones con bases de datos.<br>
+        <strong>(TP1):</strong> Aporté en la integración técnica del frontend con los servicios backend simulados, validando los flujos de datos. Además, participé en la documentación técnica del Capítulo VI, especialmente en la sección de despliegue y configuración de servicios.<br><br>
       </td>
       <td>
-        El equipo demostró una colaboración efectiva al asumir roles estratégicos que permitieron el avance fluido del proyecto. Cada miembro aportó liderazgo desde sus fortalezas, logrando construir una solución bien estructurada a través de trabajo conjunto y comunicación constante.
+      <strong>(TB1):</strong>
+El equipo demostró una colaboración efectiva al asumir roles estratégicos que permitieron el avance fluido del proyecto. Cada miembro aportó liderazgo desde sus fortalezas, logrando construir una solución bien estructurada a través de trabajo conjunto y comunicación constante.<br><br><br>
+      <strong>(TP1):</strong>
+El equipo logró organizarse estratégicamente durante el desarrollo del producto, asignando roles complementarios en el diseño de interfaces, construcción de componentes técnicos y elaboración del entregable. Cada integrante asumió el liderazgo en secciones específicas del sistema, permitiendo el desarrollo paralelo de la Landing Page, la aplicación web y los capítulos del informe. Esta distribución equilibrada potenció la autonomía individual sin comprometer la coherencia del trabajo conjunto.
       </td>
     </tr>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos.</td>
       <td>
-        <strong>Mariano José Ames Oviedo (TB1):</strong> Me encargué de redactar las secciones introductorias del entregable, comunicando los objetivos y fundamentos del sistema de forma clara para cualquier lector.<br><br>
-        <strong>Anthony Piero Avalos Santos (TB1):</strong> Redacté resultados del análisis de usuarios, presentando mapas y perfiles de forma comprensible para distintos perfiles técnicos y no técnicos.<br><br>
-        <strong>Christopher Bryan Lecca Choccare (TB1):</strong> Elaboré la descripción del diseño estratégico, cuidando que el lenguaje técnico pudiera ser entendido también por miembros no especializados del equipo.<br><br>
-        <strong>Angello Rodolfo Sosa Colca (TB1):</strong> Documenté los diagramas tácticos y estructuras de clases, asegurando una redacción técnica precisa pero accesible para otros desarrolladores o evaluadores.<br><br>
-        <strong>Carlos Oswaldo Casimiro Fernández (TB1):</strong> Expliqué el funcionamiento de los repositorios en lenguaje claro y estructurado, facilitando la revisión y el entendimiento por parte de terceros.
+        <strong>Mariano José Ames Oviedo <br> (TB1):</strong> Me encargué de redactar las secciones introductorias del entregable, comunicando los objetivos y fundamentos del sistema de forma clara para cualquier lector.<br>
+        <strong>(TP1):</strong> Redacté el perfil de la startup, objetivos generales del sistema y antecedentes clave, facilitando la comprensión del lector sobre la necesidad del producto. También revisé la coherencia del Capítulo VI en su conjunto.<br><br>
+        <strong>Anthony Piero Avalos Santos <br>(TB1):</strong> Redacté resultados del análisis de usuarios, presentando mapas y perfiles de forma comprensible para distintos perfiles técnicos y no técnicos.<br>
+        <strong>(TP1):</strong> Elaboré textos explicativos dentro de la Landing Page y participé en la redacción del Capítulo V, especialmente en los apartados relacionados a usabilidad y experiencia de usuario.<br><br>
+        <strong>Christopher Bryan Lecca Choccare <br>(TB1):</strong> Elaboré la descripción del diseño estratégico, cuidando que el lenguaje técnico pudiera ser entendido también por miembros no especializados del equipo.<br>
+        <strong>(TP1):</strong> Organicé y redacté los contenidos técnicos del Capítulo VI (implementación, evidencia y despliegue) con lenguaje claro, permitiendo que incluso lectores no técnicos comprendieran las decisiones del equipo.<br><br>
+        <strong>Angello Rodolfo Sosa Colca <br>(TB1):</strong> Documenté los diagramas tácticos y estructuras de clases, asegurando una redacción técnica precisa pero accesible para otros desarrolladores o evaluadores.<br>
+        <strong>(TP1):</strong> Redacté explicaciones técnicas del diseño UI/UX en el Capítulo V y contribuí en el Capítulo VI con la documentación del proceso de integración del frontend con la lógica de negocio.<br><br>
+        <strong>Carlos Oswaldo Casimiro Fernández<br> (TB1):</strong>Expliqué el funcionamiento de los repositorios en lenguaje claro y estructurado, facilitando la revisión y el entendimiento por parte de terceros.<br>
+        <strong>(TP1):</strong> Redacté la documentación relacionada a la configuración del entorno, despliegue de servicios y validación técnica en el Capítulo VI.<br><br>
       </td>
-      <td>
-        Se logró una comunicación escrita efectiva a lo largo del entregable, permitiendo que las ideas fueran comprendidas por distintas audiencias. El uso claro del lenguaje, apoyado por gráficos y ejemplos, facilitó la transmisión de resultados y decisiones de diseño.
+            <td>
+      <strong>(TB1):</strong>
+ Se logró una comunicación escrita efectiva a lo largo del entregable, permitiendo que las ideas fueran comprendidas por distintas audiencias. El uso claro del lenguaje, apoyado por gráficos y ejemplos, facilitó la transmisión de resultados y decisiones de diseño.<br><br><br>
+      <strong>(TP1):</strong>
+A través de un trabajo colaborativo, el equipo elaboró un entregable claro y estructurado, enfocado en comunicar tanto aspectos técnicos como conceptuales del sistema. Se utilizó un lenguaje comprensible, adecuado para lectores técnicos y no técnicos, y se apoyó la redacción con diagramas, flujos y ejemplos. Esta estrategia permitió reflejar con objetividad los resultados obtenidos en el Sprint y la lógica detrás de cada decisión tomada durante el desarrollo.
       </td>
     </tr>
   </tbody>
 </table>
 
+
+
+
+---
 
 # Capítulo I: Introducción
 
@@ -438,6 +530,11 @@ En esta sección, identificamos los segmentos de clientes específicos a los que
 - Características: Ofrecen una variedad de espacios con diferentes capacidades y servicios. 
 
 - Necesidades: Promoción efectiva de sus espacios, gestión eficiente de reservas, acceso a herramientas para administrar sus listados y proyectos de eventos. 
+
+
+---
+
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -1364,6 +1461,10 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 </table>
   
   
+---
+ 
+
+
 # Capitulo III: Requirements Specification
 
 ## 3.1 To-Be Scenario Mapping
@@ -1571,11 +1672,32 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
                 <td>Como usuario de AlquilaFácil, quiero poder acceder fácilmente a una sección de preguntas frecuentes e información de contacto para resolver mis dudas o comunicarme con el soporte Cuando lo necesite.</td>
                 <td>5</td>
             </tr>
+                        <tr>
+                <td>US24</td>
+                <td>Explorar landing informativa	</td>
+                <td>	Como visitante, quiero acceder a una landing clara y atractiva para entender rápidamente los beneficios de usar AlquilaFácil como arrendador o arrendatario.</td>
+                <td>5</td>
+            </tr>
+                        <tr>
+                <td>US25</td>
+                <td>	Navegar por secciones clave desde el header</td>
+                <td>Como visitante, quiero usar el menú superior para desplazarme fácilmente a secciones como “Espacios”, “Publicar”, “Monitoreo” y “Beneficios”.</td>
+                <td>5</td>
+            </tr>
+                        <tr>
+                <td>US26</td>
+                <td>	Conocer los beneficios diferenciados</td>
+                <td>Como visitante, quiero ver tarjetas explicativas con los beneficios que ofrece AlquilaFácil tanto para arrendadores como arrendatarios.</td>
+                <td>5</td>
+            </tr>
         </tbody>
     </table>
 </div>
 
 Link de trello: https://trello.com/b/63Zub4fa/product-backlog-iot
+
+---
+</br>
 
 # Capítulo IV: Solution Software Design
 
@@ -2855,6 +2977,427 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 
 ![Diagrama Vertanelo([URL]())](images/database-diagrams/notification-context.png)
 
+
+
+</br></br></br>
+
+---
+# Capítulo V: Solution UI/UX Design
+## 5.1. Style Guidelines.
+### 5.1.1. General Style Guidelines.
+### 5.1.2. Web, Mobile and IoT Style Guidelines.
+## 5.2. Information Architecture.
+### 5.2.1. Organization Systems.
+### 5.2.2. Labeling Systems.
+### 5.2.3. SEO Tags and Meta Tags
+### 5.2.4. Searching Systems.
+### 5.2.5. Navigation Systems.
+## 5.3. Landing Page UI Design.
+### 5.3.1. Landing Page Wireframe.
+### 5.3.2. Landing Page Mock-up.
+## 5.4. Applications UX/UI Design.
+### 5.4.1. Applications Wireframes.
+### 5.4.2. Applications Wireflow Diagrams.
+### 5.4.2. Applications Mock-ups.
+### 5.4.3. Applications User Flow Diagrams.
+## 5.5. Applications Prototyping.
+
+---
+
+# Capítulo VI: Product Implementation, Validation & Deployment.
+
+## 6.1. Software Configuration Management.
+### 6.1.1. Software Development Environment Configuration.
+
+<table border="1">
+  <tr>
+    <td>Project Management</td>
+    <td>Microsoft 365<br>Utilizado como repositorio en la nube para almacenar videos de entrevistas, presentaciones de prototipos y otros recursos vinculados al desarrollo del proyecto.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Discord<br>Herramienta de comunicación grupal empleada para coordinar tareas, realizar reuniones virtuales y facilitar el trabajo colaborativo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>WhatsApp<br>Aplicación de mensajería empleada principalmente para enviar recordatorios de reuniones y comunicaciones rápidas.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Trello<br>Plataforma de gestión visual de tareas que permitió organizar, asignar y dar seguimiento al avance del proyecto.</td>
+  </tr>
+  <tr>
+    <td>Requirements Management</td>
+    <td>Structurizr<br>Software de modelado que facilitó la elaboración de diagramas C4 para representar la arquitectura del sistema.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>MySQL Workbench<br>Herramienta para el diseño y modelado visual de bases de datos relacionales.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Lucidchart<br>Herramienta de diagramación online empleada para crear modelos UML como casos de uso, clases y secuencias.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Miro<br>Plataforma de pizarra colaborativa usada para diseñar escenarios actuales (As-Is) y propuestos (To-Be) del sistema.</td>
+  </tr>
+  <tr>
+    <td>Product UX/UI Design</td>
+    <td>Figma<br>Aplicación de diseño utilizada para construir wireframes, interfaces gráficas y prototipos navegables del sistema.</td>
+  </tr>
+  <tr>
+    <td>Software Development</td>
+    <td>Git<br>Sistema de control de versiones empleado para gestionar el código fuente y asegurar un trabajo colaborativo eficaz.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Node.js<br>Entorno de ejecución JavaScript utilizado para el desarrollo de funcionalidades del backend de forma escalable.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GitHub<br>Plataforma basada en Git que se usó para alojar el repositorio del proyecto y coordinar el trabajo en equipo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>HTML5<br>Lenguaje de marcado utilizado para estructurar el contenido de la interfaz web.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>CSS<br>Lenguaje de estilos empleado para dar formato visual a las páginas HTML desarrolladas.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JavaScript<br>Lenguaje de programación orientado a la web utilizado para incorporar funcionalidades e interacciones en la interfaz.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>VS Code<br>Editor de código fuente ligero y extensible que facilitó el desarrollo del sistema con múltiples extensiones útiles.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Vue.js<br>Framework progresivo para construir interfaces de usuario dinámicas y componentes reutilizables en el frontend.</td>
+  </tr>
+  <tr>
+    <td>Software Deployment</td>
+    <td>Netlify<br>Servicio en la nube que permitió desplegar la landing page del sistema de forma automática, continua y con URL pública.</td>
+  </tr>
+</table>
+
+
+
+### 6.1.2. Source Code Management.
+
+
+Se empleó la metodología Git Flow con el objetivo de mantener un mayor control sobre la gestión del proyecto y permitir el desarrollo simultáneo tanto de la implementación de la aplicación como de la elaboración del informe.
+
+Esta estrategia facilitó la organización del trabajo mediante distintas ramas: una rama principal (main), que contiene la versión estable y lista para presentación, libre de errores; una rama de desarrollo (develop), que actúa como punto de integración de los avances realizados en otras ramas; además de ramas específicas creadas para implementar funcionalidades importantes del sistema y para el desarrollo de cada capítulo del reporte final.
+
+- <strong>Web Application</strong>
+![Diagrama Vertanelo([URL]())](/images/cap6_image1.jpeg)
+
+- <strong>Landing page</strong>
+![Diagrama Vertanelo([URL]())](/images/cap6_image2.jpeg)
+
+URL del repositorio del Report en GitHub: https://github.com/AlquilaEZ/alquilafacil-document-report
+
+URL del repositorio del Landing Page en GitHub: https://github.com/AlquilaEZ/alquilafacil-landing-page
+
+URL del repositorio del Frontend en Github: https://github.com/AlquiladorEZ/AlquilaFacil-FrontEnd 
+
+
+### 6.1.3. Source Code Style Guide & Conventions.
+HTML es un lenguaje de marcado utilizado para estructurar el contenido de una página web. A través de etiquetas, permite definir distintos tipos de elementos como textos, imágenes, videos, entre otros.
+
+Convenciones comunes en HTML:
+
+- La primera línea del archivo debe incluir la declaración del tipo de documento.
+
+- Las etiquetas deben escribirse siempre en minúsculas, lo que favorece la claridad y uniformidad del código.
+
+- Es recomendable usar comillas al asignar valores a los atributos para mejorar la legibilidad.
+
+CSS es un lenguaje diseñado para aplicar estilos a los elementos HTML. Permite crear interfaces visuales más atractivas y usables para los usuarios.
+
+Convenciones comunes en CSS:
+
+- Utilizar guiones para separar palabras en nombres de clases compuestas (por ejemplo: .box-container) mejora la lectura.
+
+- Preferir la unidad de medida rem favorece la adaptabilidad del diseño a diferentes tamaños de pantalla, promoviendo un diseño responsive.
+
+
+
+
+### 6.1.4. Software Deployment Configuration.
+
+Para llevar a cabo el despliegue de la landing page, se utilizaron diversas herramientas enfocadas en la gestión de versiones y el control del flujo de trabajo del equipo.
+
+- <strong>Git</strong>: Utilizado como sistema de control de versiones, permitió registrar los cambios realizados en el proyecto y facilitar la colaboración entre los integrantes del equipo.
+
+- <strong>GitHub</strong>: Plataforma en la que se alojó el repositorio del proyecto. Allí se almacenaron todas las versiones del código, asegurando acceso centralizado y controlado.
+
+- <strong>Git Flow</strong>: Metodología aplicada para estructurar y organizar el desarrollo mediante distintas ramas, lo que facilitó la coordinación, integración y seguimiento del trabajo colaborativo.
+
+
+
+## 6.2. Landing Page, Services & Applications Implementation.
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1
+<table align="center" border="1" width="90%" style="border-collapse:collapse; text-align:left;">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td><b>Sprint 1</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td><b>Date</b></td>
+    <td>07/05/2025</td>
+  </tr>
+  <tr>
+    <td><b>Time</b></td>
+    <td>12:00</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Modalidad remota por Discord</td>
+  </tr>
+  <tr>
+    <td><b>Prepared By</b></td>
+    <td>Lecca Choccare Christopher Bryan</td>
+  </tr>
+  <tr>
+    <td>
+    <b>Attendees (to planning meeting)</b>
+    </td>
+    <td>
+      - Ames Oviedo Mariano Jose<br>
+      - Avalos Santos Anthony Piero<br>
+      - Lecca Choccare Christopher Bryan<br>
+      - Sosa Colca Angello Rodolfo<br>
+      - Carlos Oswaldo Casimiro Fernandez
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td><b>Sprint 1 Velocity</b></td>
+    <td>68</td>
+  </tr>
+  <tr>
+    <td><b>Sum of Story Points</b></td>
+    <td>68</td>
+  </tr>
+  
+</table>
+
+
+
+
+
+
+### 6.2.1.2. Aspect Leaders and Collaborators
+
+La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto técnico del Sprint:
+
+| Team Member (Last Name, First Name) | GitHub Username   | IAM Service | Locals Service | Booking Service | Frontend Web | Landing Page |
+|------------------------------------|--------------------|-------------|----------------|------------------|---------------|---------------|
+| Ames Oviedo, Mariano               | MarianoAmes        | C           | C              | C                | C             |   L            |
+| Avalos Santos, Anthony Piero       | Anthony2000AA      | C           | C              | C                |   C            | C             |
+| Lecca Choccare, Christopher Bryan  | ChrisByBits        | L           | L              | L                | L             | C             |
+| Sosa Colca, Angello Rodolfo        | AngelloSosa        | C           | C              | C                | C             | C             |
+| Casimiro Fernández, Carlos Oswaldo | Sigma42O           | C           | C              | C                | C             |C               |
+
+
+#### 6.2.1.3. Sprint Backlog 1.
+
+En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lista de tareas designadas para esta primera fase del proyecto:
+![alt text](/images/cap6_image4.jpeg)
+
+**Enlace del tablero:** https://trello.com/b/63Zub4fa/product-backlog-iot
+
+| **User Story ID** | **US Title**                          | **Task ID** | **Task Title**                                   | **Description**                                           | **Estimation (Hours)** | **Assigned To**                       | **Status** |
+|------------------|----------------------------------------|-------------|--------------------------------------------------|-----------------------------------------------------------|------------------------|----------------------------------------|------------|
+| US01             | Registrar usuario                      | T-01-1      | Tarea técnica para registrar usuario             | Implementar funcionalidad: Registrar usuario              | 6                      | Mariano Ames Oviedo                    | Done       |
+| US02             | Iniciar sesión                         | T-02-1      | Tarea técnica para iniciar sesión                | Implementar funcionalidad: Iniciar sesión                 | 6                      | Anthony Avalos Santos                  | Done       |
+| US03             | Registrar espacios                     | T-03-1      | Tarea técnica para registrar espacios            | Implementar funcionalidad: Registrar espacios             | 16                     | Angello Sosa Colca                     | Done       |
+| US04             | Buscar espacios disponibles            | T-04-1      | Tarea técnica para buscar espacios disponibles   | Implementar funcionalidad: Buscar espacios disponibles     | 10                     | Carlos Casimiro Fernández              | Done       |
+| US05             | Filtrar espacios disponibles           | T-05-1      | Tarea técnica para filtrar espacios disponibles  | Implementar funcionalidad: Filtrar espacios disponibles    | 10                     | Christopher Lecca Choccare             | Done       |
+| US06             | Visualizar información del espacio     | T-06-1      | Tarea técnica para visualizar información        | Implementar funcionalidad: Visualizar información del espacio | 10                  | Mariano Ames Oviedo                    | Done       |
+| US07             | Reservar espacios                      | T-07-1      | Tarea técnica para reservar espacios             | Implementar funcionalidad: Reservar espacios              | 16                     | Anthony Avalos Santos                  | Done       |
+| US12             | Visualizar espacios propios publicados | T-12-1      | Tarea técnica para ver espacios publicados       | Implementar funcionalidad: Visualizar espacios propios    | 6                      | Mariano Ames Oviedo                    | Done       |
+| US13             | Modificar espacios publicados          | T-13-1      | Tarea técnica para modificar espacios            | Implementar funcionalidad: Modificar espacios publicados  | 6                      | Anthony Avalos Santos                  | Done       |
+| US24             | Explorar landing informativa           | T-24-1      | Tarea técnica para landing informativa           | Implementar funcionalidad: Landing clara e informativa    | 10                     | Christopher Lecca Choccare             | Done       |
+| US25             | Navegar por secciones desde el header  | T-25-1      | Tarea técnica para navegación                    | Implementar funcionalidad: Navegación por secciones       | 10                     | Anthony Avalos Santos             | Done       |
+| US26             | Ver beneficios diferenciados           | T-26-1      | Tarea técnica para beneficios                    | Implementar funcionalidad: Tarjetas de beneficios          | 10                     | Anthony Avalos Santos             | Done       |
+
+
+
+####  6.2.1.4. Development Evidence for Sprint Review.
+
+<p>
+En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
+</p>
+
+- <strong>Landing Page</strong>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="8">AlquilaEZ/alquilafacil-landing-page</td>
+      <td>/main</td>
+      <td>83052f0</td>
+      <td>Merge pull request #2 from develop</td>
+      <td>Fusión final desde la rama de desarrollo</td>
+      <td>11/05/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>090b1b7</td>
+      <td>add: configure tailwind deploy</td>
+      <td>Configuración para despliegue con TailwindCSS</td>
+      <td>11/05/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>0c11e67</td>
+      <td>update: text from module benefics</td>
+      <td>Actualización de contenido textual en módulo de beneficios</td>
+      <td>11/05/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>85ed349</td>
+      <td>update: modify images from all modules</td>
+      <td>Sustitución de imágenes en todos los módulos de la landing</td>
+      <td>11/05/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>b0a8f6c</td>
+      <td>feat: new cards functions</td>
+      <td>Agregado de nuevas tarjetas funcionales para la landing</td>
+      <td>10/05/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>13dc960</td>
+      <td>Created project first version</td>
+      <td>Creación del primer prototipo funcional del proyecto</td>
+      <td>10/05/2025</td>
+    </tr>
+    <tr>
+      <td>/develop</td>
+      <td>53fba97</td>
+      <td>update: diseño from módulo principale</td>
+      <td>Ajustes de diseño en la sección principal</td>
+      <td>11/05/2025</td>
+    </tr>
+    <tr>
+      <td>/develop</td>
+      <td>1fa7c20</td>
+      <td>update: design module spaces</td>
+      <td>Actualización del diseño en módulo de espacios</td>
+      <td>11/05/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+- <strong>Web Application</strong>
+
+AQUI SE PONE EL DE LA WEB
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review.
+Como resulado del primer Sprimt, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
+    
+<strong>Landing Page:</strong> https://guileless-gaufre-89df8f.netlify.app/src/#hero
+![Diagrama Vertanelo([URL]())](/images/cap6_image3.jpeg)
+</br>
+<strong>Web Application:</strong>
+ACA VA LA IMAGEN DE LA WEB APP DESPLEGLEADA
+
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
+A continuación se presentan los enlaces a los productos desplegados durante el Sprint 1, los cuales corresponden a los principales servicios desarrollados:
+
+| Servicio             | Descripción                                          | URL de despliegue                                 |
+|----------------------|------------------------------------------------------|---------------------------------------------------|
+| Landing Page         | Sitio informativo de AlquilaFácil con navegación     | https://guileless-gaufre-89df8f.netlify.app/src/#hero       |
+| Aplicación Web       | Plataforma operativa para arrendadores y arrendatarios | (pendiente)  |
+
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+
+
+
+
+Durante el Sprint 1 se desarrollaron y desplegaron dos componentes principales del sistema: la Landing Page informativa y la interfaz Frontend Web de la aplicación. A continuación, se describen las tecnologías utilizadas y los procedimientos aplicados para su control de versiones y despliegue.
+
+####  Tecnologías utilizadas
+
+- **HTML5**: Lenguaje de marcado utilizado en la construcción de la estructura de la Landing Page. Permite definir secciones como encabezados, párrafos, imágenes, botones, etc.
+- **Tailwind CSS**: Framework de utilidad para aplicar estilos de manera rápida y responsiva en la Landing Page, facilitando un diseño moderno sin necesidad de escribir CSS personalizado extenso.
+- **Vue.js**: Framework progresivo de JavaScript utilizado para el desarrollo del Frontend Web de la aplicación. Permite crear componentes reutilizables y gestionar el estado de forma eficiente.
+- **JavaScript**: Lenguaje de programación usado junto a Vue para controlar interacciones del usuario y lógica de interfaz.
+- **Git**: Sistema de control de versiones que facilitó el trabajo colaborativo del equipo. Permitió mantener un historial ordenado de los cambios y trabajar simultáneamente en diferentes funcionalidades.
+- **GitHub**: Plataforma de alojamiento de repositorios que permitió la gestión centralizada del código fuente, las ramas y los pull requests del equipo.
+- **Netlify**: Plataforma usada para desplegar la Landing Page del proyecto, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+
+#### Control de versiones con Git Flow
+
+Para mantener un flujo de trabajo estructurado, se implementó la metodología **GitFlow Workflow**. Esta estrategia permitió trabajar de manera ordenada mediante ramas específicas:
+- `main`: Contiene la versión estable y lista para producción.
+- `develop`: Rama donde se integran las funcionalidades en desarrollo antes de ser validadas y fusionadas.
+- Ramas de características: Para el desarrollo individual de funcionalidades (por ejemplo, landing modules, navegación, módulos Vue, etc.).
+
+Este enfoque facilitó la colaboración, evitó conflictos de código y aseguró un despliegue limpio al finalizar el sprint.
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint.
+
+
+
+Durante el Sprint 1, el equipo trabajó de manera colaborativa aplicando buenas prácticas de control de versiones y comunicación efectiva para garantizar el cumplimiento de los objetivos establecidos.
+
+- #### Estrategia de colaboración técnica
+
+Se aplicó la metodología **GitFlow Workflow**, lo que permitió distribuir el trabajo en ramas específicas para cada funcionalidad tanto en el desarrollo de la Landing Page como en el Frontend Web desarrollado con Vue.js. La rama `develop` funcionó como entorno de integración, mientras que cada integrante trabajó en ramas funcionales individuales, realizando posteriormente *pull requests* para su revisión y fusión al repositorio principal. Finalmente la rama `develop` se fusionó a la rama `main`, asegurando que solo el código validado y revisado se integrara a la versión estable del proyecto.
+
+- ####   Canales de comunicación
+
+La coordinación del equipo se realizó principalmente a través de **Discord**, donde se llevaron a cabo reuniones remotas para definir tareas, revisar avances y resolver bloqueos. Adicionalmente, se utilizaron **mensajes por WhatsApp** para recordatorios y organización rápida. Esta combinación permitió una comunicación fluida y en tiempo real.
+
+- ####   Herramientas de gestión
+
+ GitHub Projects y commits verificados permitieron llevar un registro detallado de las tareas completadas y del responsable de cada cambio.Las tareas fueron distribuidas entre todos los miembros del equipo, y se registraron contribuciones en los distintos servicios: Landing Page, Frontend Web, y documentación técnica. El uso de etiquetas claras en los commits facilitó el rastreo de avances por funcionalidad y componente.
+
+- ####   Resultados obtenidos
+
+  Se logró mantener un flujo constante de integración y revisión de código sin conflictos mayoresTodos los miembros del equipo realizaron commits y participaron activamente en el proceso de desarrollo. La colaboración fue efectiva, permitiendo cumplir con los objetivos del sprint, completar la primera versión de la Landing Page y avanzar significativamente en la interfaz del sistema.
+  </br>
+<strong>Web Application</strong>
+![Diagrama Vertanelo([URL]())](/images/cap6_image1.jpeg)
+<strong>Landing page</strong>
+![Diagrama Vertanelo([URL]())](/images/cap6_image2.jpeg)
+
+
+   
 # Conclusiones
 
 <div align="justify">
