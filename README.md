@@ -2981,6 +2981,459 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 
 ![Diagrama Vertanelo([URL]())](images/database-diagrams/notification-context.png)
 
+## 4.2.6. Bounded Context: Profile Context
+
+### 4.2.6.1. Domain Layer
+
+#### Aggregates
+
+1. **Profile**: 
+  - **Descripción**: Representa el perfil de un usuario en la aplicación
+  - **Atributos**:
+    - `Name`: Nombre del usuario
+    - `Birth`: Fecha de nacimiento del usuario
+    - `PhoneN`: Número de telefono del usuario
+    - `DocumentN`: Documento de identidad del usuario
+    - `UserId`: Id asignado al usuario
+    - `PhotoUrl`: Foto de perfíl del usuario
+
+#### Value Objects
+
+1. **DateOfBirth**:
+  - **Descripción**: Fecha de nacimiento de un usuario
+  - **Atributos**
+    - `BirthDate`: Fecha de nacimiento
+
+2. **DocumentNumber**:
+  - **Descripción**: Documento de identidad del usuario
+  - **Atributos**
+    - `NumberDocument`: Número del documento
+
+3. **PersonName**:
+  - **Descripción**: Nombre de una persona
+  - **Atributos**
+    - `Name`: Primer nombre de la persona
+    - `FatherName`: Apellido paterno de la persona
+    - `MotherName`: Apellido materno de la persona
+    - `FullName`: Nombre completo de la persona
+
+4. **Phone**:
+  - **Descripción**: Número de teléfono de una persona
+  - **Atributos**
+    - `PhoneNumber`: Número de teléfono de la persona
+
+#### Commands
+
+1. **CreateProfileCommand**:
+  - **Descripción**: Comando que permite la creación de perfiles con el nombre, el telefono, el id del usuario y la foto del usuario
+
+2. **UpdateProfileCommand**: Comando que permite la modificación de perfiles a partir del id del perfil y el atributo a modificar.
+
+#### Queries
+
+1. **GetAllProfilesQuery**:
+  - **Descripción**: Consulta que devuelve todas los perfiles almacenados.
+
+2. **GetProfileByIdQuery**:
+  - **Descripción**: Consulta que devuelve el perfil a partir de un id especificado
+
+3. **GetProfileByUserIdQuery**:
+  - **Descripción**: Consulta que permite obtener un perfil a partir de un id de usuario especificado
+
+4. **IsUserSubscribeQuery**:
+  - **Descripción**: Consulta que verifica si un usuario se encuentra suscrito a partir de su id
+
+#### Repositories (Interfaces)
+
+1. **IProfileRepository**: 
+  - **Descripción**: Permite interactuar con la base de datos para la busqueda o creación de perfiles.
+  - **Métodos**:
+    - `FindByUserIdAsync(int userId)`: Permite obtener un perfil a traves de la id de un usuario
+
+#### Services (Interfaces)
+
+1. **IProfileCommandService**:
+  - **Descripción**: Maneja los comandos para la creación y actualización de perfiles
+  - **Métodos**:
+    - `Handle(CreateProfileCommand command)`: Maneja el comando que permite la creación de perfiles.
+    - `Handle(UpdateProfileCommand command)`: Maneja el comando que permite la actualización de perfiles.
+
+2. **IProfileQueryService**:
+  - **Descripción**: Maneja las consultas de los perfiles desde la base de datos.
+  - **Métodos**:
+    - `Handle(GetAllProfilesQuery)`: Maneja la consulta para obtener todos los perfiles.
+    - `Handle(GetProfileByIdQuery)`: Maneja la consulta que devuelve un perfíl a traves de su id.
+    - `Handle(GetProfileByUserIdQuery)`: Maneja la consulta que devuelve un perfil a traves del id del usuario.
+    - `Handle(IsUserSubscribeQuery)`: Maneja la consulta que verifica si el usuario esta suscrito.
+
+### 4.2.6.2. Interface Layer
+
+#### Facades
+
+1. **ProfilesContextFacade**:
+  - **Descripción**: Permite que otros bounded context interactuen con el context de profiles.
+  - **Métodos**:
+    - `CreateProfile(string name, string? fatherName, string? motherName, string dateOfBirth, string documentNumber, string phone, int userId, string photoUrl)`: Permite la creación de un perfil desde fuera del bounded context.
+
+#### Controllers
+
+1. **ProfilesController**:
+  - **Descripción**: Expone endpoints para el manejo de los perfiles dentro de la aplicación
+  - **Métodos**:
+    - `CreateProfile(CreateProfileResource createProfileResource)`: Endpoint para la creación de un perfil
+    - `GetAllProfiles()`: Endpoint que muestra todos los perfiles registrados en la aplicación
+    - `GetProfileById(int profileId)`: Endpoint que muestra un perfil en base a su id.
+    - `GetProfileByUserId(int userId)`: Endpoint que muestra un perfil en base al id del usuario.
+    - `IsUserSubscribed(int userId)`: Ednpoint que verifica si un usuario esta suscrito a traves de su id
+    - `UpdateFarm(UpdateProfileResource updateProfileResource)`: Endpoint que permite actualizar un perfil ya existente. 
+
+### 4.2.6.3. Application Layer
+
+#### Command Services (Implementación)
+
+1. **ProfileCommandService**:
+  - **Descripción**: Maneja los comandos para la creación y actualización de perfiles
+  - **Métodos**:
+    - `Handle(CreateProfileCommand command)`: Maneja el comando que permite la creación de perfiles.
+    - `Handle(UpdateProfileCommand command)`: Maneja el comando que permite la actualización de perfiles.
+
+#### Query Services (Implementación)
+
+1. **ProfileQueryService**:
+  - **Descripción**: Maneja las consultas de los perfiles desde la base de datos.
+  - **Métodos**:
+    - `Handle(GetAllProfilesQuery)`: Maneja la consulta para obtener todos los perfiles.
+    - `Handle(GetProfileByIdQuery)`: Maneja la consulta que devuelve un perfíl a traves de su id.
+    - `Handle(GetProfileByUserIdQuery)`: Maneja la consulta que devuelve un perfil a traves del id del usuario.
+    - `Handle(IsUserSubscribeQuery)`: Maneja la consulta que verifica si el usuario esta suscrito.
+
+#### Outbound Services
+
+1. **SubscriptionExternalService**:
+  - **Descripción**: Permite el uso del bounded context de subscriptions.
+  - **Métodos**: 
+    - `IsUserSubscribeAsync(int userId)`: Verifica si un usuario cuenta con una subscripción.
+
+2. **UserExternalService**:
+  - **Descripción**: Permite el uso del bounded context de users
+  - **Métodos**:
+    - `UserExistsById(int userId)`: Verifica que un usuario existe en base a su id
+
+### 4.2.6.4. Infrastructure Layer
+
+#### Repositories (Implementación)
+
+1. **ProfileRepository**:
+  - **Descripción**: Permite la conexión con la base de datos.
+  - **Métodos**:
+    - `FindByUserIdAsync`: Permite la busqueda de un perfil a traves de una id de usuario especificada.
+
+### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Diagrama Stucturizr([URL]())](images/c4-component-diagrams/profile-component-diagram.png)
+
+### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Diagrama Lucidchart([URL]())](images/class-diagrams/profile-class-diagram.png)
+
+#### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+![Diagrama Vertanelo([URL]())](images/database-diagrams/profile-database-diagram.png)
+
+## 4.2.7. Bounded Context: Subscription Context
+
+### 4.2.7.1. Domain Layer
+
+#### Aggregates
+
+1. **Invoice**:
+  - **Descripción**: Representa la compra de una subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador de la compra
+    - `Amount`: Monto de la compra
+    - `Date`: Fecha de la compra
+    - `SubscriptionId`: Id de la subscripción comprada
+
+2. **Plan**:
+  - **Descripción**: Representa un plan de subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador del plan de subscripción.
+    - `Name`: Nombre del plan
+    - `Service`: Servicio que ofrece el plan
+    - `Price`: Precio del plan
+
+3. **Subscription**:
+  - **Descripción**: Representa una subscripción en la aplicación
+  - **Atributos**:
+    - `Id`: Identificador de la subscripción.
+    - `UserId`: Identificador del usuario que compro la subscripción.
+    - `SubscriptionStatusId`: Identificador del estado de la subscripción.
+    - `PlanId`: Identificador del plan de la subscripción
+    - `VoucherImageUrl`: Imagen del voucher de la subscripción
+
+4. **SubscriptionAudit**:
+  - **Description**: Registro de las fechas de creación o actualización de las subscripciones.
+  - **Atributos**:
+    - `CreatedDate`: Fecha de creación de la subscripción
+    - `UpdatedDate`: Fecha de actualización de la subscripción
+
+#### Entities
+
+1. **SubscriptionStatus**:
+  - **Descripción**: Estado de la subscripción
+  - **Atributos**:
+    - `Id`: Identificador unico del estado de la subscripción.
+    - `Status`: Nombre del estado de la descripción.
+
+#### Value Objects
+
+1. **ESubscriptionStatus**:
+  - **Descripción**: Enumerador para obtener los estados de la subscripción.
+
+#### Commands
+
+1. **ActiveSubscriptionStatusCommand**:
+  - **Descripción**: Comando para modificar el estado de una subscripción a activa.
+
+2. **CreateInvoiceCommand**:
+  - **Descripción**: Comando para crear una compra de una subscripción.
+
+3. **CreatePlanCommand**:
+  - **Descripción**: Comando para crear un plan de subscripción
+
+4. **CreateSubscriptionCommand**:
+  - **Descripción**: Comando para crear una subscripción
+
+5. **CreateSubscriptionPaymentCommand**:
+  - **Descripción**: Comando para crear un pago de una subscripción
+
+6. **SeedSubscriptionPlanCommand**:
+  - **Descripción**: Comando para inicializar los planes de subscripción
+
+7. **SeedSubscripionStatusCommand**:
+  - **Descripción**: Comando para inicializar los estados de subscripción
+
+#### Queries
+
+1. **GetAllInvoicesQuery**:
+  - **Descripción**: Consulta para obtener todas las compras de subscripción.
+
+2. **GetAllPlans**:
+  - **Descripción**: Consulta para obetener todos los planes de subscripción.
+
+3. **GetAllSubscriptionPayments**:
+  - **Descripción**: Consulta para obtener todos los pagos de subscripción.
+
+4. **GetInvoiceByIdQuery**:
+  - **Descripción**: Consulta para obtener una compra de subscripción dado su id.
+
+5. **GetPlanByIdQuery**:
+  - **Descripción**: Consulta para obtener un plan de subscripción dado su id.
+
+6. **GetSubscriptionByIdQuery**:
+  - **Descripción**: Consulta para obtener una subscripción dado su id.
+
+7. **GetSubscriptionByUserIdQuery**:
+  - **Descripción**: Consulta para obtener una subscripción dado el id de el usuario
+
+8. **GetSubscriptionPaymentByIdQuery**:
+  - **Descripción**: Consulta para obtener el pago de una subscripción dado su id
+
+9. **GetSubscriptionsByUserIdQuery**:
+  - **Descripción**: Consulta para obtener todas las subscripciones de un solo usuario.
+
+#### Repositories
+
+1. **IInvoiceRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las compras.
+
+2. **IPlanRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los planes de subscripción.
+
+3. **ISubscriptionRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las subscripciones.
+  - **Métodos**:
+    - `FindByUserIdAsync(int userId)`: Obtiene una subscripción a traves del id de su usuario
+    - `FindByUserIdsListAsync`: Obtiene una lista de subscripciones a traves de una lista de ids de usuarios.
+
+4. **ISubscriptionStatusRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los estados de subscripción.
+  - **Métodos**:
+    - `ExistsBySubscriptionStatus(ESubscriptionStatus subscriptionStatus)`: Verifica si existe un estado.
+
+#### Services
+
+1. **IInvoiceCommandService**:
+  - **Descripción**: Maneja los comandos para la creación de las compras
+  - **Métodos**:
+    - `Handle(CreateInvoiceCommand command)`: Maneja el comando para crear una compra.
+
+2. **IInvoiceQueryService**:
+  - **Descripción**: Maneja las consultas de las compras desde la base de datos
+  - **Métodos**:
+    - `Handle(GetInvoiceByIdQuery query)`: Maneja la consulta para obtener una compra a traves de su id.
+    - `Handle(GetAllInvoicesQuery query)`: Maneja la consulta para obtener todas las compras registradas.
+
+3. **IPlanCommandService**
+  - **Descripción**: Maneja los comandos para la creación de los planes
+  - **Métodos**:
+    - `Handle(CreatePlanCommand command)`: Maneja el comando para la creación de planes de subscripción.
+
+4. **IPlanQueryService**
+  - **Descripción**: Maneja las consultas de los planes desde la base de datos
+  - **Métodos**:
+    - `Handle(GetAllPlansQuery query)`: Maneja la consulta para obtener todos los planes de subscripción.
+
+5. **ISeedSubscriptionPlanCommandService**
+  - **Descripción**: Permite el manejo del comando para la inicialización de los planes de subscripción.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionPlanCommand command)`: Maneja el comando para la inicialización de los planes de subscripción.
+
+6. **ISubscriptionCommandService**
+  - **Descripción**: Permite el manejo de comandos para la creación y activación de las subscripciones
+  - **Métodos**:
+    - `Handle(CreateSubscriptionCommand command)`: Maneja el comando para la creación de subscripciones.
+    - `Handle(ActiveSubscriptionStatusCommand command)`: Maneja el comando para la activación de una subscripciones.
+
+7. **ISubscriptionQueryService**
+  - **Descripción**: Permite el manejo de consultas de las subscripciones desde la base datos.
+  - **Métodos**:
+    - `Handle(GetSubscriptionByIdQuery query)`: Maneja la consulta para obtener una subscripción en base a su id.
+    - `Handle(GetAllSubscriptionsQuery query)`: Maneja la consulta para obtener todas las subscriptiones.
+    - `Handle(GetSubscriptionByUserIdQuery query)`: Maneja la consulta para obtener una subscripción en base a la id de su usuario.
+    - `Handle(GetSubscriptionsByUserIdQuery query)`: Maneja la consulta para obtener todas las subscripciones de un usuario en base a su id.
+
+8. **ISubscriptionStatusCommandService**
+  - **Descripción**: Permite el manejo de comandos para la inicializacion de estados.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionStatusCommand command)`: Maneja la inicialización de los estados.
+
+### 4.2.7.2. Interface Layer
+
+#### Facades
+
+1. **ISubscriptionContextFacade**
+  - **Descripción**: Permite el uso de metodos del bounded context de subscriptions en otros bounded context.
+  - **Métodos**:
+    `GetSubscriptionByUserIdsList(List<int> userIdsList)`: Obtiene las subscripciones de varios usuarios a traves de sus ids.
+    `GetSubscriptionStatusByUserId(int userId)`: Obtiene los estados de la subscripción de un usuario a traves de su id.
+
+#### Controller
+
+1. **InvoiceController**: 
+  - **Descripción**: Expone endpoints para el manejo de las compras dentro de la aplicación
+  - **Métodos**:
+    - `CreateInvoice([CreateInvoiceResource createInvoiceResource)`: Endpoint para crear una compra
+    - `GetInvoices()`: Endpoint para obtener todas las compras.
+    - `GetInvoiceById(int invoiceId)`: Endpoint para obtener una compra en base a su id.
+
+2. **PlanController**:
+  - **Descripción**: Exponer endpoints para el manejo de los planes de subscripción dentro de la aplicación
+  - **Métodos**:
+    - `GetAllPlans()`: Endpoint para obtener todos los planes de subscripción dentro de la aplicación
+
+3. **SubscriptionsController**:
+  - **Descripción**: Exponer endpoints para el manejo de las subscripciones dentro de la aplicación.
+  - **Métodos**:
+    - `CreateSubscription(CreateSubscriptionResource createSubscriptionResource)`: Endpoint para la creación de subscripciones dentro de la aplicación
+    - `GetAllSubscriptions()`: Endpoint para obtener todas las subscripciones dentro de la aplicación
+    - `GetSubscriptionById(int subscriptionId)`: Endpoint para obtener subscripciones en base a su id
+    - `ActiveSubscriptionStatus(int subscriptionId)`: Endpoint para activar una subscripción en base a su id
+
+### 4.2.7.3. Application Layer
+
+#### Command Services (Implementation)
+
+1. **InvoiceCommandService**:
+  - **Descripción**: Maneja los comandos para la creación de las compras
+  - **Métodos**:
+    - `Handle(CreateInvoiceCommand command)`: Maneja el comando para crear una compra.
+
+2. **PlanCommandService**
+  - **Descripción**: Maneja los comandos para la creación de los planes
+  - **Métodos**:
+    - `Handle(CreatePlanCommand command)`: Maneja el comando para la creación de planes de subscripción.
+
+3. **SeedSubscriptionPlanCommandService**
+  - **Descripción**: Permite el manejo del comando para la inicialización de los planes de subscripción.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionPlanCommand command)`: Maneja el comando para la inicialización de los planes de subscripción.
+
+4. **SubscriptionCommandService**
+  - **Descripción**: Permite el manejo de comandos para la creación y activación de las subscripciones
+  - **Métodos**:
+    - `Handle(CreateSubscriptionCommand command)`: Maneja el comando para la creación de subscripciones.
+    - `Handle(ActiveSubscriptionStatusCommand command)`: Maneja el comando para la activación de una subscripciones.
+
+5. **SubscriptionStatusCommandService**
+  - **Descripción**: Permite el manejo de comandos para la inicializacion de estados.
+  - **Métodos**:
+    - `Handle(SeedSubscriptionStatusCommand command)`: Maneja la inicialización de los estados.
+
+#### Query Services (Implementación)
+
+1. **InvoiceQueryService**:
+  - **Descripción**: Maneja las consultas de las compras desde la base de datos
+  - **Métodos**:
+    - `Handle(GetInvoiceByIdQuery query)`: Maneja la consulta para obtener una compra a traves de su id.
+    - `Handle(GetAllInvoicesQuery query)`: Maneja la consulta para obtener todas las compras registradas.
+
+2. **PlanQueryService**
+  - **Descripción**: Maneja las consultas de los planes desde la base de datos
+  - **Métodos**:
+    - `Handle(GetAllPlansQuery query)`: Maneja la consulta para obtener todos los planes de subscripción.
+  
+3. **SubscriptionQueryService**
+  - **Descripción**: Permite el manejo de consultas de las subscripciones desde la base datos.
+  - **Métodos**:
+    - `Handle(GetSubscriptionByIdQuery query)`: Maneja la consulta para obtener una subscripción en base a su id.
+    - `Handle(GetAllSubscriptionsQuery query)`: Maneja la consulta para obtener todas las subscriptiones.
+    - `Handle(GetSubscriptionByUserIdQuery query)`: Maneja la consulta para obtener una subscripción en base a la id de su usuario.
+    - `Handle(GetSubscriptionsByUserIdQuery query)`: Maneja la consulta para obtener todas las subscripciones de un usuario en base a su id.
+
+#### OutboundServices
+
+1. **ExternalUserWithSubscriptionService**
+  - **Descripción**: Permite utilizar metodos del bounded context de usuarios.
+  - **Métodos**:
+    - `UserExists(int id)`: Permite validar si un usuario existe dada su id.
+
+### 4.2.7.4. Infrastructure Layer
+
+#### Repositories (Implementación)
+
+1. **IInvoiceRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las compras.
+
+2. **IPlanRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los planes de subscripción.
+
+3. **ISubscriptionRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de las subscripciones.
+  - **Métodos**:
+    - `FindByUserIdAsync(int userId)`: Obtiene una subscripción a traves del id de su usuario
+    - `FindByUserIdsListAsync`: Obtiene una lista de subscripciones a traves de una lista de ids de usuarios.
+
+4. **ISubscriptionStatusRepository**:
+  - **Descripción**: Permite interactuar con la base de datos para almacenar u obtener datos de los estados de subscripción.
+  - **Métodos**:
+    - `ExistsBySubscriptionStatus(ESubscriptionStatus subscriptionStatus)`: Verifica si existe un estado.
+
+### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Diagrama Stucturizr([URL]())](images/c4-component-diagrams/subscription-component-diagram.png)
+
+### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Diagrama Lucidchart([URL]())](images/class-diagrams/subscription-class-diagram.png)
+
+#### 4.2.7.6.2. Bounded Context Database Design Diagram
+
+![Diagrama Vertanelo([URL]())](images/database-diagrams/subscription-database-diagram.png)
 
 
 </br></br></br>
