@@ -733,6 +733,10 @@ Se ha definido una cierta cantidad de preguntas para cada uno de nuestros segmen
 
 **Preguntas segmento de arrendadores de espacios para eventos:**
 
+El propósito de las entrevistas con arrendadores es comprender sus necesidades, expectativas y preocupaciones respecto a la gestión de sus propiedades destinadas a eventos. Nos interesa conocer su disposición a utilizar una plataforma centralizada como AlquilaFácil para facilitar la administración de reservas, pagos, comunicación con usuarios y resolución de conflictos. También buscamos indagar sobre su interés en herramientas que les brinden mayor visibilidad y control durante el uso de sus espacios.
+
+La información recolectada nos permitirá diseñar funcionalidades que se alineen con sus prioridades, como mecanismos de aprobación de usuarios, sistemas de monitoreo, métodos de pago integrados y soporte ante imprevistos. De este modo, buscamos generar confianza en el uso de la plataforma y ofrecer un valor agregado que optimice su experiencia como anfitriones.
+
 1. ¿Qué tan útil te parecería tener una sola plataforma como AlquilaFácil para gestionar reservas, pagos y comunicación con los usuarios?
 
 2. ¿Te gustaría que los usuarios puedan dejar calificaciones y comentarios sobre tu espacio? ¿Por qué?
@@ -754,6 +758,10 @@ Se ha definido una cierta cantidad de preguntas para cada uno de nuestros segmen
 10. ¿Te interesaría usar tecnología que te permita tener más control sobre el uso de tu espacio sin necesidad de estar presente?
 
 **Preguntas segmento de arrendatarios sociales / usuarios frecuentes de espacios para eventos:**
+
+El propósito de las entrevistas con este segmento es explorar sus hábitos de búsqueda, reservas y uso de espacios para eventos, así como sus expectativas en cuanto a seguridad, transparencia y facilidad en los procesos. Nos interesa saber cuánto valoran las calificaciones, qué tan cómodo les resulta el proceso actual de alquiler y qué tan importante consideran aspectos como la posibilidad de realizar reclamos o recibir notificaciones durante el evento.
+
+Con esta información, podremos construir una experiencia centrada en el usuario que permita encontrar espacios adecuados de forma sencilla y confiable, integrando herramientas que garanticen seguridad, reputación compartida entre usuarios y arrendadores, y comunicación eficiente. Todo esto con el objetivo de crear una plataforma amigable, transparente y funcional.
 
 1. ¿Qué tan útil te parecería una app como AlquilaFácil que te permita ver espacios disponibles, comparar precios y reservar en el mismo lugar?
 
