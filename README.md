@@ -3441,23 +3441,346 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 ---
 # Capitulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines.
+<div align="justify">
+    Un Style Guideline es un conjunto de reglas y normas que definen cómo se debe redactar, diseñar o presentar documentos, contenido web, software u otros trabajos creativos. A continuación, se detallan las especificaciones de los parámetros implementados en la estructura del proyecto.
+</div>
+
 ### 5.1.1. General Style Guidelines.
+
+**Overview:**
+<div align="justify">
+    Deseamos capturar la atención del usuario desde el inicio mediante la creación y el diseño de una perspectiva del producto que establezca una conexión inmediata y reconocible.
+</div>
+<br>
+
+**Brand Overview:**
+<div align="justify">
+     AlquilaFácil es un startup tecnológico fundada en el 2024 por un grupo de estudiantes compuesta por un grupo de estudiantes de la carrera de Ingeniería de Software. Nuestro startup está dedicada a simplificar el proceso de alquiler de espacios para eventos, brindando una plataforma innovadora y accesible para propietarios y organizadores por igual.
+</div>
+<br>
+
+**Brand Name:**
+<div align="justify">
+     Como el startup se trata de alquilar centros para eventos y también para publicitar centros que podrían ser alquilados, se vio conveniente llamarlo “AlquilaFácil”.
+</div>
+<br>
+
+
+
+
+**Typography:**
+<div align="justify">
+     El tamaño elegido para la tipografía por el equipo fue: 
+</div>
+<br>
+
+
+
+
+
+<br>
+**Colors:**
+<div align="justify">
+     La gama de colores elegidos son:
+</div>
+<br>
+
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
+
+<div align="justify">
+    Teniendo en cuenta que tanto para la Web App se han utilizado los mismo estilos base ya predeterminados, como lo son: La tipografía, los colores y el brand del producto AlquilaFacil, hay ciertos aspectos que se diferencian dentro de la versión Mobile y Web. Por ejemplo:
+</div>
+
+<br>
+
+**Toolbar:**
+<div align="justify">
+     Una de las principales notoriedades es la Toolbar, al tratarse de una plataforma Web a diferencia de la contraparte Mobile, se tiene la posibilidad de ser mucho más amplia y tener el contenido más disperso.
+</div>
+<br>
+
+
+
+**Inputs/Buttons:**
+<div align="justify">
+     Al tener mucho más espacio en la pantalla, los inputs y botones de la Web App son mucho más grandes y con mayor espaciado.
+</div>
+<br>
+
+
+
+
+
+
+**Espaciado**
+<div align="justify">
+     Siguiendo lo mencionado antes, teniendo en cuenta que el tamaño de la pantalla de una Web App es mucho más amplio, se puede tener un espacio mejor entre los componentes y elementos para una visibilidad más intuitiva.
+</div>
+<br>
+
+
+
+
+
+
+
+<div align="justify">
+Entre las plataformas de AlquilaFacil Mobile, existe una característica que comparten ambas plataformas del App Moblile, el cuál es la NavBar del aplicativo.
+</div>
+
+<br>
+
+
+**Navbar:**
+<div align="justify">
+    En comparación con la versión de escritorio, la barra de nevagación es mucho más reducida y sintetizada a íconos alusivos a las funcionalidades principales de AlquilaFacil
+</div>
+<br>
+
+**Buttons:**
+<div align="justify">
+    Ambas versiones tanto como para Android e iOS comparten similitudes en todos los aspectos, sin embargo hay ciertos botonos por ejemplo que en la versión de iOS son enfocados más en colores Blancos o Negros, como por ejemplo:
+</div>
+<br>
+
+
+
 ## 5.2. Information Architecture.
+
+<div align="justify">
+    En esta sección, se va a presentar la estructura del software según cada segmento objetivo. Además, los elementos que emplearan para la navegación de esta. 
+</div>
+
 ### 5.2.1. Organization Systems.
+
+<div align="justify">
+    El sistema de organización de AlquilaFácil ha sido diseñado con el objetivo de optimizar la experiencia del usuario, permitiendo una gestión eficiente de la búsqueda y selección de espacios en alquiler. Este sistema se basa en los siguientes componentes clave: 
+</div>
+
+<br>
+
+<div align="justify">
+
+* ***Búsqueda y filtros personalizados:***
+La aplicación incorpora un motor de búsqueda avanzado acompañado de filtros que permiten a los usuarios refinar los resultados según criterios como ubicación, precio y características específicas del espacio.  
+Esto asegura que el usuario solo vea opciones relevantes, facilitando la toma de decisiones.
+
+
+* ***Tarjetas de visualización de espacios:***
+Los espacios disponibles se muestran en formato de tarjetas visuales, donde se presenta la información más importante de manera clara y concisa.  
+Cada tarjeta incluye:
+
+    - Imagen del espacio  
+    - Ubicación  
+    - Precio  
+    - Opción de añadir a favoritos
+
+
+
+* ***Barra de navegación inferio:***
+En la parte inferior de la pantalla se encuentra una barra de navegación que agrupa las principales funciones de la aplicación, como:
+
+    - Búsqueda  
+    - Notificaciones  
+    - Acceso al calendario o eventos  
+    - Gestión de reservas
+
+
+* ***Jerarquización de la información:***
+La información en la interfaz está organizada de manera que los elementos más relevantes, como el precio y la ubicación del espacio, sean inmediatamente visibles. Esto facilita al usuario la evaluación de cada opción sin necesidad de ingresar a detalles adicionales de cada anuncio. 
+</div>
+
+<br>
+
 ### 5.2.2. Labeling Systems.
+
+<div align="justify">
+    El sistema de etiquetado o Labelling System de AlquilaFácil está diseñado para proporcionar claridad y coherencia en la presentación de información, facilitando la comprensión rápida y eficiente de los contenidos por parte del usuario. Este sistema emplea etiquetas visuales y textuales en diferentes áreas clave de la aplicación: 
+</div>
+
+<br>
+
+<div align="justify">
+
+* ***Etiquetas de búsqueda y filtro:***
+En la parte superior de la interfaz, los campos de búsqueda y filtro están claramente etiquetados con íconos universales, como una lupa para la búsqueda y un embudo para los filtros. Estos íconos, junto con textos descriptivos, permiten que los usuarios identifiquen rápidamente las funciones y realicen acciones sin confusión. 
+
+* ***Etiquetas en tarjetas de espacios:***
+Cada tarjeta de espacio cuenta con etiquetas descriptivas que destacan la ubicación y el precio, las cuales están claramente diferenciadas en la interfaz. Estas etiquetas ayudan a los usuarios a identificar los detalles más relevantes de un espacio sin necesidad de interactuar más allá del listado inicial. 
+
+
+* ***Iconos como Etiquetas Visuales:***
+La aplicación utiliza iconos ampliamente reconocidos, como la estrella para "puntuaciones" y el botón de "más" para añadir nuevos espacios, que actúan como etiquetas visuales. Estos iconos, en combinación con sus posiciones estratégicas, ofrecen una experiencia intuitiva, reduciendo la necesidad de explicaciones textuales adicionales. 
+
+* ***Categorías de espacios:***
+Los espacios se pueden clasificar por diferentes tipos o características, lo que permite el uso de etiquetas de categoría. Estas etiquetas aparecen en los resultados de búsqueda para que los usuarios identifiquen rápidamente el tipo de espacio que están viendo (por ejemplo, oficinas, espacios de coworking, etc.). 
+</div>
+
+<br>
+
 ### 5.2.3. SEO Tags and Meta Tags
+
+<div align="justify">
+        Las meta-etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda. 
+</div>
+
+<br>
+
+<div align="justify">
+    
+* ***Título:***
+Las meta etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda.
+
+:::
+```
+<title>Register your processes with AlquilaFacil</title>
+```
+:::
+
+
+* ***Codificación de caracteres:***
+Se decidió usar el utf-8 por la eficiencia de memoria. Es más eficiente en términos de memoria para caracteres del BMP (Plano Multilingüe Básico, que incluye la mayoría de los caracteres comunes).
+
+:::
+```
+<meta charset="utf-8">
+```
+:::
+
+* ***Descripción:***
+Esta etiqueta meta nos permite ofrecer un resumen del contenido de la página web. En ella, proporcionamos una breve descripción de lo que los usuarios pueden esperar visualizar en la página.
+
+:::
+```
+<meta name="description" content="AlquilaFacil is a web application focused on plublish and rent centers for events"/>
+```
+:::
+
+* ***Palabras clave:***
+En esta etiqueta se pone las palabras claves relacionadas con el tema o contenido de la página web.
+:::
+```
+<meta name="keywords" content="publish, rent, management, application, announcements, centers"/> 
+```
+:::
+
+* ***Autor y derechos de autor:***
+Se utiliza para registrar la información del autor de la página web y la propiedad y derechos de autor.
+:::
+```
+<meta name="author" content="AlquilaFacil"/> 
+
+<meta name="copyright" content="Copyright AlquilaFacil team" />
+```
+:::
+
+</div>
+
+<br>
+
+
 ### 5.2.4. Searching Systems.
+
+<div align="justify">
+    El motor de búsqueda es fundamental para que los usuarios encuentren rápidamente detalles específicos 
+</div>
+
+<br>
+
+<div align="justify">
+Características claves: 
+
+* ***Búsqueda por ubicación:***
+Los usuarios podrán buscar centros para eventos cercanos a su ubicación actual o especificar una ubicación deseada.
+
+* ***Búsqueda por características:***
+Los usuarios podrán buscar características específicas, como piscina, parrilla, pet friendly, vigilancia.
+
+* ***Filtros avanzados:***
+Se proporcionarán filtros para refinar la búsqueda, como calificaciones, precios y disponibilidad.
+
+* ***Resultados relevantes:***
+ El sistema de búsqueda mostrará resultados relevantes y ordenados de acuerdo con la ubicación y otros criterios.
+
+</div>
+
+<br>
+
+
 ### 5.2.5. Navigation Systems.
+
+<div align="justify">
+El Navigation System de AlquilaFácil está diseñado para proporcionar una experiencia de usuario fluida, intuitiva y eficiente, permitiendo a los usuarios moverse por la aplicación de manera rápida y sin complicaciones. Este sistema incluye varios elementos clave que optimizan el acceso a las distintas funciones y secciones de la aplicación: 
+</div>
+
+<br>
+
+<div align="justify">
+    
+* ***Barra de Navegación Inferior:***
+La aplicación cuenta con una barra de navegación fija en la parte inferior de la pantalla que agrupa las principales funcionalidades. Los iconos incluidos, como la lupa (búsqueda), la campana (notificaciones), el botón de "+" (añadir nuevo espacio), el calendario (gestión de eventos o reservas) y el perfil (opciones del usuario), permiten un acceso directo a cada sección, facilitando la navegación entre las funciones esenciales sin necesidad de menús desplegables o múltiples clics. 
+
+* ***Navegación Jerárquica:***
+AlquilaFácil implementa un sistema de navegación jerárquica en el que los usuarios pueden profundizar en los detalles de un espacio o acción, pero siempre tienen la opción de volver a la pantalla anterior de manera sencilla. Este enfoque evita que los usuarios se pierdan en la aplicación, manteniendo siempre claro en qué nivel de la jerarquía se encuentran. 
+    
+</div>
+
+<br>
+
 ## 5.3. Landing Page UI Design.
+
+
+
+
+
+**Enlace:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=72-2
+
 ### 5.3.1. Landing Page Wireframe.
+
+
+
+
+**Enlace:** https://www.figma.com/design/iVWEVfK7bp5Ski017EYYZI/AlquilaFacil?node-id=2-259&p=f&t=KCXgjx4xgr76zKvo-0
+
+
 ### 5.3.2. Landing Page Mock-up.
+
+**Enlace:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=2-259
+
 ## 5.4. Applications UX/UI Design.
+
+**Enlace:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=72-2
+
 ### 5.4.1. Applications Wireframes.
+
+**Enlace Desktop:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3769
+
+**Enlace Mobile:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3768
+
 ### 5.4.2. Applications Wireflow Diagrams.
+
+**Enlace:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3769
+
 ### 5.4.2. Applications Mock-ups.
+
+**Enlace Mobile:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=72-5
+
+**Enlace WebPage:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3767
+
+
 ### 5.4.3. Applications User Flow Diagrams.
+
+**Enlace Mobile:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-517
+
+**Enlace WebPage:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3767
+
+
 ## 5.5. Applications Prototyping.
+
+**Enlace Mobile:** https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A517&node-id=76-517&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=76%3A1466
+
+**Enlace WebPage:** https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A3767&node-id=76-3767&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2002%3A8410
 
 ---
 
