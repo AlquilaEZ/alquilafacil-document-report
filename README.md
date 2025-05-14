@@ -100,12 +100,13 @@ Carlos Oswaldo Casimiro Fernandez
 - **Landing Page**
 
 ![image]( images/collaborator_TB1.png)
-![image]( images/network_TB1.png)
+![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
 
 - ** Frontend Web Applications**
 
-ACA EE PONE LO  DE LA REPO DEL FRONTEND
+![image]( images/image_20.jpeg)
 
+---
 
 ## Contenido
 
@@ -1954,20 +1955,20 @@ Mantener la asignación de dispositivos dentro de Booking.
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-![Event Storming](images/imagen_22.png)
+![Event Storming](images/image_21.jpeg)
 
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
-![Event Storming](images/imagen_20.png)
+![Event Storming](images/image_22.jpeg)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
-![Event Storming](images/imagen_21.jpeg)
+![Event Storming](images/image_23.jpeg)
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
-![Event Storming](images/imagen_23.png)
+![Event Storming](images/image_24.jpeg)
   
   
  
@@ -4230,7 +4231,102 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 - <strong>Web Application</strong>
 
-AQUI SE PONE EL DE LA WEB
+
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="11">AlquilaEZ/alquilafacil-web-app</td>
+      <td>/US01</td>
+      <td>14097e9</td>
+      <td>Merge pull request #2 from AlquilaEZ/US07</td>
+      <td>Integración del módulo de filtros con reservas</td>
+      <td>12/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US01</td>
+      <td>d7d9bc3</td>
+      <td>update: module reservation spaces design</td>
+      <td>Diseño actualizado del módulo de reservas</td>
+      <td>12/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US02</td>
+      <td>731d1d1</td>
+      <td>feat: module sign-in completed</td>
+      <td>Funcionalidad de inicio de sesión completada</td>
+      <td>12/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US05</td>
+      <td>000115a</td>
+      <td>feat: add filters search</td>
+      <td>Implementación de filtros de búsqueda</td>
+      <td>13/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US13</td>
+      <td>27974de</td>
+      <td>feat: add locals modification model</td>
+      <td>Modelo para modificar locales implementado</td>
+      <td>13/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US12</td>
+      <td>cad8238</td>
+      <td>feat: reservation of spaces init module</td>
+      <td>Inicio del módulo de reservas de espacios</td>
+      <td>12/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US07</td>
+      <td>d7d9bc3</td>
+      <td>update: module reservation spaces design</td>
+      <td>Mejoras en la presentación del módulo de reservas</td>
+      <td>12/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US06</td>
+      <td>cad8238</td>
+      <td>feat: reservation of spaces init module</td>
+      <td>Implementación del inicio del módulo de reservas</td>
+      <td>12/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US04</td>
+      <td>2917700</td>
+      <td>Update ReservationDetails.page.vue</td>
+      <td>Actualización en la vista de detalles de reserva</td>
+      <td>14/05/2025</td>
+    </tr>
+    <tr>
+      <td>/US04</td>
+      <td>7880321</td>
+      <td>Update ReservationDetails.page.vue</td>
+      <td>Corrección de errores en la vista de reserva</td>
+      <td>14/05/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>b5544ea</td>
+      <td>Create first project</td>
+      <td>Estructura base del proyecto inicializada</td>
+      <td>10/05/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
