@@ -1706,12 +1706,22 @@ También se estructuraron reglas para el disparo automático de alertas al detec
 
 
 <p>En esta etapa final, estructuramos el sistema en Bounded Contexts claramente definidos, agrupando los agregados que comparten responsabilidades, reglas de negocio o interacciones comunes. Esta segmentación permite organizar el dominio en módulos independientes, cada uno con un propósito específico y una lógica coherente.
-Se identificaron cinco contextos principales:
-IAM (Identity and Access Management): encargado de la gestión de identidad, registro, autenticación y control de acceso de los usuarios al sistema.
-Locals: responsable del registro, actualización, visualización y reporte de los locales disponibles para reserva.
-Booking: gestiona todo el ciclo de vida de las reservas, incluyendo su creación, modificación, finalización y calificación posterior.
-Monitoring: controla la recolección de datos desde sensores IoT (como aforo, humo o ruido), valida reglas del local y registra infracciones.
-Notifications: administra el envío de alertas a usuarios o arrendadores cuando se detectan condiciones críticas o eventos relevantes.
+Se identificaron siete contextos principales:
+
+IAM (Identity and Access Management): Encargado de la gestión de identidad, registro, autenticación y control de acceso de los usuarios al sistema.
+
+Locals: Responsable del registro, actualización, visualización y reporte de los locales disponibles para reserva.
+
+Booking: Gestiona todo el ciclo de vida de las reservas, incluyendo su creación, modificación, finalización y calificación posterior.
+
+Monitoring: Controla la recolección de datos desde sensores IoT (como aforo, humo o ruido), valida reglas del local y registra infracciones.
+
+Notifications: Administra el envío de alertas a usuarios o arrendadores cuando se detectan condiciones críticas o eventos relevantes.
+
+Profiles: Administra la información personal del usuario para compartirla con otros usuarios
+
+Subscriptions: Gestiona las suscripciones de los usuarios para acceder a beneficios en la aplicación.
+
 Cada uno de estos contextos delimita claramente su modelo de datos, comandos y eventos, lo que permite mantener una arquitectura modular, trazable y preparada para escalar según las necesidades del sistema.
 </p>
 
@@ -1749,7 +1759,7 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 ![Event Storming](/images/imagen_16.jpeg)
 ![Event Storming](/images/imagen_17.jpeg)
 ![Event Storming](/images/imagen_18.jpeg)
-
+![Event Storming](/images/imagen_18a.jpeg)
 
 
 ### 4.1.2. Context Mapping
@@ -1761,12 +1771,20 @@ Cada uno de estos contextos delimita claramente su modelo de datos, comandos y e
 - Booking
 - Monitoring
 - Notifications
+- Profiles
+- Subscriptions
 ###### 1.2. Identificación de Relaciones Iniciales
-- IAM ⭤ Booking: Relación de Customer/Supplier.
+- IAM ⭤  Booking: Relación de Customer/Supplier.
 - IAM proporciona la autenticación y control de acceso, mientras Booking consume la identidad para permitir la creación de reservas.
-- Locals ⭤ Booking: Relación de Customer/Supplier.
+- IAM ⭤  Locals: Relación de Customer/Supplier.
+- IAM proporciona la autenticación y control de acceso, mientras Locals consume la identidad para permitir la publicación de espacios.
+- IAM ⭤  Profiles: Relación de Customer/Supplier.
+- IAM proporciona la autenticación y control de acceso, mientras Profiles consume la identidad para permitir la visualización de información del usuario.
+- IAM ⭤  Subscriptions: Relación de Customer/Supplier.
+- IAM proporciona la autenticación y control de acceso, mientras Subscriptions consume la identidad para gestionar los beneficios del usuario.
+- Locals ⭤  Booking: Relación de Customer/Supplier.
 - Locals administra la disponibilidad y características de los espacios, Booking consulta esa información para registrar una reserva.
-- Booking ⭤ Monitoring: Relación de Customer/Supplier.
+- Booking ⭤  Monitoring: Relación de Customer/Supplier.
 - Booking genera el inicio y fin de la reserva, mientras Monitoring supervisa el cumplimiento de normas durante ese periodo.
 - Monitoring ⭤ Notifications: Relación de Conformist.
 - Notifications se adapta a los eventos generados por Monitoring para emitir alertas sin modificar la estructura de los datos.
@@ -1810,7 +1828,7 @@ No dividir Monitoring aún, salvo que se presenten cuellos de botella o necesida
 Evitar compartir kernels entre contexts; priorizar integración por eventos públicos.
 Mantener la asignación de dispositivos dentro de Booking.
 ##### 4. Patrones de Relaciones Sugeridos
-- Customer/Supplier: IAM ⭤ Booking, Locals ⭤ Booking, Booking ⭤ Monitoring
+- Customer/Supplier: IAM ⭤ Booking, Locals ⭤ Booking, Booking ⭤ Monitoring, IAM ⭤ Subscription, IAM ⭤ Profiles
 - Conformist: Monitoring ⭤ Notifications, Booking ⭤ Notifications
 - Published Language: Monitoring publica eventos con estructura conocida para consumo externo (ej. por Notifications)
 - Anti-Corruption Layer (ACL): Podría evaluarse entre Monitoring y cualquier motor externo de validación de reglas en el futuro
