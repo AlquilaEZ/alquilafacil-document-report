@@ -4462,10 +4462,11 @@ La coordinación del equipo se realizó principalmente a través de **Discord**,
 
 <div align="justify">
 
-+ Video de exposición TB1: https://upcedupe-my.sharepoint.com/:f:/g/personal/u202212077_upc_edu_pe/EsajcJikO3pChqWobVLM7LsBUxbNd-ZJkHe5819nZ3CYpQ?e=xmGXjS
++ Video de exposición TB1: [Video de exposicion TB1]( https://upcedupe-my.sharepoint.com/:f:/g/personal/u202212077_upc_edu_pe/EsajcJikO3pChqWobVLM7LsBUxbNd-ZJkHe5819nZ3CYpQ?e=xmGXjS)
 
 </br>
 
-+ Video de exposición TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EbgXaEsblztHr3QDTp_3tEcBpu1dyWznIhmRogN6Vxsm8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vuXZZX
++ Video de exposición TP: [Video de exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EbgXaEsblztHr3QDTp_3tEcBpu1dyWznIhmRogN6Vxsm8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vuXZZX)
+
 
 </div>
