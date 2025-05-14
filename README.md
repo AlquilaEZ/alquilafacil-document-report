@@ -102,9 +102,10 @@ Carlos Oswaldo Casimiro Fernandez
 ![image]( images/collaborator_TB1.png)
 ![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
 
-- ** Frontend Web Applications**
+** Frontend Web Applications**
+![image]( images/image_27.jpeg)
 
-![image]( images/image_20.jpeg)
+![image]( images/image_26.jpeg)
 
 ---
 
@@ -4009,7 +4010,7 @@ Se empleó la metodología Git Flow con el objetivo de mantener un mayor control
 Esta estrategia facilitó la organización del trabajo mediante distintas ramas: una rama principal (main), que contiene la versión estable y lista para presentación, libre de errores; una rama de desarrollo (develop), que actúa como punto de integración de los avances realizados en otras ramas; además de ramas específicas creadas para implementar funcionalidades importantes del sistema y para el desarrollo de cada capítulo del reporte final.
 
 - <strong>Web Application</strong>
-![Diagrama Vertanelo([URL]())](images/cap6_image1.jpeg)
+![Diagrama Vertanelo([URL]())](images/image_26.jpeg)
 
 - <strong>Landing page</strong>
 ![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
@@ -4338,8 +4339,10 @@ Como resulado del primer Sprimt, se presenta el despliegue de la Landing Page, a
 <strong>Landing Page:</strong> https://guileless-gaufre-89df8f.netlify.app/src/#hero
 ![Diagrama Vertanelo([URL]())](images/cap6_image3.jpeg)
 </br>
-<strong>Web Application:</strong>
-ACA VA LA IMAGEN DE LA WEB APP DESPLEGLEADA
+
+
+<strong>Web Application:</strong> https://alquila-facil-app-iot.netlify.app/sign-in
+![Diagrama Vertanelo([URL]())](images/image_25.jpeg)
 
 
 
@@ -4350,7 +4353,7 @@ A continuación se presentan los enlaces a los productos desplegados durante el 
 | Servicio             | Descripción                                          | URL de despliegue                                 |
 |----------------------|------------------------------------------------------|---------------------------------------------------|
 | Landing Page         | Sitio informativo de AlquilaFácil con navegación     | https://guileless-gaufre-89df8f.netlify.app/src/#hero       |
-| Aplicación Web       | Plataforma operativa para arrendadores y arrendatarios | (pendiente)  |
+| Aplicación Web       | Plataforma operativa para arrendadores y arrendatarios | https://alquila-facil-app-iot.netlify.app/sign-in |
 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
@@ -4402,7 +4405,7 @@ La coordinación del equipo se realizó principalmente a través de **Discord**,
   Se logró mantener un flujo constante de integración y revisión de código sin conflictos mayoresTodos los miembros del equipo realizaron commits y participaron activamente en el proceso de desarrollo. La colaboración fue efectiva, permitiendo cumplir con los objetivos del sprint, completar la primera versión de la Landing Page y avanzar significativamente en la interfaz del sistema.
   </br>
 <strong>Web Application</strong>
-![Diagrama Vertanelo([URL]())](images/cap6_image1.jpeg)
+![Diagrama Vertanelo([URL]())](images/image_26.jpeg)
 <strong>Landing page</strong>
 ![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
 
@@ -4458,6 +4461,10 @@ La coordinación del equipo se realizó principalmente a través de **Discord**,
 
 <div align="justify">
 
-+ Video de exposición: https://upcedupe-my.sharepoint.com/:f:/g/personal/u202212077_upc_edu_pe/EsajcJikO3pChqWobVLM7LsBUxbNd-ZJkHe5819nZ3CYpQ?e=xmGXjS
++ Video de exposición TB1: https://upcedupe-my.sharepoint.com/:f:/g/personal/u202212077_upc_edu_pe/EsajcJikO3pChqWobVLM7LsBUxbNd-ZJkHe5819nZ3CYpQ?e=xmGXjS
+
+</br>
+
++ Video de exposición TP: 
 
 </div>
