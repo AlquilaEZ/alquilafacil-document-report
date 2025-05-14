@@ -3553,7 +3553,7 @@ Entre las plataformas de AlquilaFacil Mobile, existe una característica que com
 <br>
 
 
-## IoT Guidelines
+## Io Guidelines
 En esta parte sedescribe los lineamientos técnicos para la implementación de sensores de movimiento, humo y ruido en un entorno simulado utilizando Wokwi. El objetivo es establecer una base sólida para el desarrollo, simulación y posterior migración a dispositivos físicos reales, asegurando buenas prácticas en diseño, seguridad y escalabilidad.
 
 ---
