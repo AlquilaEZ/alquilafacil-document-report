@@ -3482,16 +3482,18 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 </div>
 <br>
 
-
-
+![Artefacto creado en Canva](resources/Style%20Guidelines/Typography.png) 
 
 
 <br>
+
 **Colors:**
 <div align="justify">
      La gama de colores elegidos son:
 </div>
 <br>
+
+![Artefacto creado en Canva](resources/Style%20Guidelines/Colors.png) 
 
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
@@ -3508,7 +3510,7 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 </div>
 <br>
 
-
+![Artefacto creado en Canva](resources/Web%20Styles/WebNavbar.png) 
 
 **Inputs/Buttons:**
 <div align="justify">
@@ -3516,9 +3518,7 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 </div>
 <br>
 
-
-
-
+![Artefacto creado en Canva](resources/Web%20Styles/WebInputs.png) 
 
 
 **Espaciado**
@@ -3527,10 +3527,9 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 </div>
 <br>
 
+![Artefacto creado en Canva](resources/Web%20Styles/WebSpacing.png) 
 
-
-
-
+## Mobile Guidelines
 
 
 <div align="justify">
@@ -3546,14 +3545,19 @@ Entre las plataformas de AlquilaFacil Mobile, existe una característica que com
 </div>
 <br>
 
+![Artefacto creado en Canva](resources/Mobile%20Styles/MobileBar.png) 
+
+
 **Buttons:**
 <div align="justify">
     Ambas versiones tanto como para Android e iOS comparten similitudes en todos los aspectos, sin embargo hay ciertos botonos por ejemplo que en la versión de iOS son enfocados más en colores Blancos o Negros, como por ejemplo:
 </div>
 <br>
 
+![Artefacto creado en Canva](resources/Mobile%20Styles/AndroidBackButton.png) 
 
-## Io Guidelines
+
+## IoT Guidelines
 En esta parte sedescribe los lineamientos técnicos para la implementación de sensores de movimiento, humo y ruido en un entorno simulado utilizando Wokwi. El objetivo es establecer una base sólida para el desarrollo, simulación y posterior migración a dispositivos físicos reales, asegurando buenas prácticas en diseño, seguridad y escalabilidad.
 
 ---
@@ -3799,56 +3803,116 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
 <br>
 
 ## 5.3. Landing Page UI Design.
-
-
-
-
-
-**Enlace:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=72-2
-
 ### 5.3.1. Landing Page Wireframe.
 
+![Artefacto creado en Figma](resources/Landing%20Page%20UXUI/LandingWirefram-1.png) 
 
+![Artefacto creado en Figma](resources/Landing%20Page%20UXUI/LandingWirefram-2.png) 
 
+![Artefacto creado en Figma](resources/Landing%20Page%20UXUI/LandingWirefram-3.png) 
 
 **Enlace:** https://www.figma.com/design/iVWEVfK7bp5Ski017EYYZI/AlquilaFacil?node-id=2-259&p=f&t=KCXgjx4xgr76zKvo-0
 
 
 ### 5.3.2. Landing Page Mock-up.
 
+![Artefacto creado en Figma](resources/Landing%20Page%20UXUI/LandingMockup-1.png) 
+
+![Artefacto creado en Figma](resources/Landing%20Page%20UXUI/LandingMockup-2.png) 
+
+<p align="center">
+  <img src="Resources/Landing Page UXUI/LandingMockup-3.png" alt="Artefacto creado en Figma" />
+  <img src="Resources/Landing Page UXUI/LandingMockup-4.png" alt="Artefacto creado en Figma" />
+</p>
+
 **Enlace:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=2-259
 
 ## 5.4. Applications UX/UI Design.
-
-**Enlace:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=72-2
-
 ### 5.4.1. Applications Wireframes.
 
-**Enlace Desktop:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3769
+![Artefacto creado en Figma](Resources/Web%20Page%20UXUI/WebWireframe-1.png) 
+
+![Artefacto creado en Figma](Resources/Web%20Page%20UXUI/WebWireframe-2.png) 
+
+![Artefacto creado en Figma](Resources/Web%20Page%20UXUI/WebWireframe-3.png) 
+
+![Artefacto creado en Figma](Resources/Web%20Page%20UXUI/WebWireframe-4.png) 
+
+**Enlace WebPage:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3769
+
+![Artefacto creado en Figma](resources/Mobile%20Application%20UXUI/Wireframe-1.png) 
+
+![Artefacto creado en Figma](resources/Mobile%20Application%20UXUI/Wireframe-2.png) 
+
+![Artefacto creado en Figma](resources/Mobile%20Application%20UXUI/Wireframe-3.png) 
 
 **Enlace Mobile:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3768
 
 ### 5.4.2. Applications Wireflow Diagrams.
 
-**Enlace:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3769
+## WebPage
+
+![Artefacto creado en Overflow](Resources/Wireflow%20Diagrams/WebWireflow1.png)
+
+![Artefacto creado en Overflow](Resources/Wireflow%20Diagrams/WebWireflow2.png)
+
+
+## Android
+
+![Artefacto creado en Overflow](Resources/Wireflow%20Diagrams/MobileWireflow1.png)
+
+![Artefacto creado en Overflow](Resources/Wireflow%20Diagrams/MobileWireflow2.png)
+
 
 ### 5.4.2. Applications Mock-ups.
 
-**Enlace Mobile:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=72-5
+![Artefacto creado en Figma](Resources/Web%20Page%20UXUI/WebMockup-1.png) 
+
+![Artefacto creado en Figma](Resources/Web%20Page%20UXUI/WebMockup-2.png) 
+
+![Artefacto creado en Figma](Resources/Web%20Page%20UXUI/WebMockup-3.png) 
 
 **Enlace WebPage:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3767
+
+![Artefacto creado en Figma](Resources/Mobile%20Application%20UXUI/Mockup-1.png) 
+
+![Artefacto creado en Figma](Resources/Mobile%20Application%20UXUI/Mockup-2.png) 
+
+![Artefacto creado en Figma](Resources/Mobile%20Application%20UXUI/Mockup-3.png) 
+
+**Enlace Mobile:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=72-5
+
 
 
 ### 5.4.3. Applications User Flow Diagrams.
 
-**Enlace Mobile:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-517
+## Web Page
 
-**Enlace WebPage:** https://www.figma.com/design/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=76-3767
+![Artefacto creado en Overflow](Resources/Userflow%20Diagrams/WebUserflow1.png)
+
+![Artefacto creado en Overflow](Resources/Userflow%20Diagrams/WebUserflow2.png)
+
+## Android
+
+![Artefacto creado en Overflow](Resources/Userflow%20Diagrams/MobileUserflow1.png)
+
+![Artefacto creado en Overflow](Resources/Userflow%20Diagrams/MobileUserflow2.png)
+
+![Artefacto creado en Overflow](Resources/Userflow%20Diagrams/MobileUserflow3.png)
 
 
 ## 5.5. Applications Prototyping.
 
-**Enlace Mobile:** https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A517&node-id=76-517&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=76%3A1466
+![Artefacto creado en Figma](Resources/Mobile%20Application%20UXUI/Prototype-1.png)
+
+**Enlace Mobile Android:** https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9/AlquilaFacil--IoT-?node-id=105-4793&p=f&t=KcyIhvbiCsSOhkGb-0&scaling=scale-down&content-scaling=fixed&page-id=72%3A3&starting-point-node-id=105%3A4793
+
+
+![Artefacto creado en Figma](Resources/Mobile%20Application%20UXUI/iosPrototypeEvidence.png) 
+
+**Enlace Mobile IOS:** https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A517&node-id=76-517&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=76%3A1466
+
+
 
 **Enlace WebPage:** https://www.figma.com/proto/xgTMj9suBtUHH4bUyKpfq9?page-id=76%3A3767&node-id=76-3767&p=f&t=wbbhV2RsUAl2DKQg-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2002%3A8410
 
