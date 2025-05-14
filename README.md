@@ -3473,7 +3473,7 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 </div>
 <br>
 
-
+![Artefacto creado en Canva](resources/Style%20Guidelines/Background-AlquilaFacil.png) 
 
 
 **Typography:**
