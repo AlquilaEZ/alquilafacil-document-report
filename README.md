@@ -3553,6 +3553,68 @@ Entre las plataformas de AlquilaFacil Mobile, existe una característica que com
 <br>
 
 
+## IoT Guidelines
+En esta parte sedescribe los lineamientos técnicos para la implementación de sensores de movimiento, humo y ruido en un entorno simulado utilizando Wokwi. El objetivo es establecer una base sólida para el desarrollo, simulación y posterior migración a dispositivos físicos reales, asegurando buenas prácticas en diseño, seguridad y escalabilidad.
+
+---
+
+**Sensores Utilizados**
+
+| Tipo de Sensor        | Modelo Sugerido    | Tipo de Señal | Función                           |
+|------------------------|---------------------|----------------|------------------------------------|
+| Movimiento             | PIR HC-SR501         | Digital        | Detecta presencia o movimiento     |
+| Humo/Gases             | MQ-2                 | Analógica      | Mide concentración de gases        |
+| Ruido/Ambiente Sonoro  | Micrófono analógico  | Analógica      | Detecta intensidad del sonido      |
+
+---
+
+**Librerías y Dependencias**
+
+| Sensor      | Librería Recomendada      | Propósito                                   |
+|-------------|---------------------------|---------------------------------------------|
+| MQ-2        | `MQUnifiedsensor`         | Calibración, regresión y lectura de ppm     |
+| PIR         | No requiere               | Lectura digital directa                     |
+| Micrófono   | No requiere               | Lectura analógica directa                   |
+
+> En Wokwi, las simulaciones suelen funcionar sin necesidad de instalar librerías, pero se recomienda su uso para mantener fidelidad con hardware real.
+
+---
+
+**Lineamientos Técnicos (IoT Guidelines)**
+
+**Diseño Modular**
+- Separar la lógica de cada sensor en funciones o bloques independientes.
+- Facilitar el mantenimiento y futuras expansiones del sistema.
+
+**Buenas Prácticas**
+- Evitar el uso de funciones bloqueantes (`delay()`), emplear temporizadores no bloqueantes (`millis()`).
+- Definir umbrales personalizables para cada tipo de sensor.
+- Utilizar estructuras de datos para representar lecturas de sensores de forma estandarizada (ej. JSON).
+
+**Comunicación de Datos**
+- Para simulación: enviar datos por consola serial en formato estructurado (ej. JSON).
+- Para implementación real: considerar protocolos como MQTT o HTTP para transmisión a la nube.
+- Preparar el sistema para emitir alertas basadas en condiciones específicas (ej. detección de gas o ruido elevado).
+
+**Seguridad Básica (aplicable a entorno físico)**
+- Uso de identificadores únicos por dispositivo.
+- Encriptación de datos en tránsito (cuando se conecten a la red).
+- Control de acceso a interfaces y configuraciones.
+
+---
+
+**Configuración en Wokwi**
+
+| Sensor     | Pin sugerido | Tipo de Lectura     |
+|------------|---------------|----------------------|
+| PIR        | D2            | Digital (`HIGH`/`LOW`) |
+| MQ-2       | A0            | Analógica (ppm)       |
+| Micrófono  | A1            | Analógica (nivel)     |
+
+> Se recomienda utilizar resistencias de pull-down o pull-up según el comportamiento observado en la simulación para evitar fluctuaciones no deseadas.
+
+---
+
 
 ## 5.2. Information Architecture.
 
