@@ -102,7 +102,8 @@ Carlos Oswaldo Casimiro Fernandez
 ![image]( images/collaborator_TB1.png)
 ![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
 
-** Frontend Web Applications**
+  - **Frontend Web Application**
+  
 ![image]( images/image_27.jpeg)
 
 ![image]( images/image_26.jpeg)
@@ -4465,6 +4466,6 @@ La coordinación del equipo se realizó principalmente a través de **Discord**,
 
 </br>
 
-+ Video de exposición TP: 
++ Video de exposición TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EbgXaEsblztHr3QDTp_3tEcBpu1dyWznIhmRogN6Vxsm8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vuXZZX
 
 </div>
