@@ -4601,6 +4601,80 @@ Se aplicó la metodología **GitFlow Workflow**, lo que permitió distribuir el 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
 Para este apartado se visualiza la colaboración realizada para el backend
 
+
+### 6.3. Validation Interviews.
+
+
+### 6.3.1. Diseño de entrevistas.
+
+### Segmento 1: Arrendadores de espacios para eventos
+
+**Objetivo:** Validar la utilidad, facilidad de uso y valor percibido de la plataforma para propietarios de espacios que ofrecen alquiler.
+
+#### 1. Contexto del negocio
+
+- a. ¿Qué tipo de espacios ofreces para alquiler y con qué frecuencia los alquilas?  
+- b. ¿Qué herramientas utilizas actualmente para gestionar reservas y clientes?  
+- c. ¿Has tenido problemas relacionados a la gestión, pagos o comportamientos de los arrendatarios? ¿Cuáles?
+
+#### 2. Interacción con la Landing Page
+
+- a. ¿La información presentada en la landing page transmite claramente los beneficios de usar AlquilaFácil?  
+- b. ¿Encontraste fácil el proceso para registrar o publicar tu espacio? ¿Qué parte te resultó más confusa?  
+- c. ¿Qué aspecto visual o funcional mejorarías en la landing page?
+
+#### 3. Experiencia con la Aplicación Web/Móvil
+
+- a. ¿Cómo calificarías la facilidad para gestionar tus espacios desde la aplicación (escala 1 a 5)?  
+- b. ¿Pudiste configurar las reglas del espacio y monitorear las reservas sin dificultad?  
+- c. ¿Qué funcionalidades consideras imprescindibles que aún no están disponibles?
+
+#### 4. Percepción general
+
+- a. ¿Qué te motivaría a usar esta plataforma en lugar de tus métodos actuales?  
+- b. ¿Cómo percibes el valor de herramientas como alertas en tiempo real o reportes automáticos?  
+- c. ¿Pagarías por planes premium con mayor visibilidad o herramientas de gestión avanzadas?
+
+---
+
+### Segmento 2: Arrendatarios sociales o corporativos
+
+**Objetivo:** Validar la experiencia de búsqueda, reserva y confianza en la plataforma para personas o empresas que alquilan espacios para eventos.
+
+#### 1. Contexto personal o profesional
+
+- a. ¿Con qué frecuencia necesitas alquilar espacios para eventos? ¿Para qué tipo de actividades?  
+- b. ¿Qué plataformas o métodos usas actualmente para buscar y reservar espacios?  
+- c. ¿Qué problemas has tenido en experiencias pasadas al alquilar espacios?
+
+#### 2. Interacción con la Landing Page
+
+- a. ¿La información de los espacios está clara y te ayuda a tomar decisiones?  
+- b. ¿El proceso de búsqueda y filtrado de espacios fue intuitivo? ¿Qué mejorarías?  
+- c. ¿Confías en la plataforma tras navegar por la landing page? ¿Qué faltó?
+
+#### 3. Experiencia con la Aplicación Web/Móvil
+
+- a. ¿Pudiste realizar todo el flujo de reserva sin dificultades? ¿Dónde te atascaste?  
+- b. ¿Qué tan útil te parecieron los elementos como reseñas, calificaciones y verificación de espacios?  
+- c. ¿Te gustaría contar con herramientas de seguridad o control durante el evento?
+
+#### 4. Percepción general
+
+- a. ¿Qué valor le ves a AlquilaFácil frente a otras plataformas conocidas como Airbnb o Booking?  
+- b. ¿Qué te motivaría a recomendar esta app a otras personas o empresas?  
+- c. ¿Qué nivel de confianza necesitas para realizar el pago por la plataforma?
+
+
+### 6.3.2. Registro de entrevistas.
+
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+
+### 6.4. Video About-the-product.
+
+
 - ####   Canales de comunicación
 
 La coordinación del equipo se realizó principalmente a través de **Discord**, donde se llevaron a cabo reuniones remotas para definir tareas, revisar avances y resolver bloqueos. Adicionalmente, se utilizaron **mensajes por WhatsApp** para recordatorios y organización rápida. Esta combinación permitió una comunicación fluida y en tiempo real.
