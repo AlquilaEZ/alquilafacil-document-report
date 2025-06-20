@@ -4670,7 +4670,6 @@ Para este apartado se visualiza la colaboración realizada para el backend
 
 
 ### 6.3.3. Evaluaciones según heurísticas.
----
 
 #### Participante 1: 
 
@@ -4703,7 +4702,6 @@ Para este apartado se visualiza la colaboración realizada para el backend
    - No se identificaron problemas críticos de navegación o comprensión.  
    - Se recomienda mejorar el contraste de ciertos textos en móviles para mayor accesibilidad visual.
 
----
 
 #### Participante 2: 
 
