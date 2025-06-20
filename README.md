@@ -4737,6 +4737,7 @@ Para este apartado se visualiza la colaboración realizada para el backend
    - Necesidad de mayor visibilidad de navegación al interior de la plataforma web.
 
 ### 6.4. Video About-the-product.
+[LINK DEL VIDEO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115412_upc_edu_pe/Ea_wCru4a9ZFsCYCMa1dbD4BTQiqW0TPH7zt44V7NpEpcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=icJPgt)
 
 
 - ####   Canales de comunicación
