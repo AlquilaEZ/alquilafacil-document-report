@@ -3949,7 +3949,7 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
   </tr>
   <tr>
     <td></td>
-    <td>MySQL Workbench<br>Herramienta para el diseño y modelado visual de bases de datos relacionales.</td>
+    <td>Vertabelo<br>Herramienta para el diseño y modelado visual de bases de datos relacionales.</td>
   </tr>
   <tr>
     <td></td>
@@ -3969,10 +3969,6 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
   </tr>
   <tr>
     <td></td>
-    <td>Node.js<br>Entorno de ejecución JavaScript utilizado para el desarrollo de funcionalidades del backend de forma escalable.</td>
-  </tr>
-  <tr>
-    <td></td>
     <td>GitHub<br>Plataforma basada en Git que se usó para alojar el repositorio del proyecto y coordinar el trabajo en equipo.</td>
   </tr>
   <tr>
@@ -3989,32 +3985,56 @@ AlquilaFácil implementa un sistema de navegación jerárquica en el que los usu
   </tr>
   <tr>
     <td></td>
-    <td>VS Code<br>Editor de código fuente ligero y extensible que facilitó el desarrollo del sistema con múltiples extensiones útiles.</td>
-  </tr>
-  <tr>
-    <td></td>
     <td>Vue.js<br>Framework progresivo para construir interfaces de usuario dinámicas y componentes reutilizables en el frontend.</td>
   </tr>
   <tr>
+    <td></td>
+    <td>C#<br>Lenguaje de programación moderno y orientado a objetos, usado principalmente en aplicaciones empresariales y en desarrollo con tecnologías Microsoft.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>ASP.NET<br>Framework de desarrollo web de Microsoft que permite crear aplicaciones web robustas y escalables con C#.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Python<br>Lenguaje de programación versátil y legible, utilizado para el desarrollo rápido de aplicaciones, scripts, y servicios backend.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>FastAPI<br>Framework moderno y de alto rendimiento para construir APIs con Python, ideal para microservicios y servicios RESTful.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>C++<br>Lenguaje de programación de alto rendimiento orientado a sistemas embebidos, controladores y aplicaciones donde el uso eficiente de recursos es crítico.</td>
+  </tr>
+  <tr>
     <td>Software Deployment</td>
-    <td>Netlify<br>Servicio en la nube que permitió desplegar la landing page del sistema de forma automática, continua y con URL pública.</td>
+    <td>Netlify<br>Servicio en la nube que permitió desplegar la landing page y Web Application del sistema de forma automática, continua y con URL pública.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Render<br>Servicio en la nube que permitió desplegar el Web Service y Edge Node de forma automática, continua y con URL pública.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Wokwi<br>Plataforma en línea que permitió desplegar la Embebbed App con URL pública.</td>
   </tr>
 </table>
 
 
-
 ### 6.1.2. Source Code Management.
-
 
 Se empleó la metodología Git Flow con el objetivo de mantener un mayor control sobre la gestión del proyecto y permitir el desarrollo simultáneo tanto de la implementación de la aplicación como de la elaboración del informe.
 
 Esta estrategia facilitó la organización del trabajo mediante distintas ramas: una rama principal (main), que contiene la versión estable y lista para presentación, libre de errores; una rama de desarrollo (develop), que actúa como punto de integración de los avances realizados en otras ramas; además de ramas específicas creadas para implementar funcionalidades importantes del sistema y para el desarrollo de cada capítulo del reporte final.
 
 - <strong>Web Application</strong>
-![Diagrama Vertanelo([URL]())](images/image_26.jpeg)
 
-- <strong>Landing page</strong>
-![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
+  ![Diagrama Git Flow Web App([URL]())](images/image_26.jpeg)
+
+- <strong>Landing Page</strong>
+
+  ![Diagrama Git Flow Landing Page App([URL]())](images/cap6_image2.jpeg)
 
 URL del repositorio del Report en GitHub: https://github.com/AlquilaEZ/alquilafacil-document-report
 
@@ -4024,25 +4044,51 @@ URL del repositorio del Frontend en Github: https://github.com/AlquiladorEZ/Alqu
 
 
 ### 6.1.3. Source Code Style Guide & Conventions.
-HTML es un lenguaje de marcado utilizado para estructurar el contenido de una página web. A través de etiquetas, permite definir distintos tipos de elementos como textos, imágenes, videos, entre otros.
-
-Convenciones comunes en HTML:
-
-- La primera línea del archivo debe incluir la declaración del tipo de documento.
-
-- Las etiquetas deben escribirse siempre en minúsculas, lo que favorece la claridad y uniformidad del código.
-
-- Es recomendable usar comillas al asignar valores a los atributos para mejorar la legibilidad.
-
-CSS es un lenguaje diseñado para aplicar estilos a los elementos HTML. Permite crear interfaces visuales más atractivas y usables para los usuarios.
-
-Convenciones comunes en CSS:
-
-- Utilizar guiones para separar palabras en nombres de clases compuestas (por ejemplo: .box-container) mejora la lectura.
-
-- Preferir la unidad de medida rem favorece la adaptabilidad del diseño a diferentes tamaños de pantalla, promoviendo un diseño responsive.
 
 
+**Lenguaje Markdown**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| The Markdown Guide: https://www.markdownguide.org/ | Consideramos guiarnos de la guía oficial de markdown para tener mayor noción de trabajo con el uso de esta tecnología. Usaremos el archivo .md para todo lo que es descripción o información del proyecto. |
+
+
+**Lenguaje Gherkin**
+
+| Referencias Adoptadas | Explicación y Convenciones|
+|-----------|-----------|
+| Gherkin Conventions for Readable Specifications: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ | Consideramos guiarnos y aprender de la documentación situada en la referencia indicada, porque necesitamos tener ideas de cómo trabajar bajo ese lenguaje y poder usar de manera adecuada las herramientas.| Gherkin Conventions for Readable Specifications: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ | Consideramos guiarnos y aprender de la documentación situada en la referencia indicada, porque necesitamos tener ideas de cómo trabajar bajo ese lenguaje y poder usar de manera adecuada las herramientas. |
+
+**Lenguaje HTML y CSS**
+| Referencias Adoptadas | Explicación y Convenciones |
+|-----------|-----------|
+| Html Style Guide and Coding Conventions: https://google.github.io/styleguide/htmlcssguide.html | Consideramos que será beneficioso guiarnos y aprender de la documentación de la referencia indicada, ya que contiene una gran cantidad de información sobre las etiquetas HTML. Esto es fundamental para su uso en nuestros proyectos. | Google HTML/ CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html | Consideramos guiarnos con la documentación de Google para tener una lista de recomendaciones que nos ayude a mejorar la estructura de nuestras páginas. |Vue Style Guide: https://vuejs.org/v2/style-guide/|Consideramos guiarnos de la documentación oficial de Vue.JS para estudiar la sintaxis, buenas prácticas, recomendaciones, etc. De esta manera podremos desarrollar un mejor producto de Software.|
+
+**Lenguaje C#**
+
+| Referencias Adoptadas | Explicación y Convenciones|
+|-----------|-----------|
+| C# Coding Conventions: https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions | Consideramos en utilizar la documentación de Microsoft  para aprender buenas prácticas y sintaxis de C#, puesto que lo utilizaremos en el desarrollo del Back-end. | Microsoft ASP .NET Core Coding Guidelines: https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines | Consideramos en utilizar la documentación de la referencia especificada para estudiar y aprender buenas prácticas, convenciones y cómo integrar código C# a ASP .NET Core, ya que lo utilizaremos en el backend de nuestros productos. |
+
+
+**Lenguaje Dart**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| Dart Style Guide: https://dart.dev/effective-dart/style | Dart ofrece en su documentación, algunas practicas, estilos y nomenclaturas para tanto la declaracionde de funciones, carpetas, clases, etc. |
+
+
+**Lenguaje Python**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| Python Style Guide: https://www.python.org/doc/essays/styleguide/ | Usamos las convenciones determinadas por la organización detrás de Python, para una amplia noción de las nomenclaturas y buenas practicas para la elaboración de la Api. |
+
+**Lenguaje C++**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| C++ Core Guidelines: https://isocpp.github.io/CppCoreGuidelines/ | Aplicamos las pautas modernas recomendadas por la comunidad C++, enfocándonos en el uso seguro de punteros, manejo eficiente de memoria, programación orientada a objetos y separación clara entre interfaz y lógica de implementación, especialmente en el desarrollo de componentes embebidos. |
 
 
 ### 6.1.4. Software Deployment Configuration.
@@ -4100,6 +4146,16 @@ Para llevar a cabo el despliegue de la landing page, se utilizaron diversas herr
     <td colspan="2"><b>Sprint Goal & User Stories</b></td>
   </tr>
   <tr>
+  <td><b>Sprint 1 Goal</b></td>
+  <td>
+    <strong>Our focus is on</strong> presenting a landing page that highlights the main benefits of using the application, aiming to attract and engage potential users. This serves as the entry point to the web application, which includes core features such as user registration, space publication, reservation management, subscription handling, and notification delivery.
+    <br><br>
+    <strong>We believe it delivers</strong> a compelling first impression and provides users with the essential tools to begin interacting with the platform, managing their spaces, and engaging with the marketplace from the very first login.
+    <br><br>
+    <strong>This will be confirmed</strong> through user testing on the landing page, successful navigation to the web app, and full functionality across all implemented features.
+  </td>
+</tr>
+  <tr>
     <td><b>Sprint 1 Velocity</b></td>
     <td>68</td>
   </tr>
@@ -4135,17 +4191,24 @@ En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lis
 
 **Enlace del tablero:** https://trello.com/b/63Zub4fa/product-backlog-iot
 
-| **User Story ID** | **US Title**                          | **Task ID** | **Task Title**                                   | **Description**                                           | **Estimation (Hours)** | **Assigned To**                       | **Status** |
-|------------------|----------------------------------------|-------------|--------------------------------------------------|-----------------------------------------------------------|------------------------|----------------------------------------|------------|
-| US01             | Registrar usuario                      | T-01-1      | Tarea técnica para registrar usuario             | Implementar funcionalidad: Registrar usuario              | 6                      | Mariano Ames Oviedo                    | Done       |
-| US02             | Iniciar sesión                         | T-02-1      | Tarea técnica para iniciar sesión                | Implementar funcionalidad: Iniciar sesión                 | 6                      | Anthony Avalos Santos                  | Done       |
-| US03             | Registrar espacios                     | T-03-1      | Tarea técnica para registrar espacios            | Implementar funcionalidad: Registrar espacios             | 16                     | Angello Sosa Colca                     | Done       |
-| US04             | Buscar espacios disponibles            | T-04-1      | Tarea técnica para buscar espacios disponibles   | Implementar funcionalidad: Buscar espacios disponibles     | 10                     | Carlos Casimiro Fernández              | Done       |
-| US05             | Filtrar espacios disponibles           | T-05-1      | Tarea técnica para filtrar espacios disponibles  | Implementar funcionalidad: Filtrar espacios disponibles    | 10                     | Christopher Lecca Choccare             | Done       |
-| US06             | Visualizar información del espacio     | T-06-1      | Tarea técnica para visualizar información        | Implementar funcionalidad: Visualizar información del espacio | 10                  | Mariano Ames Oviedo                    | Done       |
-| US07             | Reservar espacios                      | T-07-1      | Tarea técnica para reservar espacios             | Implementar funcionalidad: Reservar espacios              | 16                     | Anthony Avalos Santos                  | Done       |
-| US12             | Visualizar espacios propios publicados | T-12-1      | Tarea técnica para ver espacios publicados       | Implementar funcionalidad: Visualizar espacios propios    | 6                      | Mariano Ames Oviedo                    | Done       |
-| US13             | Modificar espacios publicados          | T-13-1      | Tarea técnica para modificar espacios            | Implementar funcionalidad: Modificar espacios publicados  | 6                      | Anthony Avalos Santos                  | Done       |
+| **User Story ID** | **US Title**                          | **Task ID** | **Task Title**                                     | **Description**                                                                                     | **Estimation (Hours)** | **Assigned To**           | **Status** |
+|------------------|-------------------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------|--------------------------|------------|
+| US01             | Registrar usuario                   | T-01-1      | Implementar formulario de registro en app web     | Como usuario, quiero registrarme en la aplicación web para poder ofrecer mi espacio en alquiler.  | 6                      | Mariano Ames             | Done       |
+| US02             | Iniciar sesión                     | T-02-1      | Implementar formulario de login en app web        | Como usuario, quiero iniciar sesión en la app web para gestionar mi cuenta y mis espacios.       | 6                      | Anthony Avalos           | Done       |
+| US03             | Registrar espacios                 | T-03-1      | Implementar formulario para registrar espacios     | Como arrendador, quiero registrar espacios desde la app web para comenzar a recibir solicitudes. | 16                     | Angello Sosa             | Done       |
+| US04             | Buscar espacios disponibles        | T-04-1      | Implementar funcionalidad de búsqueda en app web  | Como arrendatario, quiero buscar espacios disponibles desde la app web para encontrar un lugar.  | 6                      | Christopher Lecca        | Done       |
+| US05             | Filtrar espacios disponibles       | T-05-1      | Implementar filtros por capacidad y categoría     | Como arrendatario, quiero filtrar espacios desde la app web para encontrar el que necesito.      | 5                      | Carlos Casimiro          | Done       |
+| US06             | Visualizar información del espacio | T-06-1      | Implementar vista de detalles del espacio          | Como arrendatario, quiero ver la información completa del espacio en la app web antes de reservar.| 5                      | Mariano Ames             | Done       |
+| US07             | Reservar espacios                 | T-07-1      | Implementar funcionalidad de reserva en app web   | Como arrendatario, quiero reservar espacios desde la app web para garantizar la disponibilidad.  | 6                      | Angello Sosa             | Done       |
+| US08             | Gestionar calendario de reservas   | T-08-1      | Implementar calendario de reservas en app web     | Como usuario, quiero gestionar mis reservas desde la app web para evitar conflictos.             | 6                      | Christopher Lecca        | Done       |
+| US09             | Calificar y comentar sobre espacios| T-09-1      | Implementar sistema de calificaciones y comentarios| Como arrendatario, quiero dejar reseñas en la app web para compartir mi experiencia.             | 5                      | Mariano Ames             | Done       |
+| US10             | Notificar sobre actividades        | T-10-1      | Implementar sistema de notificaciones en app web  | Como arrendador, quiero recibir notificaciones en la app web sobre actividades de mis espacios.  | 5                      | Carlos Casimiro          | Done       |
+| US11             | Controlar espacios favoritos         | T-12-1      | Implementar vista de espacios favoritos           | Como arrendatario, quiero ver mis espacios favoritos desde la app web para gestionarlos fácilmente.| 5                      | Angello Sosa             | Done       |
+| US12             | Visualizar espacios propios         | T-12-1      | Implementar vista de espacios publicados           | Como arrendador, quiero ver mis espacios publicados desde la app web para gestionarlos fácilmente.| 5                      | Angello Sosa             | Done       |
+| US13             | Modificar espacios publicados      | T-13-1      | Implementar edición de espacios en app web         | Como arrendador, quiero modificar la información de mis espacios desde la app web.               | 6                      | Mariano Ames             | Done       |
+| US14             | Actualizar perfil y cerrar sesión  | T-14-1      | Implementar edición de perfil y cierre de sesión   | Como usuario, quiero actualizar mis datos y cerrar sesión desde la app web.                       | 5                      | Carlos Casimiro          | Done       |
+| US15             | Reportar espacios inseguros        | T-15-1      | Implementar sistema de reportes de espacios        | Como usuario, quiero reportar espacios inseguros desde la app web para mejorar la seguridad.     | 5                      | Angello Sosa             | Done       |
+| US16             | Visualizar espacios reportados     | T-16-1      | Implementar vista de reportes realizados            | Como usuario, quiero ver los espacios que he reportado desde la app web para hacer seguimiento.  | 5                      | Mariano Ames             | Done       |
 | US24             | Explorar landing informativa           | T-24-1      | Tarea técnica para landing informativa           | Implementar funcionalidad: Landing clara e informativa    | 10                     | Christopher Lecca Choccare             | Done       |
 | US25             | Navegar por secciones desde el header  | T-25-1      | Tarea técnica para navegación                    | Implementar funcionalidad: Navegación por secciones       | 10                     | Anthony Avalos Santos             | Done       |
 | US26             | Ver beneficios diferenciados           | T-26-1      | Tarea técnica para beneficios                    | Implementar funcionalidad: Tarjetas de beneficios          | 10                     | Anthony Avalos Santos             | Done       |
@@ -4335,7 +4398,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
-Como resulado del primer Sprimt, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
+Como resulado del primer Sprint, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
     
 <strong>Landing Page:</strong> https://guileless-gaufre-89df8f.netlify.app/src/#hero
 ![Diagrama Vertanelo([URL]())](images/cap6_image3.jpeg)
@@ -4388,6 +4451,34 @@ Este enfoque facilitó la colaboración, evitó conflictos de código y aseguró
 
 
 Durante el Sprint 1, el equipo trabajó de manera colaborativa aplicando buenas prácticas de control de versiones y comunicación efectiva para garantizar el cumplimiento de los objetivos establecidos.
+
+
+
+- ####   Canales de comunicación
+
+La coordinación del equipo se realizó principalmente a través de **Discord**, donde se llevaron a cabo reuniones remotas para definir tareas, revisar avances y resolver bloqueos. Adicionalmente, se utilizaron **mensajes por WhatsApp** para recordatorios y organización rápida. Esta combinación permitió una comunicación fluida y en tiempo real.
+
+- ####   Herramientas de gestión
+
+  GitHub Projects y commits verificados permitieron llevar un registro detallado de las tareas completadas y del responsable de cada cambio.Las tareas fueron distribuidas entre todos los miembros del equipo, y se registraron contribuciones en los distintos servicios: Landing Page, Frontend Web, y documentación técnica. El uso de etiquetas claras en los commits facilitó el rastreo de avances por funcionalidad y componente.
+
+- ####   Resultados obtenidos
+
+  Se logró mantener un flujo constante de integración y revisión de código sin conflictos mayoresTodos los miembros del equipo realizaron commits y participaron activamente en el proceso de desarrollo. La colaboración fue efectiva, permitiendo cumplir con los objetivos del sprint, completar la primera versión de la Landing Page y avanzar significativamente en la interfaz del sistema.
+  </br>
+
+
+
+- ####   Landing page
+
+  ![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
+
+
+- ####   Web Application
+
+  ![Diagrama Vertanelo([URL]())](images/image_26.jpeg)
+
+
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
 <table align="center" border="1" width="90%" style="border-collapse:collapse; text-align:left;">
@@ -4430,6 +4521,16 @@ Durante el Sprint 1, el equipo trabajó de manera colaborativa aplicando buenas 
     <td colspan="2"><b>Sprint Goal & User Stories</b></td>
   </tr>
   <tr>
+    <td><b>Sprint 2 Goal</b></td>
+    <td>
+      <strong>Our focus is on</strong> enabling landlords to monitor the condition of their rental spaces (smoke, capacity, and restricted area access) through a web application that receives real-time data from the backend. This backend is updated by the edge node, which processes IoT readings sent by the embedded app. Additionally, we aimed to ensure that all functionalities previously available in the web application are now accessible through the mobile application.
+      <br><br>
+      <strong>We believe it delivers</strong> a comprehensive, cross-platform monitoring experience that empowers landlords with timely insights into their spaces, regardless of the device they use. It also streamlines the flow of IoT data from devices to the user interface via robust backend communication.
+      <br><br>
+      <strong>This will be confirmed</strong> through successful end-to-end testing of sensor data ingestion, backend processing, and front-end display in both web and mobile applications.
+    </td>
+  </tr>
+  <tr>
     <td><b>Sprint 2 Velocity</b></td>
     <td>68</td>
   </tr>
@@ -4440,45 +4541,74 @@ Durante el Sprint 1, el equipo trabajó de manera colaborativa aplicando buenas 
   
 </table>
 
-
-
-
-
-
 ### 6.2.2.2. Aspect Leaders and Collaborators
 
 La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto técnico del Sprint:
 
-| Team Member (Last Name, First Name) | GitHub Username   | IAM Service | Locals Service | Booking Service | Frontend Web | Landing Page |
-|------------------------------------|--------------------|-------------|----------------|------------------|---------------|---------------|
-| Ames Oviedo, Mariano               | MarianoAmes        | C           | C              | C                | C             |   L            |
-| Avalos Santos, Anthony Piero       | Anthony2000AA      | C           | C              | C                |   C            | C             |
-| Lecca Choccare, Christopher Bryan  | ChrisByBits        | L           | L              | L                | L             | C             |
-| Sosa Colca, Angello Rodolfo        | AngelloSosa        | C           | C              | C                | C             | C             |
-| Casimiro Fernández, Carlos Oswaldo | Sigma42O           | C           | C              | C                | C             |C               |
+| Team Member (Last Name, First Name) | GitHub Username   | Landing Page Leader (L) / Colaborator (C) | Web Application Leader (L) / Colaborator (C) | Web Service Leader (L) / Colaborator (C) | Mobile App Leader (L) / Colaborator (C) | Edge Node Leader (L) / Colaborator (C) | Embebbed App Leader (L) / Colaborator (C) |
+|------------------------------------|--------------------|---|---|---|---|---|---|
+| Ames Oviedo, Mariano               | MarianoAmes        | C | C | C | C | C | L |
+| Avalos Santos, Anthony Piero       | Anthony2000AA      | L | C | C | C | L | C |
+| Lecca Choccare, Christopher Bryan  | ChrisByBits        | C | L | L | L | C | C |
+| Sosa Colca, Angello Rodolfo        | AngelloSosa        | C | C | C | C | C | C |
+| Casimiro Fernández, Carlos Oswaldo | Sigma42O           | C | C | C | C | C | C |
 
 
 #### 6.2.2.3. Sprint Backlog 2.
 
-En esta seccion se espcifica el detalle del Sprint Backlog 2, la cual es una lista de tareas designadas para esta primera fase del proyecto:
+En esta sección se especifica el detalle del Sprint Backlog 2, la cual es una lista de tareas designadas para esta segunda fase del proyecto:
+
 ![alt text](images/cap6_image4.jpeg)
 
 **Enlace del tablero:** https://trello.com/b/63Zub4fa/product-backlog-iot
 
-| **User Story ID** | **US Title**                          | **Task ID** | **Task Title**                                   | **Description**                                           | **Estimation (Hours)** | **Assigned To**                       | **Status** |
-|------------------|----------------------------------------|-------------|--------------------------------------------------|-----------------------------------------------------------|------------------------|----------------------------------------|------------|
-| US01             | Registrar usuario                      | T-01-1      | Tarea técnica para registrar usuario             | Implementar funcionalidad: Registrar usuario              | 6                      | Mariano Ames Oviedo                    | Done       |
-| US02             | Iniciar sesión                         | T-02-1      | Tarea técnica para iniciar sesión                | Implementar funcionalidad: Iniciar sesión                 | 6                      | Anthony Avalos Santos                  | Done       |
-| US03             | Registrar espacios                     | T-03-1      | Tarea técnica para registrar espacios            | Implementar funcionalidad: Registrar espacios             | 16                     | Angello Sosa Colca                     | Done       |
-| US04             | Buscar espacios disponibles            | T-04-1      | Tarea técnica para buscar espacios disponibles   | Implementar funcionalidad: Buscar espacios disponibles     | 10                     | Carlos Casimiro Fernández              | Done       |
-| US05             | Filtrar espacios disponibles           | T-05-1      | Tarea técnica para filtrar espacios disponibles  | Implementar funcionalidad: Filtrar espacios disponibles    | 10                     | Christopher Lecca Choccare             | Done       |
-| US06             | Visualizar información del espacio     | T-06-1      | Tarea técnica para visualizar información        | Implementar funcionalidad: Visualizar información del espacio | 10                  | Mariano Ames Oviedo                    | Done       |
-| US07             | Reservar espacios                      | T-07-1      | Tarea técnica para reservar espacios             | Implementar funcionalidad: Reservar espacios              | 16                     | Anthony Avalos Santos                  | Done       |
-| US12             | Visualizar espacios propios publicados | T-12-1      | Tarea técnica para ver espacios publicados       | Implementar funcionalidad: Visualizar espacios propios    | 6                      | Mariano Ames Oviedo                    | Done       |
-| US13             | Modificar espacios publicados          | T-13-1      | Tarea técnica para modificar espacios            | Implementar funcionalidad: Modificar espacios publicados  | 6                      | Anthony Avalos Santos                  | Done       |
-| US24             | Explorar landing informativa           | T-24-1      | Tarea técnica para landing informativa           | Implementar funcionalidad: Landing clara e informativa    | 10                     | Christopher Lecca Choccare             | Done       |
-| US25             | Navegar por secciones desde el header  | T-25-1      | Tarea técnica para navegación                    | Implementar funcionalidad: Navegación por secciones       | 10                     | Anthony Avalos Santos             | Done       |
-| US26             | Ver beneficios diferenciados           | T-26-1      | Tarea técnica para beneficios                    | Implementar funcionalidad: Tarjetas de beneficios          | 10                     | Anthony Avalos Santos             | Done       |
+| **User Story ID** | **US Title**                              | **Task ID** | **Task Title**                                                    | **Description**                                                                                           | **Estimation (Hours)** | **Assigned To**           | **Status** |
+|------------------|-------------------------------------------|-------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|------------|
+| US01             | Registrar usuario                         | T-01-2      | Implementar endpoint para registro de usuario                      | Como desarrollador, quiero implementar el endpoint de registro para que los usuarios creen sus cuentas.   | 5                      | Mariano Ames               | Done       |
+|                  |                                           | T-01-3      | Implementar formulario de registro en app móvil                    | Como usuario, quiero registrarme fácilmente desde el móvil para ofrecer mi espacio en alquiler.           | 4                      | Anthony Avalos             | Done       |
+| US02             | Iniciar sesión                            | T-02-2      | Crear endpoint seguro de login                                     | Como desarrollador, quiero validar credenciales de usuario para iniciar sesión en la aplicación.          | 5                      | Christopher Lecca          | Done       |
+|                  |                                           | T-02-3      | Diseñar pantalla de login en app móvil                             | Como usuario, quiero iniciar sesión desde el móvil para acceder a mis funcionalidades.                    | 4                      | Carlos Casimiro            | Done       |
+| US03             | Registrar espacios                        | T-03-2      | Endpoint de registro de espacio con validaciones                   | Como desarrollador, quiero crear el endpoint que permita registrar espacios para su posterior publicación.| 6                      | Angello Sosa               | Done       |
+|                  |                                           | T-03-3      | Interfaz de creación de espacios en app móvil                      | Como arrendador, quiero registrar espacios desde el móvil para empezar a recibir reservas.                | 5                      | Carlos Casimiro            | Done       |
+| US04             | Buscar espacios disponibles               | T-04-2      | Endpoint de búsqueda de espacios                                   | Como desarrollador, quiero implementar búsqueda de espacios disponibles en base a filtros básicos.        | 6                      | Christopher Lecca          | Done       |
+|                  |                                           | T-04-3      | Vista de búsqueda en app móvil                                     | Como arrendatario, quiero buscar espacios fácilmente desde el móvil para encontrar uno adecuado.          | 4                      | Mariano Ames               | Done       |
+| US05             | Filtrar espacios disponibles              | T-05-2      | Implementar filtros por capacidad y categoría en backend           | Como desarrollador, quiero aplicar filtros en el endpoint de búsqueda para refinar los resultados.        | 5                      | Angello Sosa               | Done       |
+|                  |                                           | T-05-3      | Aplicar filtros en la interfaz de búsqueda en app móvil            | Como arrendatario, quiero filtrar espacios por tipo y aforo para elegir el adecuado.                      | 4                      | Anthony Avalos             | Done       |
+| US06             | Visualizar información del espacio        | T-06-2      | Endpoint para obtener detalles de un espacio                       | Como desarrollador, quiero crear un endpoint que devuelva los detalles completos de un espacio.           | 5                      | Carlos Casimiro            | Done       |
+|                  |                                           | T-06-3      | Pantalla de detalle del espacio en app móvil                       | Como arrendatario, quiero ver la descripción completa de un espacio para decidir si reservarlo.           | 4                      | Mariano Ames               | Done       |
+| US07             | Reservar espacios                         | T-07-2      | Endpoint para realizar una reserva                                 | Como desarrollador, quiero permitir que los usuarios reserven espacios mediante un endpoint.              | 6                      | Angello Sosa               | Done       |
+|                  |                                           | T-07-3      | Funcionalidad de reserva desde la app móvil                        | Como arrendatario, quiero reservar espacios desde el móvil para asegurar la disponibilidad.               | 5                      | Anthony Avalos             | Done       |
+| US08             | Gestionar calendario de reservas          | T-08-2      | Endpoint para visualizar y editar calendario de reservas           | Como desarrollador, quiero mostrar y modificar el calendario de reservas de un espacio.                  | 6                      | Christopher Lecca          | Done       |
+|                  |                                           | T-08-3      | Vista de calendario en app móvil                                   | Como usuario, quiero ver mis reservas en un calendario organizado desde el móvil.                        | 5                      | Carlos Casimiro            | Done       |
+| US09             | Calificar y comentar sobre espacios       | T-09-2      | Endpoint para enviar calificaciones y comentarios                  | Como desarrollador, quiero permitir que los usuarios califiquen espacios que han reservado.               | 5                      | Mariano Ames               | Done       |
+|                  |                                           | T-09-3      | Interfaz para escribir reseñas en app móvil                        | Como arrendatario, quiero dejar comentarios sobre un espacio para ayudar a otros usuarios.                | 4                      | Anthony Avalos             | Done       |
+| US10             | Notificar sobre actividades de arrendatarios | T-10-2   | Backend para enviar notificaciones por eventos                     | Como desarrollador, quiero que se notifique al arrendador cuando se interactúe con su espacio.            | 5                      | Carlos Casimiro            | Done       |
+|                  |                                           | T-10-3      | Funcionalidad de notificación en app móvil                         | Como arrendador, quiero recibir notificaciones en tiempo real en mi móvil.                               | 4                      | Mariano Ames               | Done       |
+| US11             | Controlar espacios favoritos	 | T-11-2   | Pantalla de gestión de espacios favoritos en app móvil                     | Como arrendatario, quiero gestionar mis espacios espacios desde la app para facilitar su acceso.              | 5                      | Carlos Casimiro            | Done       |
+| US12             | Visualizar espacios propios publicados    | T-12-2      | Endpoint para listar espacios publicados del usuario               | Como desarrollador, quiero que un arrendador vea los espacios que ha publicado.                          | 5                      | Angello Sosa               | Done       |
+|                  |                                           | T-12-3      | Pantalla de gestión de espacios publicados en app móvil            | Como arrendador, quiero gestionar mis espacios desde la app para facilitar su administración.             | 4                      | Christopher Lecca          | Done       |
+| US13             | Modificar espacios publicados             | T-13-2      | Endpoint para actualizar información de un espacio publicado       | Como desarrollador, quiero permitir que se modifiquen detalles de un espacio ya publicado.                | 6                      | Mariano Ames               | Done       |
+|                  |                                           | T-13-3      | Pantalla para editar espacio en app móvil                          | Como arrendador, quiero editar la información de mis espacios desde la app.                              | 5                      | Anthony Avalos             | Done       |
+| US14             | Actualizar perfil y cerrar sesión         | T-14-2      | Endpoint para modificar perfil y cerrar sesión                     | Como desarrollador, quiero actualizar datos del perfil de usuario y gestionar el cierre de sesión.        | 5                      | Carlos Casimiro            | Done       |
+|                  |                                           | T-14-3      | Funcionalidad de edición de perfil en app móvil                    | Como usuario, quiero modificar mis datos personales y cerrar sesión desde el móvil.                       | 4                      | Christopher Lecca          | Done       |
+| US15             | Reportar espacios inseguros              | T-15-2      | Endpoint para enviar reportes de seguridad                         | Como desarrollador, quiero que los usuarios puedan reportar espacios inseguros desde la app.              | 5                      | Angello Sosa               | Done       |
+|                  |                                           | T-15-3      | Interfaz de reporte en app móvil                                   | Como usuario, quiero reportar un espacio inseguro de forma sencilla desde mi móvil.                      | 4                      | Anthony Avalos             | Done       |
+| US16             | Ver espacios reportados por el usuario   | T-16-2      | Endpoint para listar reportes realizados por el usuario            | Como desarrollador, quiero permitir que los usuarios vean los espacios que han reportado.                | 5                      | Mariano Ames               | Done       |
+|                  |                                           | T-16-3      | Vista de reportes enviados en app móvil                            | Como usuario, quiero ver una lista de espacios que he reportado para hacer seguimiento.                   | 4                      | Carlos Casimiro            | Done       |
+| US18             | Acceder a información de ayuda  | T-18-1      | Implementar sección de ayuda y FAQs en app web       | Como usuario, quiero acceder a una sección de preguntas frecuentes e información de contacto en la web para resolver mis dudas fácilmente. | 5                      | Carlos Casimiro      | Done       |
+|                  |                                 | T-18-2      | Implementar sección de ayuda y FAQs en app móvil     | Como usuario, quiero acceder a preguntas frecuentes y soporte desde la app móvil para resolver dudas rápidamente.                              | 5                      | Anthony Avalos       | Done       |
+| US19             | Control de Aforo                         | T-19-1      | Programar sensores de aforo en la Embedded App                 | Como arrendador, quiero que la Embedded App detecte cuántas personas hay en el local para saber si se supera el aforo permitido.   | 6                      | Mariano Ames                 | Done       |
+|                  |                                          | T-19-2      | Procesar y enviar datos de aforo desde Edge Node al backend    | Como desarrollador, quiero que el Edge Node reciba datos del sensor de aforo y notifique al backend si se supera el límite.         | 6                      | Christopher Lecca, Anthony Avalos | Done       |
+| US20             | Monitoreo de Niveles de Ruido            | T-20-1      | Capturar niveles de ruido desde sensores en la Embedded App    | Como arrendador, quiero que la Embedded App detecte niveles altos de ruido para tomar acciones durante eventos.                     | 5                      | Mariano Ames                 | Done       |
+|                  |                                          | T-20-2      | Analizar y reportar exceso de ruido desde el Edge Node         | Como desarrollador, quiero que el Edge Node procese niveles de ruido y notifique al backend si se supera el umbral configurado.     | 6                      | Christopher Lecca, Anthony Avalos | Done       |
+| US21             | Detección de Humo                        | T-21-1      | Detectar presencia de humo mediante sensores en la Embedded App| Como arrendador, quiero que la Embedded App detecte humo para prevenir situaciones de emergencia.                                   | 5                      | Mariano Ames                 | Done       |
+|                  |                                          | T-21-2      | Transmitir eventos de humo desde el Edge Node al backend       | Como desarrollador, quiero que el Edge Node envíe al backend la alerta de humo detectado con hora y nivel de severidad.             | 6                      | Christopher Lecca, Anthony Avalos | Done       |
+| US22             | Movimiento en Áreas No Autorizadas       | T-22-1      | Registrar movimientos en zonas restringidas en la Embedded App | Como arrendador, quiero que se detecte movimiento en zonas no autorizadas para proteger mis espacios.                               | 5                      | Mariano Ames                 | Done       |
+|                  |                                          | T-22-2      | Procesar alertas de intrusión en Edge Node y enviarlas al backend| Como desarrollador, quiero que el Edge Node genere alertas con ubicación y hora del incidente cuando se detecte movimiento no autorizado. | 6                  | Christopher Lecca, Anthony Avalos | Done       |
+| US23             | Registro de Incidentes    | T-23-1      | Crear endpoint de backend para listar historial de incidentes| Como desarrollador, quiero crear un endpoint que devuelva los eventos registrados por sensores para su consulta.    | 6                      | Christopher Lecca    | Done       |
+|                  |                           | T-23-2      | Implementar vista web para monitoreo de incidentes del local | Como arrendador, quiero visualizar desde la web app un historial con todos los eventos ocurridos en mi espacio.     | 5                      | Carlos Casimiro      | Christopher Lecca       |
+
+
 
 
 
@@ -4738,25 +4868,6 @@ Para este apartado se visualiza la colaboración realizada para el backend
 [LINK DEL VIDEO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115412_upc_edu_pe/Ea_wCru4a9ZFsCYCMa1dbD4BTQiqW0TPH7zt44V7NpEpcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=icJPgt)
 
 
-- ####   Canales de comunicación
-
-La coordinación del equipo se realizó principalmente a través de **Discord**, donde se llevaron a cabo reuniones remotas para definir tareas, revisar avances y resolver bloqueos. Adicionalmente, se utilizaron **mensajes por WhatsApp** para recordatorios y organización rápida. Esta combinación permitió una comunicación fluida y en tiempo real.
-
-- ####   Herramientas de gestión
-
- GitHub Projects y commits verificados permitieron llevar un registro detallado de las tareas completadas y del responsable de cada cambio.Las tareas fueron distribuidas entre todos los miembros del equipo, y se registraron contribuciones en los distintos servicios: Landing Page, Frontend Web, y documentación técnica. El uso de etiquetas claras en los commits facilitó el rastreo de avances por funcionalidad y componente.
-
-- ####   Resultados obtenidos
-
-  Se logró mantener un flujo constante de integración y revisión de código sin conflictos mayoresTodos los miembros del equipo realizaron commits y participaron activamente en el proceso de desarrollo. La colaboración fue efectiva, permitiendo cumplir con los objetivos del sprint, completar la primera versión de la Landing Page y avanzar significativamente en la interfaz del sistema.
-  </br>
-<strong>Web Application</strong>
-![Diagrama Vertanelo([URL]())](images/image_26.jpeg)
-<strong>Landing page</strong>
-![Diagrama Vertanelo([URL]())](images/cap6_image2.jpeg)
-
-
-   
 # Conclusiones
 
 <div align="justify">
