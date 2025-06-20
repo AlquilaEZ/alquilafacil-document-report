@@ -4876,7 +4876,6 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   ![Diagrama Vertanelo([URL]())](images/edge-insights.jpeg)
 
 
-
 ### 6.3. Validation Interviews.
 
 
@@ -4943,71 +4942,580 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
 
 ### 6.3.2. Registro de entrevistas.
 
+**Segmento 1: Arrendadores de espacios para eventos**
+<br>
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Mauricio Abraham</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Rojas Ugarte</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Jesús María</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook, WhatsApp, Excel.</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Proporcionar experiencias memorables a sus clientes, contribuyendo a la felicidad y la celebración de momentos importantes.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Desafíos en la gestión de reservas y coordinación de eventos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Angello Sosa</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/interviews/arrendador-1.png" alt="Entrevista a Mauricio Rojas"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado luego de haber recorrido el flujo de publicación de un espacio nos compartió su experiencia satisfactoria con respecto a este. Por el lado de la sección de monitoreo, agrega que es sencilla de usar debido a su diseño minimalista. Como feedback brindado, nos comentó que le gustaría la adición de un tema oscuro, debido a que teme que se agote su visión después de usar la aplicación por un periodo prolongado.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Lucero</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Smith Cardenas</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>40 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Isidro</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Instagram, X.</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Explorar nuevas oportunidades de negocio y expandir su presencia en el mercado de eventos sociales</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Dificultades para promocionar eficazmente su local y atraer nuevos clientes.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>iOS, Android, Windows.</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Anthony Avalos</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/interviews/arrendador-2.png" alt="Entrevista a Lucero Smith"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Lucero es una profesional la cual dispone de muchas propiedades, donde frecuentemente los pode a disposición de amigos o conocidos para que puedan hacer sus reuniones y/o eventos. Ella nos comenta que AlquilaFacil sería una excelente opciones par agestión reservas de sus espacios, mantener una comunicación con los usuarios, y gestionar adecuadamente el cuidado o reglas que este tenga durante el evento. Le gustaría que se maneje un sistema de calificaciones para ayudar a otros usuarios y también para ella misma tener conocimiento de que clase de usuario esta por alquilar su espacio. Nos comenta también que le parece una super idea el tener control total de lo que esté ocurriendo en el evento, como por ejemplo ver que el arrendatario este cumpliendo con las reglas que se le a establecido. También le parecería interesante el poder recibir alertas cuando se incumpla ciertos acuerdos establecidos. Ella cree que sensores de diversos tipos serían los adecuados para llevar un control total de lo que esté ocurriendo en el espacio que está dando a disposición de los usuarios. Le gustaría que todo se haga desde una interfaz sencilla y adaptable a todo tipo de dispositivos.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Luis David</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Garcia Días</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Magdalena</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Instagram, Excel.</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ver crecer su negocio y convertir su local en un lugar de referencia para eventos en su comunidad.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Posibles accidentes dentro de su local por falta de herramientas para gestionarlo.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Opera GX</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Mariano Ames</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/interviews/arrendador-3.png" alt="Entrevista a Luis Garcia"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    El entrevistado mencionó que, si se encuentra interesado en la aplicación, lo que mejoraría su negocio al poder gestionar de manera más sencillas sus locales y los arrendatarios.
+    Mencionó que anteriormente ha tenido problemas a la hora de organizar reservas mientras no contaba con una herramienta especializada para llevar un recuento de sus reservaciones. También se mencionó que tuvo problemas con diferentes clientes, que de haber tenido un perfil de ellos de antemano se podrían haber evitado.
+    Por último, se mostró interesado en poder integrar todo su proceso desde la promoción del local, la reserva y el pago, hasta la gestión y manejo del mismo desde una misma aplicación.
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+
+**Segmento 2: Arrendatarios sociales frecuentes de espacios para eventos**
+
+<br>
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #1<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Manuel Jesús</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Chávez Cuba</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Facebook Marketplace</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ofrecer experiencias únicas y memorables para sus clientes.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Limitaciones presupuestarias que puedan afectar la calidad de los eventos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>iOS, Android, Windows.</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome, Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christopher Lecca</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/validation-interviews/arrendatario-1.PNG" alt="Entrevista a Manuel Chavez"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Manuel nos comentó que se encuentra aún se encuentra dentro del mercado de alquiler de espacios para organizar eventos.
+    Durante la entrevista, se mostró satisfecho con el producto resultado AlquilaFácil, resaltó que la versión Web como Mobile son excelentes, confirmando que recomendaría su uso a familiares y personas cercanos. Como única recomendación, nos mencionó la idea de cambiar el orden en el que se muestran los locales a los usuarios, puesto que es complicado ir hasta la parte inferior del catálogo para encontrar la más reciente.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #2<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Omar Andrew</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Morales Montalvo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Juan del Lurigancho</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Instagram</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Establecerse como un organizador de eventos reconocido en su área.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Dificultades para encontrar espacios con características específicas.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>Android, Windows.</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Google Chrome, Brave</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christopher Lecca</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/validation-interviews/arrendatario-2.png" alt="Entrevista a Omar Morales"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Omar nos comentó que continúa reservando espacios para sus eventos de manera recurrente, lo que le hizo aceptar nuestra entrevista de inmediato. Luego de compartir el flujo de la Web y Mobile Application, nos compartió su agrado por ambas versiones, alegando que está ansioso por una nueva versión. En general, no tuvo algún problema con la aplicación. Como feedback, nos sugirió añadir un espacio de contacto con soporte para poder resolver sus dudas con el servicio de AlquilaFácil
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2"> <div align="center">Entrevista #3<br></div></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Stefano Alessandro</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Valenzuela Vallejos</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>23 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Isidro</td>
+  </tr>
+  <tr>
+    <td>Aplicaciones usadas</td>
+    <td>Instagram, TikTok.</td>
+  </tr>
+  <tr>
+    <td>Motivación</td>
+    <td>Ofrecer experiencias únicas y satisfactorias a sus clientes.</td>
+  </tr>
+  <tr>
+    <td>Frustración</td>
+    <td>Falta de herramientas de gestión durante el desarrollo de sus eventos.</td>
+  </tr>
+  <tr>
+    <td>Tecnologías</td>
+    <td>iOS, macOS.</td>
+  </tr>
+	<tr>
+    <td>Browsers</td>
+    <td>Safari</td>
+  </tr>
+  <tr>
+    <td>Entrevistador</td>
+    <td>Christopher Lecca</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="images/validation-interviews/arrendatario-3.PNG" alt="Entrevista a Stefano Valenzuela"></div></td>
+  </tr>
+  <tr>
+    <td>Enlace</td>
+    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+  </tr>
+  <tr>
+    <td>Duración<br></td>
+    <td>00:00 min - 00:00 min </td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td style="text-align: justify;">
+    Nuestro entrevistado, Stefano, nos comentó que el flujo de navegación de la Landing Page fue satisfactoria, al igual que con la Web Application y Mobile Application. En general, ambas versiones de la aplicación le agradaron, resultando en que su única recomendación fuese el expandir el catálogo de espacios disponibles, lo cual se logrará una vez la versión final del producto se encuentre disponible.
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
-#### Participante 1: 
+**APP A EVALUAR**: AlquilaFácil
 
-1. **Usabilidad:**
+**TAREAS A EVALUAR**
 
-   - **Claridad y accesibilidad:**  
-     El diseño de la landing page fue valorado como moderno y bien estructurado. Se percibió una jerarquía visual clara que facilitó la lectura del contenido. El flujo de registro fue comprensible.
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-   - **Consistencia y estándares:**  
-     Los botones, íconos y estilos mantenían una coherencia visual adecuada. Se reconocen patrones comunes que facilitan la interacción, sobre todo en la aplicación móvil.
+General:
 
-2. **Arquitectura de la información:**
+- Registro de usuario
+- Inicio de sesión de usuario
 
-   - **Estructura y organización:**  
-     La segmentación del contenido (beneficios, cómo funciona, testimonios) está bien distribuida. El usuario logró identificar rápidamente qué hace la plataforma.
+Segmento de arrendadores:
 
-   - **Navegación:**  
-     No se reportaron dificultades al navegar por las distintas secciones de la landing. El uso del menú superior fue suficiente para completar las tareas asignadas.
+- Publicación de un espacio
+- Vista de espacio publicado
+- Gestión de espacios publicados
+- Calendario de reserva
+- Monitoreo del espacio
 
-3. **Experiencia del usuario:**
+Segmento de arrendatarios:
 
-   - **Emociones y percepción:**  
-     El participante destacó una sensación de confianza gracias al diseño claro y profesional. Percibió la plataforma como una solución “realmente útil” para alquilar espacios sin fricciones.
+- Navegación sobre espacios publicados
+- Vista de un espacio específico
+- Reserva de un espacio
+- Calendario de reserva
+- Adquisición de suscripción
 
-   - **Recomendaciones:**  
-     Sugiere incorporar una función de "preguntas frecuentes" para resolver dudas comunes de forma rápida, así como un botón de “contacto directo”.
+<br>
 
-4. **Problemas detectados:**
+**ESCALA DE SEVERIDAD**
 
-   - No se identificaron problemas críticos de navegación o comprensión.  
-   - Se recomienda mejorar el contraste de ciertos textos en móviles para mayor accesibilidad visual.
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: ocurre con mayor frecuencia o es un poco más difícil de superar para el usuario. Prioridad baja para su corrección. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Prioridad alta para su corrección. |
+| 4 | Problema muy grave: error de gran impacto que impide al usuario continuar. Debe ser corregido antes del lanzamiento. |
+
+<br></br>
+
+**TABLA RESUMEN**
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística/Principio violado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>No se puede adjuntar más de una imagen por local</td>
+      <td>3</td>
+      <td>Usability: Flexibilidad y eficiencia de uso</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>No hay opción de tema claro/oscuro</td>
+      <td>2</td>
+      <td>Usability: Preferencias del usuario</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>No hay forma de contactar al soporte desde la app</td>
+      <td>3</td>
+      <td>Usability: Ayuda y documentación</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Los espacios más recientes se encuentran últimos en la lista</td>
+      <td>2</td>
+      <td>Usability: Flexibilidad y eficiencia de uso</td>
+    </tr>
+  </tbody>
+</table>
 
 
-#### Participante 2: 
+---
 
-1. **Usabilidad:**
+## **DESCRIPCIÓN DE PROBLEMAS**
 
-   - **Claridad y accesibilidad:**  
-     La información inicial fue clara, pero el proceso para simular una reserva resultó poco evidente. El participante no encontró rápidamente el acceso al catálogo de espacios.
+### **PROBLEMA #1: No se puede adjuntar más de una imagen por local**
+- **Severidad:** 3  
+- **Heurística violada:** Usability – Flexibilidad y eficiencia de uso  
+- **Problema:**  
+  El sistema permite subir únicamente una imagen por local, limitando la información visual que se puede proporcionar al usuario interesado. Esto afecta negativamente la experiencia de exploración de los espacios.  
+  <img src="images/problema-1.PNG">
 
-   - **Consistencia y estándares:**  
-     Algunos íconos carecían de etiquetas o no eran completamente intuitivos, especialmente en la versión web. Se percibió una ligera desconexión entre lo visual y lo funcional.
+- **Recomendación:**  
+  Permitir adjuntar múltiples imágenes por local, con una interfaz que permita visualizarlas en carrusel o miniaturas.
 
-2. **Arquitectura de la información:**
+---
 
-   - **Estructura y organización:**  
-     La estructura del sitio fue calificada como lógica, pero se sugirió que el orden de las secciones (como “beneficios” y “cómo funciona”) podría priorizar mejor las necesidades del usuario nuevo.
+### **PROBLEMA #2: No hay opción de tema claro/oscuro**
+- **Severidad:** 2  
+- **Heurística violada:** Usability – Preferencias del usuario  
+- **Problema:**  
+  La aplicación no cuenta con opción de personalización visual, como el modo claro y oscuro, lo cual limita la comodidad visual según preferencias o condiciones de iluminación.  
+  <img src="images/problema-2.PNG">
 
-   - **Navegación:**  
-     Se evidenció confusión al intentar regresar desde ciertas páginas internas. El botón de “inicio” no siempre estaba visible.
+- **Recomendación:**  
+  Implementar un selector de tema para que el usuario elija entre modo claro, oscuro o automático según el sistema operativo.
 
-3. **Experiencia del usuario:**
+---
 
-   - **Emociones y percepción:**  
-     Percibió la propuesta de valor como innovadora, pero con margen de mejora en la usabilidad. La app móvil fue más satisfactoria que la experiencia web.
+### **PROBLEMA #3: No hay forma de contactar al soporte desde la app**
+- **Severidad:** 3  
+- **Heurística violada:** Usability – Ayuda y documentación  
+- **Problema:**  
+  No existe una sección visible para que los usuarios puedan contactar al equipo de soporte o enviar reportes de errores desde la aplicación.  
+  <img src="images/problema-3.PNG">
 
-   - **Recomendaciones:**  
-     Propone incorporar una demo interactiva del proceso de reserva y una funcionalidad de tour virtual para conocer los espacios.
+- **Recomendación:**  
+  Añadir una sección de contacto o botón flotante que permita enviar correos o mensajes al equipo de soporte de forma directa.
 
-4. **Problemas detectados:**
+---
 
-   - Falta de acceso directo a una sección de espacios destacados desde la portada.  
-   - Necesidad de mayor visibilidad de navegación al interior de la plataforma web.
+### **PROBLEMA #4: Textos pequeños en dispositivos móviles**
+- **Severidad:** 2  
+- **Heurística violada:** Usability – Flexibilidad y eficiencia de uso  
+- **Problema:**  
+  El sistema muestra los espacios publicados de forma que los más recientes se encuentran en la parte inferior y los más antiguos en la superior. 
+  <img src="images/problema-4.PNG">
+
+- **Recomendación:**  
+  Invertir el orden en el que se muestran los espacios recién publicados.
+---
 
 ### 6.4. Video About-the-product.
 [LINK DEL VIDEO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115412_upc_edu_pe/Ea_wCru4a9ZFsCYCMa1dbD4BTQiqW0TPH7zt44V7NpEpcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=icJPgt)
