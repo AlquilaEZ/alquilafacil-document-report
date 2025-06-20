@@ -4465,7 +4465,149 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
+A continuación, se muestran los archivos .feature que contienen cada uno de los escenarios a validar para las features respectivas a las historias de usuario trabajadas en este Sprint.
 
+**US01:**
+
+```gherkin
+Feature: Registro de usuario
+
+Scenario: Registro exitoso
+  Given Que un usuario desea registrar su espacio en AlquilaFácil
+  When Completa el formulario de registro con la información requerida
+  Then Recibe una confirmación de registro y puede acceder a su cuenta
+
+Scenario: Validación de datos
+  Given Que un usuario completa el formulario de registro en AlquilaFácil
+  When Envía el formulario
+  Then Los datos proporcionados se validan para garantizar la precisión y la autenticidad
+```
+
+**US02:**
+
+```gherkin
+Feature: Inicio de sesión
+
+Scenario: Inicio de sesión exitoso
+  Given Que un usuario registrado desea acceder a su cuenta en AlquilaFácil
+  When Ingresa su correo electrónico y contraseña correctos en el formulario de inicio de sesión
+  Then Es autenticado exitosamente y se le otorga acceso a su cuenta
+
+Scenario: Error en el inicio de sesión por credenciales incorrectas
+  Given Que un usuario registrado intenta acceder a su cuenta en AlquilaFácil
+  When Ingresa una combinación incorrecta de correo electrónico o contraseña
+  Then Se le muestra un mensaje de error indicando que las credenciales son incorrectas y se le solicita que intente nuevamente
+
+```
+
+**US03:**
+
+```gherkin
+Feature: Registro de espacios
+
+Scenario: Registro de datos básicos
+  Given Que un arrendador desea registrar su espacio en AlquilaFácil
+  When Completa los campos organizados en varios pasos con información detallada sobre la propiedad
+  Then Puede enviar el registro con éxito y recibir confirmación de su inclusión en la plataforma
+
+Scenario: Validación de datos requeridos en cada paso del registro
+  Given Que un arrendador está completando el registro de su espacio
+  When Rellena todos los campos correspondientes a un paso específico
+  Then Se activa el botón que le permite continuar al siguiente paso
+
+```
+
+**US04:**
+
+```gherkin
+Feature: Búsqueda de espacios disponibles
+
+Scenario: Búsqueda principal por ubicación
+  Given Que un arrendatario busca un espacio para eventos en una ubicación específica
+  When Ingresa la ubicación deseada en el campo de búsqueda
+  Then Se muestran los espacios disponibles en esa ubicación
+
+Scenario: Búsqueda general de espacios
+  Given Que un arrendatario no ingresa texto en la barra de búsqueda
+  When Presiona sobre el ícono de búsqueda
+  Then Se muestran todos los espacios disponibles
+
+```
+
+**US05:**
+
+```gherkin
+Feature: Filtrado de espacios disponibles
+
+Scenario: Filtrado por capacidad
+  Given Que un arrendatario desea un espacio con capacidad para un número específico de personas
+  When Aplica un filtro de capacidad en la búsqueda
+  Then Se muestran solo los espacios que cumplen con ese criterio
+
+Scenario: Filtrado por categoría
+  Given Que un arrendatario desea un espacio de una categoría específica
+  When Aplica un filtro de categoría en la búsqueda
+  Then Se muestran solo los espacios que cumplen con ese criterio
+```
+
+**US06:**
+
+```gherkin
+Feature: Visualización de información del espacio
+
+Scenario: Visualización de información
+  Given Que el arrendatario selecciona un espacio en AlquilaFácil
+  When Accede a la página de detalles del espacio
+  Then Puede visualizar información detallada como aforo máximo, descripción del espacio y servicios disponibles
+
+Scenario: Visualización de reseñas del espacio
+  Given Que el arrendatario está revisando un espacio
+  When Accede a la página de comentarios
+  Then Puede visualizar las reseñas y calificaciones dejadas por otros usuarios sobre ese espacio
+```
+
+**US07:**
+
+```gherkin
+Feature: Reservar espacios
+
+Scenario: Proceso de reserva
+  Given Que un arrendatario ha encontrado el espacio ideal en AlquilaFácil
+  When Selecciona un espacio y una fecha
+  Then Se muestra un formulario para completar los detalles de la reserva
+
+Scenario: Pago de la reserva con vouchers
+  Given Que el usuario está a punto de culminar el proceso de reserva de un espacio
+  When Presiona el botón de realizar reserva
+  Then Realiza el pago de la reserva a través de vouchers
+
+Scenario: Confirmación de reserva
+  Given Que un arrendatario ha realizado el pago de la reserva
+  When Es redirigido a la aplicación
+  Then Recibe una confirmación de reserva y los detalles se actualizan en su cuenta
+
+```
+
+**US08:**
+
+```gherkin
+Feature: Gestión del calendario de reservas
+
+Scenario: Existencia de reserva de usuario normal
+  Given Que un arrendatario ha realizado una reserva de uno de mis espacios
+  When El propietario accede al calendario
+  Then Puede ver el día de la reserva resaltado en color rojo
+
+Scenario: Existencia de reserva de usuario premium
+  Given Que un arrendatario con suscripción premium ha reservado uno de mis espacios
+  When El propietario accede al calendario
+  Then Puede ver el día de la reserva resaltado en color amarillo
+
+Scenario: Existencia de reserva de espacio ajeno
+  Given Que un arrendatario ha realizado una reserva
+  When Accede al calendario
+  Then Puede ver el día de su reserva resaltado en color azul
+```
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 Como resulado del primer Sprint, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
@@ -4602,11 +4744,11 @@ La coordinación del equipo se realizó principalmente a través de **Discord**,
   </tr>
   <tr>
     <td><b>Sprint 2 Velocity</b></td>
-    <td>68</td>
+    <td>72</td>
   </tr>
   <tr>
     <td><b>Sum of Story Points</b></td>
-    <td>68</td>
+    <td>72</td>
   </tr>
   
 </table>
@@ -4762,6 +4904,8 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
+A continuación, se muestran los archivos .feature que contienen cada uno de los escenarios a validar para las features respectivas a las historias de usuario trabajadas en este Sprint.
 
 **US01:**
 
@@ -5573,6 +5717,11 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 
   ![Diagrama Vertanelo([URL]())](images/cloud_edge.jpeg)  
 
+**Mobile App**
+
+- El despliegue del Mobile App se realizó generando un .apk el cual se compartió a un celular para demostrar la prueba.
+
+![Diagrama Vertanelo([URL]())](images/mobile-deploy.jpg)
 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
 Para este apartado se visualiza la colaboración realizada para el cloud application, node edge, landing page, web application y documentacion técnica. Se utilizaron herramientas como GitHub para el control de versiones y Trello para la gestión de tareas.
@@ -6197,6 +6346,7 @@ Segmento de arrendatarios:
 - **Heurística violada:** Usability – Flexibilidad y eficiencia de uso  
 - **Problema:**  
   El sistema permite subir únicamente una imagen por local, limitando la información visual que se puede proporcionar al usuario interesado. Esto afecta negativamente la experiencia de exploración de los espacios.  
+
   <img src="images/problema-1.PNG">
 
 - **Recomendación:**  
@@ -6208,7 +6358,8 @@ Segmento de arrendatarios:
 - **Severidad:** 2  
 - **Heurística violada:** Usability – Preferencias del usuario  
 - **Problema:**  
-  La aplicación no cuenta con opción de personalización visual, como el modo claro y oscuro, lo cual limita la comodidad visual según preferencias o condiciones de iluminación.  
+  La aplicación no cuenta con opción de personalización visual, como el modo claro y oscuro, lo cual limita la comodidad visual según preferencias o condiciones de iluminación. 
+
   <img src="images/problema-2.PNG">
 
 - **Recomendación:**  
@@ -6220,7 +6371,8 @@ Segmento de arrendatarios:
 - **Severidad:** 3  
 - **Heurística violada:** Usability – Ayuda y documentación  
 - **Problema:**  
-  No existe una sección visible para que los usuarios puedan contactar al equipo de soporte o enviar reportes de errores desde la aplicación.  
+  No existe una sección visible para que los usuarios puedan contactar al equipo de soporte o enviar reportes de errores desde la aplicación.
+
   <img src="images/problema-3.PNG">
 
 - **Recomendación:**  
@@ -6232,7 +6384,8 @@ Segmento de arrendatarios:
 - **Severidad:** 2  
 - **Heurística violada:** Usability – Flexibilidad y eficiencia de uso  
 - **Problema:**  
-  El sistema muestra los espacios publicados de forma que los más recientes se encuentran en la parte inferior y los más antiguos en la superior. 
+  El sistema muestra los espacios publicados de forma que los más recientes se encuentran en la parte inferior y los más antiguos en la superior.
+
   <img src="images/problema-4.PNG">
 
 - **Recomendación:**  
@@ -6240,10 +6393,15 @@ Segmento de arrendatarios:
 ---
 
 ### 6.4. Video About-the-product.
-[LINK DEL VIDEO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115412_upc_edu_pe/Ea_wCru4a9ZFsCYCMa1dbD4BTQiqW0TPH7zt44V7NpEpcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=icJPgt)
+
+<img src="images/about-the-product.PNG">
+
+[Enlace del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115412_upc_edu_pe/Ea_wCru4a9ZFsCYCMa1dbD4BTQiqW0TPH7zt44V7NpEpcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=icJPgt)
 
 
 # Conclusiones
+
+## Conclusiones y recomendaciones
 
 <div align="justify">
 
@@ -6259,7 +6417,13 @@ Segmento de arrendatarios:
 
 * Finalmente, AlquilaFácil no solo apunta a consolidarse en el mercado local, sino que tiene una visión ambiciosa de posicionarse como líder global en el sector de alquiler de espacios para eventos. Su compromiso con la innovación, la optimización de procesos y la excelencia en la experiencia de usuario sienta las bases para una expansión sostenida, diferenciándose como un referente en eficiencia, confiabilidad y servicio en la industria.
 
-</div>
+## Video About-The-Team
+
+<img src="images/about-the-team.PNG">
+
+[Enlace del video](https://www.youtube.com/watch?v=9ZdnCfUfQ2M)
+
+
 
 
 # Bibliografía
