@@ -5068,20 +5068,20 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/interviews/arrendador-2.png" alt="Entrevista a Lucero Smith"></div></td>
+    <td><div align="center"><img src="images/entrevista_1_TB2.jpeg" alt="Entrevista a Lucero Smith"></div></td>
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td style="word-break: break-all; max-width: 300px; white-space: normal;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EUk-XS_8969Bq-feXWucHwABct97qln8e-zyUtkFv6WqXw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pYtksX</td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 12:26 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td style="text-align: justify;">
-    Lucero es una profesional la cual dispone de muchas propiedades, donde frecuentemente los pode a disposición de amigos o conocidos para que puedan hacer sus reuniones y/o eventos. Ella nos comenta que AlquilaFacil sería una excelente opciones par agestión reservas de sus espacios, mantener una comunicación con los usuarios, y gestionar adecuadamente el cuidado o reglas que este tenga durante el evento. Le gustaría que se maneje un sistema de calificaciones para ayudar a otros usuarios y también para ella misma tener conocimiento de que clase de usuario esta por alquilar su espacio. Nos comenta también que le parece una super idea el tener control total de lo que esté ocurriendo en el evento, como por ejemplo ver que el arrendatario este cumpliendo con las reglas que se le a establecido. También le parecería interesante el poder recibir alertas cuando se incumpla ciertos acuerdos establecidos. Ella cree que sensores de diversos tipos serían los adecuados para llevar un control total de lo que esté ocurriendo en el espacio que está dando a disposición de los usuarios. Le gustaría que todo se haga desde una interfaz sencilla y adaptable a todo tipo de dispositivos.
+ Lucero nos comenta que actualmente no está muy familiarizada con la tecnología IoT. Sin embargo, tras haber recorrido la aplicación web, menciona que le resulta muy valioso poder monitorear en tiempo real aspectos como el nivel de ruido, aforo, humo y accesos no autorizados, especialmente por las regulaciones existentes en su distrito. Destaca que la plataforma le parece muy intuitiva. Además, nos sugiere algunas mejoras: dado que personas mayores como ella también alquilan los espacios, sería ideal que las letras fueran un poco más grandes, y que se mostraran alertas claras cuando se infrinjan reglas o se detecten situaciones anómalas en los espacios. 
     </td>
   </tr>
 </tbody>
@@ -5101,19 +5101,19 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>Luis David</td>
+    <td>Dario Darly</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>Garcia Días</td>
+    <td>Campoverce</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>21 años</td>
+    <td>24 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>Magdalena</td>
+    <td>Piura</td>
   </tr>
   <tr>
     <td>Aplicaciones usadas</td>
@@ -5125,7 +5125,7 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td>Frustración</td>
-    <td>Posibles accidentes dentro de su local por falta de herramientas para gestionarlo.</td>
+    <td>Posibles accidentes dentro de su local por falta de herramientas para gestionarlo y acceso a areas no autorizadas.</td>
   </tr>
   <tr>
     <td>Tecnologías</td>
@@ -5137,11 +5137,11 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td>Entrevistador</td>
-    <td>Mariano Ames</td>
+    <td>Anthony Avalos</td>
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/interviews/arrendador-3.png" alt="Entrevista a Luis Garcia"></div></td>
+    <td><div align="center"><img src="images/entrevista_2_TB2.jpeg" alt="Entrevista a Luis Garcia"></div></td>
   </tr>
   <tr>
     <td>Enlace</td>
