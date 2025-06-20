@@ -5155,6 +5155,8 @@ Web Service:
 
       Devolviendo el token del usuario. 
 
+- Comments Controller
+
   ![Swagger Docs([URL]())](images/services-docs/swagger-2.PNG)
 
   -  **GET local/{localId}**: Recibe de parámetro: <code>localId</code>
@@ -5172,6 +5174,8 @@ Web Service:
   </code><br>
 
       Devolviendo el comentario publicado.  
+
+- Invoice Controller
 
   ![Swagger Docs([URL]())](images/services-docs/swagger-3.PNG)
 
@@ -5193,11 +5197,15 @@ Web Service:
   -  **GET {invoiceId}**: Recibe de parámetro un invoiceId:<br>
       Devuelve la boleta con tal identificador.
 
+- LocalCategories Controller
+
   ![Swagger Docs([URL]())](images/services-docs/swagger-4.PNG)
 
   -  **GET /**: No recibe parámetros:<br>
 
       Devuelve todas las categorías de local. 
+
+- LocalEdgeNodes Controller
 
   ![Swagger Docs([URL]())](images/services-docs/swagger-5.PNG)
 
@@ -5214,6 +5222,8 @@ Web Service:
   -  **GET local-id/{localId}**: Recibe de parámetro un localId:<br>
     Devuelve el Edge Node para el local con dicho identificador.
       
+
+- Locals Controller
 
   ![Swagger Docs([URL]())](images/services-docs/swagger-6.PNG)
 
@@ -5274,6 +5284,8 @@ Web Service:
       Devuelve todos los locales publicados por el usuario con dicho identificador. 
   </code><br>
 
+- Notifications Controller
+
   ![Swagger Docs([URL]())](images/services-docs/swagger-7.PNG)
 
   -  **GET {userId}**: Recibe de parámetro un userId:<br>
@@ -5284,11 +5296,15 @@ Web Service:
 
       Devuelve la notificación eliminada para el identificador respectivo.
 
+- Plan Controller
+
   ![Swagger Docs([URL]())](images/services-docs/swagger-8.PNG)
 
   -  **GET /**: No recibe parámetros:<br>
 
       Devuelve todos los planes de suscripción disponibles. 
+
+- Profiles Controller
 
   ![Swagger Docs([URL]())](images/services-docs/swagger-9.PNG)
 
@@ -5303,6 +5319,8 @@ Web Service:
   -  **GET bank-accounts/{userId}**: Recibe de parámetro un userId:<br>
 
       Devuelve las cuentas bancarias para el usuario con el identificador dado. 
+
+- Readings Controller
 
   ![Swagger Docs([URL]())](images/services-docs/swagger-10.PNG)
 
@@ -5320,6 +5338,8 @@ Web Service:
   -  **GET local-id/{localId}**: Recibe de parámetro un localId:<br>
 
       Devuelve las lecturas registradas en el local con el identificador dado. 
+
+- Reports Controller
 
   ![Swagger Docs([URL]())](images/services-docs/swagger-11.PNG)
 
@@ -5346,8 +5366,9 @@ Web Service:
 
       Devuelve el reporte eliminado con el identificador dado. 
 
-  ![Swagger Docs([URL]())](images/services-docs/swagger-12.PNG)
+- Reservation Controller
 
+  ![Swagger Docs([URL]())](images/services-docs/swagger-12.PNG)
 
 
   -  **POST /**: Recibe de parámetro el Schema:<br>
@@ -5388,6 +5409,8 @@ Web Service:
 
       Devuelve todos las reservaciones combinadas de los locales publicadas por el usuario para el identificador dado.  
 
+- Subscriptions Controller
+
   ![Swagger Docs([URL]())](images/services-docs/swagger-13.PNG)
 
   -  **POST /**: Recibe de parámetro el Schema:<br>
@@ -5412,6 +5435,8 @@ Web Service:
 
       Devuelve la suscripción modificada para el identificador dado, otorgándole beneficios premium. 
 
+- Users Controller
+
   ![Swagger Docs([URL]())](images/services-docs/swagger-14.PNG)
 
   -  **GET {userId}**: Recibe de parámetro un userId:<br>
@@ -5433,6 +5458,50 @@ Web Service:
   -  **GET get-username/{userId}**: Recibe de parámetro un userId:<br>
 
       Devuelve el nombre de usuario para el identificador dado.
+
+Edge Node:
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-15.PNG)
+
+  -  **POST readings/smoke**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "device_id": 0,<br>
+      &emsp; "message": "string"<br>
+    }</code><br>
+
+      Devuelve la lectura del sensor de tipo Smoke. 
+
+  -  **POST readings/noise**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "device_id": 0,<br>
+      &emsp; "message": "string"<br>
+    }</code><br>
+
+      Devuelve la lectura del sensor de tipo Noise. 
+
+  -  **POST readings/capacity**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "device_id": 0,<br>
+      &emsp; "message": "string"<br>
+    }</code><br>
+
+      Devuelve la lectura del sensor de tipo Capacity. 
+
+  -  **POST readings/restricted-area**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "device_id": 0,<br>
+      &emsp; "message": "string"<br>
+    }</code><br>
+
+      Devuelve la lectura del sensor de tipo Restricted Area. 
+
+  -  **GET readings/local-id{local_id}**: Recibe de parámetro un local_id:<br>
+
+      Devuelve todas las lecturas registradas para el local con el identificador dado.
 
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
