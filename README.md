@@ -4562,12 +4562,44 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
+
+
+#### 6.2.2.6. Execution Evidence for Sprint Review.
+Como resulado del segundo Sprint, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
+    
+<strong>Landing Page:</strong> https://guileless-gaufre-89df8f.netlify.app/src/#hero
+![Diagrama Vertanelo([URL]())](images/cap6_image3.jpeg)
+</br>
+
+
+<strong>Web Application:</strong> https://alquila-facil-app-iot.netlify.app/sign-in
+![Diagrama Vertanelo([URL]())](images/image_25.jpeg)
+
+
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+A continuación se presentan los enlaces a los productos desplegados durante el Sprint 2, los cuales corresponden a los principales servicios desarrollados:
+
+| Servicio             | Descripción                                          | URL de despliegue                                 |
+|----------------------|------------------------------------------------------|---------------------------------------------------|
+| Landing Page         | Sitio informativo de AlquilaFácil con navegación     | https://guileless-gaufre-89df8f.netlify.app/src/#hero       |
+| Aplicación Web       | Plataforma operativa para arrendadores y arrendatarios | https://alquila-facil-app-iot.netlify.app/sign-in |
+
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+
 <p>
 En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
 </p>
 - #### Estrategia de colaboración técnica
 
 Se aplicó la metodología **GitFlow Workflow**, lo que permitió distribuir el trabajo en ramas específicas para cada funcionalidad tanto en el desarrollo de la Landing Page como en el Frontend Web desarrollado con Vue.js. La rama `develop` funcionó como entorno de integración, mientras que cada integrante trabajó en ramas funcionales individuales, realizando posteriormente *pull requests* para su revisión y fusión al repositorio principal. Finalmente la rama `develop` se fusionó a la rama `main`, asegurando que solo el código validado y revisado se integrara a la versión estable del proyecto.
+
+
+### 6.2.2.9. Team Collaboration Insights during Sprint.
+Para este apartado se visualiza la colaboración realizada para el backend
 
 - ####   Canales de comunicación
 
