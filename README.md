@@ -4670,7 +4670,71 @@ Para este apartado se visualiza la colaboración realizada para el backend
 
 
 ### 6.3.3. Evaluaciones según heurísticas.
+---
 
+#### Participante 1: 
+
+1. **Usabilidad:**
+
+   - **Claridad y accesibilidad:**  
+     El diseño de la landing page fue valorado como moderno y bien estructurado. Se percibió una jerarquía visual clara que facilitó la lectura del contenido. El flujo de registro fue comprensible.
+
+   - **Consistencia y estándares:**  
+     Los botones, íconos y estilos mantenían una coherencia visual adecuada. Se reconocen patrones comunes que facilitan la interacción, sobre todo en la aplicación móvil.
+
+2. **Arquitectura de la información:**
+
+   - **Estructura y organización:**  
+     La segmentación del contenido (beneficios, cómo funciona, testimonios) está bien distribuida. El usuario logró identificar rápidamente qué hace la plataforma.
+
+   - **Navegación:**  
+     No se reportaron dificultades al navegar por las distintas secciones de la landing. El uso del menú superior fue suficiente para completar las tareas asignadas.
+
+3. **Experiencia del usuario:**
+
+   - **Emociones y percepción:**  
+     El participante destacó una sensación de confianza gracias al diseño claro y profesional. Percibió la plataforma como una solución “realmente útil” para alquilar espacios sin fricciones.
+
+   - **Recomendaciones:**  
+     Sugiere incorporar una función de "preguntas frecuentes" para resolver dudas comunes de forma rápida, así como un botón de “contacto directo”.
+
+4. **Problemas detectados:**
+
+   - No se identificaron problemas críticos de navegación o comprensión.  
+   - Se recomienda mejorar el contraste de ciertos textos en móviles para mayor accesibilidad visual.
+
+---
+
+#### Participante 2: 
+
+1. **Usabilidad:**
+
+   - **Claridad y accesibilidad:**  
+     La información inicial fue clara, pero el proceso para simular una reserva resultó poco evidente. El participante no encontró rápidamente el acceso al catálogo de espacios.
+
+   - **Consistencia y estándares:**  
+     Algunos íconos carecían de etiquetas o no eran completamente intuitivos, especialmente en la versión web. Se percibió una ligera desconexión entre lo visual y lo funcional.
+
+2. **Arquitectura de la información:**
+
+   - **Estructura y organización:**  
+     La estructura del sitio fue calificada como lógica, pero se sugirió que el orden de las secciones (como “beneficios” y “cómo funciona”) podría priorizar mejor las necesidades del usuario nuevo.
+
+   - **Navegación:**  
+     Se evidenció confusión al intentar regresar desde ciertas páginas internas. El botón de “inicio” no siempre estaba visible.
+
+3. **Experiencia del usuario:**
+
+   - **Emociones y percepción:**  
+     Percibió la propuesta de valor como innovadora, pero con margen de mejora en la usabilidad. La app móvil fue más satisfactoria que la experiencia web.
+
+   - **Recomendaciones:**  
+     Propone incorporar una demo interactiva del proceso de reserva y una funcionalidad de tour virtual para conocer los espacios.
+
+4. **Problemas detectados:**
+
+   - Falta de acceso directo a una sección de espacios destacados desde la portada.  
+   - Necesidad de mayor visibilidad de navegación al interior de la plataforma web.
 
 ### 6.4. Video About-the-product.
 
