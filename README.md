@@ -4560,7 +4560,8 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 
 
-#### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
 <p>
 En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
 </p>
