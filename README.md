@@ -5085,7 +5085,7 @@ Scenario: Registro del historial de intrusiones
 ```
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
-Como resultado del segundo Sprint, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
+Como resultado del segundo Sprint, se presenta la segunda ejecución de la Landing Page y Web Application, asi como tambien la primera version del Web Service, Embebbed App, Edge Node y Mobile App:
     
 <strong>Landing Page:</strong> https://alquilaez.github.io/alquilafacil-landing-page/
 
@@ -5120,17 +5120,319 @@ Como resultado del segundo Sprint, se presenta el despliegue de la Landing Page,
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
-A continuación se presentan los enlaces a los productos desplegados durante el Sprint 2, los cuales corresponden a los principales servicios desarrollados:
+A continuación se presenta la documentación a través de Swagger de todos nuestros endpoints en Web Services y Edge Node:
 
-| Servicio             | Descripción                                          | URL de despliegue (documentacion)                                |
-|----------------------|------------------------------------------------------|---------------------------------------------------|
-| Landing Page         | Sitio informativo de AlquilaFácil con navegación     | https://guileless-gaufre-89df8f.netlify.app/src/#hero       |
-| Aplicación Web       | Plataforma operativa para arrendadores y arrendatarios | https://alquila-facil-app-iot.netlify.app/sign-in |
-| Cloud application     | Servicio en la nube para gestión de datos ( Backend central)            | https://alquilafacil-web-service.onrender.com/swagger/index.html      |
-| Embedded application   | Aplicación embebida para control de dispositivos IoT (Humo, Aforo, Sonito, Areas  Movimiento)     | https://wokwi.com/projects/433560726038801409     |
-| Node Edge            | Nodo Edge para procesamiento de datos cerca a los dispositivos para rapida respusesta                | https://alquilafacil-egde-node-fsaa.onrender.com/docs  |
-| Mobile Application    | Aplicación móvil para usuaris, para la gestion y monitoreo de los espacios.                        | ![Diagrama Vertanelo([URL]())](images/mobile_22.jpeg) https://github.com/AlquilaEZ/alquilafacil-mobile-app|
+Web Service:
 
+- Authentication Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-1.PNG)
+
+  - **POST sign-in**: Recibe de parametro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "email": "string",<br>
+      &emsp; "password": "string"<br>
+    }
+  </code> <br>
+
+    Devolviendo el token del usuario. 
+
+  -  **POST sign-up**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "username": "string",<br>
+      &emsp; "password": "string",<br>
+      &emsp; "email": "string",<br>
+      &emsp; "name": "string",<br>
+      &emsp; "fatherName": "string",<br>
+      &emsp; "motherName": "string",<br>
+      &emsp; "dateOfBirth": "string",<br>
+      &emsp; "documentNumber": "string",<br>
+      &emsp; "phone": "string"<br>
+    }
+  </code><br>
+
+      Devolviendo el token del usuario. 
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-2.PNG)
+
+  -  **GET local/{localId}**: Recibe de parámetro: <code>localId</code>
+
+      Devolviendo todos los comentarios realizados para el local con el identificador.
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "text": "string",<br>
+      &emsp; "rating": 0<br>
+    }
+  </code><br>
+
+      Devolviendo el comentario publicado.  
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-3.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "subscriptionId": 0,<br>
+      &emsp; "amount": 0,<br>
+      &emsp; "date": "2025-06-20T21:00:13.031Z"<br>
+    }
+  </code><br>
+
+      Devolviendo la boleta obtenida.  
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todas las boletas.  
+    
+  -  **GET {invoiceId}**: Recibe de parámetro un invoiceId:<br>
+      Devuelve la boleta con tal identificador.
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-4.PNG)
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todas las categorías de local. 
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-5.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "edgeNodeUrl": "string"<br>
+    }
+  </code><br>
+
+      Devuelve el Edge Node creado para el localId.
+
+  -  **GET local-id/{localId}**: Recibe de parámetro un localId:<br>
+    Devuelve el Edge Node para el local con dicho identificador.
+      
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-6.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "district": "string",<br>
+      &emsp; "street": "string",<br>
+      &emsp; "localName": "string",<br>
+      &emsp; "country": "string",<br>
+      &emsp; "city": "string",<br>
+      &emsp; "price": 0,<br>
+      &emsp; "photoUrl": "string",<br>
+      &emsp; "descriptionMessage": "string",<br>
+      &emsp; "localCategoryId": 0,<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "features": "string",<br>
+      &emsp; "capacity": 0<br>
+    }</code><br>
+
+        Devuelve el local publicado.
+  </code><br>
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todos los locales publicados. 
+
+  -  **GET {localId}**: Recibe de parámetro un localId:<br>
+
+      Devuelve el local publicado para el identificador dado. 
+
+  -  **POST {localId}/**: Recibe de parámetro un localId y el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "district": "string",<br>
+      &emsp; "street": "string",<br>
+      &emsp; "localName": "string",<br>
+      &emsp; "country": "string",<br>
+      &emsp; "city": "string",<br>
+      &emsp; "price": 0,<br>
+      &emsp; "photoUrl": "string",<br>
+      &emsp; "descriptionMessage": "string",<br>
+      &emsp; "localCategoryId": 0,<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "features": "string",<br>
+      &emsp; "capacity": 0<br>
+    }</code><br>
+
+        Devuelve el local actualizado.
+
+  -  **GET get-all-districts**: No recibe parámetros:<br>
+
+      Devuelve todos los distritos en los cuales haya un local publicado. 
+  </code><br>
+
+  -  **GET get-user-locals/{localId}**: Recibe de parámetro un localId:<br>
+
+      Devuelve todos los locales publicados por el usuario con dicho identificador. 
+  </code><br>
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-7.PNG)
+
+  -  **GET {userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve todos las notificaciones que recibió un usuario con el identificador dado. 
+
+  -  **DELETE {notificationId}**: Recibe de parámetro un notificationId:<br>
+
+      Devuelve la notificación eliminada para el identificador respectivo.
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-8.PNG)
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todos los planes de suscripción disponibles. 
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-9.PNG)
+
+  -  **GET user/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve el perfil para el usuario con el identificador dado. 
+
+  -  **GET subscription-status/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve el estado de suscripción para el usuario con el identificador dado. 
+
+  -  **GET bank-accounts/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve las cuentas bancarias para el usuario con el identificador dado. 
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-10.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "sensorTypeId": 0,<br>
+      &emsp; "message": "string",<br>
+      &emsp; "timestamp": "2025-06-20T21:21:48.106Z"<br>
+    }</code><br>
+
+        Devuelve la lectura registrada.
+
+  -  **GET local-id/{localId}**: Recibe de parámetro un localId:<br>
+
+      Devuelve las lecturas registradas en el local con el identificador dado. 
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-11.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "title": string,<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "description": string<br>
+    }</code><br>
+
+      Devuelve el reporte publicado. 
+
+  -  **GET get-by-user-id/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve todos los reportes publicados por el usuario con el identificador dado. 
+
+  -  **GET get-by-local-id/{localId}**: Recibe de parámetro un localId:<br>
+
+      Devuelve todos los reportes publicados para el local con el identificador dado. 
+
+  -  **DELETE /**: Recibe de parámetro un reportlId:<br>
+
+      Devuelve el reporte eliminado con el identificador dado. 
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-12.PNG)
+
+
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "startDate": "2025-06-20T21:26:54.049Z",<br>
+      &emsp; "endDate": "2025-06-20T21:26:54.049Z",<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "price": 0,<br>
+      &emsp; "voucherImageUrl": "string"<br>
+    }</code><br>
+
+      Devuelve la reserva creada. 
+
+  -  **PUT /**: Recibe de parámetro un reservationId y el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "startDate": "2025-06-20T21:26:54.049Z",<br>
+      &emsp; "endDate": "2025-06-20T21:26:54.049Z",<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "price": 0,<br>
+      &emsp; "voucherImageUrl": "string"<br>
+    }</code><br>
+
+      Devuelve la reserva modificada para el identificador dado. 
+
+  -  **PUT /**: Recibe de parámetro un reservationId:<br>
+
+      Devuelve la reserva eliminada para el identificador dado.
+
+  -  **GET by-user-id/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve todos las reservaciones realizadas por el usuario para el identificador dado. 
+
+   -  **GET reservation-user-details/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve todos las reservaciones combinadas de los locales publicadas por el usuario para el identificador dado.  
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-13.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "planId": 0,<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "voucherImageUrl": "string"<br>
+    }</code><br>
+
+      Devuelve la suscripción creada. 
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todas las suscripciones realizadas.
+
+  -  **GET {suscriptionId}**: Recibe de parámetro un suscriptionId:<br>
+
+      Devuelve todas la suscripción realizada para el identificador dado.
+
+  -  **PUT /**: Recibe de parámetro un suscriptionId:<br>
+
+      Devuelve la suscripción modificada para el identificador dado, otorgándole beneficios premium. 
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-14.PNG)
+
+  -  **GET {userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve el usuario para el identificador dado.
+
+    -  **PUT {userId}**: Recibe de parámetro un userId y el Schema:<br>
+    <code>
+      {<br>
+        &emsp; "username": "string"<br>
+      }<br></code>
+
+        Devuelve el usuario modificado para el identificador dado.
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todos los usuarios solo para aquellos con el rol Admin.
+
+  -  **GET get-username/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve el nombre de usuario para el identificador dado.
 
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
@@ -5188,7 +5490,7 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
   <img src="images/wokwi-logo.png" alt="Diagrama Vertanelo" width="100%"/>
 
   ![Diagrama Vertanelo([URL]())](images/wokwi.jpeg)
-</br>
+</pre>
 
 
 <br>
