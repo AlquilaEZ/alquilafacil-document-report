@@ -4762,35 +4762,360 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
+**US01:**
 
+```gherkin
+Feature: Registro de usuario
+
+Scenario: Registro exitoso
+  Given Que un usuario desea registrar su espacio en AlquilaFácil
+  When Completa el formulario de registro con la información requerida
+  Then Recibe una confirmación de registro y puede acceder a su cuenta
+
+Scenario: Validación de datos
+  Given Que un usuario completa el formulario de registro en AlquilaFácil
+  When Envía el formulario
+  Then Los datos proporcionados se validan para garantizar la precisión y la autenticidad
+```
+
+**US02:**
+
+```gherkin
+Feature: Inicio de sesión
+
+Scenario: Inicio de sesión exitoso
+  Given Que un usuario registrado desea acceder a su cuenta en AlquilaFácil
+  When Ingresa su correo electrónico y contraseña correctos en el formulario de inicio de sesión
+  Then Es autenticado exitosamente y se le otorga acceso a su cuenta
+
+Scenario: Error en el inicio de sesión por credenciales incorrectas
+  Given Que un usuario registrado intenta acceder a su cuenta en AlquilaFácil
+  When Ingresa una combinación incorrecta de correo electrónico o contraseña
+  Then Se le muestra un mensaje de error indicando que las credenciales son incorrectas y se le solicita que intente nuevamente
+
+```
+
+**US03:**
+
+```gherkin
+Feature: Registro de espacios
+
+Scenario: Registro de datos básicos
+  Given Que un arrendador desea registrar su espacio en AlquilaFácil
+  When Completa los campos organizados en varios pasos con información detallada sobre la propiedad
+  Then Puede enviar el registro con éxito y recibir confirmación de su inclusión en la plataforma
+
+Scenario: Validación de datos requeridos en cada paso del registro
+  Given Que un arrendador está completando el registro de su espacio
+  When Rellena todos los campos correspondientes a un paso específico
+  Then Se activa el botón que le permite continuar al siguiente paso
+
+```
+
+**US04:**
+
+```gherkin
+Feature: Búsqueda de espacios disponibles
+
+Scenario: Búsqueda principal por ubicación
+  Given Que un arrendatario busca un espacio para eventos en una ubicación específica
+  When Ingresa la ubicación deseada en el campo de búsqueda
+  Then Se muestran los espacios disponibles en esa ubicación
+
+Scenario: Búsqueda general de espacios
+  Given Que un arrendatario no ingresa texto en la barra de búsqueda
+  When Presiona sobre el ícono de búsqueda
+  Then Se muestran todos los espacios disponibles
+
+```
+
+**US05:**
+
+```gherkin
+Feature: Filtrado de espacios disponibles
+
+Scenario: Filtrado por capacidad
+  Given Que un arrendatario desea un espacio con capacidad para un número específico de personas
+  When Aplica un filtro de capacidad en la búsqueda
+  Then Se muestran solo los espacios que cumplen con ese criterio
+
+Scenario: Filtrado por categoría
+  Given Que un arrendatario desea un espacio de una categoría específica
+  When Aplica un filtro de categoría en la búsqueda
+  Then Se muestran solo los espacios que cumplen con ese criterio
+```
+
+**US06:**
+
+```gherkin
+Feature: Visualización de información del espacio
+
+Scenario: Visualización de información
+  Given Que el arrendatario selecciona un espacio en AlquilaFácil
+  When Accede a la página de detalles del espacio
+  Then Puede visualizar información detallada como aforo máximo, descripción del espacio y servicios disponibles
+
+Scenario: Visualización de reseñas del espacio
+  Given Que el arrendatario está revisando un espacio
+  When Accede a la página de comentarios
+  Then Puede visualizar las reseñas y calificaciones dejadas por otros usuarios sobre ese espacio
+```
+
+**US07:**
+
+```gherkin
+Feature: Reservar espacios
+
+Scenario: Proceso de reserva
+  Given Que un arrendatario ha encontrado el espacio ideal en AlquilaFácil
+  When Selecciona un espacio y una fecha
+  Then Se muestra un formulario para completar los detalles de la reserva
+
+Scenario: Pago de la reserva con vouchers
+  Given Que el usuario está a punto de culminar el proceso de reserva de un espacio
+  When Presiona el botón de realizar reserva
+  Then Realiza el pago de la reserva a través de vouchers
+
+Scenario: Confirmación de reserva
+  Given Que un arrendatario ha realizado el pago de la reserva
+  When Es redirigido a la aplicación
+  Then Recibe una confirmación de reserva y los detalles se actualizan en su cuenta
+
+```
+
+**US08:**
+
+```gherkin
+Feature: Gestión del calendario de reservas
+
+Scenario: Existencia de reserva de usuario normal
+  Given Que un arrendatario ha realizado una reserva de uno de mis espacios
+  When El propietario accede al calendario
+  Then Puede ver el día de la reserva resaltado en color rojo
+
+Scenario: Existencia de reserva de usuario premium
+  Given Que un arrendatario con suscripción premium ha reservado uno de mis espacios
+  When El propietario accede al calendario
+  Then Puede ver el día de la reserva resaltado en color amarillo
+
+Scenario: Existencia de reserva de espacio ajeno
+  Given Que un arrendatario ha realizado una reserva
+  When Accede al calendario
+  Then Puede ver el día de su reserva resaltado en color azul
+```
+
+**US09:**
+
+```gherkin
+Feature: Calificar y comentar sobre espacios
+
+Scenario: Permiso para opinar sobre un espacio
+  Given Que un arrendatario tiene una reserva culminada de un espacio
+  When Accede a su información a través del calendario
+  Then Se presenta la opción habilitada para que pueda publicar su reseña sobre este
+
+Scenario: Aporte de reseña
+  Given Que un arrendatario ha rellenado todos los campos de reseña
+  When Presiona el botón de realizar reseña
+  Then Esta se publica para que todos los usuarios la puedan ver
+```
+
+**US10:**
+
+```gherkin
+Feature: Notificaciones de actividades del arrendatario
+
+Scenario: Notificación de reserva
+  Given Que el arrendador ha publicado un espacio en AlquilaFácil
+  When Un arrendatario realiza una reserva para dicho espacio
+  Then El arrendador recibe una notificación indicando la fecha y el nombre del arrendatario
+
+Scenario: Notificación de reseña
+  Given Que el arrendador ha publicado un espacio en AlquilaFácil
+  When Un arrendatario publica una reseña sobre dicho espacio
+  Then El arrendador recibe una notificación con el comentario y la calificación otorgada
+```
+
+**US11:**
+
+
+```gherkin
+Feature: Control de espacios favoritos
+
+Scenario: Agregar a favoritos
+  Given Que el arrendatario está visualizando la página de detalles de un espacio
+  When Selecciona la opción de "Agregar a favoritos"
+  Then El espacio se guarda en la lista de favoritos de forma local
+
+Scenario: Eliminar de favoritos
+  Given Que el arrendatario ha guardado un espacio como favorito
+  When Selecciona la opción de "Eliminar de favoritos" en dicho espacio
+  Then El espacio se elimina de la lista de favoritos y ya no se muestra al filtrar
+
+```
+
+**US12:**
+
+```gherkin
+Feature: Visualizar espacios propios publicados
+
+Scenario: Listado de espacios publicados
+  Given Que el arrendador ha iniciado sesión en su cuenta de AlquilaFácil
+  When Accede a la sección "Mis espacios"
+  Then Puede ver una lista de todos los espacios publicados, incluyendo información básica
+
+Scenario: Acceso a detalles y edición
+  Given Que el arrendador visualiza la lista de espacios publicados
+  When Selecciona un espacio específico
+  Then Puede acceder a la página de detalles del espacio y editar su información
+```
+
+**US13:**
+
+```gherkin
+Feature: Modificación de espacios publicados
+
+Scenario: Edición de detalles del espacio
+  Given Que el arrendador desea actualizar la información de su espacio
+  When Accede a la sección de edición y modifica descripción, aforo, servicios o tarifas
+  Then Puede guardar los cambios, y estos se reflejan en la página pública del espacio
+
+Scenario: Modificación de visibilidad temporal del espacio
+  Given Que el arrendador está editando su espacio
+  When Activa la opción de "No disponible temporalmente"
+  Then El espacio se muestra como no disponible para reservas
+```
+
+**US14:**
+
+```gherkin
+Feature: Actualización de perfil y gestión de sesión
+
+Scenario: Modificación del nombre de usuario
+  Given Que el usuario ha iniciado sesión en AlquilaFácil
+  When Accede a la configuración de perfil y edita el campo "Nombre de usuario"
+  Then Puede guardar los cambios y el nuevo nombre se refleja en su perfil
+
+Scenario: Cierre de sesión
+  Given Que el usuario desea salir de su cuenta
+  When Selecciona la opción "Cerrar sesión" en el perfil
+  Then Es desconectado y redirigido a la pantalla de inicio de sesión de forma segura
+```
+
+**US15:**
+
+```gherkin
+Feature: Reportar espacios inseguros
+
+Scenario: Selección del espacio inseguro
+  Given Que el usuario ha iniciado sesión en AlquilaFácil
+  When Accede a "Reportar espacio" y selecciona un espacio desde sus reservas activas o buscador
+  Then Puede ingresar un asunto y una descripción del problema
+
+Scenario: Confirmación del reporte
+  Given Que el usuario ha completado el formulario de reporte con los datos requeridos
+  When Presiona el botón "Enviar"
+  Then El reporte es registrado y revisado por el equipo de soporte de AlquilaFácil
+```
+
+**US16:**
+
+```gherkin
+Feature: Visualizar espacios reportados
+
+Scenario: Navegar a la sección de "Ver Espacios Reportados"
+  Given Que el usuario ha iniciado sesión en su cuenta de AlquilaFácil
+  When Accede a la sección de "Ver Espacios Reportados" desde el panel de control
+  Then Puede ver una lista de los espacios reportados con nombre, fecha y motivo
+
+Scenario: Eliminar un reporte deslizando hacia la izquierda
+  Given Que el usuario se encuentra en la lista de espacios reportados
+  When Desliza un reporte hacia la izquierda
+  Then Aparece una opción para confirmar la eliminación y, si confirma, el reporte se elimina
+```
+
+**US19:**
+
+```gherkin
+Feature: Control de aforo en tiempo real
+
+Scenario: Alerta por aforo cercano al límite
+  Given Que hay un evento activo
+  When Se detecta que el número de personas se acerca al límite permitido
+  Then Se muestra una alerta en la app del arrendador
+
+Scenario: Notificación por superación del aforo máximo
+  Given Que se ha superado el aforo máximo permitido
+  When Esto ocurre durante un evento
+  Then El sistema notifica al arrendador mediante notificación push y correo electrónico
+```
+
+**US21:**
+
+```gherkin
+Feature: Detección de humo durante eventos
+
+Scenario: Alerta crítica por detección de humo
+  Given Que hay sensores de humo activos en el local
+  When Se detecta presencia de humo durante un evento
+  Then Se envía una notificación crítica al arrendador
+
+Scenario: Visualización del incidente en panel de eventos
+  Given Que se ha enviado una alerta de humo
+  When El usuario accede a la app
+  Then Debe visualizar el evento en el panel de incidentes con la hora exacta de detección
+```
+
+
+**US22:**
+
+```gherkin
+Feature: Detección de movimiento en áreas no autorizadas
+
+Scenario: Alerta inmediata por intrusión en zona restringida
+  Given Que se ha definido una zona como restringida
+  When Se detecta movimiento en esa área durante un evento
+  Then El arrendador recibe una alerta inmediata con la ubicación del incidente
+
+Scenario: Registro del historial de intrusiones
+  Given Que ocurre una intrusión en una zona restringida
+  When El evento es registrado por el sistema
+  Then Debe quedar un historial con fecha, hora y duración del movimiento
+```
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 Como resultado del segundo Sprint, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
     
-<strong>Landing Page:</strong> https://guileless-gaufre-89df8f.netlify.app/src/#hero
-![Diagrama Vertanelo([URL]())](images/cap6_image3.jpeg)
+<strong>Landing Page:</strong> https://alquilaez.github.io/alquilafacil-landing-page/
+
+![landing Page([URL]())](images/cap6_image3.jpeg)
 </br>
 
 
 <strong>Web Application:</strong> https://alquila-facil-app-iot.netlify.app/sign-in
-![Diagrama Vertanelo([URL]())](images/web_deploy.jpeg)
+
+![Web Application Deploy([URL]())](images/web_deploy.jpeg)
 </br>
 
-<strong>Cloud application:</strong> https://alquilafacil-web-service.onrender.com
-![Diagrama Vertanelo([URL]())](images/cloud.jpeg)
+<strong>Web service:</strong> https://alquilafacil-web-service.onrender.com
+
+![Web Service Deploy([URL]())](images/cloud.jpeg)
 </br>
 
-<strong>Embedded application:</strong> https://wokwi.com/projects/433560726038801409
-![Diagrama Vertanelo([URL]())](images/wokwi.jpeg)
-</br>
+<strong>Edge Node Service</strong> https://alquilafacil-egde-node-fsaa.onrender.com
 
-
-<strong>Node Edge</strong> https://alquilafacil-egde-node-fsaa.onrender.com
 ![Diagrama Vertanelo([URL]())](images/cloud_edge.jpeg)
 </br>
 
+<strong>Embedded Application:</strong> https://wokwi.com/projects/433560726038801409
+
+![Diagrama Wokwi([URL]())](images/wokwi.jpeg)
+</br>
+
+
 <strong>Mobile Application:</strong> 
-![Diagrama Vertanelo([URL]())](images/mobile_22.jpeg)
+
+![Diagrama Vertanelo([URL]())](images/mobile_22.PNG)
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
@@ -4819,22 +5144,38 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 - El despliegue de la Landing Page se realizo en Github Pages, permitiendo una entrega continua y acceso público desde un dominio gratuito.
   - URL: https://alquilaez.github.io/alquilafacil-landing-page/
   - Descripción: Página informativa de AlquilaFácil, con navegación intuitiva y responsive.
-![Diagrama Vertanelo([URL]())](images/github-pages.jpeg)
 
+  ![Logo Github([URL]())](images/github-pages.jpeg)
+
+  ![Landing Page Deploy([URL]())](images/landing-page-deploy.PNG)
+
+  ![landing Page([URL]())](images/cap6_image3.jpeg)
 <br>
 
 - **Web Application**
 - El despliegue de la Web Application se realizó en Netlify, permitiendo una entrega continua y acceso público desde un dominio gratuito.
   - URL: https://alquila-facil-app-iot.netlify.app/sign-in
   - Descripción: Plataforma operativa para arrendadores y arrendatarios, con funcionalidades de registro, búsqueda y gestión de espacios.
-![Diagrama Vertanelo([URL]())](images/netlofy.png)
+
+  <img src="images/netlofy.png" alt="Netlify" width="100%"/>
+  
+  ![Web App Deploy([URL]())](images/web-app-deploy.PNG)
+
+  ![Web Application Deploy([URL]())](images/web_deploy.jpeg)
+
 <br>
 
-- **Cloud Application**
+- **Web Service**
 - El despliegue del servicio en la nube se realizó en Render, permitiendo una entrega continua y acceso público desde un dominio gratuito.
   - URL: https://alquilafacil-web-service.onrender.com/swagger/index.html
   - Descripción: Servicio backend central para la gestión de datos y operaciones de la plataforma AlquilaFácil.
+
   ![Diagrama Vertanelo([URL]())](images/render.png)
+
+  ![Web Service Deploy([URL]())](images/web-service-deploy.PNG)
+
+
+  ![Web Service Deploy([URL]())](images/cloud.jpeg)
 
 <br>
 
@@ -4842,15 +5183,23 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 - El despliegue de la aplicación embebida se realizó en Wokwi, permitiendo simular el funcionamiento de los dispositivos IoT.
   - URL: https://wokwi.com/projects/433560726038801409
   - Descripción: Aplicación embebida para el control de dispositivos IoT (Humo, Aforo, Sonido, Áreas de Movimiento).
-   ![Diagrama Vertanelo([URL]())](images/wokwi-logo.png)
+
+  <img src="images/wokwi-logo.png" alt="Diagrama Vertanelo" width="100%"/>
+
+  ![Diagrama Vertanelo([URL]())](images/wokwi.jpeg)
+</br>
+
 
 <br>
 
-- **Node Edge**
+- **Edge Node**
 - El despliegue del nodo Edge se realizó en Render, permitiendo una entrega continua y acceso público desde un dominio gratuito.
   - URL: https://alquilafacil-egde-node-fsaa.onrender.com/docs
   - Descripción: Nodo Edge para el procesamiento de datos cerca de los dispositivos, garantizando una respuesta rápida y eficiente.
+
   ![Diagrama Vertanelo([URL]())](images/render.png)
+
+  ![Diagrama Vertanelo([URL]())](images/cloud_edge.jpeg)  
 
 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
