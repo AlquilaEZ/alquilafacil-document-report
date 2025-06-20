@@ -28,7 +28,7 @@ Sosa Colca Angello Rodolfo<br>
 Carlos Oswaldo Casimiro Fernandez
 </p>
 
-<p align="center"><strong>Mayo 2025</strong></p>
+<p align="center"><strong>Junio 2025</strong></p>
 
 
 
@@ -70,6 +70,18 @@ Carlos Oswaldo Casimiro Fernandez
       </td>
       <td>Se creo los repositorios para la Web Application frontend y Lading Page, asi como tambien el desarrollo de los capitulos 5 y 6 (Sprint Backlog 1). Tambien se continuo con el desarrollo de los productos de software mencionados y la presentacion de los mismos.</td>
    </tr>
+          <tr>
+      <td>3da</td>
+      <td>19/06/2025</td>
+      <td>
+        - Ames Oviedo Mariano Jose <br>
+        - Avalos Santos Anthony Piero <br>
+        - Lecca Choccare Christopher Bryan <br>
+        - Sosa Colca Angello Rodolfo <br>
+        - Carlos Oswaldo Casimiro Fernandez <br>
+      </td>
+      <td> Se continuo mejorando la aplicacion web y Landing Page. Se desplego la primera version de la aplicacion embebida, asi como tambien el nodo Edge. Tambien se realizo la primera version de la aplicacion movil. Todo ello corresponde al Sprint Backlog 2, parte del capitulo 6.</td>
+   </tr>
 </table>
 
 ---
@@ -107,6 +119,31 @@ Carlos Oswaldo Casimiro Fernandez
 ![image]( images/image_27.jpeg)
 
 ![image]( images/image_26.jpeg)
+
+
+
+
+
+
+<strong>TB2</strong> 
+
+<p> El uso de ramas paralelas en el control de versiones permitió que los integrantes del equipo trabajaran de manera simultánea en diferentes componentes del proyecto, como la Landing Page, la aplicación web, la app móvil y el nodo Edge. Esta estrategia colaborativa no solo facilitó una integración continua de los avances, minimizando conflictos de código, sino que también promovió una distribución equitativa de las tareas. Gracias a esta metodología, todos los miembros del equipo pudieron contribuir activamente al desarrollo integral del producto entregable del sprint, manteniendo un flujo de trabajo ágil y coordinado.</p>
+
+  - **Frontend Web Application**
+![image]( images/web_1.jpeg)
+![image]( images/web_2.jpeg)
+
+
+  - **Mobile Application**
+  ![image]( images/mobile_1.jpeg)
+  ![image]( images/mobile_2.jpeg)
+
+
+
+
+  - **Edge Node**
+  ![image]( images/edge_2.jpeg)
+  ![image]( images/edge_1.jpeg)
 
 ---
 
@@ -205,8 +242,27 @@ Carlos Oswaldo Casimiro Fernandez
 | [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review) |
 | [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review) |
 | [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint) |
-
-
+ | [6.1. Software Configuration Management](#61-software-configuration-management) |
+| [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration) |
+| [6.1.2. Source Code Management](#612-source-code-management) |
+| [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions) |
+| [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration) |
+| [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation) |
+| [6.2.2. Sprint 2](#621-sprint-2) |
+| [6.2.2.1. Sprint Planning 2](#6211-sprint-planning-2) |
+| [6.2.2.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators) |
+| [6.2.2.3. Sprint Backlog 2](#6213-sprint-backlog-2) |
+| [6.2.2.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review) |
+| [6.2.2.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review) |
+| [6.2.2.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review) |
+| [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review) |
+| [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review) |
+| [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint) |
+| [6.3. Validation Interviews.](#63-validation-interviews) |
+| [6.3.1. Diseno de Entrevistas](#631-diseño-de-entrevistas) |
+| [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas) |
+| [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-segun-heuristicas) |
+| [6.4. Video About-the-Product.](#64-video-about-the-product) |
 
 # Student Outcome
 
@@ -232,42 +288,56 @@ del ABET – EAC - Student Outcome 5.
       <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
       <td>
         <strong>Christopher Bryan Lecca Choccare <br> (TB1):</strong> Me encargué de liderar el diseño estratégico, guiando al equipo en la identificación de bounded contexts y en la elaboración del Event Storming y Context Mapping. Coordiné la conexión lógica entre eventos y políticas, y aseguré la consistencia general en los flujos del sistema.<br>
-        <strong>(TP1):</strong> Desarrollé la estructura completa de la Landing Page utilizando HTML y Tailwind CSS, asegurando un diseño limpio y adaptable. Participé en el desarrollo del Capítulo V, definiendo los lineamientos de estilo y wireframes. Además, fui responsable de redactar gran parte del Capítulo VI, incluyendo las evidencias de implementación y despliegue del producto.<br><br>
+        <strong>(TP1):</strong> Desarrollé la estructura completa de la Landing Page utilizando HTML y Tailwind CSS, asegurando un diseño limpio y adaptable. Participé en el desarrollo del Capítulo V, definiendo los lineamientos de estilo y wireframes. Además, fui responsable de redactar gran parte del Capítulo VI, incluyendo las evidencias de implementación y despliegue del producto.<br>
+         <strong>(TB2):</strong> Desarrolle el Node Edge para la comunicación directa con los dispositivos IoT. También colabore activamente en el desarrollo de la aplicación móvil, y apoye en el desarrollo y conexion de la aplicacion embebida con el node Edge. Tambien apoye en la documentacion respectiva.<br><br>
         <strong>Angello Rodolfo Sosa Colca <br>(TB1):</strong> Lideré el diseño táctico del contexto "Locals", definiendo sus capas y componentes. Me aseguré de que la estructura entre entidades, comandos, servicios y repositorios fuera coherente y alineada con los principios de DDD.<br>
-        <strong>(TP1):</strong> Contribuí activamente en la codificación del frontend web desarrollado con Vue.js, implementando los componentes de interfaz para la gestión de espacios. También colaboré en la sección de prototipos del Capítulo V y en los aspectos técnicos del Capítulo VI relacionados a la arquitectura de software.<br><br>
+        <strong>(TP1):</strong> Contribuí activamente en la codificación del frontend web desarrollado con Vue.js, implementando los componentes de interfaz para la gestión de espacios. También colaboré en la sección de prototipos del Capítulo V y en los aspectos técnicos del Capítulo VI relacionados a la arquitectura de software.<br>
+        <strong>(TB2):</strong> Colabore activamente en el desarrollo de los puntos de conexión entre la aplicación móvil y el backend, asegurando una integración fluida y eficiente.Ademas, apoye en la ultima version de Landing Page.<br><br>
         <strong>Anthony Piero Avalos Santos <br>  (TB1):</strong> Participé activamente en la fase de descubrimiento del usuario. Me enfoqué en aplicar técnicas como Empathy Mapping, User Personas y User Journey para captar de manera precisa las necesidades reales y plasmarlas en el sistema.<br>
-        <strong>(TP1):</strong> Diseñé la estructura de navegación de la Landing Page y desarrollé varias secciones como "Beneficios" y "Monitoreo", asegurando su conexión visual y lógica. También redacté partes del Capítulo V enfocadas en diseño centrado en el usuario y usabilidad de la aplicación web.<br><br>
-        <strong>Mariano José Ames Oviedo <br>(TB1):</strong>encargué de elaborar la introducción de la solución, definiendo el perfil de la startup, los desafíos que busca resolver y su aporte a la sostenibilidad urbana. También consolidé los antecedentes para contextualizar el problema.<br>
-        <strong>(TP1):</strong> Colaboré en la validación del contenido del Capítulo VI, asegurándome de que se describieran de forma clara los resultados del sprint. Además, participé en la organización y revisión del índice general y los entregables de UI/UX documentados en el Capítulo V.<br><br>
+        <strong>(TP1):</strong> Diseñé la estructura de navegación de la Landing Page y desarrollé varias secciones como "Beneficios" y "Monitoreo", asegurando su conexión visual y lógica. También redacté partes del Capítulo V enfocadas en diseño centrado en el usuario y usabilidad de la aplicación web.<br>
+                <strong>(TB2):</strong> Apoye en el desarrollo del Node Edge, asi como tambien en la conexion con el backend central para enviar las lecturas de los sensores principales. Tambien apoye en la documentacion respectiva.<br><br>
+        <strong>Mariano José Ames Oviedo <br>(TB1):</strong> Me encargué de elaborar la introducción de la solución, definiendo el perfil de la startup, los desafíos que busca resolver y su aporte a la sostenibilidad urbana. También consolidé los antecedentes para contextualizar el problema.<br>
+        <strong>(TP1):</strong> Colaboré en la validación del contenido del Capítulo VI, asegurándome de que se describieran de forma clara los resultados del sprint. Además, participé en la organización y revisión del índice general y los entregables de UI/UX documentados en el Capítulo V.<br>
+        <strong>(TB2):</strong> Colabore activamente en la configuracion y despliegue de la aplicacion embebida, asi como tambien en la seleccion de los componentes IoT necesarios para la integracion del sistema junto con las US necesarios para el core del negocio de AlquilaFacil.<br><br>
         <strong>Carlos Oswaldo Casimiro Fernández <br> (TB1):</strong>Me responsabilicé por la implementación de la capa de infraestructura del contexto, construyendo los repositorios, asegurando persistencia adecuada y validando integraciones con bases de datos.<br>
-        <strong>(TP1):</strong> Aporté en la integración técnica del frontend con los servicios backend simulados, validando los flujos de datos. Además, participé en la documentación técnica del Capítulo VI, especialmente en la sección de despliegue y configuración de servicios.<br><br>
+        <strong>(TP1):</strong> Aporté en la integración técnica del frontend con los servicios backend simulados, validando los flujos de datos. Además, participé en la documentación técnica del Capítulo VI, especialmente en la sección de despliegue y configuración de servicios.<br>
+        <strong>(TB2):</strong> Aporte en la elaboracion del documento y tambien el video about the product. Tambien apoye en la presentacion de la entrega para exponer todo ll que abarca este sprint<br><br>
       </td>
       <td>
       <strong>(TB1):</strong>
 El equipo demostró una colaboración efectiva al asumir roles estratégicos que permitieron el avance fluido del proyecto. Cada miembro aportó liderazgo desde sus fortalezas, logrando construir una solución bien estructurada a través de trabajo conjunto y comunicación constante.<br><br><br>
       <strong>(TP1):</strong>
-El equipo logró organizarse estratégicamente durante el desarrollo del producto, asignando roles complementarios en el diseño de interfaces, construcción de componentes técnicos y elaboración del entregable. Cada integrante asumió el liderazgo en secciones específicas del sistema, permitiendo el desarrollo paralelo de la Landing Page, la aplicación web y los capítulos del informe. Esta distribución equilibrada potenció la autonomía individual sin comprometer la coherencia del trabajo conjunto.
+El equipo logró organizarse estratégicamente durante el desarrollo del producto, asignando roles complementarios en el diseño de interfaces, construcción de componentes técnicos y elaboración del entregable. Cada integrante asumió el liderazgo en secciones específicas del sistema, permitiendo el desarrollo paralelo de la Landing Page, la aplicación web y los capítulos del informe. Esta distribución equilibrada potenció la autonomía individual sin comprometer la coherencia del trabajo conjunto.<br><br>
+      <strong>(TB2):</strong>
+El equipo trabajó de forma coordinada en el desarrollo paralelo de la aplicación móvil, el nodo Edge y la aplicación embebida, asegurando su integración con el backend. Cada miembro asumió roles técnicos y de documentación según sus fortalezas, lo que permitió una entrega sólida, coherente y bien documentada al cierre del sprint.
       </td>
     </tr>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos.</td>
       <td>
         <strong>Mariano José Ames Oviedo <br> (TB1):</strong> Me encargué de redactar las secciones introductorias del entregable, comunicando los objetivos y fundamentos del sistema de forma clara para cualquier lector.<br>
-        <strong>(TP1):</strong> Redacté el perfil de la startup, objetivos generales del sistema y antecedentes clave, facilitando la comprensión del lector sobre la necesidad del producto. También revisé la coherencia del Capítulo VI en su conjunto.<br><br>
+        <strong>(TP1):</strong> Redacté el perfil de la startup, objetivos generales del sistema y antecedentes clave, facilitando la comprensión del lector sobre la necesidad del producto. También revisé la coherencia del Capítulo VI en su conjunto.<br>
+                <strong>(TB2):</strong> Redacté descripciones claras sobre la configuración de la aplicación embebida y los componentes IoT utilizados, explicando su propósito dentro del sistema para facilitar su entendimiento por diferentes especialidades.<br><br>
         <strong>Anthony Piero Avalos Santos <br>(TB1):</strong> Redacté resultados del análisis de usuarios, presentando mapas y perfiles de forma comprensible para distintos perfiles técnicos y no técnicos.<br>
-        <strong>(TP1):</strong> Elaboré textos explicativos dentro de la Landing Page y participé en la redacción del Capítulo V, especialmente en los apartados relacionados a usabilidad y experiencia de usuario.<br><br>
+        <strong>(TP1):</strong> Elaboré textos explicativos dentro de la Landing Page y participé en la redacción del Capítulo V, especialmente en los apartados relacionados a usabilidad y experiencia de usuario.<br>
+                <strong>(TB2):</strong> Apoyé en la documentación del Node Edge y su conexión con el backend, redactando con un enfoque didáctico para asegurar que incluso lectores sin formación técnica pudieran seguir la lógica del flujo de datos.<br><br>
         <strong>Christopher Bryan Lecca Choccare <br>(TB1):</strong> Elaboré la descripción del diseño estratégico, cuidando que el lenguaje técnico pudiera ser entendido también por miembros no especializados del equipo.<br>
-        <strong>(TP1):</strong> Organicé y redacté los contenidos técnicos del Capítulo VI (implementación, evidencia y despliegue) con lenguaje claro, permitiendo que incluso lectores no técnicos comprendieran las decisiones del equipo.<br><br>
+        <strong>(TP1):</strong> Organicé y redacté los contenidos técnicos del Capítulo VI (implementación, evidencia y despliegue) con lenguaje claro, permitiendo que incluso lectores no técnicos comprendieran las decisiones del equipo.<br>
+                <strong>(TB2):</strong> Continué redactando partes clave del documento final, explicando la arquitectura y decisiones técnicas de forma clara para públicos mixtos. Me aseguré de que el lenguaje técnico fuese accesible y respaldado por evidencias visuales del sistema.<br><br>
         <strong>Angello Rodolfo Sosa Colca <br>(TB1):</strong> Documenté los diagramas tácticos y estructuras de clases, asegurando una redacción técnica precisa pero accesible para otros desarrolladores o evaluadores.<br>
-        <strong>(TP1):</strong> Redacté explicaciones técnicas del diseño UI/UX en el Capítulo V y contribuí en el Capítulo VI con la documentación del proceso de integración del frontend con la lógica de negocio.<br><br>
+        <strong>(TP1):</strong> Redacté explicaciones técnicas del diseño UI/UX en el Capítulo V y contribuí en el Capítulo VI con la documentación del proceso de integración del frontend con la lógica de negocio.<br>
+               <strong>(TB2):</strong> Documenté el proceso de integración móvil-backend usando términos precisos pero comprensibles, contribuyendo a que tanto técnicos como evaluadores externos comprendieran el funcionamiento del sistema y su arquitectura.<br><br>
         <strong>Carlos Oswaldo Casimiro Fernández<br> (TB1):</strong>Expliqué el funcionamiento de los repositorios en lenguaje claro y estructurado, facilitando la revisión y el entendimiento por parte de terceros.<br>
-        <strong>(TP1):</strong> Redacté la documentación relacionada a la configuración del entorno, despliegue de servicios y validación técnica en el Capítulo VI.<br><br>
+        <strong>(TP1):</strong> Redacté la documentación relacionada a la configuración del entorno, despliegue de servicios y validación técnica en el Capítulo VI.<br>
+        <strong>(TB2):</strong> Contribuí en la redacción final del entregable y la guía de presentación, enfocándome en comunicar los logros del sprint de manera estructurada y comprensible para cualquier público, incluyendo el resumen en video del producto.<br><br>
       </td>
             <td>
       <strong>(TB1):</strong>
  Se logró una comunicación escrita efectiva a lo largo del entregable, permitiendo que las ideas fueran comprendidas por distintas audiencias. El uso claro del lenguaje, apoyado por gráficos y ejemplos, facilitó la transmisión de resultados y decisiones de diseño.<br><br><br>
       <strong>(TP1):</strong>
-A través de un trabajo colaborativo, el equipo elaboró un entregable claro y estructurado, enfocado en comunicar tanto aspectos técnicos como conceptuales del sistema. Se utilizó un lenguaje comprensible, adecuado para lectores técnicos y no técnicos, y se apoyó la redacción con diagramas, flujos y ejemplos. Esta estrategia permitió reflejar con objetividad los resultados obtenidos en el Sprint y la lógica detrás de cada decisión tomada durante el desarrollo.
+A través de un trabajo colaborativo, el equipo elaboró un entregable claro y estructurado, enfocado en comunicar tanto aspectos técnicos como conceptuales del sistema. Se utilizó un lenguaje comprensible, adecuado para lectores técnicos y no técnicos, y se apoyó la redacción con diagramas, flujos y ejemplos. Esta estrategia permitió reflejar con objetividad los resultados obtenidos en el Sprint y la lógica detrás de cada decisión tomada durante el desarrollo.<br><br><br>
+      <strong>(TB2):</strong>
+El equipo mantuvo una comunicación escrita clara y coherente en la documentación del sprint, explicando conceptos técnicos de manera accesible para diversos públicos. La redacción conjunta de los capítulos finales y el uso de ejemplos, diagramas y evidencias facilitó la comprensión integral del sistema desarrollado.
       </td>
     </tr>
   </tbody>
