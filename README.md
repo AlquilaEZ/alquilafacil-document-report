@@ -4628,7 +4628,7 @@ La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto
 
 En esta sección se especifica el detalle del Sprint Backlog 2, la cual es una lista de tareas designadas para esta segunda fase del proyecto:
 
-![alt text](images/cap6_image4.jpeg)
+![alt text](images/trello_1.jpeg)
 
 **Enlace del tablero:** https://trello.com/b/63Zub4fa/product-backlog-iot
 
@@ -4765,7 +4765,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
-Como resulado del segundo Sprint, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
+Como resultado del segundo Sprint, se presenta el despliegue de la Landing Page, asi como tambien la primera version de la Web Application:
     
 <strong>Landing Page:</strong> https://guileless-gaufre-89df8f.netlify.app/src/#hero
 ![Diagrama Vertanelo([URL]())](images/cap6_image3.jpeg)
@@ -4773,33 +4773,108 @@ Como resulado del segundo Sprint, se presenta el despliegue de la Landing Page, 
 
 
 <strong>Web Application:</strong> https://alquila-facil-app-iot.netlify.app/sign-in
-![Diagrama Vertanelo([URL]())](images/image_25.jpeg)
+![Diagrama Vertanelo([URL]())](images/web_deploy.jpeg)
+</br>
+
+<strong>Cloud application:</strong> https://alquilafacil-web-service.onrender.com
+![Diagrama Vertanelo([URL]())](images/cloud.jpeg)
+</br>
+
+<strong>Embedded application:</strong> https://wokwi.com/projects/433560726038801409
+![Diagrama Vertanelo([URL]())](images/wokwi.jpeg)
+</br>
 
 
+<strong>Node Edge</strong> https://alquilafacil-egde-node-fsaa.onrender.com
+![Diagrama Vertanelo([URL]())](images/cloud_edge.jpeg)
+</br>
+
+<strong>Mobile Application:</strong> 
+![Diagrama Vertanelo([URL]())](images/mobile_22.jpeg)
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
 A continuación se presentan los enlaces a los productos desplegados durante el Sprint 2, los cuales corresponden a los principales servicios desarrollados:
 
-| Servicio             | Descripción                                          | URL de despliegue                                 |
+| Servicio             | Descripción                                          | URL de despliegue (documentacion)                                |
 |----------------------|------------------------------------------------------|---------------------------------------------------|
 | Landing Page         | Sitio informativo de AlquilaFácil con navegación     | https://guileless-gaufre-89df8f.netlify.app/src/#hero       |
 | Aplicación Web       | Plataforma operativa para arrendadores y arrendatarios | https://alquila-facil-app-iot.netlify.app/sign-in |
+| Cloud application     | Servicio en la nube para gestión de datos ( Backend central)            | https://alquilafacil-web-service.onrender.com/swagger/index.html      |
+| Embedded application   | Aplicación embebida para control de dispositivos IoT (Humo, Aforo, Sonito, Areas  Movimiento)     | https://wokwi.com/projects/433560726038801409     |
+| Node Edge            | Nodo Edge para procesamiento de datos cerca a los dispositivos para rapida respusesta                | https://alquilafacil-egde-node-fsaa.onrender.com/docs  |
+| Mobile Application    | Aplicación móvil para usuaris, para la gestion y monitoreo de los espacios.                        | ![Diagrama Vertanelo([URL]())](images/mobile_22.jpeg) https://github.com/AlquilaEZ/alquilafacil-mobile-app|
+
 
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
 
 <p>
-En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
+En esta sección se presentan en evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page, Web Application, Cloud Application, Embedded application y Node Edge. 
 </p>
-- #### Estrategia de colaboración técnica
 
-Se aplicó la metodología **GitFlow Workflow**, lo que permitió distribuir el trabajo en ramas específicas para cada funcionalidad tanto en el desarrollo de la Landing Page como en el Frontend Web desarrollado con Vue.js. La rama `develop` funcionó como entorno de integración, mientras que cada integrante trabajó en ramas funcionales individuales, realizando posteriormente *pull requests* para su revisión y fusión al repositorio principal. Finalmente la rama `develop` se fusionó a la rama `main`, asegurando que solo el código validado y revisado se integrara a la versión estable del proyecto.
+
+- **Landing Page**
+- El despliegue de la Landing Page se realizo en Github Pages, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: https://alquilaez.github.io/alquilafacil-landing-page/
+  - Descripción: Página informativa de AlquilaFácil, con navegación intuitiva y responsive.
+![Diagrama Vertanelo([URL]())](images/github-pages.jpeg)
+
+<br>
+
+- **Web Application**
+- El despliegue de la Web Application se realizó en Netlify, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: https://alquila-facil-app-iot.netlify.app/sign-in
+  - Descripción: Plataforma operativa para arrendadores y arrendatarios, con funcionalidades de registro, búsqueda y gestión de espacios.
+![Diagrama Vertanelo([URL]())](images/netlofy.png)
+<br>
+
+- **Cloud Application**
+- El despliegue del servicio en la nube se realizó en Render, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: https://alquilafacil-web-service.onrender.com/swagger/index.html
+  - Descripción: Servicio backend central para la gestión de datos y operaciones de la plataforma AlquilaFácil.
+  ![Diagrama Vertanelo([URL]())](images/render.png)
+
+<br>
+
+- **Embedded Application**
+- El despliegue de la aplicación embebida se realizó en Wokwi, permitiendo simular el funcionamiento de los dispositivos IoT.
+  - URL: https://wokwi.com/projects/433560726038801409
+  - Descripción: Aplicación embebida para el control de dispositivos IoT (Humo, Aforo, Sonido, Áreas de Movimiento).
+   ![Diagrama Vertanelo([URL]())](images/wokwi-logo.png)
+
+<br>
+
+- **Node Edge**
+- El despliegue del nodo Edge se realizó en Render, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: https://alquilafacil-egde-node-fsaa.onrender.com/docs
+  - Descripción: Nodo Edge para el procesamiento de datos cerca de los dispositivos, garantizando una respuesta rápida y eficiente.
+  ![Diagrama Vertanelo([URL]())](images/render.png)
 
 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
-Para este apartado se visualiza la colaboración realizada para el backend
+Para este apartado se visualiza la colaboración realizada para el cloud application, node edge, landing page, web application y documentacion técnica. Se utilizaron herramientas como GitHub para el control de versiones y Trello para la gestión de tareas.
+
+- Insights del repositorio de la Landing Page:
+  ![Diagrama Vertanelo([URL]())](images/landing-insights.jpeg)
+
+
+- Insights del repositorio de la Web Application:
+  ![Diagrama Vertanelo([URL]())](images/web-insights.jpeg)
+
+
+- Insights del repositorio de la Cloud Application:
+  ![Diagrama Vertanelo([URL]())](images/cloud-insights.jpeg)
+
+
+- Insights del repositorio de la Embedded Application:
+  ![Diagrama Vertanelo([URL]())](images/embedded-insights.jpeg)
+
+
+- Insights del repositorio de la Node Edge:
+  ![Diagrama Vertanelo([URL]())](images/edge-insights.jpeg)
+
 
 
 ### 6.3. Validation Interviews.
