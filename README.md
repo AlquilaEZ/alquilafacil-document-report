@@ -56,7 +56,7 @@ Carlos Oswaldo Casimiro Fernandez
         - Sosa Colca Angello Rodolfo <br>
         - Carlos Oswaldo Casimiro Fernandez <br>
       </td>
-      <td>Se creo la ramificacion del repositorio. Se concluyo con los capitulos 1, 2, 3 y 4, realizando la presentacion respectiva de la documentacion. Tambien se realizo el video donde cada miembro del equipo expone ciertas partes del trabajo</td>
+      <td>Se creó la ramificacion del repositorio. Se concluyó con los capitulos 1, 2, 3 y 4, realizando la presentacion respectiva de la documentacion. También se realizó el video donde cada miembro del equipo expone ciertas partes del trabajo</td>
    </tr>
        <tr>
       <td>2da</td>
@@ -68,7 +68,7 @@ Carlos Oswaldo Casimiro Fernandez
         - Sosa Colca Angello Rodolfo <br>
         - Carlos Oswaldo Casimiro Fernandez <br>
       </td>
-      <td>Se creo los repositorios para la Web Application frontend y Lading Page, asi como tambien el desarrollo de los capitulos 5 y 6 (Sprint Backlog 1). Tambien se continuo con el desarrollo de los productos de software mencionados y la presentacion de los mismos.</td>
+      <td>Se creó los repositorios para la Web Application frontend y Landing Page, asi como también el desarrollo de los capitulos 5 y 6 (Sprint Backlog 1). También se continuó con el desarrollo de los productos de software mencionados y la presentación de los mismos.</td>
    </tr>
           <tr>
       <td>3da</td>
@@ -80,7 +80,7 @@ Carlos Oswaldo Casimiro Fernandez
         - Sosa Colca Angello Rodolfo <br>
         - Carlos Oswaldo Casimiro Fernandez <br>
       </td>
-      <td> Se continuo mejorando la aplicacion web y Landing Page. Se desplego la primera version de la aplicacion embebida, asi como tambien el nodo Edge. Tambien se realizo la primera version de la aplicacion movil. Todo ello corresponde al Sprint Backlog 2, parte del capitulo 6.</td>
+      <td> Se continuó mejorando la aplicación web y Landing Page. Se desplego la primera version de la aplicación embebida, así como también el nodo Edge. También se realizó la primera versión de la aplicación móvil. Todo ello corresponde al Sprint Backlog 2, parte del capitulo 6.</td>
    </tr>
 </table>
 
@@ -137,8 +137,6 @@ Carlos Oswaldo Casimiro Fernandez
   - **Mobile Application**
   ![image]( images/mobile_1.jpeg)
   ![image]( images/mobile_2.jpeg)
-
-
 
 
   - **Edge Node**
