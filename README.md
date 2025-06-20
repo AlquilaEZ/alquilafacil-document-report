@@ -4897,7 +4897,7 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
 - b. ¿Encontraste fácil el proceso para registrar o publicar tu espacio? ¿Qué parte te resultó más confusa?  
 - c. ¿Qué aspecto visual o funcional mejorarías en la landing page?
 
-#### 3. Experiencia con la Aplicación Web/Móvil
+#### 3. Experiencia con la Aplicación Web
 
 - a. ¿Cómo calificarías la facilidad para gestionar tus espacios desde la aplicación (escala 1 a 5)?  
 - b. ¿Pudiste configurar las reglas del espacio y monitorear las reservas sin dificultad?  
@@ -4907,7 +4907,7 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
 
 - a. ¿Qué te motivaría a usar esta plataforma en lugar de tus métodos actuales?  
 - b. ¿Cómo percibes el valor de herramientas como alertas en tiempo real o reportes automáticos?  
-- c. ¿Pagarías por planes premium con mayor visibilidad o herramientas de gestión avanzadas?
+- c. ¿Pagarías por planes premium con mayor visibilidad o alguna herramienta adicional?
 
 ---
 
@@ -4923,21 +4923,22 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
 
 #### 2. Interacción con la Landing Page
 
-- a. ¿La información de los espacios está clara y te ayuda a tomar decisiones?  
-- b. ¿El proceso de búsqueda y filtrado de espacios fue intuitivo? ¿Qué mejorarías?  
+- a. ¿La información de las secciones te animó a probar la aplicación?  
+- b. ¿El flujo de navegación entre las secciones fue de tu agrado? ¿Qué mejorarías?  
 - c. ¿Confías en la plataforma tras navegar por la landing page? ¿Qué faltó?
 
 #### 3. Experiencia con la Aplicación Web/Móvil
 
 - a. ¿Pudiste realizar todo el flujo de reserva sin dificultades? ¿Dónde te atascaste?  
 - b. ¿Qué tan útil te parecieron los elementos como reseñas, calificaciones y verificación de espacios?  
-- c. ¿Te gustaría contar con herramientas de seguridad o control durante el evento?
+- c. ¿Las herramientas presentadas para el monitoreo y seguridad durante tu reserva te agradaron?
 
 #### 4. Percepción general
 
 - a. ¿Qué valor le ves a AlquilaFácil frente a otras plataformas conocidas como Airbnb o Booking?  
 - b. ¿Qué te motivaría a recomendar esta app a otras personas o empresas?  
-- c. ¿Qué nivel de confianza necesitas para realizar el pago por la plataforma?
+- c. ¿El método de pago de la plataforma te resulta fácil y sencillo?
+- d. ¿Qué otra recomendación podrías brindarnos para mejorar el producto?
 
 
 ### 6.3.2. Registro de entrevistas.
