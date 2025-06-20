@@ -4388,7 +4388,182 @@ Este enfoque facilitó la colaboración, evitó conflictos de código y aseguró
 
 
 Durante el Sprint 1, el equipo trabajó de manera colaborativa aplicando buenas prácticas de control de versiones y comunicación efectiva para garantizar el cumplimiento de los objetivos establecidos.
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+<table align="center" border="1" width="90%" style="border-collapse:collapse; text-align:left;">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td><b>Sprint 2</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td><b>Date</b></td>
+    <td>10/06/2025</td>
+  </tr>
+  <tr>
+    <td><b>Time</b></td>
+    <td>12:00</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Modalidad remota por Discord</td>
+  </tr>
+  <tr>
+    <td><b>Prepared By</b></td>
+    <td>Lecca Choccare Christopher Bryan</td>
+  </tr>
+  <tr>
+    <td>
+    <b>Attendees (to planning meeting)</b>
+    </td>
+    <td>
+      - Ames Oviedo Mariano Jose<br>
+      - Avalos Santos Anthony Piero<br>
+      - Lecca Choccare Christopher Bryan<br>
+      - Sosa Colca Angello Rodolfo<br>
+      - Carlos Oswaldo Casimiro Fernandez
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td><b>Sprint 2 Velocity</b></td>
+    <td>68</td>
+  </tr>
+  <tr>
+    <td><b>Sum of Story Points</b></td>
+    <td>68</td>
+  </tr>
+  
+</table>
 
+
+
+
+
+
+### 6.2.2.2. Aspect Leaders and Collaborators
+
+La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto técnico del Sprint:
+
+| Team Member (Last Name, First Name) | GitHub Username   | IAM Service | Locals Service | Booking Service | Frontend Web | Landing Page |
+|------------------------------------|--------------------|-------------|----------------|------------------|---------------|---------------|
+| Ames Oviedo, Mariano               | MarianoAmes        | C           | C              | C                | C             |   L            |
+| Avalos Santos, Anthony Piero       | Anthony2000AA      | C           | C              | C                |   C            | C             |
+| Lecca Choccare, Christopher Bryan  | ChrisByBits        | L           | L              | L                | L             | C             |
+| Sosa Colca, Angello Rodolfo        | AngelloSosa        | C           | C              | C                | C             | C             |
+| Casimiro Fernández, Carlos Oswaldo | Sigma42O           | C           | C              | C                | C             |C               |
+
+
+#### 6.2.2.3. Sprint Backlog 2.
+
+En esta seccion se espcifica el detalle del Sprint Backlog 2, la cual es una lista de tareas designadas para esta primera fase del proyecto:
+![alt text](images/cap6_image4.jpeg)
+
+**Enlace del tablero:** https://trello.com/b/63Zub4fa/product-backlog-iot
+
+| **User Story ID** | **US Title**                          | **Task ID** | **Task Title**                                   | **Description**                                           | **Estimation (Hours)** | **Assigned To**                       | **Status** |
+|------------------|----------------------------------------|-------------|--------------------------------------------------|-----------------------------------------------------------|------------------------|----------------------------------------|------------|
+| US01             | Registrar usuario                      | T-01-1      | Tarea técnica para registrar usuario             | Implementar funcionalidad: Registrar usuario              | 6                      | Mariano Ames Oviedo                    | Done       |
+| US02             | Iniciar sesión                         | T-02-1      | Tarea técnica para iniciar sesión                | Implementar funcionalidad: Iniciar sesión                 | 6                      | Anthony Avalos Santos                  | Done       |
+| US03             | Registrar espacios                     | T-03-1      | Tarea técnica para registrar espacios            | Implementar funcionalidad: Registrar espacios             | 16                     | Angello Sosa Colca                     | Done       |
+| US04             | Buscar espacios disponibles            | T-04-1      | Tarea técnica para buscar espacios disponibles   | Implementar funcionalidad: Buscar espacios disponibles     | 10                     | Carlos Casimiro Fernández              | Done       |
+| US05             | Filtrar espacios disponibles           | T-05-1      | Tarea técnica para filtrar espacios disponibles  | Implementar funcionalidad: Filtrar espacios disponibles    | 10                     | Christopher Lecca Choccare             | Done       |
+| US06             | Visualizar información del espacio     | T-06-1      | Tarea técnica para visualizar información        | Implementar funcionalidad: Visualizar información del espacio | 10                  | Mariano Ames Oviedo                    | Done       |
+| US07             | Reservar espacios                      | T-07-1      | Tarea técnica para reservar espacios             | Implementar funcionalidad: Reservar espacios              | 16                     | Anthony Avalos Santos                  | Done       |
+| US12             | Visualizar espacios propios publicados | T-12-1      | Tarea técnica para ver espacios publicados       | Implementar funcionalidad: Visualizar espacios propios    | 6                      | Mariano Ames Oviedo                    | Done       |
+| US13             | Modificar espacios publicados          | T-13-1      | Tarea técnica para modificar espacios            | Implementar funcionalidad: Modificar espacios publicados  | 6                      | Anthony Avalos Santos                  | Done       |
+| US24             | Explorar landing informativa           | T-24-1      | Tarea técnica para landing informativa           | Implementar funcionalidad: Landing clara e informativa    | 10                     | Christopher Lecca Choccare             | Done       |
+| US25             | Navegar por secciones desde el header  | T-25-1      | Tarea técnica para navegación                    | Implementar funcionalidad: Navegación por secciones       | 10                     | Anthony Avalos Santos             | Done       |
+| US26             | Ver beneficios diferenciados           | T-26-1      | Tarea técnica para beneficios                    | Implementar funcionalidad: Tarjetas de beneficios          | 10                     | Anthony Avalos Santos             | Done       |
+
+
+
+####  6.2.2.4. Development Evidence for Sprint Review.
+<p>
+En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
+</p>
+
+
+- <strong>Web Application</strong>
+
+
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="7">EdgeApp/edge-processing</td>
+      <td>/main</td>
+      <td>8074a95</td>
+      <td>feat: add edge node first version</td>
+      <td>Primera versión del nodo Edge agregado</td>
+      <td>19/06/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>01c6aec</td>
+      <td>update: loop for update data</td>
+      <td>Actualización del bucle para actualizar datos</td>
+      <td>18/06/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>cc8c9fb</td>
+      <td>feat: add edge second version</td>
+      <td>Segunda versión del nodo Edge implementada con mejoras</td>
+      <td>17/06/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>9ddf505</td>
+      <td>feat: add new requirements</td>
+      <td>Nuevos requerimientos funcionales añadidos al sistema</td>
+      <td>17/06/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>c3f9b51</td>
+      <td>Create class-diagram.puml</td>
+      <td>Creación del diagrama de clases del sistema en formato .puml</td>
+      <td>16/06/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>a8f6c26</td>
+      <td>update project change arquitecture</td>
+      <td>Actualización del proyecto con cambios en la arquitectura</td>
+      <td>16/06/2025</td>
+    </tr>
+    <tr>
+      <td>/main</td>
+      <td>049937a</td>
+      <td>create project</td>
+      <td>Estructura base del proyecto creada</td>
+      <td>12/06/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+<p>
+En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page y Web Application. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
+</p>
 - #### Estrategia de colaboración técnica
 
 Se aplicó la metodología **GitFlow Workflow**, lo que permitió distribuir el trabajo en ramas específicas para cada funcionalidad tanto en el desarrollo de la Landing Page como en el Frontend Web desarrollado con Vue.js. La rama `develop` funcionó como entorno de integración, mientras que cada integrante trabajó en ramas funcionales individuales, realizando posteriormente *pull requests* para su revisión y fusión al repositorio principal. Finalmente la rama `develop` se fusionó a la rama `main`, asegurando que solo el código validado y revisado se integrara a la versión estable del proyecto.
