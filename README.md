@@ -6540,11 +6540,11 @@ Finalmente, calificó con un 4 sobre 5 su experiencia con la funcionalidad de mo
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ETKDocDihcBDr-2XPwQmV_MBoAvLoDRRAv13oFy-cZd4Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmTbIx" title="Title">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ETKDocDihcBDr-2XPwQmV_MBoAvLoDRRAv13oFy-cZd4Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmTbIx</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 09:52 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -6610,15 +6610,15 @@ Finalmente, calificó con un 4 sobre 5 su experiencia con la funcionalidad de mo
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/validation-interviews/arrendatario-2.png" alt="Entrevista a Omar Morales"></div></td>
+    <td><div align="center"><img src="images/validation-interviews/arrendatario-2.PNG" alt="Entrevista a Omar Morales"></div></td>
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EU9NUennFgxMjf0B1wwT8DoBlp3j7-uPYEBLFdWOIToZ5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4PzuHu" title="Title">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EU9NUennFgxMjf0B1wwT8DoBlp3j7-uPYEBLFdWOIToZ5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4PzuHu</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 09:22 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
@@ -6687,11 +6687,11 @@ Finalmente, calificó con un 4 sobre 5 su experiencia con la funcionalidad de mo
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ERFaEL1sWzdHqHVwfSUIz20BgEPcr_ZOt0Ph5Zrl2gD-CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpjLxo/" title="Title">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ERFaEL1sWzdHqHVwfSUIz20BgEPcr_ZOt0Ph5Zrl2gD-CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpjLxo</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 10:12 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
