@@ -5824,19 +5824,19 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td>Mauricio Abraham</td>
+    <td>Josue</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td>Rojas Ugarte</td>
+    <td>Arrunategui Aguilar</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>25</td>
+    <td>22</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>Jesús María</td>
+    <td>Chorrillos</td>
   </tr>
   <tr>
     <td>Aplicaciones usadas</td>
@@ -5844,7 +5844,7 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td>Motivación</td>
-    <td>Proporcionar experiencias memorables a sus clientes, contribuyendo a la felicidad y la celebración de momentos importantes.</td>
+    <td>Proporcionar experiencias memorables a sus cliente, brindandoles servicios de calidad.</td>
   </tr>
   <tr>
     <td>Frustración</td>
@@ -5860,24 +5860,30 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td>Entrevistador</td>
-    <td>Angello Sosa</td>
+    <td>Anthony Avalos</td>
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/interviews/arrendador-1.png" alt="Entrevista a Mauricio Rojas"></div></td>
+    <td><div align="center"><img src="images/entrevista_3_TB2.jpeg" alt="Entrevista a Mauricio Rojas"></div></td>
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td style="word-break: break-all; max-width: 300px; white-space: normal;">
+    https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EdCQ0tgZTN9OuEbicANdAmoBHB6RhAPBv_PYgqAN2rvfDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yjF26v
+    </td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 09:40 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td style="text-align: justify;">
-    El entrevistado luego de haber recorrido el flujo de publicación de un espacio nos compartió su experiencia satisfactoria con respecto a este. Por el lado de la sección de monitoreo, agrega que es sencilla de usar debido a su diseño minimalista. Como feedback brindado, nos comentó que le gustaría la adición de un tema oscuro, debido a que teme que se agote su visión después de usar la aplicación por un periodo prolongado.
+Josue nos comenta que su familia alquila varios espacios en el distrito de Chorrillos. Actualmente, su padre debe desplazarse constantemente de un local a otro durante los eventos para asegurarse de que se estén cumpliendo todas las reglas establecidas con los arrendatarios. Esto representa una carga significativa, tanto en tiempo como en esfuerzo.
+
+Por ello, Josue considera que sería de gran utilidad contar con una plataforma intuitiva que permita realizar un seguimiento en tiempo real de lo que ocurre en cada local. Esto incluiría, por ejemplo, monitorear el aforo, el nivel de ruido, la presencia de humo o accesos no autorizados. De esta manera, su familia podría supervisar los espacios de forma remota y actuar de forma preventiva o inmediata ante cualquier incumplimiento.
+
+También sugiere que la plataforma tenga una interfaz clara y sencilla, adaptable para distintos miembros de la familia, y que ofrezca alertas visuales o sonoras cuando se detecten infracciones. Considera que herramientas como estas no solo facilitarían la gestión de los locales, sino que también contribuirían a mejorar la experiencia del cliente y el cumplimiento de las normativas locales.
     </td>
   </tr>
 </tbody>
@@ -5904,7 +5910,7 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td>Edad</td>
-    <td>40 años</td>
+    <td>30 años</td>
   </tr>
   <tr>
     <td>Distrito</td>
@@ -6013,19 +6019,24 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://" title="Title">Microsoft Stream</a></p></td>
+    <td style="word-break: break-all; max-width: 300px; white-space: normal;">
+   https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/Edh_aAJWQn5Dv5_DmoOKWUEBUqPsj-gFT6WBIewxOdO2ug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xldryc
+    </td>
   </tr>
   <tr>
     <td>Duración<br></td>
-    <td>00:00 min - 00:00 min </td>
+    <td>00:00 min - 12:03 min </td>
   </tr>
   <tr>
     <td>Resumen</td>
     <td style="text-align: justify;">
-    El entrevistado mencionó que, si se encuentra interesado en la aplicación, lo que mejoraría su negocio al poder gestionar de manera más sencillas sus locales y los arrendatarios.
-    Mencionó que anteriormente ha tenido problemas a la hora de organizar reservas mientras no contaba con una herramienta especializada para llevar un recuento de sus reservaciones. También se mencionó que tuvo problemas con diferentes clientes, que de haber tenido un perfil de ellos de antemano se podrían haber evitado.
-    Por último, se mostró interesado en poder integrar todo su proceso desde la promoción del local, la reserva y el pago, hasta la gestión y manejo del mismo desde una misma aplicación.
-    </td>
+Dario nos comenta que alquila muchos espacios en Piura y que le interesa contar con una plataforma que le permita monitorear sus locales. En particular, menciona que en cada uno de ellos tiene un almacén que no debe ser accedido por nadie más que él durante la reserva del evento. Por ello, le resulta muy útil contar con una herramienta que permita supervisar en tiempo real el acceso a áreas restringidas, ya que este es un problema recurrente en su experiencia.
+
+Además, nos sugiere que la plataforma cuente con una sección de reportes donde pueda consultar un historial de los eventos realizados, y que dichos reportes también se envíen automáticamente a su correo electrónico.
+
+Por otro lado, menciona que le gustaría que la plataforma incluya un modo oscuro, especialmente considerando que muchos de sus eventos se realizan por la noche.
+
+Finalmente, calificó con un 4 sobre 5 su experiencia con la funcionalidad de monitoreo publicada, indicando que una mejora sería el uso de colores más suaves, para que la interfaz sea más amigable a la vista humana.    </td>
   </tr>
 </tbody>
 </table>
