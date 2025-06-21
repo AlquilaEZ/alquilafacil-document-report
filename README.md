@@ -2030,15 +2030,15 @@ Mantener la asignación de dispositivos dentro de Booking.
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
-![Event Storming](images/image_22.jpeg)
+![Event Storming](images/image_22.png)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
-![Event Storming](images/image_23.jpeg)
+![Event Storming](images/image_23.png)
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
-![Event Storming](images/image_24.jpeg)
+![Event Storming](images/image_24.png)
   
   
  
@@ -2975,7 +2975,15 @@ Implementación del repositorio para interactuar con la base de datos de reserva
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
 ![Diagrama Vertabelo([URL]())](images/database-diagrams/management-context.png)
+
+#### 4.2.4.6.3. Embebbed App Class Diagram
+
+![Diagrama Vertabelo([URL]())](images/embebbed-class.jpg)
   
+
+#### 4.2.4.6.4. Edge Node Class Diagram
+
+![Diagrama Vertabelo([URL]())](images/edge-class.jpg)
   
 ## 4.2.5. Bounded Context: Notifications Context
 
