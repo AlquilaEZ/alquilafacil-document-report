@@ -4831,74 +4831,514 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 - <strong>Web Application</strong>
 
-
-
-<table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit ID</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="7">EdgeApp/edge-processing</td>
-      <td>/main</td>
-      <td>8074a95</td>
-      <td>feat: add edge node first version</td>
-      <td>Primera versión del nodo Edge agregado</td>
-      <td>19/06/2025</td>
-    </tr>
-    <tr>
-      <td>/main</td>
-      <td>01c6aec</td>
-      <td>update: loop for update data</td>
-      <td>Actualización del bucle para actualizar datos</td>
-      <td>18/06/2025</td>
-    </tr>
-    <tr>
-      <td>/main</td>
-      <td>cc8c9fb</td>
-      <td>feat: add edge second version</td>
-      <td>Segunda versión del nodo Edge implementada con mejoras</td>
-      <td>17/06/2025</td>
-    </tr>
-    <tr>
-      <td>/main</td>
-      <td>9ddf505</td>
-      <td>feat: add new requirements</td>
-      <td>Nuevos requerimientos funcionales añadidos al sistema</td>
-      <td>17/06/2025</td>
-    </tr>
-    <tr>
-      <td>/main</td>
-      <td>c3f9b51</td>
-      <td>Create class-diagram.puml</td>
-      <td>Creación del diagrama de clases del sistema en formato .puml</td>
-      <td>16/06/2025</td>
-    </tr>
-    <tr>
-      <td>/main</td>
-      <td>a8f6c26</td>
-      <td>update project change arquitecture</td>
-      <td>Actualización del proyecto con cambios en la arquitectura</td>
-      <td>16/06/2025</td>
-    </tr>
-    <tr>
-      <td>/main</td>
-      <td>049937a</td>
-      <td>create project</td>
-      <td>Estructura base del proyecto creada</td>
-      <td>12/06/2025</td>
-    </tr>
-  </tbody>
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-application</td>
+            <td>/main</td>
+            <td>5d816ff</td>
+            <td>feat: add local management</td>
+            <td>-</td>
+            <td>19/06/2025</td>
+        </tr>
+    </tbody>
 </table>
 
+- <strong>Embedded Application</strong>
 
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>d85d545</td>
+            <td>feat: add wokwi project url</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>712b41e</td>
+            <td>feat: add device and sketch.ino</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>f42335e</td>
+            <td>feat: add capacity and noise sensor</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>603e146</td>
+            <td>feat: add smoke and restricted area sensor</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>b273f89</td>
+            <td>feat: add ModestIot framework</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>eff7d5c</td>
+            <td>Initial commit</td>
+            <td>-</td>
+            <td>17/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Mobile Application</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/profiles</td>
+            <td>570baf6</td>
+            <td>feat: add profiles context</td>
+            <td>-</td>
+            <td>11/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/booking</td>
+            <td>16aa356</td>
+            <td>add: booking files</td>
+            <td>-</td>
+            <td>08/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/notifications</td>
+            <td>0c95c64</td>
+            <td>notifications</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/locals</td>
+            <td>167d72e</td>
+            <td>feat: add locals context for manage locals data</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/iam</td>
+            <td>c912884</td>
+            <td>feat: add iam context for user authentication</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/subscriptions</td>
+            <td>129eb22</td>
+            <td>feat: add subscriptions context</td>
+            <td>-</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>/main</td>
+            <td>70a17ad</td>
+            <td>feat: add first configuration</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>/main</td>
+            <td>c250432</td>
+            <td>Initial commit</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>/main</td>
+            <td>0399b2a</td>
+            <td>feat: add mobile app first version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>/main</td>
+            <td>3dd4fb</td>
+            <td>feat: add backend url</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Edge Node</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>8074a95</td>
+            <td>feat: add edge node first version</td>
+            <td>-</td>
+            <td>19/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>01c6aec</td>
+            <td>update: loop for update data</td>
+            <td>-</td>
+            <td>19/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>90df505</td>
+            <td>feat: add new requirements</td>
+            <td>-</td>
+            <td>17/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>cc0c9fb</td>
+            <td>feat: add edge second version</td>
+            <td>-</td>
+            <td>17/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>c3f9b51</td>
+            <td>Create class-diagram.puml</td>
+            <td>-</td>
+            <td>16/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>a8f6c26</td>
+            <td>update project change architecture</td>
+            <td>-</td>
+            <td>16/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>049937a</td>
+            <td>create project</td>
+            <td>-</td>
+            <td>12/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>9d4a55e</td>
+            <td>Update services.py</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>18b1b37</td>
+            <td>feat: edge third version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>950af28</td>
+            <td>feat: restart db</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>9fb9b05</td>
+            <td>feat: second edge version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>9e05d9d</td>
+            <td>refactor: fix endpoint service</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>a817976</td>
+            <td>Update main.py</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>a34e5ee</td>
+            <td>Update main.py</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>853d66f</td>
+            <td>Update requirements.txt</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>04be449</td>
+            <td>feat: update dockerfile</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>dcda317</td>
+            <td>feat: add edge node first version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Web Services</strong>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Repository Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>a3fb73c</td>
+            <td>feat: add backend first version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>bd971ff</td>
+            <td>feat: add local edge node for management context</td>
+            <td>-</td>
+            <td>18/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>dcd5345</td>
+            <td>feat: add second version of database</td>
+            <td>-</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/management</td>
+            <td>d10a425</td>
+            <td>feat: add management context for local monitoring</td>
+            <td>-</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/subscriptions</td>
+            <td>a3f6831</td>
+            <td>feat: add subscriptions context</td>
+            <td>-</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/profiles</td>
+            <td>c2d9c8b</td>
+            <td>feat: add profiles bounded context</td>
+            <td>-</td>
+            <td>11/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>ec99de4</td>
+            <td>add: booking services</td>
+            <td>-</td>
+            <td>08/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/notification</td>
+            <td>04db9ad</td>
+            <td>notifications</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/locals</td>
+            <td>934a709</td>
+            <td>feat: add locals context for manage locals data</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/iam</td>
+            <td>9869136</td>
+            <td>feat: iam context for user authentication</td>
+            <td>-</td>
+            <td>07/06/20255</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>d3326ba</td>
+            <td>feat: add first configuration</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>ed792e2</td>
+            <td>Initial commit</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Landing Page</strong>
+
+<table>
+        <thead>
+            <tr>
+                <th>Repository</th>
+                <th>Branch</th>
+                <th>Commit ID</th>
+                <th>Commit Message</th>
+                <th>Commit Message Body</th>
+                <th>Committed on (Date)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>2e41aeb</td>
+                <td>feat: video about-the-team</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>5b75638</td>
+                <td>refactor: fix responsive</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>7352aca</td>
+                <td>feat: add build command</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>2e33373</td>
+                <td>feat: add deployment configuration</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>536d2b8</td>
+                <td>feat: add videos section</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+        </tbody>
+    </table>
 
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
