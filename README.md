@@ -1561,7 +1561,7 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 
 | Epic / Story ID | Título                                 | Descripción                                                                                                                                                                   | Historias de Usuario Relacionadas       |
 |-----------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| EP01            | Gestión de usuarios y autenticación    | Como usuario de AlquilaFácil, quiero poder registrarme fácilmente en la aplicación y acceder a mi cuenta, para poder utilizar las funcionalidades principales sin complicaciones. | US01, US02, US14, US17                  |
+| EP01            | Gestión de usuarios y autenticación    | Como usuario de AlquilaFácil, quiero poder registrarme fácilmente en la aplicación y acceder a mi cuenta, para poder utilizar las funcionalidades principales sin complicaciones. | US01, US02, US14                  |
 | EP02            | Registro y gestión de espacios         | Como arrendador de AlquilaFácil, quiero poder registrar, modificar y promocionar mis espacios en la plataforma para asegurarme de que los arrendatarios puedan ver y reservar mis propiedades de manera fácil y rápida. | US03, US12, US13                        |
 | EP03            | Búsqueda y reserva de espacios         | Como arrendatario de AlquilaFácil, quiero poder buscar y reservar espacios de acuerdo con mis necesidades (por capacidad, categoría, y ubicación), para encontrar el lugar perfecto para mi evento y asegurar su disponibilidad. | US04, US05, US06, US07, US11, US15, US16 |
 | EP04            | Gestión de agenda de usuario           | Como usuario de AlquilaFácil, quiero poder gestionar mis reservas y recibir notificaciones sobre cambios y actividades relacionadas con mis espacios, para mantenerme organizado y al tanto de todo en tiempo real. | US08, US09, US10                        |
@@ -1586,13 +1586,12 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
 | US14                | Actualizar perfil y sesión de usuario     | Como usuario de AlquilaFácil, quiero poder modificar mi perfil, incluyendo la opción de cambiar mi nombre de usuario y cerrar sesión, para mantener actualizada mi información personal y gestionar mi acceso a la aplicación de manera conveniente. | Escenario 01: Modificación del nombre de usuario <br> **Dado** que el usuario ha iniciado sesión en su cuenta de AlquilaFácil. **Cuando** accede a la sección de configuración de perfil y edita el campo "Nombre de usuario". **Entonces** puede guardar los cambios, y el nuevo nombre de usuario se refleja en su perfil y en todas las interacciones futuras en la plataforma. <br><br> Escenario 02: Cierre de sesión <br> **Dado** que el usuario desea salir de su cuenta en AlquilaFácil. **Cuando** selecciona la opción "Cerrar sesión" en la configuración de perfil. **Entonces** es desconectado de su cuenta y redirigido a la pantalla de inicio de sesión, asegurando que su sesión se haya cerrado de manera segura.|
 | US15                | Reportar espacios inseguros               | Como usuario de AlquilaFácil, quiero poder reportar espacios inseguros, para contribuir a la seguridad de la comunidad y alertar sobre situaciones que puedan poner en riesgo a otros usuarios.  |Escenario 01: Selección del espacio inseguro <br> **Dado** que el usuario ha iniciado sesión en su cuenta de AlquilaFácil. **Cuando** accede a la sección de "Reportar espacio" y selecciona el espacio desde la lista de reservas activas o buscando un espacio específico. **Entonces** puede ingresar un asunto y descripción del problema. <br><br> Escenario 02: Confirmación del reporte <br> **Dado** que el usuario ha completado el formulario de reporte con todos los detalles requeridos. **Cuando** envía el reporte mediante el botón "Enviar". **Entonces** el reporte será registrado y revisado por el equipo de soporte de AlquilaFácil. |
 | US16                | Visualizar espacios reportados por el usuario | Como usuario de AlquilaFácil, quiero poder visualizar los espacios que he reportado, para realizar un seguimiento de mis reportes y gestionarlos.  | Escenario 01: Navegar a la sección de "Ver Espacios Reportados" <br> **Dado** que el usuario ha iniciado sesión en su cuenta de AlquilaFácil. **Cuando** accede a la sección de "Ver Espacios Reportados" desde el panel de control. **Entonces** puede ver una lista de los espacios que ha reportado, incluyendo información como el nombre del espacio, la fecha del reporte, y el motivo del reporte. <br><br> Escenario 02: Eliminar un reporte deslizando hacia la izquierda <br> **Dado** que el usuario se encuentra en la lista de espacios reportados. **Cuando** desliza uno de los reportes hacia la izquierda. **Entonces** aparece una opción para confirmar la eliminación del reporte. Y si confirma, el reporte se elimina de la lista. |
-| US17                | Iniciar sesión con servicios externos     | Como usuario de AlquilaFácil, quiero poder iniciar sesión utilizando servicios externos como Google o Outlook, para ahorrar tiempo y evitar tener que crear una cuenta desde cero. | Escenario 01: Inicio de sesión con Google <br> **Dado** que un usuario está en la pantalla de inicio de sesión de AlquilaFácil, **Cuando** hace clic en "Iniciar sesión con Google", **Entonces** el sistema redirige al usuario a la pantalla de autenticación de Google, donde ingresa sus credenciales y otorga permisos. <br><br> Escenario 02: Inicio de sesión con Facebook <br> **Dado** que un usuario está en la pantalla de inicio de sesión de AlquilaFácil, **Cuando** hace clic en "Iniciar sesión con Facebook", **Entonces** el sistema redirige al usuario a la pantalla de autenticación de Google, donde ingresa sus credenciales y otorga permisos. |
-| US18                | Acceder a información de ayuda            | Como usuario de AlquilaFácil, quiero poder acceder fácilmente a una sección de preguntas frecuentes e información de contacto para resolver mis dudas o comunicarme con el soporte **Cuando** lo necesite. | Escenario 01: Consultar preguntas frecuentes <br> **Dado** que un usuario tiene una duda común sobre el funcionamiento de la plataforma. **Cuando** selecciona la opción de "Preguntas frecuentes" en el menú de ayuda. **Entonces** se muestra una lista de preguntas con sus respuestas para ayudar al usuario. <br><br> Escenario 02: Acceder a información de contacto <br> **Dado** que un usuario necesita comunicarse con el soporte. **Cuando** selecciona la opción de "Información de contacto" en el menú de ayuda. **Entonces** se muestra la información de contacto, incluyendo el correo electrónico y número de teléfono del soporte. |
-| US19                | Control de Aforo                          | Como arrendador, quiero recibir información en tiempo real sobre el número de personas presentes en mi local durante un evento, para asegurarme de que no se exceda el aforo permitido. | - **Dado** que hay un evento activo, **cuando** se detecta que el número de personas se acerca al límite permitido, **entonces** se muestra una alerta en la app del arrendador.<br> - **Dado** que se ha superado el aforo máximo permitido, **cuando** esto ocurre, **entonces** el sistema debe notificar al arrendador inmediatamente por notificación push **y** correo electrónico. |
-| US20                | Monitoreo de Niveles de Ruido             | Como arrendador, quiero que el sistema me notifique si el nivel de ruido supera un umbral establecido, para poder tomar acciones preventivas. | - **Dado** que se ha configurado un umbral de ruido, **cuando** los decibeles exceden ese límite, **entonces** el sistema envía una notificación al arrendador.<br> - **Dado** que el evento sigue en curso, **cuando** los niveles de ruido vuelven a la normalidad, **entonces** el sistema registra automáticamente el tiempo total del exceso. |
-| US21                | Detección de Humo                         | Como arrendador, quiero que se active una alerta automática si se detecta humo en el local durante un evento, para verificar si hay una situación de riesgo. | - **Dado** que hay sensores de humo activos, **cuando** se detecta presencia de humo, **entonces** se envía una notificación crítica al arrendador.<br> - **Dado** que se ha enviado una alerta de humo, **cuando** el usuario accede a la app, **entonces** debe visualizar el evento en un panel de incidentes con la hora exacta de detección. |
-| US22                | Movimiento en Áreas No Autorizadas        | Como arrendador, quiero recibir notificaciones si se detecta movimiento en zonas restringidas, para asegurar que los arrendatarios respeten los espacios delimitados. | - **Dado** que se ha definido una zona como restringida, **cuando** se detecta movimiento en esa área, **entonces** el arrendador recibe una alerta inmediata con la ubicación del incidente.<br> - **Dado** que ocurre una intrusión, **cuando** el evento es registrado, **entonces** debe quedar un historial con fecha, hora **y** duración del movimiento. |
-| US23                | Registro de Incidentes                    | Como arrendador, quiero acceder a un historial con todos los eventos registrados por sensores, para tener evidencia y mejorar la gestión. | - **Dado** que han ocurrido incidentes durante un evento, **cuando** el arrendador accede al panel de historial, **entonces** puede ver un listado con fecha, tipo de incidente **y** duración.<br> - **Dado** que se selecciona un evento del historial, **cuando** el usuario lo abre, **entonces** debe poder ver detalles como gráfico de actividad, sensores involucrados **y** ubicación dentro del local. |
+| US17                | Acceder a información de ayuda            | Como usuario de AlquilaFácil, quiero poder acceder fácilmente a una sección de preguntas frecuentes e información de contacto para resolver mis dudas o comunicarme con el soporte **Cuando** lo necesite. | Escenario 01: Consultar preguntas frecuentes <br> **Dado** que un usuario tiene una duda común sobre el funcionamiento de la plataforma. **Cuando** selecciona la opción de "Preguntas frecuentes" en el menú de ayuda. **Entonces** se muestra una lista de preguntas con sus respuestas para ayudar al usuario. <br><br> Escenario 02: Acceder a información de contacto <br> **Dado** que un usuario necesita comunicarse con el soporte. **Cuando** selecciona la opción de "Información de contacto" en el menú de ayuda. **Entonces** se muestra la información de contacto, incluyendo el correo electrónico y número de teléfono del soporte. |
+| US18                | Control de Aforo                          | Como arrendador, quiero recibir información en tiempo real sobre el número de personas presentes en mi local durante un evento, para asegurarme de que no se exceda el aforo permitido. | - **Dado** que hay un evento activo, **cuando** se detecta que el número de personas se acerca al límite permitido, **entonces** se muestra una alerta en la app del arrendador.<br> - **Dado** que se ha superado el aforo máximo permitido, **cuando** esto ocurre, **entonces** el sistema debe notificar al arrendador inmediatamente por notificación push **y** correo electrónico. |
+| US19                | Monitoreo de Niveles de Ruido             | Como arrendador, quiero que el sistema me notifique si el nivel de ruido supera un umbral establecido, para poder tomar acciones preventivas. | - **Dado** que se ha configurado un umbral de ruido, **cuando** los decibeles exceden ese límite, **entonces** el sistema envía una notificación al arrendador.<br> - **Dado** que el evento sigue en curso, **cuando** los niveles de ruido vuelven a la normalidad, **entonces** el sistema registra automáticamente el tiempo total del exceso. |
+| US20                | Detección de Humo                         | Como arrendador, quiero que se active una alerta automática si se detecta humo en el local durante un evento, para verificar si hay una situación de riesgo. | - **Dado** que hay sensores de humo activos, **cuando** se detecta presencia de humo, **entonces** se envía una notificación crítica al arrendador.<br> - **Dado** que se ha enviado una alerta de humo, **cuando** el usuario accede a la app, **entonces** debe visualizar el evento en un panel de incidentes con la hora exacta de detección. |
+| US21                | Movimiento en Áreas No Autorizadas        | Como arrendador, quiero recibir notificaciones si se detecta movimiento en zonas restringidas, para asegurar que los arrendatarios respeten los espacios delimitados. | - **Dado** que se ha definido una zona como restringida, **cuando** se detecta movimiento en esa área, **entonces** el arrendador recibe una alerta inmediata con la ubicación del incidente.<br> - **Dado** que ocurre una intrusión, **cuando** el evento es registrado, **entonces** debe quedar un historial con fecha, hora **y** duración del movimiento. |
+| US22                | Registro de Incidentes                    | Como arrendador, quiero acceder a un historial con todos los eventos registrados por sensores, para tener evidencia y mejorar la gestión. | - **Dado** que han ocurrido incidentes durante un evento, **cuando** el arrendador accede al panel de historial, **entonces** puede ver un listado con fecha, tipo de incidente **y** duración.<br> - **Dado** que se selecciona un evento del historial, **cuando** el usuario lo abre, **entonces** debe poder ver detalles como gráfico de actividad, sensores involucrados **y** ubicación dentro del local. |
 
 ## 3.3 Impact Mapping
 
@@ -1667,31 +1666,31 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
                 <td>5</td>
             </tr>
             <tr>
-                <td>US19</td>
+                <td>US18</td>
                 <td>Control de aforo</td>
                 <td>Como arrendador, quiero recibir información en tiempo real sobre el número de personas presentes en mi local durante un evento, para asegurarme de que no se exceda el aforo permitido.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>US20</td>
+                <td>US19</td>
                 <td>Monitoreo de niveles de ruido</td>
                 <td>Como arrendador, quiero que el sistema me notifique si el nivel de ruido supera un umbral establecido, para poder tomar acciones preventivas.</td>
                 <td>3</td>
             </tr>
             <tr>
-                <td>US21</td>
+                <td>US20</td>
                 <td>Detección de humo</td>
                 <td>Como arrendador, quiero que se active una alerta automática si se detecta humo en el local durante un evento, para verificar si hay una situación de riesgo.</td>
                 <td>5</td>
             </tr>
             <tr>
-                <td>US22</td>
+                <td>US21</td>
                 <td>Movimiento en áreas No autorizadas</td>
                 <td>Como arrendador, quiero recibir notificaciones si se detecta movimiento en zonas restringidas, para asegurar que los arrendatarios respeten los espacios delimitados.</td>
                 <td>5</td>
             </tr>
             <tr>
-                <td>US23</td>
+                <td>US22</td>
                 <td>Registro de incidentes</td>
                 <td>Como arrendador, quiero acceder a un historial con todos los eventos registrados por sensores, para tener evidencia y mejorar la gestión.</td>
                 <td>5</td>
@@ -1739,37 +1738,31 @@ Presentaremos los User Persona por cada segmento objetivo, en los cuales nos bas
                 <td>3</td>
             </tr>
             <tr>
-                <td>US17</td>
-                <td>Permitir iniciar sesión con servicios externos</td>
-                <td>Como usuario de AlquilaFácil, quiero poder iniciar sesión utilizando servicios externos como Google o Outlook, para ahorrar tiempo y evitar tener que crear una cuenta desde cero.</td>
-                <td>2</td>
-            </tr>
-            <tr>
                 <td>US14</td>
                 <td>Actualizar perfil y sesión de usuario</td>
                 <td>Como usuario de AlquilaFácil, quiero poder modificar mi perfil, incluyendo la opción de cambiar mi nombre de usuario y cerrar sesión, para mantener actualizada mi información personal y gestionar mi acceso a la aplicación de manera conveniente.</td>
                 <td>2</td>
             </tr>
             <tr>
-                <td>US18</td>
+                <td>US17</td>
                 <td>Acceder a información de ayuda</td>
                 <td>Como usuario de AlquilaFácil, quiero poder acceder fácilmente a una sección de preguntas frecuentes e información de contacto para resolver mis dudas o comunicarme con el soporte Cuando lo necesite.</td>
                 <td>5</td>
             </tr>
                         <tr>
-                <td>US24</td>
+                <td>US23</td>
                 <td>Explorar landing informativa	</td>
                 <td>	Como visitante, quiero acceder a una landing clara y atractiva para entender rápidamente los beneficios de usar AlquilaFácil como arrendador o arrendatario.</td>
                 <td>5</td>
             </tr>
                         <tr>
-                <td>US25</td>
+                <td>US24</td>
                 <td>	Navegar por secciones clave desde el header</td>
                 <td>Como visitante, quiero usar el menú superior para desplazarme fácilmente a secciones como “Espacios”, “Publicar”, “Monitoreo” y “Beneficios”.</td>
                 <td>5</td>
             </tr>
                         <tr>
-                <td>US26</td>
+                <td>US25</td>
                 <td>	Conocer los beneficios diferenciados</td>
                 <td>Como visitante, quiero ver tarjetas explicativas con los beneficios que ofrece AlquilaFácil tanto para arrendadores como arrendatarios.</td>
                 <td>5</td>
@@ -4285,9 +4278,9 @@ En esta seccion se espcifica el detalle del Sprint Backlog 1, la ucal es una lis
 | US14             | Actualizar perfil y cerrar sesión  | T-14-1      | Implementar edición de perfil y cierre de sesión   | Como usuario, quiero actualizar mis datos y cerrar sesión desde la app web.                       | 5                      | Carlos Casimiro          | Done       |
 | US15             | Reportar espacios inseguros        | T-15-1      | Implementar sistema de reportes de espacios        | Como usuario, quiero reportar espacios inseguros desde la app web para mejorar la seguridad.     | 5                      | Angello Sosa             | Done       |
 | US16             | Visualizar espacios reportados     | T-16-1      | Implementar vista de reportes realizados            | Como usuario, quiero ver los espacios que he reportado desde la app web para hacer seguimiento.  | 5                      | Mariano Ames             | Done       |
-| US24             | Explorar landing informativa           | T-24-1      | Tarea técnica para landing informativa           | Implementar funcionalidad: Landing clara e informativa    | 10                     | Christopher Lecca Choccare             | Done       |
-| US25             | Navegar por secciones desde el header  | T-25-1      | Tarea técnica para navegación                    | Implementar funcionalidad: Navegación por secciones       | 10                     | Anthony Avalos Santos             | Done       |
-| US26             | Ver beneficios diferenciados           | T-26-1      | Tarea técnica para beneficios                    | Implementar funcionalidad: Tarjetas de beneficios          | 10                     | Anthony Avalos Santos             | Done       |
+| US23             | Explorar landing informativa           | T-23-1      | Tarea técnica para landing informativa           | Implementar funcionalidad: Landing clara e informativa    | 10                     | Christopher Lecca Choccare             | Done       |
+| US24             | Navegar por secciones desde el header  | T-24-1      | Tarea técnica para navegación                    | Implementar funcionalidad: Navegación por secciones       | 10                     | Anthony Avalos Santos             | Done       |
+| US25             | Ver beneficios diferenciados           | T-25-1      | Tarea técnica para beneficios                    | Implementar funcionalidad: Tarjetas de beneficios          | 10                     | Anthony Avalos Santos             | Done       |
 
 
 
@@ -4759,7 +4752,7 @@ La coordinación del equipo se realizó principalmente a través de **Discord**,
   
 </table>
 
-### 6.2.2.2. Aspect Leaders and Collaborators
+#### 6.2.2.2. Aspect Leaders and Collaborators
 
 La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto técnico del Sprint:
 
@@ -4814,18 +4807,18 @@ En esta sección se especifica el detalle del Sprint Backlog 2, la cual es una l
 |                  |                                           | T-15-3      | Interfaz de reporte en app móvil                                   | Como usuario, quiero reportar un espacio inseguro de forma sencilla desde mi móvil.                      | 4                      | Anthony Avalos             | Done       |
 | US16             | Ver espacios reportados por el usuario   | T-16-2      | Endpoint para listar reportes realizados por el usuario            | Como desarrollador, quiero permitir que los usuarios vean los espacios que han reportado.                | 5                      | Mariano Ames               | Done       |
 |                  |                                           | T-16-3      | Vista de reportes enviados en app móvil                            | Como usuario, quiero ver una lista de espacios que he reportado para hacer seguimiento.                   | 4                      | Carlos Casimiro            | Done       |
-| US18             | Acceder a información de ayuda  | T-18-1      | Implementar sección de ayuda y FAQs en app web       | Como usuario, quiero acceder a una sección de preguntas frecuentes e información de contacto en la web para resolver mis dudas fácilmente. | 5                      | Carlos Casimiro      | Done       |
-|                  |                                 | T-18-2      | Implementar sección de ayuda y FAQs en app móvil     | Como usuario, quiero acceder a preguntas frecuentes y soporte desde la app móvil para resolver dudas rápidamente.                              | 5                      | Anthony Avalos       | Done       |
-| US19             | Control de Aforo                         | T-19-1      | Programar sensores de aforo en la Embedded App                 | Como arrendador, quiero que la Embedded App detecte cuántas personas hay en el local para saber si se supera el aforo permitido.   | 6                      | Mariano Ames                 | Done       |
-|                  |                                          | T-19-2      | Procesar y enviar datos de aforo desde Edge Node al backend    | Como desarrollador, quiero que el Edge Node reciba datos del sensor de aforo y notifique al backend si se supera el límite.         | 6                      | Christopher Lecca, Anthony Avalos | Done       |
-| US20             | Monitoreo de Niveles de Ruido            | T-20-1      | Capturar niveles de ruido desde sensores en la Embedded App    | Como arrendador, quiero que la Embedded App detecte niveles altos de ruido para tomar acciones durante eventos.                     | 5                      | Mariano Ames                 | In process      |
-|                  |                                          | T-20-2      | Analizar y reportar exceso de ruido desde el Edge Node         | Como desarrollador, quiero que el Edge Node procese niveles de ruido y notifique al backend si se supera el umbral configurado.     | 6                      | Christopher Lecca, Anthony Avalos | Done       |
-| US21             | Detección de Humo                        | T-21-1      | Detectar presencia de humo mediante sensores en la Embedded App| Como arrendador, quiero que la Embedded App detecte humo para prevenir situaciones de emergencia.                                   | 5                      | Mariano Ames                 | Done       |
-|                  |                                          | T-21-2      | Transmitir eventos de humo desde el Edge Node al backend       | Como desarrollador, quiero que el Edge Node envíe al backend la alerta de humo detectado con hora y nivel de severidad.             | 6                      | Christopher Lecca, Anthony Avalos | Done       |
-| US22             | Movimiento en Áreas No Autorizadas       | T-22-1      | Registrar movimientos en zonas restringidas en la Embedded App | Como arrendador, quiero que se detecte movimiento en zonas no autorizadas para proteger mis espacios.                               | 5                      | Mariano Ames                 | Done       |
-|                  |                                          | T-22-2      | Procesar alertas de intrusión en Edge Node y enviarlas al backend| Como desarrollador, quiero que el Edge Node genere alertas con ubicación y hora del incidente cuando se detecte movimiento no autorizado. | 6                  | Christopher Lecca, Anthony Avalos | Done       |
-| US23             | Registro de Incidentes    | T-23-1      | Crear endpoint de backend para listar historial de incidentes| Como desarrollador, quiero crear un endpoint que devuelva los eventos registrados por sensores para su consulta.    | 6                      | Christopher Lecca    | Done       |
-|                  |                           | T-23-2      | Implementar vista web para monitoreo de incidentes del local | Como arrendador, quiero visualizar desde la web app un historial con todos los eventos ocurridos en mi espacio.     | 5                      | Carlos Casimiro      | Christopher Lecca       |
+| US17             | Acceder a información de ayuda  | T-17-1      | Implementar sección de ayuda y FAQs en app web       | Como usuario, quiero acceder a una sección de preguntas frecuentes e información de contacto en la web para resolver mis dudas fácilmente. | 5                      | Carlos Casimiro      | Done       |
+|                  |                                 | T-17-2      | Implementar sección de ayuda y FAQs en app móvil     | Como usuario, quiero acceder a preguntas frecuentes y soporte desde la app móvil para resolver dudas rápidamente.                              | 5                      | Anthony Avalos       | Done       |
+| US18             | Control de Aforo                         | T-18-1      | Programar sensores de aforo en la Embedded App                 | Como arrendador, quiero que la Embedded App detecte cuántas personas hay en el local para saber si se supera el aforo permitido.   | 6                      | Mariano Ames                 | Done       |
+|                  |                                          | T-18-2      | Procesar y enviar datos de aforo desde Edge Node al backend    | Como desarrollador, quiero que el Edge Node reciba datos del sensor de aforo y notifique al backend si se supera el límite.         | 6                      | Christopher Lecca, Anthony Avalos | Done       |
+| US19             | Monitoreo de Niveles de Ruido            | T-19-1      | Capturar niveles de ruido desde sensores en la Embedded App    | Como arrendador, quiero que la Embedded App detecte niveles altos de ruido para tomar acciones durante eventos.                     | 5                      | Mariano Ames                 | In process      |
+|                  |                                          | T-19-2      | Analizar y reportar exceso de ruido desde el Edge Node         | Como desarrollador, quiero que el Edge Node procese niveles de ruido y notifique al backend si se supera el umbral configurado.     | 6                      | Christopher Lecca, Anthony Avalos | Done       |
+| US20             | Detección de Humo                        | T-20-1      | Detectar presencia de humo mediante sensores en la Embedded App| Como arrendador, quiero que la Embedded App detecte humo para prevenir situaciones de emergencia.                                   | 5                      | Mariano Ames                 | Done       |
+|                  |                                          | T-20-2      | Transmitir eventos de humo desde el Edge Node al backend       | Como desarrollador, quiero que el Edge Node envíe al backend la alerta de humo detectado con hora y nivel de severidad.             | 6                      | Christopher Lecca, Anthony Avalos | Done       |
+| US21             | Movimiento en Áreas No Autorizadas       | T-21-1      | Registrar movimientos en zonas restringidas en la Embedded App | Como arrendador, quiero que se detecte movimiento en zonas no autorizadas para proteger mis espacios.                               | 5                      | Mariano Ames                 | Done       |
+|                  |                                          | T-21-2      | Procesar alertas de intrusión en Edge Node y enviarlas al backend| Como desarrollador, quiero que el Edge Node genere alertas con ubicación y hora del incidente cuando se detecte movimiento no autorizado. | 6                  | Christopher Lecca, Anthony Avalos | Done       |
+| US22             | Registro de Incidentes    | T-22-1      | Crear endpoint de backend para listar historial de incidentes| Como desarrollador, quiero crear un endpoint que devuelva los eventos registrados por sensores para su consulta.    | 6                      | Christopher Lecca    | Done       |
+|                  |                           | T-22-2      | Implementar vista web para monitoreo de incidentes del local | Como arrendador, quiero visualizar desde la web app un historial con todos los eventos ocurridos en mi espacio.     | 5                      | Carlos Casimiro      | Christopher Lecca       |
 
 
 
@@ -5625,7 +5618,7 @@ Scenario: Eliminar un reporte deslizando hacia la izquierda
   Then Aparece una opción para confirmar la eliminación y, si confirma, el reporte se elimina
 ```
 
-**US19:**
+**US18:**
 
 ```gherkin
 Feature: Control de aforo en tiempo real
@@ -5641,7 +5634,7 @@ Scenario: Notificación por superación del aforo máximo
   Then El sistema notifica al arrendador mediante notificación push y correo electrónico
 ```
 
-**US21:**
+**US19:**
 
 ```gherkin
 Feature: Detección de humo durante eventos
@@ -5658,7 +5651,7 @@ Scenario: Visualización del incidente en panel de eventos
 ```
 
 
-**US22:**
+**US21:**
 
 ```gherkin
 Feature: Detección de movimiento en áreas no autorizadas
@@ -6170,6 +6163,1475 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 ![Diagrama Vertanelo([URL]())](images/mobile-deploy.jpg)
 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
+Para este apartado se visualiza la colaboración realizada para el cloud application, node edge, landing page, web application y documentacion técnica. Se utilizaron herramientas como GitHub para el control de versiones y Trello para la gestión de tareas.
+
+- Insights del repositorio de la Landing Page:
+  ![Diagrama Vertanelo([URL]())](images/landing-insights.jpeg)
+
+
+- Insights del repositorio de la Web Application:
+  ![Diagrama Vertanelo([URL]())](images/web-insights.jpeg)
+
+
+- Insights del repositorio de la Cloud Application:
+  ![Diagrama Vertanelo([URL]())](images/cloud-insights.jpeg)
+
+
+- Insights del repositorio de la Embedded Application:
+  ![Diagrama Vertanelo([URL]())](images/embedded-insights.jpeg)
+
+
+- Insights del repositorio de la Node Edge:
+  ![Diagrama Vertanelo([URL]())](images/edge-insights.jpeg)
+
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 3
+<table align="center" border="1" width="90%" style="border-collapse:collapse; text-align:left;">
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td><b>Sprint 3</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td><b>Date</b></td>
+    <td>16/07/2025</td>
+  </tr>
+  <tr>
+    <td><b>Time</b></td>
+    <td>12:00</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Modalidad remota por Discord</td>
+  </tr>
+  <tr>
+    <td><b>Prepared By</b></td>
+    <td>Lecca Choccare Christopher Bryan</td>
+  </tr>
+  <tr>
+    <td>
+    <b>Attendees (to planning meeting)</b>
+    </td>
+    <td>
+      - Ames Oviedo Mariano Jose<br>
+      - Avalos Santos Anthony Piero<br>
+      - Lecca Choccare Christopher Bryan<br>
+      - Sosa Colca Angello Rodolfo<br>
+      - Carlos Oswaldo Casimiro Fernandez
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td><b>Sprint 3 Goal</b></td>
+    <td>
+      <strong>Our focus is on</strong> enabling the tenant section of the mobile application to receive direct, real-time updates from the edge node. We will also transition from the Wokwi simulation to a functional physical prototype of the embedded system, ensuring the mobile app and hardware prototype operate seamlessly together by the end of the sprint.
+      <br><br>
+      <strong>We believe this delivers</strong> a reliable, real-world tenant monitoring experience that enhances user engagement and demonstrates the system’s readiness for physical deployment.
+      <br><br>
+      <strong>Success will be measured by</strong> verified direct communication between the physical edge node prototype and the tenant mobile app, with successful integrated testing completed within the sprint timeframe.
+      <br><br>
+      <strong>Nuestro enfoque está en</strong> habilitar la sección de arrendatarios de la aplicación móvil para recibir actualizaciones directas y en tiempo real desde el nodo edge. También realizaremos la transición de la simulación en Wokwi a un prototipo físico funcional del sistema embebido, asegurando que la aplicación móvil y el prototipo de hardware operen de manera conjunta y sin fallos antes de finalizar el sprint.
+      <br><br>
+      <strong>Creemos que esto entrega</strong> una experiencia de monitoreo confiable y real para los arrendatarios, que mejora el compromiso del usuario y demuestra la preparación del sistema para su despliegue físico.
+      <br><br>
+      <strong>El éxito se medirá mediante</strong> la comunicación directa verificada entre el prototipo físico del nodo edge y la aplicación móvil para arrendatarios, con pruebas integradas exitosas realizadas dentro del tiempo del sprint.
+
+    </td>
+    
+  </tr>
+
+  <tr>
+    <td><b>Sprint 2 Velocity</b></td>
+    <td>72</td>
+  </tr>
+  <tr>
+    <td><b>Sum of Story Points</b></td>
+    <td>72</td>
+  </tr>
+  
+</table>
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto técnico del Sprint:
+
+| Team Member (Last Name, First Name) | GitHub Username   | Landing Page Leader (L) / Colaborator (C) | Web Application Leader (L) / Colaborator (C) | Web Service Leader (L) / Colaborator (C) | Mobile App Leader (L) / Colaborator (C) | Edge Node Leader (L) / Colaborator (C) | Embebbed App Leader (L) / Colaborator (C) |
+|------------------------------------|--------------------|---|---|---|---|---|---|
+| Ames Oviedo, Mariano               | MarianoAmes        | C | C | C | C | C | L |
+| Avalos Santos, Anthony Piero       | Anthony2000AA      | L | C | C | C | L | C |
+| Lecca Choccare, Christopher Bryan  | ChrisByBits        | C | L | L | L | C | C |
+| Sosa Colca, Angello Rodolfo        | AngelloSosa        | C | C | C | C | C | C |
+| Casimiro Fernández, Carlos Oswaldo | Sigma42O           | C | C | C | C | C | C |
+
+
+#### 6.2.3.3. Sprint Backlog 3.
+
+En esta sección se especifica el detalle del Sprint Backlog 3, la cual es una lista de tareas designadas para esta tercera fase del proyecto:
+
+![alt text](images/sprint-backlog-2.PNG)
+
+**Enlace del tablero:** https://trello.com/invite/b/68553207c4bfc2980edc9a9e/ATTIa9c09f215e1d1f18e20ad12e4d39755c6EAFFD77/sprint-backlog-2
+
+
+| **User Story ID** | **US Title**                              | **Task ID** | **Task Title**                                                    | **Description**                                                                                           | **Estimation (Hours)** | **Assigned To**           | **Status** |
+|------------------|-------------------------------------------|-------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------|----------------------------|------------|
+| US18              | Control de Aforo                   | T-18-3      | Implementar notificaciones de control de aforo en la app móvil                       | Como arrendatario, quiero recibir notificaciones en la app móvil cuando se detecte que el aforo supera el límite establecido para tomar acción inmediata.     | 6                      | Christopher Lecca | Done    |
+|                   |                                    | T-18-4      | Validar integración con prototipo físico para notificaciones de aforo                | Como desarrollador, quiero asegurar que las notificaciones de aforo enviadas por el prototipo físico se visualizan correctamente en la app móvil.                  | 4                      | Mariano Ames        | Done    |
+| US19              | Monitoreo de Niveles de Ruido      | T-19-3      | Implementar notificaciones de exceso de ruido en la app móvil                        | Como arrendatario, quiero recibir alertas en la app móvil cuando se detecten niveles de ruido altos para poder actuar durante eventos.                        | 6                      | Angello Sosa | Done    |
+|                   |                                    | T-19-4      | Validar comunicación y visualización de notificaciones de ruido con prototipo físico | Como desarrollador, quiero validar que las alertas de ruido del prototipo físico se reciben correctamente en la app móvil.                                         | 4                      | Mariano Ames        | Done    |
+| US20              | Detección de Humo                  | T-20-3      | Implementar notificaciones de detección de humo en la app móvil                      | Como arrendatario, quiero recibir alertas inmediatas en la app móvil cuando se detecte humo, para prevenir emergencias.                                       | 6                      | Anthony Avalos | Done    |
+|                   |                                    | T-20-4      | Verificar notificaciones de humo desde prototipo físico en la app móvil              | Como desarrollador, quiero asegurar que las alertas de humo enviadas por el prototipo físico se muestren correctamente en la app móvil.                            | 4                      | Carlos Casimiro        | Done    |
+| US21              | Movimiento en Áreas No Autorizadas | T-21-3      | Implementar notificaciones de movimiento en zonas restringidas en la app móvil       | Como arrendatario, quiero recibir alertas en la app móvil sobre movimientos no autorizados para proteger mi espacio.                                          | 6                      | Christopher Lecca | Done    |
+|                   |                                    | T-21-4      | Validar alertas de movimiento desde prototipo físico en la app móvil                 | Como desarrollador, quiero validar que las alertas del prototipo físico sobre movimiento en áreas restringidas se muestren correctamente en la app móvil.          | 4                      | Angello Sosa       | Done    |
+| US22              | Registro de Incidentes             | T-22-3      | Implementar visualización de notificaciones en la app móvil para eventos registrados | Como arrendatario, quiero recibir notificaciones en la app móvil con los eventos que se registran en el backend para estar informado en tiempo real.          | 6                      | Anthony Avalos | Done    |
+|                   |                                    | T-22-4      | Validar visualización de notificaciones desde prototipo físico en la app móvil       | Como desarrollador, quiero comprobar que las notificaciones enviadas por el prototipo físico se muestran correctamente en la app móvil durante pruebas integradas. | 4                      | Carlos Casimiro        | Done    |
+
+
+
+
+#### 6.2.3.4. Development Evidence for Sprint Review.
+<p>
+En esta sección se presentan los commits más relevantes realizados en el repositorio de GitHub, donde se evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page, Web Application, Web Service, Mobile App, Edge Node y Embebbed App. Se incluyen fusiones de ramas, configuraciones de despliegue, implementación de componentes y mejoras de contenido visual.
+</p>
+
+
+- <strong>Web Application</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-application</td>
+            <td>/main</td>
+            <td>5d816ff</td>
+            <td>feat: add local management</td>
+            <td>-</td>
+            <td>19/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Embedded Application</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>d85d545</td>
+            <td>feat: add wokwi project url</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>712b41e</td>
+            <td>feat: add device and sketch.ino</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>f42335e</td>
+            <td>feat: add capacity and noise sensor</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>603e146</td>
+            <td>feat: add smoke and restricted area sensor</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>b273f89</td>
+            <td>feat: add ModestIot framework</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>eff7d5c</td>
+            <td>Initial commit</td>
+            <td>-</td>
+            <td>17/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Mobile Application</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/profiles</td>
+            <td>570baf6</td>
+            <td>feat: add profiles context</td>
+            <td>-</td>
+            <td>11/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/booking</td>
+            <td>16aa356</td>
+            <td>add: booking files</td>
+            <td>-</td>
+            <td>08/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/notifications</td>
+            <td>0c95c64</td>
+            <td>notifications</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/locals</td>
+            <td>167d72e</td>
+            <td>feat: add locals context for manage locals data</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/iam</td>
+            <td>c912884</td>
+            <td>feat: add iam context for user authentication</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>feat/subscriptions</td>
+            <td>129eb22</td>
+            <td>feat: add subscriptions context</td>
+            <td>-</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>/main</td>
+            <td>70a17ad</td>
+            <td>feat: add first configuration</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>/main</td>
+            <td>c250432</td>
+            <td>Initial commit</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>/main</td>
+            <td>0399b2a</td>
+            <td>feat: add mobile app first version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-mobile-app</td>
+            <td>/main</td>
+            <td>3dd4fb</td>
+            <td>feat: add backend url</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Edge Node</strong>
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>8074a95</td>
+            <td>feat: add edge node first version</td>
+            <td>-</td>
+            <td>19/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>01c6aec</td>
+            <td>update: loop for update data</td>
+            <td>-</td>
+            <td>19/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>90df505</td>
+            <td>feat: add new requirements</td>
+            <td>-</td>
+            <td>17/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>cc0c9fb</td>
+            <td>feat: add edge second version</td>
+            <td>-</td>
+            <td>17/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>c3f9b51</td>
+            <td>Create class-diagram.puml</td>
+            <td>-</td>
+            <td>16/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>a8f6c26</td>
+            <td>update project change architecture</td>
+            <td>-</td>
+            <td>16/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>049937a</td>
+            <td>create project</td>
+            <td>-</td>
+            <td>12/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>9d4a55e</td>
+            <td>Update services.py</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>18b1b37</td>
+            <td>feat: edge third version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>950af28</td>
+            <td>feat: restart db</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>9fb9b05</td>
+            <td>feat: second edge version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>9e05d9d</td>
+            <td>refactor: fix endpoint service</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>a817976</td>
+            <td>Update main.py</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>a34e5ee</td>
+            <td>Update main.py</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>853d66f</td>
+            <td>Update requirements.txt</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>04be449</td>
+            <td>feat: update dockerfile</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>/main</td>
+            <td>dcda317</td>
+            <td>feat: add edge node first version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Web Services</strong>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Repository Branch</th>
+            <th>Commit ID</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>a3fb73c</td>
+            <td>feat: add backend first version</td>
+            <td>-</td>
+            <td>20/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>bd971ff</td>
+            <td>feat: add local edge node for management context</td>
+            <td>-</td>
+            <td>18/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>dcd5345</td>
+            <td>feat: add second version of database</td>
+            <td>-</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/management</td>
+            <td>d10a425</td>
+            <td>feat: add management context for local monitoring</td>
+            <td>-</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/subscriptions</td>
+            <td>a3f6831</td>
+            <td>feat: add subscriptions context</td>
+            <td>-</td>
+            <td>15/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/profiles</td>
+            <td>c2d9c8b</td>
+            <td>feat: add profiles bounded context</td>
+            <td>-</td>
+            <td>11/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>ec99de4</td>
+            <td>add: booking services</td>
+            <td>-</td>
+            <td>08/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/notification</td>
+            <td>04db9ad</td>
+            <td>notifications</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/locals</td>
+            <td>934a709</td>
+            <td>feat: add locals context for manage locals data</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>feat/iam</td>
+            <td>9869136</td>
+            <td>feat: iam context for user authentication</td>
+            <td>-</td>
+            <td>07/06/20255</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>d3326ba</td>
+            <td>feat: add first configuration</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>develop</td>
+            <td>ed792e2</td>
+            <td>Initial commit</td>
+            <td>-</td>
+            <td>07/06/2025</td>
+        </tr>
+    </tbody>
+</table>
+
+- <strong>Landing Page</strong>
+
+<table>
+        <thead>
+            <tr>
+                <th>Repository</th>
+                <th>Branch</th>
+                <th>Commit ID</th>
+                <th>Commit Message</th>
+                <th>Commit Message Body</th>
+                <th>Committed on (Date)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>2e41aeb</td>
+                <td>feat: video about-the-team</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>5b75638</td>
+                <td>refactor: fix responsive</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>7352aca</td>
+                <td>feat: add build command</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>2e33373</td>
+                <td>feat: add deployment configuration</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+            <tr>
+                <td>AlquilaEZ/alquilafacil-landing-page</td>
+                <td>/main</td>
+                <td>536d2b8</td>
+                <td>feat: add videos section</td>
+                <td>-</td>
+                <td>20/06/2025</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+
+A continuación, se muestran los archivos .feature que contienen cada uno de los escenarios a validar para las features respectivas a las historias de usuario trabajadas en este Sprint.
+
+**US01:**
+
+```gherkin
+Feature: Registro de usuario
+
+Scenario: Registro exitoso
+  Given Que un usuario desea registrar su espacio en AlquilaFácil
+  When Completa el formulario de registro con la información requerida
+  Then Recibe una confirmación de registro y puede acceder a su cuenta
+
+Scenario: Validación de datos
+  Given Que un usuario completa el formulario de registro en AlquilaFácil
+  When Envía el formulario
+  Then Los datos proporcionados se validan para garantizar la precisión y la autenticidad
+```
+
+**US02:**
+
+```gherkin
+Feature: Inicio de sesión
+
+Scenario: Inicio de sesión exitoso
+  Given Que un usuario registrado desea acceder a su cuenta en AlquilaFácil
+  When Ingresa su correo electrónico y contraseña correctos en el formulario de inicio de sesión
+  Then Es autenticado exitosamente y se le otorga acceso a su cuenta
+
+Scenario: Error en el inicio de sesión por credenciales incorrectas
+  Given Que un usuario registrado intenta acceder a su cuenta en AlquilaFácil
+  When Ingresa una combinación incorrecta de correo electrónico o contraseña
+  Then Se le muestra un mensaje de error indicando que las credenciales son incorrectas y se le solicita que intente nuevamente
+
+```
+
+**US03:**
+
+```gherkin
+Feature: Registro de espacios
+
+Scenario: Registro de datos básicos
+  Given Que un arrendador desea registrar su espacio en AlquilaFácil
+  When Completa los campos organizados en varios pasos con información detallada sobre la propiedad
+  Then Puede enviar el registro con éxito y recibir confirmación de su inclusión en la plataforma
+
+Scenario: Validación de datos requeridos en cada paso del registro
+  Given Que un arrendador está completando el registro de su espacio
+  When Rellena todos los campos correspondientes a un paso específico
+  Then Se activa el botón que le permite continuar al siguiente paso
+
+```
+
+**US04:**
+
+```gherkin
+Feature: Búsqueda de espacios disponibles
+
+Scenario: Búsqueda principal por ubicación
+  Given Que un arrendatario busca un espacio para eventos en una ubicación específica
+  When Ingresa la ubicación deseada en el campo de búsqueda
+  Then Se muestran los espacios disponibles en esa ubicación
+
+Scenario: Búsqueda general de espacios
+  Given Que un arrendatario no ingresa texto en la barra de búsqueda
+  When Presiona sobre el ícono de búsqueda
+  Then Se muestran todos los espacios disponibles
+
+```
+
+**US05:**
+
+```gherkin
+Feature: Filtrado de espacios disponibles
+
+Scenario: Filtrado por capacidad
+  Given Que un arrendatario desea un espacio con capacidad para un número específico de personas
+  When Aplica un filtro de capacidad en la búsqueda
+  Then Se muestran solo los espacios que cumplen con ese criterio
+
+Scenario: Filtrado por categoría
+  Given Que un arrendatario desea un espacio de una categoría específica
+  When Aplica un filtro de categoría en la búsqueda
+  Then Se muestran solo los espacios que cumplen con ese criterio
+```
+
+**US06:**
+
+```gherkin
+Feature: Visualización de información del espacio
+
+Scenario: Visualización de información
+  Given Que el arrendatario selecciona un espacio en AlquilaFácil
+  When Accede a la página de detalles del espacio
+  Then Puede visualizar información detallada como aforo máximo, descripción del espacio y servicios disponibles
+
+Scenario: Visualización de reseñas del espacio
+  Given Que el arrendatario está revisando un espacio
+  When Accede a la página de comentarios
+  Then Puede visualizar las reseñas y calificaciones dejadas por otros usuarios sobre ese espacio
+```
+
+**US07:**
+
+```gherkin
+Feature: Reservar espacios
+
+Scenario: Proceso de reserva
+  Given Que un arrendatario ha encontrado el espacio ideal en AlquilaFácil
+  When Selecciona un espacio y una fecha
+  Then Se muestra un formulario para completar los detalles de la reserva
+
+Scenario: Pago de la reserva con vouchers
+  Given Que el usuario está a punto de culminar el proceso de reserva de un espacio
+  When Presiona el botón de realizar reserva
+  Then Realiza el pago de la reserva a través de vouchers
+
+Scenario: Confirmación de reserva
+  Given Que un arrendatario ha realizado el pago de la reserva
+  When Es redirigido a la aplicación
+  Then Recibe una confirmación de reserva y los detalles se actualizan en su cuenta
+
+```
+
+**US08:**
+
+```gherkin
+Feature: Gestión del calendario de reservas
+
+Scenario: Existencia de reserva de usuario normal
+  Given Que un arrendatario ha realizado una reserva de uno de mis espacios
+  When El propietario accede al calendario
+  Then Puede ver el día de la reserva resaltado en color rojo
+
+Scenario: Existencia de reserva de usuario premium
+  Given Que un arrendatario con suscripción premium ha reservado uno de mis espacios
+  When El propietario accede al calendario
+  Then Puede ver el día de la reserva resaltado en color amarillo
+
+Scenario: Existencia de reserva de espacio ajeno
+  Given Que un arrendatario ha realizado una reserva
+  When Accede al calendario
+  Then Puede ver el día de su reserva resaltado en color azul
+```
+
+**US09:**
+
+```gherkin
+Feature: Calificar y comentar sobre espacios
+
+Scenario: Permiso para opinar sobre un espacio
+  Given Que un arrendatario tiene una reserva culminada de un espacio
+  When Accede a su información a través del calendario
+  Then Se presenta la opción habilitada para que pueda publicar su reseña sobre este
+
+Scenario: Aporte de reseña
+  Given Que un arrendatario ha rellenado todos los campos de reseña
+  When Presiona el botón de realizar reseña
+  Then Esta se publica para que todos los usuarios la puedan ver
+```
+
+**US10:**
+
+```gherkin
+Feature: Notificaciones de actividades del arrendatario
+
+Scenario: Notificación de reserva
+  Given Que el arrendador ha publicado un espacio en AlquilaFácil
+  When Un arrendatario realiza una reserva para dicho espacio
+  Then El arrendador recibe una notificación indicando la fecha y el nombre del arrendatario
+
+Scenario: Notificación de reseña
+  Given Que el arrendador ha publicado un espacio en AlquilaFácil
+  When Un arrendatario publica una reseña sobre dicho espacio
+  Then El arrendador recibe una notificación con el comentario y la calificación otorgada
+```
+
+**US11:**
+
+
+```gherkin
+Feature: Control de espacios favoritos
+
+Scenario: Agregar a favoritos
+  Given Que el arrendatario está visualizando la página de detalles de un espacio
+  When Selecciona la opción de "Agregar a favoritos"
+  Then El espacio se guarda en la lista de favoritos de forma local
+
+Scenario: Eliminar de favoritos
+  Given Que el arrendatario ha guardado un espacio como favorito
+  When Selecciona la opción de "Eliminar de favoritos" en dicho espacio
+  Then El espacio se elimina de la lista de favoritos y ya no se muestra al filtrar
+
+```
+
+**US12:**
+
+```gherkin
+Feature: Visualizar espacios propios publicados
+
+Scenario: Listado de espacios publicados
+  Given Que el arrendador ha iniciado sesión en su cuenta de AlquilaFácil
+  When Accede a la sección "Mis espacios"
+  Then Puede ver una lista de todos los espacios publicados, incluyendo información básica
+
+Scenario: Acceso a detalles y edición
+  Given Que el arrendador visualiza la lista de espacios publicados
+  When Selecciona un espacio específico
+  Then Puede acceder a la página de detalles del espacio y editar su información
+```
+
+**US13:**
+
+```gherkin
+Feature: Modificación de espacios publicados
+
+Scenario: Edición de detalles del espacio
+  Given Que el arrendador desea actualizar la información de su espacio
+  When Accede a la sección de edición y modifica descripción, aforo, servicios o tarifas
+  Then Puede guardar los cambios, y estos se reflejan en la página pública del espacio
+
+Scenario: Modificación de visibilidad temporal del espacio
+  Given Que el arrendador está editando su espacio
+  When Activa la opción de "No disponible temporalmente"
+  Then El espacio se muestra como no disponible para reservas
+```
+
+**US14:**
+
+```gherkin
+Feature: Actualización de perfil y gestión de sesión
+
+Scenario: Modificación del nombre de usuario
+  Given Que el usuario ha iniciado sesión en AlquilaFácil
+  When Accede a la configuración de perfil y edita el campo "Nombre de usuario"
+  Then Puede guardar los cambios y el nuevo nombre se refleja en su perfil
+
+Scenario: Cierre de sesión
+  Given Que el usuario desea salir de su cuenta
+  When Selecciona la opción "Cerrar sesión" en el perfil
+  Then Es desconectado y redirigido a la pantalla de inicio de sesión de forma segura
+```
+
+**US15:**
+
+```gherkin
+Feature: Reportar espacios inseguros
+
+Scenario: Selección del espacio inseguro
+  Given Que el usuario ha iniciado sesión en AlquilaFácil
+  When Accede a "Reportar espacio" y selecciona un espacio desde sus reservas activas o buscador
+  Then Puede ingresar un asunto y una descripción del problema
+
+Scenario: Confirmación del reporte
+  Given Que el usuario ha completado el formulario de reporte con los datos requeridos
+  When Presiona el botón "Enviar"
+  Then El reporte es registrado y revisado por el equipo de soporte de AlquilaFácil
+```
+
+**US16:**
+
+```gherkin
+Feature: Visualizar espacios reportados
+
+Scenario: Navegar a la sección de "Ver Espacios Reportados"
+  Given Que el usuario ha iniciado sesión en su cuenta de AlquilaFácil
+  When Accede a la sección de "Ver Espacios Reportados" desde el panel de control
+  Then Puede ver una lista de los espacios reportados con nombre, fecha y motivo
+
+Scenario: Eliminar un reporte deslizando hacia la izquierda
+  Given Que el usuario se encuentra en la lista de espacios reportados
+  When Desliza un reporte hacia la izquierda
+  Then Aparece una opción para confirmar la eliminación y, si confirma, el reporte se elimina
+```
+
+**US19:**
+
+```gherkin
+Feature: Control de aforo en tiempo real
+
+Scenario: Alerta por aforo cercano al límite
+  Given Que hay un evento activo
+  When Se detecta que el número de personas se acerca al límite permitido
+  Then Se muestra una alerta en la app del arrendador
+
+Scenario: Notificación por superación del aforo máximo
+  Given Que se ha superado el aforo máximo permitido
+  When Esto ocurre durante un evento
+  Then El sistema notifica al arrendador mediante notificación push y correo electrónico
+```
+
+**US21:**
+
+```gherkin
+Feature: Detección de humo durante eventos
+
+Scenario: Alerta crítica por detección de humo
+  Given Que hay sensores de humo activos en el local
+  When Se detecta presencia de humo durante un evento
+  Then Se envía una notificación crítica al arrendador
+
+Scenario: Visualización del incidente en panel de eventos
+  Given Que se ha enviado una alerta de humo
+  When El usuario accede a la app
+  Then Debe visualizar el evento en el panel de incidentes con la hora exacta de detección
+```
+
+
+**US22:**
+
+```gherkin
+Feature: Detección de movimiento en áreas no autorizadas
+
+Scenario: Alerta inmediata por intrusión en zona restringida
+  Given Que se ha definido una zona como restringida
+  When Se detecta movimiento en esa área durante un evento
+  Then El arrendador recibe una alerta inmediata con la ubicación del incidente
+
+Scenario: Registro del historial de intrusiones
+  Given Que ocurre una intrusión en una zona restringida
+  When El evento es registrado por el sistema
+  Then Debe quedar un historial con fecha, hora y duración del movimiento
+```
+
+#### 6.2.3.6. Execution Evidence for Sprint Review.
+Como resultado del segundo Sprint, se presenta la segunda ejecución de la Landing Page y Web Application, asi como tambien la primera version del Web Service, Embebbed App, Edge Node y Mobile App:
+    
+<strong>Landing Page:</strong> https://alquilaez.github.io/alquilafacil-landing-page/
+
+![landing Page([URL]())](images/cap6_image3.jpeg)
+</br>
+
+
+<strong>Web Application:</strong> https://alquila-facil-app-iot.netlify.app/sign-in
+
+![Web Application Deploy([URL]())](images/web_deploy.jpeg)
+</br>
+
+<strong>Web service:</strong> https://alquilafacil-web-service.onrender.com
+
+![Web Service Deploy([URL]())](images/cloud.jpeg)
+</br>
+
+<strong>Edge Node Service</strong> https://alquilafacil-egde-node-fsaa.onrender.com
+
+![Diagrama Vertanelo([URL]())](images/cloud_edge.jpeg)
+</br>
+
+<strong>Embedded Application:</strong> https://wokwi.com/projects/433560726038801409
+
+![Diagrama Wokwi([URL]())](images/wokwi.jpeg)
+</br>
+
+
+<strong>Mobile Application:</strong> 
+
+![Diagrama Vertanelo([URL]())](images/mobile_22.PNG)
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+
+A continuación se presenta la documentación a través de Swagger de todos nuestros endpoints en Web Services y Edge Node:
+
+Web Service:
+
+- Authentication Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-1.PNG)
+
+  - **POST sign-in**: Recibe de parametro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "email": "string",<br>
+      &emsp; "password": "string"<br>
+    }
+  </code> <br>
+
+    Devolviendo el token del usuario. 
+
+  -  **POST sign-up**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "username": "string",<br>
+      &emsp; "password": "string",<br>
+      &emsp; "email": "string",<br>
+      &emsp; "name": "string",<br>
+      &emsp; "fatherName": "string",<br>
+      &emsp; "motherName": "string",<br>
+      &emsp; "dateOfBirth": "string",<br>
+      &emsp; "documentNumber": "string",<br>
+      &emsp; "phone": "string"<br>
+    }
+  </code><br>
+
+      Devolviendo el token del usuario. 
+
+- Comments Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-2.PNG)
+
+  -  **GET local/{localId}**: Recibe de parámetro: <code>localId</code>
+
+      Devolviendo todos los comentarios realizados para el local con el identificador.
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "text": "string",<br>
+      &emsp; "rating": 0<br>
+    }
+  </code><br>
+
+      Devolviendo el comentario publicado.  
+
+- Invoice Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-3.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "subscriptionId": 0,<br>
+      &emsp; "amount": 0,<br>
+      &emsp; "date": "2025-06-20T21:00:13.031Z"<br>
+    }
+  </code><br>
+
+      Devolviendo la boleta obtenida.  
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todas las boletas.  
+    
+  -  **GET {invoiceId}**: Recibe de parámetro un invoiceId:<br>
+      Devuelve la boleta con tal identificador.
+
+- LocalCategories Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-4.PNG)
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todas las categorías de local. 
+
+- LocalEdgeNodes Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-5.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "edgeNodeUrl": "string"<br>
+    }
+  </code><br>
+
+      Devuelve el Edge Node creado para el localId.
+
+  -  **GET local-id/{localId}**: Recibe de parámetro un localId:<br>
+    Devuelve el Edge Node para el local con dicho identificador.
+      
+
+- Locals Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-6.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "district": "string",<br>
+      &emsp; "street": "string",<br>
+      &emsp; "localName": "string",<br>
+      &emsp; "country": "string",<br>
+      &emsp; "city": "string",<br>
+      &emsp; "price": 0,<br>
+      &emsp; "photoUrl": "string",<br>
+      &emsp; "descriptionMessage": "string",<br>
+      &emsp; "localCategoryId": 0,<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "features": "string",<br>
+      &emsp; "capacity": 0<br>
+    }</code><br>
+
+        Devuelve el local publicado.
+  </code><br>
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todos los locales publicados. 
+
+  -  **GET {localId}**: Recibe de parámetro un localId:<br>
+
+      Devuelve el local publicado para el identificador dado. 
+
+  -  **POST {localId}/**: Recibe de parámetro un localId y el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "district": "string",<br>
+      &emsp; "street": "string",<br>
+      &emsp; "localName": "string",<br>
+      &emsp; "country": "string",<br>
+      &emsp; "city": "string",<br>
+      &emsp; "price": 0,<br>
+      &emsp; "photoUrl": "string",<br>
+      &emsp; "descriptionMessage": "string",<br>
+      &emsp; "localCategoryId": 0,<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "features": "string",<br>
+      &emsp; "capacity": 0<br>
+    }</code><br>
+
+        Devuelve el local actualizado.
+
+  -  **GET get-all-districts**: No recibe parámetros:<br>
+
+      Devuelve todos los distritos en los cuales haya un local publicado. 
+  </code><br>
+
+  -  **GET get-user-locals/{localId}**: Recibe de parámetro un localId:<br>
+
+      Devuelve todos los locales publicados por el usuario con dicho identificador. 
+  </code><br>
+
+- Notifications Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-7.PNG)
+
+  -  **GET {userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve todos las notificaciones que recibió un usuario con el identificador dado. 
+
+  -  **DELETE {notificationId}**: Recibe de parámetro un notificationId:<br>
+
+      Devuelve la notificación eliminada para el identificador respectivo.
+
+- Plan Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-8.PNG)
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todos los planes de suscripción disponibles. 
+
+- Profiles Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-9.PNG)
+
+  -  **GET user/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve el perfil para el usuario con el identificador dado. 
+
+  -  **GET subscription-status/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve el estado de suscripción para el usuario con el identificador dado. 
+
+  -  **GET bank-accounts/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve las cuentas bancarias para el usuario con el identificador dado. 
+
+- Readings Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-10.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "sensorTypeId": 0,<br>
+      &emsp; "message": "string",<br>
+      &emsp; "timestamp": "2025-06-20T21:21:48.106Z"<br>
+    }</code><br>
+
+        Devuelve la lectura registrada.
+
+  -  **GET local-id/{localId}**: Recibe de parámetro un localId:<br>
+
+      Devuelve las lecturas registradas en el local con el identificador dado. 
+
+- Reports Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-11.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "title": string,<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "description": string<br>
+    }</code><br>
+
+      Devuelve el reporte publicado. 
+
+  -  **GET get-by-user-id/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve todos los reportes publicados por el usuario con el identificador dado. 
+
+  -  **GET get-by-local-id/{localId}**: Recibe de parámetro un localId:<br>
+
+      Devuelve todos los reportes publicados para el local con el identificador dado. 
+
+  -  **DELETE /**: Recibe de parámetro un reportlId:<br>
+
+      Devuelve el reporte eliminado con el identificador dado. 
+
+- Reservation Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-12.PNG)
+
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "startDate": "2025-06-20T21:26:54.049Z",<br>
+      &emsp; "endDate": "2025-06-20T21:26:54.049Z",<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "price": 0,<br>
+      &emsp; "voucherImageUrl": "string"<br>
+    }</code><br>
+
+      Devuelve la reserva creada. 
+
+  -  **PUT /**: Recibe de parámetro un reservationId y el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "startDate": "2025-06-20T21:26:54.049Z",<br>
+      &emsp; "endDate": "2025-06-20T21:26:54.049Z",<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "localId": 0,<br>
+      &emsp; "price": 0,<br>
+      &emsp; "voucherImageUrl": "string"<br>
+    }</code><br>
+
+      Devuelve la reserva modificada para el identificador dado. 
+
+  -  **PUT /**: Recibe de parámetro un reservationId:<br>
+
+      Devuelve la reserva eliminada para el identificador dado.
+
+  -  **GET by-user-id/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve todos las reservaciones realizadas por el usuario para el identificador dado. 
+
+   -  **GET reservation-user-details/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve todos las reservaciones combinadas de los locales publicadas por el usuario para el identificador dado.  
+
+- Subscriptions Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-13.PNG)
+
+  -  **POST /**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "planId": 0,<br>
+      &emsp; "userId": 0,<br>
+      &emsp; "voucherImageUrl": "string"<br>
+    }</code><br>
+
+      Devuelve la suscripción creada. 
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todas las suscripciones realizadas.
+
+  -  **GET {suscriptionId}**: Recibe de parámetro un suscriptionId:<br>
+
+      Devuelve todas la suscripción realizada para el identificador dado.
+
+  -  **PUT /**: Recibe de parámetro un suscriptionId:<br>
+
+      Devuelve la suscripción modificada para el identificador dado, otorgándole beneficios premium. 
+
+- Users Controller
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-14.PNG)
+
+  -  **GET {userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve el usuario para el identificador dado.
+
+    -  **PUT {userId}**: Recibe de parámetro un userId y el Schema:<br>
+    <code>
+      {<br>
+        &emsp; "username": "string"<br>
+      }<br></code>
+
+        Devuelve el usuario modificado para el identificador dado.
+
+  -  **GET /**: No recibe parámetros:<br>
+
+      Devuelve todos los usuarios solo para aquellos con el rol Admin.
+
+  -  **GET get-username/{userId}**: Recibe de parámetro un userId:<br>
+
+      Devuelve el nombre de usuario para el identificador dado.
+
+Edge Node:
+
+  ![Swagger Docs([URL]())](images/services-docs/swagger-15.PNG)
+
+  -  **POST readings/smoke**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "device_id": 0,<br>
+      &emsp; "message": "string"<br>
+    }</code><br>
+
+      Devuelve la lectura del sensor de tipo Smoke. 
+
+  -  **POST readings/noise**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "device_id": 0,<br>
+      &emsp; "message": "string"<br>
+    }</code><br>
+
+      Devuelve la lectura del sensor de tipo Noise. 
+
+  -  **POST readings/capacity**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "device_id": 0,<br>
+      &emsp; "message": "string"<br>
+    }</code><br>
+
+      Devuelve la lectura del sensor de tipo Capacity. 
+
+  -  **POST readings/restricted-area**: Recibe de parámetro el Schema:<br>
+  <code>
+    {<br>
+      &emsp; "device_id": 0,<br>
+      &emsp; "message": "string"<br>
+    }</code><br>
+
+      Devuelve la lectura del sensor de tipo Restricted Area. 
+
+  -  **GET readings/local-id{local_id}**: Recibe de parámetro un local_id:<br>
+
+      Devuelve todas las lecturas registradas para el local con el identificador dado.
+
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review.
+
+
+<p>
+En esta sección se presentan en evidencia el trabajo progresivo en el desarrollo y despliegue, tanto como la Landing Page, Web Application, Cloud Application, Embedded application y Node Edge. 
+</p>
+
+
+- **Landing Page**
+- El despliegue de la Landing Page se realizo en Github Pages, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: https://alquilaez.github.io/alquilafacil-landing-page/
+  - Descripción: Página informativa de AlquilaFácil, con navegación intuitiva y responsive.
+
+  ![Logo Github([URL]())](images/github-pages.jpeg)
+
+  ![Landing Page Deploy([URL]())](images/landing-page-deploy.PNG)
+
+  ![landing Page([URL]())](images/cap6_image3.jpeg)
+<br>
+
+- **Web Application**
+- El despliegue de la Web Application se realizó en Netlify, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: https://alquila-facil-app-iot.netlify.app/sign-in
+  - Descripción: Plataforma operativa para arrendadores y arrendatarios, con funcionalidades de registro, búsqueda y gestión de espacios.
+
+  <img src="images/netlofy.png" alt="Netlify" width="100%"/>
+  
+  ![Web App Deploy([URL]())](images/web-app-deploy.PNG)
+
+  ![Web Application Deploy([URL]())](images/web_deploy.jpeg)
+
+<br>
+
+- **Web Service**
+- El despliegue del servicio en la nube se realizó en Render, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: https://alquilafacil-web-service.onrender.com/swagger/index.html
+  - Descripción: Servicio backend central para la gestión de datos y operaciones de la plataforma AlquilaFácil.
+
+  ![Diagrama Vertanelo([URL]())](images/render.png)
+
+  ![Web Service Deploy([URL]())](images/web-service-deploy.PNG)
+
+
+  ![Web Service Deploy([URL]())](images/cloud.jpeg)
+
+<br>
+
+- **Embedded Application**
+- El despliegue de la aplicación embebida se realizó en Wokwi, permitiendo simular el funcionamiento de los dispositivos IoT.
+  - URL: https://wokwi.com/projects/433560726038801409
+  - Descripción: Aplicación embebida para el control de dispositivos IoT (Humo, Aforo, Sonido, Áreas de Movimiento).
+
+  <img src="images/wokwi-logo.png" alt="Diagrama Vertanelo" width="100%"/>
+
+  ![Diagrama Vertanelo([URL]())](images/wokwi.jpeg)
+</pre>
+
+
+<br>
+
+- **Edge Node**
+- El despliegue del nodo Edge se realizó en Render, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: https://alquilafacil-egde-node-fsaa.onrender.com/docs
+  - Descripción: Nodo Edge para el procesamiento de datos cerca de los dispositivos, garantizando una respuesta rápida y eficiente.
+
+  ![Diagrama Vertanelo([URL]())](images/render.png)
+
+  ![Diagrama Vertanelo([URL]())](images/cloud_edge.jpeg)  
+
+**Mobile App**
+
+- El despliegue del Mobile App se realizó generando un .apk el cual se compartió a un celular para demostrar la prueba.
+
+![Diagrama Vertanelo([URL]())](images/mobile-deploy.jpg)
+
+### 6.2.3.9. Team Collaboration Insights during Sprint.
 Para este apartado se visualiza la colaboración realizada para el cloud application, node edge, landing page, web application y documentacion técnica. Se utilizaron herramientas como GitHub para el control de versiones y Trello para la gestión de tareas.
 
 - Insights del repositorio de la Landing Page:
