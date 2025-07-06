@@ -6334,9 +6334,10 @@ La siguiente tabla resume los líderes (L) y colaboradores (C) para cada aspecto
 
 En esta sección se especifica el detalle del Sprint Backlog 3, la cual es una lista de tareas designadas para esta tercera fase del proyecto:
 
-![alt text](images/sprint-backlog-2.PNG)
+![alt text](images/sprint-backlog-3.PNG)
 
-**Enlace del tablero:** https://trello.com/invite/b/68553207c4bfc2980edc9a9e/ATTIa9c09f215e1d1f18e20ad12e4d39755c6EAFFD77/sprint-backlog-2
+**Enlace del tablero:** https://trello.com/invite/b/6869f02fa15b482d2e750dcd/ATTId9669f1bfbc91b69a1d45a1bbdcaff13668D9847/sprint-backlog-3
+
 
 
 | **User Story ID** | **US Title**                              | **Task ID** | **Task Title**                                                    | **Description**                                                                                           | **Estimation (Hours)** | **Assigned To**           | **Status** |
@@ -6435,19 +6436,11 @@ En esta sección se presentan los commits más relevantes realizados en el repos
     <tbody>
         <tr>
             <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>feat/profiles</td>
-            <td>570baf6</td>
-            <td>feat: add profiles context</td>
+            <td>main</td>
+            <td>3eb5114</td>
+            <td>feat: add web socket connection</td>
             <td>-</td>
-            <td>04/07/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>feat/booking</td>
-            <td>16aa356</td>
-            <td>add: booking files</td>
-            <td>-</td>
-            <td>04/07/2025</td>
+            <td>05/07/2025</td>
         </tr>
     </tbody>
 </table>
@@ -6467,18 +6460,18 @@ En esta sección se presentan los commits más relevantes realizados en el repos
     </thead>
     <tbody>
         <tr>
-            <td>AlquilaEZ/alquilafacil-embedded-app</td>
-            <td>/main</td>
-            <td>f29e39c</td>
-            <td>feat: add websockets por mobile interaction</td>
-            <td>-</td>
-            <td>04/07/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-embedded-app</td>
-            <td>/main</td>
+            <td>AlquilaEZ/alquilafacil-edge-node</td>
+            <td>main</td>
             <td>1437aab</td>
             <td>refactor: restart database</td>
+            <td>-</td>
+            <td>05/07/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-edge-node</td>
+            <td>main</td>
+            <td>3b7a1a6</td>
+            <td>refactor: fix fastapi sockets</td>
             <td>-</td>
             <td>05/07/2025</td>
         </tr>
@@ -6486,7 +6479,6 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 </table>
 
 - <strong>Web Services</strong>
-
 
 <table>
     <thead>
@@ -6501,7 +6493,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
     </thead>
     <tbody>
         <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>AlquilaEZ/alquilafacil-web-service</td>
             <td>develop</td>
             <td>d306c8a</td>
             <td>feat: add websockets using signal</td>
@@ -6509,7 +6501,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
             <td>04/07/2025</td>
         </tr>
         <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
+            <td>AlquilaEZ/alquilafacil-web-service</td>
             <td>develop</td>
             <td>71d1e9f</td>
             <td>refactor: fix group names for websockets</td>
@@ -6664,6 +6656,35 @@ Scenario: Visualización de notificación enviada por el prototipo físico
 
 ```
 
+Además de ello, se realizaron pruebas de integración para verificar la funcionalidad de cada uno de nuestros endpoints:
+
+**Authentication:**
+
+![Diagrama Vertanelo([URL]())](images/tests/auth.PNG)
+
+**Comments:**
+
+![Diagrama Vertanelo([URL]())](images/tests/comments.PNG)
+
+**Local Categories:**
+
+![Diagrama Vertanelo([URL]())](images/tests/local-categories.PNG)
+
+**Locals:**
+
+![Diagrama Vertanelo([URL]())](images/tests/locals.PNG)
+
+**Notification:**
+
+![Diagrama Vertanelo([URL]())](images/tests/notification.PNG)
+
+**Profiles:**
+
+![Diagrama Vertanelo([URL]())](images/tests/profiles.PNG)
+
+**Reservations:**
+
+![Diagrama Vertanelo([URL]())](images/tests/reservations.PNG)
 
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 Como resultado del segundo Sprint, se presenta la segunda ejecución de la Landing Page y Web Application, asi como tambien la primera version del Web Service, Embebbed App, Edge Node y Mobile App:
@@ -6674,9 +6695,9 @@ Como resultado del segundo Sprint, se presenta la segunda ejecución de la Landi
 </br>
 
 
-<strong>Web Application:</strong> https://alquila-facil-app-iot.netlify.app/sign-in
+<strong>Web Application:</strong> http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173
 
-![Web Application Deploy([URL]())](images/web_deploy.jpeg)
+![Web Application Deploy([URL]())](images/web-deploy.PNG)
 </br>
 
 <strong>Web service:</strong> http://alquilafacil-app.chilecentral.cloudapp.azure.com:8080/swagger/index.html
@@ -6701,6 +6722,7 @@ Como resultado del segundo Sprint, se presenta la segunda ejecución de la Landi
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 
+Luego del feedback recibido durante las entrevistas de validación, se tomó la decisión de ajustar algunos endpoints para satisfacer cada una de las soluciones encontradas.
 A continuación se presenta la documentación a través de Swagger de todos nuestros endpoints en Web Services y Edge Node:
 
 Web Service:
@@ -6839,17 +6861,17 @@ Web Service:
   -  **POST {localId}/**: Recibe de parámetro un localId y el Schema:<br>
   <code>
     {<br>
-      &emsp; "district": "string",<br>
-      &emsp; "street": "string",<br>
       &emsp; "localName": "string",<br>
+      &emsp; "descriptionMessage": "string",<br>
+      &emsp; "price": 0,<br>
+      &emsp; "capacity": 0,<br>
       &emsp; "country": "string",<br>
       &emsp; "city": "string",<br>
-      &emsp; "price": 0,<br>
-      &emsp; "photoUrl": "string",<br>
-      &emsp; "descriptionMessage": "string",<br>
-      &emsp; "localCategoryId": 0,<br>
-      &emsp; "userId": 0,<br>
+      &emsp; "district": "string",<br>
+      &emsp; "street": "string",<br>
+      &emsp; "photoUrls": ["string"],<br>
       &emsp; "features": "string",<br>
+      &emsp; "localCategoryId": 0,<br>
       &emsp; "capacity": 0<br>
     }</code><br>
 
@@ -7084,6 +7106,8 @@ Edge Node:
 
       Devuelve todas las lecturas registradas para el local con el identificador dado.
 
+  - **WS /api/v1/web-socket/ws/notifications/{local_id}**: WebSocket para recibir las nuevas lecturas emitidas en tiempo real
+
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review.
 
@@ -7106,13 +7130,15 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 <br>
 
 - **Web Application**
-- El despliegue de la Web Application se realizó en Netlify, permitiendo una entrega continua y acceso público desde un dominio gratuito.
-  - URL: https://alquila-facil-app-iot.netlify.app/sign-in
+- El despliegue de la Web Application se realizó a través de una máquina virtual en Azure, permitiendo una entrega continua y acceso público desde un dominio gratuito.
+  - URL: http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173/
   - Descripción: Plataforma operativa para arrendadores y arrendatarios, con funcionalidades de registro, búsqueda y gestión de espacios.
 
-  <img src="images/netlofy.png" alt="Netlify" width="100%"/>
+
   
-  ![Web App Deploy([URL]())](images/web-app-deploy.PNG)
+  ![Diagrama Vertanelo([URL]())](images/azure_1.png)
+
+  ![Diagrama Vertanelo([URL]())](images/azure-web-app.PNG)
 
   ![Web Application Deploy([URL]())](images/web_deploy.jpeg)
 
@@ -7126,14 +7152,14 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 
   ![Diagrama Vertanelo([URL]())](images/azure_1.png)
 
+  ![Diagrama Vertanelo([URL]())](images/azure-web-service.PNG)
 
-
-  ![Web Service Deploy([URL]())](images/new_back.jpeg)
+  ![Web Service Deploy([URL]())](images/azure-backend.PNG)
 
 <br>
 
 - **Embedded Application**
-- El despliegue de la aplicación embebida se realizó en hardware físico, permitiendo el funcionamiento real de los dispositivos IoT.
+- El despliegue de la aplicación embebida se realizó en prototipo físico, permitiendo el funcionamiento real de los dispositivos IoT.
   - **URL:** [https://wokwi.com/projects/433560726038801409](https://wokwi.com/projects/433560726038801409) *(Prototipo inicial simulado)*
   - **Descripción:** Aplicación embebida para el control de dispositivos IoT (Humo, Aforo, Sonido, Áreas de Movimiento) implementada en equipos físicos.
 
@@ -7154,13 +7180,15 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 
   ![Diagrama Vertanelo([URL]())](images/azure_1.png)
 
+  ![Diagrama Vertanelo([URL]())](images/azure-edge-node.PNG)
+
   ![Diagrama Vertanelo([URL]())](images/new_edge.jpeg)  
 
 **Mobile App**
 
 - El despliegue del Mobile App se realizó generando un .apk el cual se compartió a un celular para demostrar la prueba.
 
-![Diagrama Vertanelo([URL]())](images/mobile-deploy.jpg)
+![Diagrama Vertanelo([URL]())](images/mobile-deploy-2.jpg)
 
 ### 6.2.3.9. Team Collaboration Insights during Sprint.
 Para este apartado se visualiza la colaboración realizada para el cloud application, node edge, landing page, web application y documentacion técnica. Se utilizaron herramientas como GitHub para el control de versiones y Trello para la gestión de tareas.
