@@ -180,6 +180,9 @@ Carlos Oswaldo Casimiro Fernandez
   ![image]( images/edge_1.jpeg)
 
 
+  - **Embebbed App**
+  ![image]( images/new_insights_5.PNG)
+  ![image]( images/embebbed-network.PNG)
 
 
 ---
@@ -279,32 +282,27 @@ Carlos Oswaldo Casimiro Fernandez
 | [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review) |
 | [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review) |
 | [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint) |
- | [6.1. Software Configuration Management](#61-software-configuration-management) |
-| [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration) |
-| [6.1.2. Source Code Management](#612-source-code-management) |
-| [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions) |
-| [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration) |
 | [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation) |
 | [6.2.2. Sprint 2](#621-sprint-2) |
-| [6.2.2.1. Sprint Planning 2](#6211-sprint-planning-2) |
-| [6.2.2.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators) |
-| [6.2.2.3. Sprint Backlog 2](#6213-sprint-backlog-2) |
-| [6.2.2.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review) |
-| [6.2.2.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review) |
-| [6.2.2.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review) |
-| [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review) |
-| [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review) |
-| [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint) |
+| [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2) |
+| [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators) |
+| [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2) |
+| [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review) |
+| [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review) |
+| [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review) |
+| [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review) |
+| [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review) |
+| [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint) |
 | [6.2.3. Sprint 3](#631-sprint-3) |
-| [6.2.3.1. Sprint Planning 3](#6311-sprint-planning-3) |
-| [6.2.3.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators) |
-| [6.2.3.3. Sprint Backlog 3](#6213-sprint-backlog-3) |
-| [6.2.3.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review) |
-| [6.2.3.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review) |
-| [6.2.3.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review) |
-| [6.2.3.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review) |
-| [6.2.3.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review) |
-| [6.2.3.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint) |
+| [6.2.3.1. Sprint Planning 3](#6331-sprint-planning-3) |
+| [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators) |
+| [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3) |
+| [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review) |
+| [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review) |
+| [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review) |
+| [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review) |
+| [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review) |
+| [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint) |
 | [6.3. Validation Interviews.](#63-validation-interviews) |
 | [6.3.1. Diseno de Entrevistas](#631-diseño-de-entrevistas) |
 | [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas) |
@@ -6401,21 +6399,12 @@ En esta sección se presentan los commits más relevantes realizados en el repos
         </tr>
     </thead>
     <tbody>
-        <tr>
             <td>AlquilaEZ/alquilafacil-embedded-app</td>
             <td>/main</td>
-            <td>d85d545</td>
-            <td>feat: add wokwi project url</td>
+            <td>2558fef</td>
+            <td>feat: add sound sensor and fixed edge connection</td>
             <td>-</td>
-            <td>04/07/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-embedded-app</td>
-            <td>/main</td>
-            <td>712b41e</td>
-            <td>feat: add capacity and noise sensor</td>
-            <td>-</td>
-            <td>05/07/2025</td>
+            <td>06/07/2025</td>
         </tr>
     </tbody>
 </table>
@@ -6689,28 +6678,38 @@ Además de ello, se realizaron pruebas de integración para verificar la funcion
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 Como resultado del segundo Sprint, se presenta la segunda ejecución de la Landing Page y Web Application, asi como tambien la primera version del Web Service, Embebbed App, Edge Node y Mobile App:
     
-<strong>Landing Page:</strong> https://alquilaez.github.io/alquilafacil-landing-page/
+<strong>Landing Page:</strong> 
+
+- **URL:** [https://alquilaez.github.io/alquilafacil-landing-page/](https://alquilaez.github.io/alquilafacil-landing-page/)
 
 ![landing Page([URL]())](images/cap6_image3.jpeg)
 </br>
 
 
-<strong>Web Application:</strong> http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173
+<strong>Web Application:</strong> 
+
+- **URL:** [http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173/](http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173/)
 
 ![Web Application Deploy([URL]())](images/web-deploy.PNG)
 </br>
 
-<strong>Web service:</strong> http://alquilafacil-app.chilecentral.cloudapp.azure.com:8080/swagger/index.html
+<strong>Web service:</strong> 
+
+- **URL:** [http://alquilafacil-app.chilecentral.cloudapp.azure.com:8080/swagger/index.html](http://alquilafacil-app.chilecentral.cloudapp.azure.com:8080/swagger/index.html)
 
 ![Web Service Deploy([URL]())](images/new_back.jpeg)
 </br>
 
-<strong>Edge Node Service</strong> http://alquilafacil-app.chilecentral.cloudapp.azure.com:3000/docs
+<strong>Edge Node Service</strong> 
+
+- **URL:** [http://alquilafacil-app.chilecentral.cloudapp.azure.com:3000/docs](http://alquilafacil-app.chilecentral.cloudapp.azure.com:3000/docs)
 
 ![Diagrama Vertanelo([URL]())](images/new_edge.jpeg)
 </br>
 
-<strong>Embedded Application:</strong> https://wokwi.com/projects/433560726038801409
+<strong>Embedded Application:</strong> 
+
+- **URL:** [https://wokwi.com/projects/433560726038801409](https://wokwi.com/projects/433560726038801409)
 
 ![Diagrama Wokwi([URL]())](images/wokwi.jpeg)
 </br>
@@ -7119,7 +7118,7 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 
 - **Landing Page**
 - El despliegue de la Landing Page se realizo en Github Pages, permitiendo una entrega continua y acceso público desde un dominio gratuito.
-  - URL: https://alquilaez.github.io/alquilafacil-landing-page/
+  - **URL:** [https://alquilaez.github.io/alquilafacil-landing-page/](https://alquilaez.github.io/alquilafacil-landing-page/)
   - Descripción: Página informativa de AlquilaFácil, con navegación intuitiva y responsive.
 
   ![Logo Github([URL]())](images/github-pages.jpeg)
@@ -7131,7 +7130,7 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 
 - **Web Application**
 - El despliegue de la Web Application se realizó a través de una máquina virtual en Azure, permitiendo una entrega continua y acceso público desde un dominio gratuito.
-  - URL: http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173/
+  - **URL:** [http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173/](http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173/)
   - Descripción: Plataforma operativa para arrendadores y arrendatarios, con funcionalidades de registro, búsqueda y gestión de espacios.
 
 
@@ -7160,7 +7159,7 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 
 - **Embedded Application**
 - El despliegue de la aplicación embebida se realizó en prototipo físico, permitiendo el funcionamiento real de los dispositivos IoT.
-  - **URL:** [https://wokwi.com/projects/433560726038801409](https://wokwi.com/projects/433560726038801409) *(Prototipo inicial simulado)*
+  - **URL:** [https://wokwi.com/projects/433560726038801409](https://wokwi.com/projects/433560726038801409)
   - **Descripción:** Aplicación embebida para el control de dispositivos IoT (Humo, Aforo, Sonido, Áreas de Movimiento) implementada en equipos físicos.
 
 
@@ -7194,23 +7193,23 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 Para este apartado se visualiza la colaboración realizada para el cloud application, node edge, landing page, web application y documentacion técnica. Se utilizaron herramientas como GitHub para el control de versiones y Trello para la gestión de tareas.
 
 - Insights del repositorio de la Landing Page:
-  ![Diagrama Vertanelo([URL]())](images/new_insights_1.jpeg)
+  ![Insights Landing Page([URL]())](images/new_insights_1.jpeg)
 
 
 - Insights del repositorio de la Web Application:
-  ![Diagrama Vertanelo([URL]())](images/new_insights_2.jpeg)
+  ![Insights Web App([URL]())](images/new_insights_2.jpeg)
 
 
 - Insights del repositorio de la Cloud Application:
-  ![Diagrama Vertanelo([URL]())](images/new_insights_3.jpeg)
+  ![Insights Web Service App([URL]())](images/new_insights_3.jpeg)
 
 
 - Insights del repositorio de la Embedded Application:
-  ![Diagrama Vertanelo([URL]())](images/new_insights_4.jpeg)
+  ![Insights Embebbed App([URL]())](images/new_insights_5.PNG)
 
 
-- Insights del repositorio de la Node Edge:
-  ![Diagrama Vertanelo([URL]())](images/new_insights_5.jpeg)
+- Insights del repositorio del Edge Node:
+  ![Insights Edge Node App([URL]())](images/new_insights_5.jpeg)
 
 
 ### 6.3. Validation Interviews.
@@ -7337,8 +7336,10 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td>Enlace</td>
-    <td style="word-break: break-all; max-width: 300px; white-space: normal;">
-    https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EdCQ0tgZTN9OuEbicANdAmoBHB6RhAPBv_PYgqAN2rvfDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yjF26v
+    <td>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EdCQ0tgZTN9OuEbicANdAmoBHB6RhAPBv_PYgqAN2rvfDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yjF26v" target="_blank">
+        https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EdCQ0tgZTN9OuEbicANdAmoBHB6RhAPBv_PYgqAN2rvfDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yjF26v
+      </a>
     </td>
   </tr>
   <tr>
@@ -7415,6 +7416,7 @@ También sugiere que la plataforma tenga una interfaz clara y sencilla, adaptabl
   </tr>
   <tr>
     <td>Enlace</td>
+
     <td style="word-break: break-all; max-width: 300px; white-space: normal;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EUk-XS_8969Bq-feXWucHwABct97qln8e-zyUtkFv6WqXw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pYtksX</td>
   </tr>
   <tr>
@@ -7488,8 +7490,10 @@ También sugiere que la plataforma tenga una interfaz clara y sencilla, adaptabl
   </tr>
   <tr>
     <td>Enlace</td>
-    <td style="word-break: break-all; max-width: 300px; white-space: normal;">
-   https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/Edh_aAJWQn5Dv5_DmoOKWUEBUqPsj-gFT6WBIewxOdO2ug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xldryc
+    <td>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/Edh_aAJWQn5Dv5_DmoOKWUEBUqPsj-gFT6WBIewxOdO2ug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xldryc" target="_blank">
+        https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/Edh_aAJWQn5Dv5_DmoOKWUEBUqPsj-gFT6WBIewxOdO2ug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xldryc
+      </a>
     </td>
   </tr>
   <tr>
@@ -7570,6 +7574,11 @@ Finalmente, calificó con un 4 sobre 5 su experiencia con la funcionalidad de mo
   <tr>
     <td>Enlace</td>
     <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ETKDocDihcBDr-2XPwQmV_MBoAvLoDRRAv13oFy-cZd4Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmTbIx" title="Title">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ETKDocDihcBDr-2XPwQmV_MBoAvLoDRRAv13oFy-cZd4Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmTbIx</a></p></td>
+    <td>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ETKDocDihcBDr-2XPwQmV_MBoAvLoDRRAv13oFy-cZd4Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmTbIx" target="_blank">
+        https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ETKDocDihcBDr-2XPwQmV_MBoAvLoDRRAv13oFy-cZd4Ag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qmTbIx
+      </a>
+    </td>
   </tr>
   <tr>
     <td>Duración<br></td>
@@ -7716,7 +7725,7 @@ Finalmente, calificó con un 4 sobre 5 su experiencia con la funcionalidad de mo
   </tr>
   <tr>
     <td>Enlace</td>
-    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ERFaEL1sWzdHqHVwfSUIz20BgEPcr_ZOt0Ph5Zrl2gD-CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpjLxo/" title="Title">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ERFaEL1sWzdHqHVwfSUIz20BgEPcr_ZOt0Ph5Zrl2gD-CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpjLxo</a></p></td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ERFaEL1sWzdHqHVwfSUIz20BgEPcr_ZOt0Ph5Zrl2gD-CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpjLxo" title="Title">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/ERFaEL1sWzdHqHVwfSUIz20BgEPcr_ZOt0Ph5Zrl2gD-CQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpjLxo</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
@@ -7901,7 +7910,9 @@ Segmento de arrendatarios:
 
 <img src="images/about-the-team.PNG">
 
-[Enlace del video](https://www.youtube.com/watch?v=9ZdnCfUfQ2M)
+Enlace del video: 
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211371_upc_edu_pe/EfHWR_f9oApJjkhZy3hi-CcByDOS_CaBndqeKHUyCnBpoA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BuXSMS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211371_upc_edu_pe/EfHWR_f9oApJjkhZy3hi-CcByDOS_CaBndqeKHUyCnBpoA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BuXSMS)
 
 
 
