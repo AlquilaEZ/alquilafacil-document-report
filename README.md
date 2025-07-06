@@ -2088,7 +2088,7 @@ Mantener la asignación de dispositivos dentro de Booking.
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-![Event Storming](images/image_21.jpeg)
+![Event Storming](images/image_21.png)
 
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
