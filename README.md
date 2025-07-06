@@ -70,7 +70,7 @@ Carlos Oswaldo Casimiro Fernandez
       </td>
       <td>Se creó los repositorios para la Web Application frontend y Landing Page, asi como también el desarrollo de los capitulos 5 y 6 (Sprint Backlog 1). También se continuó con el desarrollo de los productos de software mencionados y la presentación de los mismos.</td>
    </tr>
-          <tr>
+    <tr>
       <td>3da</td>
       <td>19/06/2025</td>
       <td>
@@ -82,6 +82,19 @@ Carlos Oswaldo Casimiro Fernandez
       </td>
       <td> Se continuó mejorando la aplicación web y Landing Page. Se desplego la primera version de la aplicación embebida, así como también el nodo Edge. También se realizó la primera versión de la aplicación móvil. Todo ello corresponde al Sprint Backlog 2, parte del capitulo 6.</td>
    </tr>
+   <tr>
+  <td>4to</td>
+  <td>06/07/2025</td>
+  <td>
+    - Ames Oviedo Mariano Jose <br>
+    - Avalos Santos Anthony Piero <br>
+    - Lecca Choccare Christopher Bryan <br>
+    - Sosa Colca Angello Rodolfo <br>
+    - Carlos Oswaldo Casimiro Fernandez <br>
+  </td>
+  <td> Se completó la integración final entre los dispositivos físicos IoT y la aplicación móvil, validando la comunicación en tiempo real. Además, se migraron los servicios web y el nodo Edge a la nube de Microsoft Azure, garantizando mayor estabilidad y escalabilidad. También se realizaron ajustes de usabilidad en la aplicación web y mejoras en el monitoreo de eventos, todo correspondiente al Sprint Backlog 3, dentro del capítulo 6.</td>
+</tr>
+
 </table>
 
 ---
@@ -142,6 +155,32 @@ Carlos Oswaldo Casimiro Fernandez
   - **Edge Node**
   ![image]( images/edge_2.jpeg)
   ![image]( images/edge_1.jpeg)
+
+
+
+
+
+
+<strong>TF</strong> 
+
+<p>La implementación de ramas paralelas en el control de versiones permitió que los miembros del equipo desarrollaran distintos componentes del proyecto de forma simultánea, abarcando la Landing Page, la aplicación web, la app móvil y el nodo Edge. Esta metodología colaborativa favoreció una integración continua de los avances, reduciendo los conflictos en el código y asegurando una mejor distribución de las responsabilidades. De esta manera, todos los integrantes pudieron participar activamente en el desarrollo del producto final correspondiente al sprint, garantizando un proceso ágil, coordinado y eficiente.</p>
+
+  - **Frontend Web Application**
+![image]( images/web_1.jpeg)
+![image]( images/new_insights_2.jpeg)
+
+
+  - **Mobile Application**
+  ![image]( images/mobile_1.jpeg)
+  ![image]( images/mobile_2.jpeg)
+
+
+  - **Edge Node**
+  ![image]( images/new_insights_5.jpeg)
+  ![image]( images/edge_1.jpeg)
+
+
+
 
 ---
 
@@ -256,6 +295,16 @@ Carlos Oswaldo Casimiro Fernandez
 | [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review) |
 | [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review) |
 | [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint) |
+| [6.2.3. Sprint 3](#631-sprint-3) |
+| [6.2.3.1. Sprint Planning 3](#6311-sprint-planning-3) |
+| [6.2.3.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators) |
+| [6.2.3.3. Sprint Backlog 3](#6213-sprint-backlog-3) |
+| [6.2.3.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review) |
+| [6.2.3.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review) |
+| [6.2.3.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review) |
+| [6.2.3.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review) |
+| [6.2.3.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review) |
+| [6.2.3.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint) |
 | [6.3. Validation Interviews.](#63-validation-interviews) |
 | [6.3.1. Diseno de Entrevistas](#631-diseño-de-entrevistas) |
 | [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas) |
@@ -287,19 +336,24 @@ del ABET – EAC - Student Outcome 5.
       <td>
         <strong>Christopher Bryan Lecca Choccare <br> (TB1):</strong> Me encargué de liderar el diseño estratégico, guiando al equipo en la identificación de bounded contexts y en la elaboración del Event Storming y Context Mapping. Coordiné la conexión lógica entre eventos y políticas, y aseguré la consistencia general en los flujos del sistema.<br>
         <strong>(TP1):</strong> Desarrollé la estructura completa de la Landing Page utilizando HTML y Tailwind CSS, asegurando un diseño limpio y adaptable. Participé en el desarrollo del Capítulo V, definiendo los lineamientos de estilo y wireframes. Además, fui responsable de redactar gran parte del Capítulo VI, incluyendo las evidencias de implementación y despliegue del producto.<br>
-         <strong>(TB2):</strong> Desarrolle el Node Edge para la comunicación directa con los dispositivos IoT. También colabore activamente en el desarrollo de la aplicación móvil, y apoye en el desarrollo y conexion de la aplicacion embebida con el node Edge. Tambien apoye en la documentacion respectiva.<br><br>
+         <strong>(TB2):</strong> Desarrolle el Node Edge para la comunicación directa con los dispositivos IoT. También colabore activamente en el desarrollo de la aplicación móvil, y apoye en el desarrollo y conexion de la aplicacion embebida con el node Edge. Tambien apoye en la documentacion respectiva.<br>
+                  <strong>(TF):</strong> Continue mejorando el desarrollo de la capa Edge, asi como tambien el servicio principal en la nube, ademas de incluir nuevas features en la aplicacion movil.<br><br>
         <strong>Angello Rodolfo Sosa Colca <br>(TB1):</strong> Lideré el diseño táctico del contexto "Locals", definiendo sus capas y componentes. Me aseguré de que la estructura entre entidades, comandos, servicios y repositorios fuera coherente y alineada con los principios de DDD.<br>
         <strong>(TP1):</strong> Contribuí activamente en la codificación del frontend web desarrollado con Vue.js, implementando los componentes de interfaz para la gestión de espacios. También colaboré en la sección de prototipos del Capítulo V y en los aspectos técnicos del Capítulo VI relacionados a la arquitectura de software.<br>
-        <strong>(TB2):</strong> Colabore activamente en el desarrollo de los puntos de conexión entre la aplicación móvil y el backend, asegurando una integración fluida y eficiente.Ademas, apoye en la ultima version de Landing Page.<br><br>
+        <strong>(TB2):</strong> Colabore activamente en el desarrollo de los puntos de conexión entre la aplicación móvil y el backend, asegurando una integración fluida y eficiente.Ademas, apoye en la ultima version de Landing Page.<br>
+        <strong>(TF):</strong> Participé de forma activa en el desarrollo de los puntos de integración entre la aplicación móvil y el backend, garantizando una comunicación fluida y eficiente entre ambos componentes. Además, brindé soporte en la actualización y mejora de la última versión de la Landing Page.<br><br>
         <strong>Anthony Piero Avalos Santos <br>  (TB1):</strong> Participé activamente en la fase de descubrimiento del usuario. Me enfoqué en aplicar técnicas como Empathy Mapping, User Personas y User Journey para captar de manera precisa las necesidades reales y plasmarlas en el sistema.<br>
         <strong>(TP1):</strong> Diseñé la estructura de navegación de la Landing Page y desarrollé varias secciones como "Beneficios" y "Monitoreo", asegurando su conexión visual y lógica. También redacté partes del Capítulo V enfocadas en diseño centrado en el usuario y usabilidad de la aplicación web.<br>
-                <strong>(TB2):</strong> Apoye en el desarrollo del Node Edge, asi como tambien en la conexion con el backend central para enviar las lecturas de los sensores principales. Tambien apoye en la documentacion respectiva.<br><br>
+                <strong>(TB2):</strong> Apoye en el desarrollo del Node Edge, asi como tambien en la conexion con el backend central para enviar las lecturas de los sensores principales. Tambien apoye en la documentacion respectiva.<br>
+                                <strong>(TF):</strong>Colaboré en el desarrollo del Node Edge, contribuyendo a su implementación y asegurando la correcta conexión con el backend central para el envío de las lecturas provenientes de los sensores principales. Asimismo, participé en la elaboración de la documentación técnica correspondiente.<br><br>
         <strong>Mariano José Ames Oviedo <br>(TB1):</strong> Me encargué de elaborar la introducción de la solución, definiendo el perfil de la startup, los desafíos que busca resolver y su aporte a la sostenibilidad urbana. También consolidé los antecedentes para contextualizar el problema.<br>
         <strong>(TP1):</strong> Colaboré en la validación del contenido del Capítulo VI, asegurándome de que se describieran de forma clara los resultados del sprint. Además, participé en la organización y revisión del índice general y los entregables de UI/UX documentados en el Capítulo V.<br>
-        <strong>(TB2):</strong> Colabore activamente en la configuracion y despliegue de la aplicacion embebida, asi como tambien en la seleccion de los componentes IoT necesarios para la integracion del sistema junto con las US necesarios para el core del negocio de AlquilaFacil.<br><br>
+        <strong>(TB2):</strong> Colabore activamente en la configuracion y despliegue de la aplicacion embebida, asi como tambien en la seleccion de los componentes IoT necesarios para la integracion del sistema junto con las US necesarios para el core del negocio de AlquilaFacil.<br>
+                <strong>(TF):</strong>Participé de manera activa en la configuración y despliegue de la aplicación embebida, además de contribuir en la selección de los componentes IoT requeridos para la integración del sistema. Asimismo, apoyé en el desarrollo de las User Stories clave vinculadas al core del negocio de AlquilaFácil.<br><br>
         <strong>Carlos Oswaldo Casimiro Fernández <br> (TB1):</strong>Me responsabilicé por la implementación de la capa de infraestructura del contexto, construyendo los repositorios, asegurando persistencia adecuada y validando integraciones con bases de datos.<br>
         <strong>(TP1):</strong> Aporté en la integración técnica del frontend con los servicios backend simulados, validando los flujos de datos. Además, participé en la documentación técnica del Capítulo VI, especialmente en la sección de despliegue y configuración de servicios.<br>
-        <strong>(TB2):</strong> Aporte en la elaboracion del documento y tambien el video about the product. Tambien apoye en la presentacion de la entrega para exponer todo ll que abarca este sprint<br><br>
+        <strong>(TB2):</strong> Aporte en la elaboracion del documento y tambien el video about the product. Tambien apoye en la presentacion de la entrega para exponer todo lo que abarca este sprint<br><br>
+                <strong>(TF):</strong> Contribuí en la elaboración del documento técnico y en la creación del video explicativo del producto. Asimismo, brindé apoyo en la preparación y presentación de la exposición final, detallando todos los aspectos abordados durante este sprint.<br><br>
       </td>
       <td>
       <strong>(TB1):</strong>
@@ -308,6 +362,8 @@ El equipo demostró una colaboración efectiva al asumir roles estratégicos que
 El equipo logró organizarse estratégicamente durante el desarrollo del producto, asignando roles complementarios en el diseño de interfaces, construcción de componentes técnicos y elaboración del entregable. Cada integrante asumió el liderazgo en secciones específicas del sistema, permitiendo el desarrollo paralelo de la Landing Page, la aplicación web y los capítulos del informe. Esta distribución equilibrada potenció la autonomía individual sin comprometer la coherencia del trabajo conjunto.<br><br>
       <strong>(TB2):</strong>
 El equipo trabajó de forma coordinada en el desarrollo paralelo de la aplicación móvil, el nodo Edge y la aplicación embebida, asegurando su integración con el backend. Cada miembro asumió roles técnicos y de documentación según sus fortalezas, lo que permitió una entrega sólida, coherente y bien documentada al cierre del sprint.
+  <strong>(TF1):</strong>
+  La integración de los dispositivos físicos IoT en el sistema final se logró satisfactoriamente, validando su funcionamiento en pruebas reales. Este proceso garantizó la operatividad conjunta entre el hardware, el backend y la aplicación móvil, aportando robustez al sistema y cumpliendo con los objetivos funcionales establecidos para el sprint.
       </td>
     </tr>
     <tr>
@@ -315,19 +371,24 @@ El equipo trabajó de forma coordinada en el desarrollo paralelo de la aplicaci�
       <td>
         <strong>Mariano José Ames Oviedo <br> (TB1):</strong> Me encargué de redactar las secciones introductorias del entregable, comunicando los objetivos y fundamentos del sistema de forma clara para cualquier lector.<br>
         <strong>(TP1):</strong> Redacté el perfil de la startup, objetivos generales del sistema y antecedentes clave, facilitando la comprensión del lector sobre la necesidad del producto. También revisé la coherencia del Capítulo VI en su conjunto.<br>
-                <strong>(TB2):</strong> Redacté descripciones claras sobre la configuración de la aplicación embebida y los componentes IoT utilizados, explicando su propósito dentro del sistema para facilitar su entendimiento por diferentes especialidades.<br><br>
+                <strong>(TB2):</strong> Redacté descripciones claras sobre la configuración de la aplicación embebida y los componentes IoT utilizados, explicando su propósito dentro del sistema para facilitar su entendimiento por diferentes especialidades.<br>
+                                <strong>(TF):</strong>Elaboré descripciones precisas sobre la configuración de la aplicación embebida y los componentes IoT implementados, detallando su función dentro del sistema con el fin de garantizar su comprensión por parte de profesionales de diversas especialidades.<br><br>
         <strong>Anthony Piero Avalos Santos <br>(TB1):</strong> Redacté resultados del análisis de usuarios, presentando mapas y perfiles de forma comprensible para distintos perfiles técnicos y no técnicos.<br>
         <strong>(TP1):</strong> Elaboré textos explicativos dentro de la Landing Page y participé en la redacción del Capítulo V, especialmente en los apartados relacionados a usabilidad y experiencia de usuario.<br>
-                <strong>(TB2):</strong> Apoyé en la documentación del Node Edge y su conexión con el backend, redactando con un enfoque didáctico para asegurar que incluso lectores sin formación técnica pudieran seguir la lógica del flujo de datos.<br><br>
+                <strong>(TB2):</strong> Apoyé en la documentación del Node Edge y su conexión con el backend, redactando con un enfoque didáctico para asegurar que incluso lectores sin formación técnica pudieran seguir la lógica del flujo de datos.<br>
+                                <strong>(TF):</strong> Colaboré en la elaboración de la documentación del Node Edge y su integración con el backend, redactando con un enfoque claro y accesible que permitiera a usuarios sin conocimientos técnicos comprender el funcionamiento y el flujo de datos del sistema.<br><br>
         <strong>Christopher Bryan Lecca Choccare <br>(TB1):</strong> Elaboré la descripción del diseño estratégico, cuidando que el lenguaje técnico pudiera ser entendido también por miembros no especializados del equipo.<br>
         <strong>(TP1):</strong> Organicé y redacté los contenidos técnicos del Capítulo VI (implementación, evidencia y despliegue) con lenguaje claro, permitiendo que incluso lectores no técnicos comprendieran las decisiones del equipo.<br>
-                <strong>(TB2):</strong> Continué redactando partes clave del documento final, explicando la arquitectura y decisiones técnicas de forma clara para públicos mixtos. Me aseguré de que el lenguaje técnico fuese accesible y respaldado por evidencias visuales del sistema.<br><br>
+                <strong>(TB2):</strong> Continué redactando partes clave del documento final, explicando la arquitectura y decisiones técnicas de forma clara para públicos mixtos. Me aseguré de que el lenguaje técnico fuese accesible y respaldado por evidencias visuales del sistema.<br>
+                                <strong>(TF):</strong> Contribuí en la redacción de secciones clave del documento final, presentando la arquitectura y las decisiones técnicas de manera clara y comprensible para audiencias técnicas y no técnicas. Además, me aseguré de que los conceptos se acompañaran de evidencias visuales que facilitaran la comprensión integral del sistema.<br><br>
         <strong>Angello Rodolfo Sosa Colca <br>(TB1):</strong> Documenté los diagramas tácticos y estructuras de clases, asegurando una redacción técnica precisa pero accesible para otros desarrolladores o evaluadores.<br>
         <strong>(TP1):</strong> Redacté explicaciones técnicas del diseño UI/UX en el Capítulo V y contribuí en el Capítulo VI con la documentación del proceso de integración del frontend con la lógica de negocio.<br>
-               <strong>(TB2):</strong> Documenté el proceso de integración móvil-backend usando términos precisos pero comprensibles, contribuyendo a que tanto técnicos como evaluadores externos comprendieran el funcionamiento del sistema y su arquitectura.<br><br>
+               <strong>(TB2):</strong> Documenté el proceso de integración móvil-backend usando términos precisos pero comprensibles, contribuyendo a que tanto técnicos como evaluadores externos comprendieran el funcionamiento del sistema y su arquitectura.<br>
+                              <strong>(TF):</strong>Elaboré la documentación del proceso de integración entre la aplicación móvil y el backend, utilizando un lenguaje técnico accesible que facilitó la comprensión del funcionamiento y la arquitectura del sistema tanto para desarrolladores como para evaluadores externos.<br><br>
         <strong>Carlos Oswaldo Casimiro Fernández<br> (TB1):</strong>Expliqué el funcionamiento de los repositorios en lenguaje claro y estructurado, facilitando la revisión y el entendimiento por parte de terceros.<br>
         <strong>(TP1):</strong> Redacté la documentación relacionada a la configuración del entorno, despliegue de servicios y validación técnica en el Capítulo VI.<br>
-        <strong>(TB2):</strong> Contribuí en la redacción final del entregable y la guía de presentación, enfocándome en comunicar los logros del sprint de manera estructurada y comprensible para cualquier público, incluyendo el resumen en video del producto.<br><br>
+        <strong>(TB2):</strong> Contribuí en la redacción final del entregable y la guía de presentación, enfocándome en comunicar los logros del sprint de manera estructurada y comprensible para cualquier público, incluyendo el resumen en video del producto.<br>
+                <strong>(TF):</strong>Participé en la elaboración final del entregable y en la preparación de la guía de presentación, asegurando que los logros alcanzados durante el sprint se comunicaran de manera clara, estructurada y accesible para todo tipo de público. Además, colaboré en la elaboración del video resumen que sintetiza las funcionalidades del producto.<br><br>
       </td>
             <td>
       <strong>(TB1):</strong>
@@ -335,7 +396,9 @@ El equipo trabajó de forma coordinada en el desarrollo paralelo de la aplicaci�
       <strong>(TP1):</strong>
 A través de un trabajo colaborativo, el equipo elaboró un entregable claro y estructurado, enfocado en comunicar tanto aspectos técnicos como conceptuales del sistema. Se utilizó un lenguaje comprensible, adecuado para lectores técnicos y no técnicos, y se apoyó la redacción con diagramas, flujos y ejemplos. Esta estrategia permitió reflejar con objetividad los resultados obtenidos en el Sprint y la lógica detrás de cada decisión tomada durante el desarrollo.<br><br><br>
       <strong>(TB2):</strong>
-El equipo mantuvo una comunicación escrita clara y coherente en la documentación del sprint, explicando conceptos técnicos de manera accesible para diversos públicos. La redacción conjunta de los capítulos finales y el uso de ejemplos, diagramas y evidencias facilitó la comprensión integral del sistema desarrollado.
+El equipo mantuvo una comunicación escrita clara y coherente en la documentación del sprint, explicando conceptos técnicos de manera accesible para diversos públicos. La redacción conjunta de los capítulos finales y el uso de ejemplos, diagramas y evidencias facilitó la comprensión integral del sistema desarrollado.<br><br><br>
+<strong>(TF):</strong>
+  La integración de los dispositivos físicos IoT en el sistema final se logró de manera efectiva, validando su funcionamiento en escenarios reales. Esta implementación permitió demostrar la operatividad del hardware en conjunto con la aplicación móvil y el backend, aportando valor tangible al producto y cumpliendo con los objetivos técnicos establecidos en el Sprint.
       </td>
     </tr>
   </tbody>
@@ -6196,7 +6259,7 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
   </tr>
   <tr>
     <td><b>Date</b></td>
-    <td>16/07/2025</td>
+    <td>05/07/2025</td>
   </tr>
   <tr>
     <td><b>Time</b></td>
@@ -6239,7 +6302,6 @@ Para este apartado se visualiza la colaboración realizada para el cloud applica
       <strong>Creemos que esto entrega</strong> una experiencia de monitoreo confiable y real para los arrendatarios, que mejora el compromiso del usuario y demuestra la preparación del sistema para su despliegue físico.
       <br><br>
       <strong>El éxito se medirá mediante</strong> la comunicación directa verificada entre el prototipo físico del nodo edge y la aplicación móvil para arrendatarios, con pruebas integradas exitosas realizadas dentro del tiempo del sprint.
-
     </td>
     
   </tr>
@@ -6315,11 +6377,11 @@ En esta sección se presentan los commits más relevantes realizados en el repos
     <tbody>
         <tr>
             <td>AlquilaEZ/alquilafacil-web-application</td>
-            <td>/main</td>
-            <td>5d816ff</td>
-            <td>feat: add local management</td>
+            <td>/develop</td>
+            <td>00399aa</td>
+            <td>feat: add technician features</td>
             <td>-</td>
-            <td>19/06/2025</td>
+            <td>04/07/2025</td>
         </tr>
     </tbody>
 </table>
@@ -6344,47 +6406,15 @@ En esta sección se presentan los commits más relevantes realizados en el repos
             <td>d85d545</td>
             <td>feat: add wokwi project url</td>
             <td>-</td>
-            <td>20/06/2025</td>
+            <td>04/07/2025</td>
         </tr>
         <tr>
             <td>AlquilaEZ/alquilafacil-embedded-app</td>
             <td>/main</td>
             <td>712b41e</td>
-            <td>feat: add device and sketch.ino</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-embedded-app</td>
-            <td>/main</td>
-            <td>f42335e</td>
             <td>feat: add capacity and noise sensor</td>
             <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-embedded-app</td>
-            <td>/main</td>
-            <td>603e146</td>
-            <td>feat: add smoke and restricted area sensor</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-embedded-app</td>
-            <td>/main</td>
-            <td>b273f89</td>
-            <td>feat: add ModestIot framework</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-embedded-app</td>
-            <td>/main</td>
-            <td>eff7d5c</td>
-            <td>Initial commit</td>
-            <td>-</td>
-            <td>17/06/2025</td>
+            <td>05/07/2025</td>
         </tr>
     </tbody>
 </table>
@@ -6409,7 +6439,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
             <td>570baf6</td>
             <td>feat: add profiles context</td>
             <td>-</td>
-            <td>11/06/2025</td>
+            <td>04/07/2025</td>
         </tr>
         <tr>
             <td>AlquilaEZ/alquilafacil-mobile-app</td>
@@ -6417,71 +6447,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
             <td>16aa356</td>
             <td>add: booking files</td>
             <td>-</td>
-            <td>08/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>feat/notifications</td>
-            <td>0c95c64</td>
-            <td>notifications</td>
-            <td>-</td>
-            <td>07/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>feat/locals</td>
-            <td>167d72e</td>
-            <td>feat: add locals context for manage locals data</td>
-            <td>-</td>
-            <td>07/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>feat/iam</td>
-            <td>c912884</td>
-            <td>feat: add iam context for user authentication</td>
-            <td>-</td>
-            <td>07/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>feat/subscriptions</td>
-            <td>129eb22</td>
-            <td>feat: add subscriptions context</td>
-            <td>-</td>
-            <td>15/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>/main</td>
-            <td>70a17ad</td>
-            <td>feat: add first configuration</td>
-            <td>-</td>
-            <td>07/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>/main</td>
-            <td>c250432</td>
-            <td>Initial commit</td>
-            <td>-</td>
-            <td>07/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>/main</td>
-            <td>0399b2a</td>
-            <td>feat: add mobile app first version</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-mobile-app</td>
-            <td>/main</td>
-            <td>3dd4fb</td>
-            <td>feat: add backend url</td>
-            <td>-</td>
-            <td>20/06/2025</td>
+            <td>04/07/2025</td>
         </tr>
     </tbody>
 </table>
@@ -6501,140 +6467,20 @@ En esta sección se presentan los commits más relevantes realizados en el repos
     </thead>
     <tbody>
         <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
             <td>/main</td>
-            <td>8074a95</td>
-            <td>feat: add edge node first version</td>
+            <td>f29e39c</td>
+            <td>feat: add websockets por mobile interaction</td>
             <td>-</td>
-            <td>19/06/2025</td>
+            <td>04/07/2025</td>
         </tr>
         <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
             <td>/main</td>
-            <td>01c6aec</td>
-            <td>update: loop for update data</td>
+            <td>1437aab</td>
+            <td>refactor: restart database</td>
             <td>-</td>
-            <td>19/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>90df505</td>
-            <td>feat: add new requirements</td>
-            <td>-</td>
-            <td>17/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>cc0c9fb</td>
-            <td>feat: add edge second version</td>
-            <td>-</td>
-            <td>17/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>c3f9b51</td>
-            <td>Create class-diagram.puml</td>
-            <td>-</td>
-            <td>16/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>a8f6c26</td>
-            <td>update project change architecture</td>
-            <td>-</td>
-            <td>16/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>049937a</td>
-            <td>create project</td>
-            <td>-</td>
-            <td>12/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>9d4a55e</td>
-            <td>Update services.py</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>18b1b37</td>
-            <td>feat: edge third version</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>950af28</td>
-            <td>feat: restart db</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>9fb9b05</td>
-            <td>feat: second edge version</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>9e05d9d</td>
-            <td>refactor: fix endpoint service</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>a817976</td>
-            <td>Update main.py</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>a34e5ee</td>
-            <td>Update main.py</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>853d66f</td>
-            <td>Update requirements.txt</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>04be449</td>
-            <td>feat: update dockerfile</td>
-            <td>-</td>
-            <td>20/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-egde-node</td>
-            <td>/main</td>
-            <td>dcda317</td>
-            <td>feat: add edge node first version</td>
-            <td>-</td>
-            <td>20/06/2025</td>
+            <td>05/07/2025</td>
         </tr>
     </tbody>
 </table>
@@ -6657,98 +6503,18 @@ En esta sección se presentan los commits más relevantes realizados en el repos
         <tr>
             <td>AlquilaEZ/alquilafacil-web-services</td>
             <td>develop</td>
-            <td>a3fb73c</td>
-            <td>feat: add backend first version</td>
+            <td>d306c8a</td>
+            <td>feat: add websockets using signal</td>
             <td>-</td>
-            <td>20/06/2025</td>
+            <td>04/07/2025</td>
         </tr>
         <tr>
             <td>AlquilaEZ/alquilafacil-web-services</td>
             <td>develop</td>
-            <td>bd971ff</td>
-            <td>feat: add local edge node for management context</td>
+            <td>71d1e9f</td>
+            <td>refactor: fix group names for websockets</td>
             <td>-</td>
-            <td>18/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>develop</td>
-            <td>dcd5345</td>
-            <td>feat: add second version of database</td>
-            <td>-</td>
-            <td>15/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>feat/management</td>
-            <td>d10a425</td>
-            <td>feat: add management context for local monitoring</td>
-            <td>-</td>
-            <td>15/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>feat/subscriptions</td>
-            <td>a3f6831</td>
-            <td>feat: add subscriptions context</td>
-            <td>-</td>
-            <td>15/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>feat/profiles</td>
-            <td>c2d9c8b</td>
-            <td>feat: add profiles bounded context</td>
-            <td>-</td>
-            <td>11/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>develop</td>
-            <td>ec99de4</td>
-            <td>add: booking services</td>
-            <td>-</td>
-            <td>08/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>feat/notification</td>
-            <td>04db9ad</td>
-            <td>notifications</td>
-            <td>-</td>
-            <td>07/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>feat/locals</td>
-            <td>934a709</td>
-            <td>feat: add locals context for manage locals data</td>
-            <td>-</td>
-            <td>07/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>feat/iam</td>
-            <td>9869136</td>
-            <td>feat: iam context for user authentication</td>
-            <td>-</td>
-            <td>07/06/20255</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>develop</td>
-            <td>d3326ba</td>
-            <td>feat: add first configuration</td>
-            <td>-</td>
-            <td>07/06/2025</td>
-        </tr>
-        <tr>
-            <td>AlquilaEZ/alquilafacil-web-services</td>
-            <td>develop</td>
-            <td>ed792e2</td>
-            <td>Initial commit</td>
-            <td>-</td>
-            <td>07/06/2025</td>
+            <td>04/07/2025</td>
         </tr>
     </tbody>
 </table>
@@ -6773,7 +6539,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
                 <td>2e41aeb</td>
                 <td>feat: video about-the-team</td>
                 <td>-</td>
-                <td>20/06/2025</td>
+                <td>04/07/2025</td>
             </tr>
             <tr>
                 <td>AlquilaEZ/alquilafacil-landing-page</td>
@@ -6781,7 +6547,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
                 <td>5b75638</td>
                 <td>refactor: fix responsive</td>
                 <td>-</td>
-                <td>20/06/2025</td>
+                <td>04/07/2025</td>
             </tr>
             <tr>
                 <td>AlquilaEZ/alquilafacil-landing-page</td>
@@ -6789,7 +6555,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
                 <td>7352aca</td>
                 <td>feat: add build command</td>
                 <td>-</td>
-                <td>20/06/2025</td>
+                <td>04/07/2025</td>
             </tr>
             <tr>
                 <td>AlquilaEZ/alquilafacil-landing-page</td>
@@ -6797,7 +6563,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
                 <td>2e33373</td>
                 <td>feat: add deployment configuration</td>
                 <td>-</td>
-                <td>20/06/2025</td>
+                <td>04/07/2025</td>
             </tr>
             <tr>
                 <td>AlquilaEZ/alquilafacil-landing-page</td>
@@ -6805,7 +6571,7 @@ En esta sección se presentan los commits más relevantes realizados en el repos
                 <td>536d2b8</td>
                 <td>feat: add videos section</td>
                 <td>-</td>
-                <td>20/06/2025</td>
+                <td>04/07/2025</td>
             </tr>
         </tbody>
     </table>
@@ -6815,279 +6581,9 @@ En esta sección se presentan los commits más relevantes realizados en el repos
 
 A continuación, se muestran los archivos .feature que contienen cada uno de los escenarios a validar para las features respectivas a las historias de usuario trabajadas en este Sprint.
 
-**US01:**
 
-```gherkin
-Feature: Registro de usuario
 
-Scenario: Registro exitoso
-  Given Que un usuario desea registrar su espacio en AlquilaFácil
-  When Completa el formulario de registro con la información requerida
-  Then Recibe una confirmación de registro y puede acceder a su cuenta
-
-Scenario: Validación de datos
-  Given Que un usuario completa el formulario de registro en AlquilaFácil
-  When Envía el formulario
-  Then Los datos proporcionados se validan para garantizar la precisión y la autenticidad
-```
-
-**US02:**
-
-```gherkin
-Feature: Inicio de sesión
-
-Scenario: Inicio de sesión exitoso
-  Given Que un usuario registrado desea acceder a su cuenta en AlquilaFácil
-  When Ingresa su correo electrónico y contraseña correctos en el formulario de inicio de sesión
-  Then Es autenticado exitosamente y se le otorga acceso a su cuenta
-
-Scenario: Error en el inicio de sesión por credenciales incorrectas
-  Given Que un usuario registrado intenta acceder a su cuenta en AlquilaFácil
-  When Ingresa una combinación incorrecta de correo electrónico o contraseña
-  Then Se le muestra un mensaje de error indicando que las credenciales son incorrectas y se le solicita que intente nuevamente
-
-```
-
-**US03:**
-
-```gherkin
-Feature: Registro de espacios
-
-Scenario: Registro de datos básicos
-  Given Que un arrendador desea registrar su espacio en AlquilaFácil
-  When Completa los campos organizados en varios pasos con información detallada sobre la propiedad
-  Then Puede enviar el registro con éxito y recibir confirmación de su inclusión en la plataforma
-
-Scenario: Validación de datos requeridos en cada paso del registro
-  Given Que un arrendador está completando el registro de su espacio
-  When Rellena todos los campos correspondientes a un paso específico
-  Then Se activa el botón que le permite continuar al siguiente paso
-
-```
-
-**US04:**
-
-```gherkin
-Feature: Búsqueda de espacios disponibles
-
-Scenario: Búsqueda principal por ubicación
-  Given Que un arrendatario busca un espacio para eventos en una ubicación específica
-  When Ingresa la ubicación deseada en el campo de búsqueda
-  Then Se muestran los espacios disponibles en esa ubicación
-
-Scenario: Búsqueda general de espacios
-  Given Que un arrendatario no ingresa texto en la barra de búsqueda
-  When Presiona sobre el ícono de búsqueda
-  Then Se muestran todos los espacios disponibles
-
-```
-
-**US05:**
-
-```gherkin
-Feature: Filtrado de espacios disponibles
-
-Scenario: Filtrado por capacidad
-  Given Que un arrendatario desea un espacio con capacidad para un número específico de personas
-  When Aplica un filtro de capacidad en la búsqueda
-  Then Se muestran solo los espacios que cumplen con ese criterio
-
-Scenario: Filtrado por categoría
-  Given Que un arrendatario desea un espacio de una categoría específica
-  When Aplica un filtro de categoría en la búsqueda
-  Then Se muestran solo los espacios que cumplen con ese criterio
-```
-
-**US06:**
-
-```gherkin
-Feature: Visualización de información del espacio
-
-Scenario: Visualización de información
-  Given Que el arrendatario selecciona un espacio en AlquilaFácil
-  When Accede a la página de detalles del espacio
-  Then Puede visualizar información detallada como aforo máximo, descripción del espacio y servicios disponibles
-
-Scenario: Visualización de reseñas del espacio
-  Given Que el arrendatario está revisando un espacio
-  When Accede a la página de comentarios
-  Then Puede visualizar las reseñas y calificaciones dejadas por otros usuarios sobre ese espacio
-```
-
-**US07:**
-
-```gherkin
-Feature: Reservar espacios
-
-Scenario: Proceso de reserva
-  Given Que un arrendatario ha encontrado el espacio ideal en AlquilaFácil
-  When Selecciona un espacio y una fecha
-  Then Se muestra un formulario para completar los detalles de la reserva
-
-Scenario: Pago de la reserva con vouchers
-  Given Que el usuario está a punto de culminar el proceso de reserva de un espacio
-  When Presiona el botón de realizar reserva
-  Then Realiza el pago de la reserva a través de vouchers
-
-Scenario: Confirmación de reserva
-  Given Que un arrendatario ha realizado el pago de la reserva
-  When Es redirigido a la aplicación
-  Then Recibe una confirmación de reserva y los detalles se actualizan en su cuenta
-
-```
-
-**US08:**
-
-```gherkin
-Feature: Gestión del calendario de reservas
-
-Scenario: Existencia de reserva de usuario normal
-  Given Que un arrendatario ha realizado una reserva de uno de mis espacios
-  When El propietario accede al calendario
-  Then Puede ver el día de la reserva resaltado en color rojo
-
-Scenario: Existencia de reserva de usuario premium
-  Given Que un arrendatario con suscripción premium ha reservado uno de mis espacios
-  When El propietario accede al calendario
-  Then Puede ver el día de la reserva resaltado en color amarillo
-
-Scenario: Existencia de reserva de espacio ajeno
-  Given Que un arrendatario ha realizado una reserva
-  When Accede al calendario
-  Then Puede ver el día de su reserva resaltado en color azul
-```
-
-**US09:**
-
-```gherkin
-Feature: Calificar y comentar sobre espacios
-
-Scenario: Permiso para opinar sobre un espacio
-  Given Que un arrendatario tiene una reserva culminada de un espacio
-  When Accede a su información a través del calendario
-  Then Se presenta la opción habilitada para que pueda publicar su reseña sobre este
-
-Scenario: Aporte de reseña
-  Given Que un arrendatario ha rellenado todos los campos de reseña
-  When Presiona el botón de realizar reseña
-  Then Esta se publica para que todos los usuarios la puedan ver
-```
-
-**US10:**
-
-```gherkin
-Feature: Notificaciones de actividades del arrendatario
-
-Scenario: Notificación de reserva
-  Given Que el arrendador ha publicado un espacio en AlquilaFácil
-  When Un arrendatario realiza una reserva para dicho espacio
-  Then El arrendador recibe una notificación indicando la fecha y el nombre del arrendatario
-
-Scenario: Notificación de reseña
-  Given Que el arrendador ha publicado un espacio en AlquilaFácil
-  When Un arrendatario publica una reseña sobre dicho espacio
-  Then El arrendador recibe una notificación con el comentario y la calificación otorgada
-```
-
-**US11:**
-
-
-```gherkin
-Feature: Control de espacios favoritos
-
-Scenario: Agregar a favoritos
-  Given Que el arrendatario está visualizando la página de detalles de un espacio
-  When Selecciona la opción de "Agregar a favoritos"
-  Then El espacio se guarda en la lista de favoritos de forma local
-
-Scenario: Eliminar de favoritos
-  Given Que el arrendatario ha guardado un espacio como favorito
-  When Selecciona la opción de "Eliminar de favoritos" en dicho espacio
-  Then El espacio se elimina de la lista de favoritos y ya no se muestra al filtrar
-
-```
-
-**US12:**
-
-```gherkin
-Feature: Visualizar espacios propios publicados
-
-Scenario: Listado de espacios publicados
-  Given Que el arrendador ha iniciado sesión en su cuenta de AlquilaFácil
-  When Accede a la sección "Mis espacios"
-  Then Puede ver una lista de todos los espacios publicados, incluyendo información básica
-
-Scenario: Acceso a detalles y edición
-  Given Que el arrendador visualiza la lista de espacios publicados
-  When Selecciona un espacio específico
-  Then Puede acceder a la página de detalles del espacio y editar su información
-```
-
-**US13:**
-
-```gherkin
-Feature: Modificación de espacios publicados
-
-Scenario: Edición de detalles del espacio
-  Given Que el arrendador desea actualizar la información de su espacio
-  When Accede a la sección de edición y modifica descripción, aforo, servicios o tarifas
-  Then Puede guardar los cambios, y estos se reflejan en la página pública del espacio
-
-Scenario: Modificación de visibilidad temporal del espacio
-  Given Que el arrendador está editando su espacio
-  When Activa la opción de "No disponible temporalmente"
-  Then El espacio se muestra como no disponible para reservas
-```
-
-**US14:**
-
-```gherkin
-Feature: Actualización de perfil y gestión de sesión
-
-Scenario: Modificación del nombre de usuario
-  Given Que el usuario ha iniciado sesión en AlquilaFácil
-  When Accede a la configuración de perfil y edita el campo "Nombre de usuario"
-  Then Puede guardar los cambios y el nuevo nombre se refleja en su perfil
-
-Scenario: Cierre de sesión
-  Given Que el usuario desea salir de su cuenta
-  When Selecciona la opción "Cerrar sesión" en el perfil
-  Then Es desconectado y redirigido a la pantalla de inicio de sesión de forma segura
-```
-
-**US15:**
-
-```gherkin
-Feature: Reportar espacios inseguros
-
-Scenario: Selección del espacio inseguro
-  Given Que el usuario ha iniciado sesión en AlquilaFácil
-  When Accede a "Reportar espacio" y selecciona un espacio desde sus reservas activas o buscador
-  Then Puede ingresar un asunto y una descripción del problema
-
-Scenario: Confirmación del reporte
-  Given Que el usuario ha completado el formulario de reporte con los datos requeridos
-  When Presiona el botón "Enviar"
-  Then El reporte es registrado y revisado por el equipo de soporte de AlquilaFácil
-```
-
-**US16:**
-
-```gherkin
-Feature: Visualizar espacios reportados
-
-Scenario: Navegar a la sección de "Ver Espacios Reportados"
-  Given Que el usuario ha iniciado sesión en su cuenta de AlquilaFácil
-  When Accede a la sección de "Ver Espacios Reportados" desde el panel de control
-  Then Puede ver una lista de los espacios reportados con nombre, fecha y motivo
-
-Scenario: Eliminar un reporte deslizando hacia la izquierda
-  Given Que el usuario se encuentra en la lista de espacios reportados
-  When Desliza un reporte hacia la izquierda
-  Then Aparece una opción para confirmar la eliminación y, si confirma, el reporte se elimina
-```
-
-**US19:**
+**US18:**
 
 ```gherkin
 Feature: Control de aforo en tiempo real
@@ -7102,8 +6598,23 @@ Scenario: Notificación por superación del aforo máximo
   When Esto ocurre durante un evento
   Then El sistema notifica al arrendador mediante notificación push y correo electrónico
 ```
+**US19:**
 
-**US21:**
+```gherkin
+Feature: Monitoreo de niveles de ruido en tiempo real
+
+Scenario: Alerta por niveles de ruido elevados
+  Given Que se está realizando un evento
+  When Se detecta que los niveles de ruido superan el umbral permitido
+  Then El sistema envía una notificación push a la app móvil del arrendatario
+
+Scenario: Visualización correcta de alertas de ruido
+  Given Que el prototipo físico envía una alerta por exceso de ruido
+  When La app móvil recibe la notificación
+  Then La alerta se visualiza correctamente en la app móvil del arrendatario
+
+```
+**US20:**
 
 ```gherkin
 Feature: Detección de humo durante eventos
@@ -7120,7 +6631,7 @@ Scenario: Visualización del incidente en panel de eventos
 ```
 
 
-**US22:**
+**US21:**
 
 ```gherkin
 Feature: Detección de movimiento en áreas no autorizadas
@@ -7136,6 +6647,24 @@ Scenario: Registro del historial de intrusiones
   Then Debe quedar un historial con fecha, hora y duración del movimiento
 ```
 
+**US22:**
+
+```gherkin
+Feature: Notificaciones en la app móvil por eventos registrados
+
+Scenario: Notificación de evento desde el backend
+  Given Que se registra un evento en el backend
+  When El evento es procesado por el sistema
+  Then Se envía una notificación push a la app móvil del arrendatario con los detalles del evento
+
+Scenario: Visualización de notificación enviada por el prototipo físico
+  Given Que el prototipo físico envía una notificación de evento
+  When La app móvil recibe dicha notificación
+  Then La notificación se muestra correctamente en la app móvil del arrendatario
+
+```
+
+
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 Como resultado del segundo Sprint, se presenta la segunda ejecución de la Landing Page y Web Application, asi como tambien la primera version del Web Service, Embebbed App, Edge Node y Mobile App:
     
@@ -7150,14 +6679,14 @@ Como resultado del segundo Sprint, se presenta la segunda ejecución de la Landi
 ![Web Application Deploy([URL]())](images/web_deploy.jpeg)
 </br>
 
-<strong>Web service:</strong> https://alquilafacil-web-service.onrender.com
+<strong>Web service:</strong> http://alquilafacil-app.chilecentral.cloudapp.azure.com:8080/swagger/index.html
 
-![Web Service Deploy([URL]())](images/cloud.jpeg)
+![Web Service Deploy([URL]())](images/new_back.jpeg)
 </br>
 
-<strong>Edge Node Service</strong> https://alquilafacil-egde-node-fsaa.onrender.com
+<strong>Edge Node Service</strong> http://alquilafacil-app.chilecentral.cloudapp.azure.com:3000/docs
 
-![Diagrama Vertanelo([URL]())](images/cloud_edge.jpeg)
+![Diagrama Vertanelo([URL]())](images/new_edge.jpeg)
 </br>
 
 <strong>Embedded Application:</strong> https://wokwi.com/projects/433560726038801409
@@ -7590,25 +7119,26 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 <br>
 
 - **Web Service**
-- El despliegue del servicio en la nube se realizó en Render, permitiendo una entrega continua y acceso público desde un dominio gratuito.
-  - URL: https://alquilafacil-web-service.onrender.com/swagger/index.html
-  - Descripción: Servicio backend central para la gestión de datos y operaciones de la plataforma AlquilaFácil.
-
-  ![Diagrama Vertanelo([URL]())](images/render.png)
-
-  ![Web Service Deploy([URL]())](images/web-service-deploy.PNG)
+- El despliegue del servicio en la nube se realizó en **Microsoft Azure**, permitiendo una entrega continua y acceso público desde un dominio gestionado en la plataforma.
+  - **URL:** [http://alquilafacil-app.chilecentral.cloudapp.azure.com:8080/swagger/index.html](http://alquilafacil-app.chilecentral.cloudapp.azure.com:8080/swagger/index.html)
+  - **Descripción:** Servicio backend central para la gestión de datos y operaciones de la plataforma **AlquilaFácil**.
 
 
-  ![Web Service Deploy([URL]())](images/cloud.jpeg)
+  ![Diagrama Vertanelo([URL]())](images/azure_1.png)
+
+
+
+  ![Web Service Deploy([URL]())](images/new_back.jpeg)
 
 <br>
 
 - **Embedded Application**
-- El despliegue de la aplicación embebida se realizó en Wokwi, permitiendo simular el funcionamiento de los dispositivos IoT.
-  - URL: https://wokwi.com/projects/433560726038801409
-  - Descripción: Aplicación embebida para el control de dispositivos IoT (Humo, Aforo, Sonido, Áreas de Movimiento).
+- El despliegue de la aplicación embebida se realizó en hardware físico, permitiendo el funcionamiento real de los dispositivos IoT.
+  - **URL:** [https://wokwi.com/projects/433560726038801409](https://wokwi.com/projects/433560726038801409) *(Prototipo inicial simulado)*
+  - **Descripción:** Aplicación embebida para el control de dispositivos IoT (Humo, Aforo, Sonido, Áreas de Movimiento) implementada en equipos físicos.
 
-  <img src="images/wokwi-logo.png" alt="Diagrama Vertanelo" width="100%"/>
+
+  <img src="images/iot.jpeg" alt="Diagrama Vertanelo" width="100%"/>
 
   ![Diagrama Vertanelo([URL]())](images/wokwi.jpeg)
 </pre>
@@ -7617,13 +7147,14 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 <br>
 
 - **Edge Node**
-- El despliegue del nodo Edge se realizó en Render, permitiendo una entrega continua y acceso público desde un dominio gratuito.
-  - URL: https://alquilafacil-egde-node-fsaa.onrender.com/docs
-  - Descripción: Nodo Edge para el procesamiento de datos cerca de los dispositivos, garantizando una respuesta rápida y eficiente.
+- El despliegue del nodo Edge se realizó en **Microsoft Azure**, permitiendo una entrega continua y acceso público desde un dominio gestionado en la plataforma.
+  - **URL:** [http://alquilafacil-app.chilecentral.cloudapp.azure.com:3000/docs](http://alquilafacil-app.chilecentral.cloudapp.azure.com:3000/docs)
+  - **Descripción:** Nodo Edge para el procesamiento de datos cerca de los dispositivos, garantizando una respuesta rápida y eficiente.
 
-  ![Diagrama Vertanelo([URL]())](images/render.png)
 
-  ![Diagrama Vertanelo([URL]())](images/cloud_edge.jpeg)  
+  ![Diagrama Vertanelo([URL]())](images/azure_1.png)
+
+  ![Diagrama Vertanelo([URL]())](images/new_edge.jpeg)  
 
 **Mobile App**
 
@@ -7635,23 +7166,23 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 Para este apartado se visualiza la colaboración realizada para el cloud application, node edge, landing page, web application y documentacion técnica. Se utilizaron herramientas como GitHub para el control de versiones y Trello para la gestión de tareas.
 
 - Insights del repositorio de la Landing Page:
-  ![Diagrama Vertanelo([URL]())](images/landing-insights.jpeg)
+  ![Diagrama Vertanelo([URL]())](images/new_insights_1.jpeg)
 
 
 - Insights del repositorio de la Web Application:
-  ![Diagrama Vertanelo([URL]())](images/web-insights.jpeg)
+  ![Diagrama Vertanelo([URL]())](images/new_insights_2.jpeg)
 
 
 - Insights del repositorio de la Cloud Application:
-  ![Diagrama Vertanelo([URL]())](images/cloud-insights.jpeg)
+  ![Diagrama Vertanelo([URL]())](images/new_insights_3.jpeg)
 
 
 - Insights del repositorio de la Embedded Application:
-  ![Diagrama Vertanelo([URL]())](images/embedded-insights.jpeg)
+  ![Diagrama Vertanelo([URL]())](images/new_insights_4.jpeg)
 
 
 - Insights del repositorio de la Node Edge:
-  ![Diagrama Vertanelo([URL]())](images/edge-insights.jpeg)
+  ![Diagrama Vertanelo([URL]())](images/new_insights_5.jpeg)
 
 
 ### 6.3. Validation Interviews.
@@ -8335,6 +7866,8 @@ Segmento de arrendatarios:
 * La Landing Page de AlquilaFácil se presenta como una herramienta clave para atraer y educar a los usuarios sobre la plataforma. Su diseño intuitivo y atractivo, junto con la información clara y concisa sobre los beneficios y características del servicio, contribuye a generar confianza y facilitar la adopción de la plataforma por parte de nuevos usuarios.
 
 * Finalmente, AlquilaFácil no solo apunta a consolidarse en el mercado local, sino que tiene una visión ambiciosa de posicionarse como líder global en el sector de alquiler de espacios para eventos. Su compromiso con la innovación, la optimización de procesos y la excelencia en la experiencia de usuario sienta las bases para una expansión sostenida, diferenciándose como un referente en eficiencia, confiabilidad y servicio en la industria.
+
+* La implementación de dispositivos físicos IoT marca un hito en la propuesta tecnológica de AlquilaFácil, permitiendo la supervisión y control en tiempo real de variables críticas como aforo, niveles de ruido, detección de humo y movimiento en áreas restringidas. Esta integración de hardware con la plataforma digital eleva los estándares de seguridad y confort en los eventos, brindando a los usuarios una solución completa que combina tecnología avanzada, inmediatez en la información y mayor capacidad de respuesta ante incidentes.
 
 ## Video About-The-Team
 
