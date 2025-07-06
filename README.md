@@ -7948,5 +7948,13 @@ Enlace del video:
 
 + Video de exposición TP: [Video de exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EbgXaEsblztHr3QDTp_3tEcBpu1dyWznIhmRogN6Vxsm8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vuXZZX)
 
+</br>
+
++ Video de exposición TB2: [Video de exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EVG64V2SwsNNmsmNL9pWRlYB3wxGBP8M6FI_RsrPKyqJhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M3PBk3)
+
+</br>
+
++ Video de exposición TF: [Video de exposición TF1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EVG64V2SwsNNmsmNL9pWRlYB3wxGBP8M6FI_RsrPKyqJhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=M3PBk3)
+
 
 </div>
