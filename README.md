@@ -165,22 +165,31 @@ Carlos Oswaldo Casimiro Fernandez
 
 <p>La implementación de ramas paralelas en el control de versiones permitió que los miembros del equipo desarrollaran distintos componentes del proyecto de forma simultánea, abarcando la Landing Page, la aplicación web, la app móvil y el nodo Edge. Esta metodología colaborativa favoreció una integración continua de los avances, reduciendo los conflictos en el código y asegurando una mejor distribución de las responsabilidades. De esta manera, todos los integrantes pudieron participar activamente en el desarrollo del producto final correspondiente al sprint, garantizando un proceso ágil, coordinado y eficiente.</p>
 
+  - **Landing Page**
+
+  ![image]( images/landing_page_insh.PNG)
+  ![image]( images/new_insights_1.PNG)
+
   - **Frontend Web Application**
-![image]( images/web_1.jpeg)
-![image]( images/new_insights_2.jpeg)
+
+  ![image]( images/web_1.jpeg)
+  ![image]( images/new_insights_2.jpeg)
 
 
   - **Mobile Application**
+
   ![image]( images/mobile_1.jpeg)
   ![image]( images/mobile_2.jpeg)
 
 
   - **Edge Node**
+
   ![image]( images/new_insights_5.jpeg)
   ![image]( images/edge_1.jpeg)
 
 
   - **Embebbed App**
+
   ![image]( images/new_insights_5.PNG)
   ![image]( images/embebbed-network.PNG)
 
@@ -6399,10 +6408,27 @@ En esta sección se presentan los commits más relevantes realizados en el repos
         </tr>
     </thead>
     <tbody>
+        <tr>
             <td>AlquilaEZ/alquilafacil-embedded-app</td>
             <td>/main</td>
             <td>2558fef</td>
             <td>feat: add sound sensor and fixed edge connection</td>
+            <td>-</td>
+            <td>06/07/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>566c67e</td>
+            <td>refactor: fix inner messages</td>
+            <td>-</td>
+            <td>06/07/2025</td>
+        </tr>
+        <tr>
+            <td>AlquilaEZ/alquilafacil-embedded-app</td>
+            <td>/main</td>
+            <td>6717627</td>
+            <td>refactor: fix outer messages</td>
             <td>-</td>
             <td>06/07/2025</td>
         </tr>
@@ -6517,42 +6543,10 @@ En esta sección se presentan los commits más relevantes realizados en el repos
             <tr>
                 <td>AlquilaEZ/alquilafacil-landing-page</td>
                 <td>/main</td>
-                <td>2e41aeb</td>
-                <td>feat: video about-the-team</td>
+                <td>a775ec6</td>
+                <td>feat: add new version of about the product video</td>
                 <td>-</td>
-                <td>04/07/2025</td>
-            </tr>
-            <tr>
-                <td>AlquilaEZ/alquilafacil-landing-page</td>
-                <td>/main</td>
-                <td>5b75638</td>
-                <td>refactor: fix responsive</td>
-                <td>-</td>
-                <td>04/07/2025</td>
-            </tr>
-            <tr>
-                <td>AlquilaEZ/alquilafacil-landing-page</td>
-                <td>/main</td>
-                <td>7352aca</td>
-                <td>feat: add build command</td>
-                <td>-</td>
-                <td>04/07/2025</td>
-            </tr>
-            <tr>
-                <td>AlquilaEZ/alquilafacil-landing-page</td>
-                <td>/main</td>
-                <td>2e33373</td>
-                <td>feat: add deployment configuration</td>
-                <td>-</td>
-                <td>04/07/2025</td>
-            </tr>
-            <tr>
-                <td>AlquilaEZ/alquilafacil-landing-page</td>
-                <td>/main</td>
-                <td>536d2b8</td>
-                <td>feat: add videos section</td>
-                <td>-</td>
-                <td>04/07/2025</td>
+                <td>06/07/2025</td>
             </tr>
         </tbody>
     </table>
@@ -7193,7 +7187,7 @@ En esta sección se presentan en evidencia el trabajo progresivo en el desarroll
 Para este apartado se visualiza la colaboración realizada para el cloud application, node edge, landing page, web application y documentacion técnica. Se utilizaron herramientas como GitHub para el control de versiones y Trello para la gestión de tareas.
 
 - Insights del repositorio de la Landing Page:
-  ![Insights Landing Page([URL]())](images/new_insights_1.jpeg)
+  ![Insights Landing Page([URL]())](images/new_insights_1.PNG)
 
 
 - Insights del repositorio de la Web Application:
